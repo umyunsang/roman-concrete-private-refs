@@ -1,0 +1,376 @@
+{
+ "image": "/Users/um-yunsang/roman-concrete-private-refs/.work/dl/refs-cities/gusmorais-rome-seekfind/original-fb56ea9a97b964f37f236c360b5151cc.jpg",
+ "size_px": [
+  2400,
+  1500
+ ],
+ "stage_px": [
+  0,
+  0,
+  2400,
+  1500
+ ],
+ "stage_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "stage_pct_image": 100.0,
+ "zones": [
+  {
+   "idx": 1,
+   "name": "장면 전체(풀 블리드, 패널 없음)",
+   "kind": "map",
+   "note": "",
+   "box_px": [
+    0,
+    0,
+    2400,
+    1500
+   ],
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "bbox_pct_stage": 100.0,
+   "bbox_pct_image": 100.0
+  },
+  {
+   "idx": 2,
+   "name": "현대 도로·건물 띠(차·스쿠터·카페·행인)",
+   "kind": "road",
+   "note": "",
+   "box_px": [
+    1000,
+    0,
+    2400,
+    830
+   ],
+   "bbox_norm": [
+    0.4167,
+    0.0,
+    1.0,
+    0.5533
+   ],
+   "bbox_pct_stage": 32.28,
+   "bbox_pct_image": 32.28,
+   "poly_pct_stage": 16.73,
+   "poly_pct_image": 16.73
+  },
+  {
+   "idx": 3,
+   "name": "정원·옹벽(위쪽 가장자리)",
+   "kind": "terrain",
+   "note": "",
+   "box_px": [
+    528,
+    0,
+    1250,
+    280
+   ],
+   "bbox_norm": [
+    0.22,
+    0.0,
+    0.5208,
+    0.1867
+   ],
+   "bbox_pct_stage": 5.62,
+   "bbox_pct_image": 5.62
+  },
+  {
+   "idx": 4,
+   "name": "셉티미우스 세베루스 개선문(왼쪽 블리드)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    0,
+    240,
+    375,
+    672
+   ],
+   "bbox_norm": [
+    0.0,
+    0.16,
+    0.1562,
+    0.448
+   ],
+   "bbox_pct_stage": 4.5,
+   "bbox_pct_image": 4.5
+  },
+  {
+   "idx": 5,
+   "name": "쿠리아 율리아(추정, 박공 건물)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    372,
+    95,
+    742,
+    425
+   ],
+   "bbox_norm": [
+    0.155,
+    0.0633,
+    0.3092,
+    0.2833
+   ],
+   "bbox_pct_stage": 3.39,
+   "bbox_pct_image": 3.39
+  },
+  {
+   "idx": 6,
+   "name": "산티 루카 에 마르티나 성당(추정, 위 블리드)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    170,
+    0,
+    545,
+    300
+   ],
+   "bbox_norm": [
+    0.0708,
+    0.0,
+    0.2271,
+    0.2
+   ],
+   "bbox_pct_stage": 3.12,
+   "bbox_pct_image": 3.12
+  },
+  {
+   "idx": 7,
+   "name": "사투르누스 신전(L자 열주·명문 엔타블러처)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    30,
+    590,
+    575,
+    1240
+   ],
+   "bbox_norm": [
+    0.0125,
+    0.3933,
+    0.2396,
+    0.8267
+   ],
+   "bbox_pct_stage": 9.84,
+   "bbox_pct_image": 9.84
+  },
+  {
+   "idx": 8,
+   "name": "포카스 기둥",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    600,
+    560,
+    750,
+    965
+   ],
+   "bbox_norm": [
+    0.25,
+    0.3733,
+    0.3125,
+    0.6433
+   ],
+   "bbox_pct_stage": 1.69,
+   "bbox_pct_image": 1.69
+  },
+  {
+   "idx": 9,
+   "name": "안토니누스·파우스티나 신전(바로크 정면)",
+   "kind": "hero",
+   "note": "",
+   "box_px": [
+    946,
+    140,
+    1418,
+    815
+   ],
+   "bbox_norm": [
+    0.3942,
+    0.0933,
+    0.5908,
+    0.5433
+   ],
+   "bbox_pct_stage": 8.85,
+   "bbox_pct_image": 8.85
+  },
+  {
+   "idx": 10,
+   "name": "로물루스 신전(원형 돔·청동 문)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    1284,
+    295,
+    1614,
+    968
+   ],
+   "bbox_norm": [
+    0.535,
+    0.1967,
+    0.6725,
+    0.6453
+   ],
+   "bbox_pct_stage": 6.17,
+   "bbox_pct_image": 6.17
+  },
+  {
+   "idx": 11,
+   "name": "막센티우스 바실리카(큰 아치, 오른쪽 블리드)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    1490,
+    536,
+    2400,
+    1200
+   ],
+   "bbox_norm": [
+    0.6208,
+    0.3573,
+    1.0,
+    0.8
+   ],
+   "bbox_pct_stage": 16.78,
+   "bbox_pct_image": 16.78
+  },
+  {
+   "idx": 12,
+   "name": "기둥 2개+엔타블러처 폐허",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    554,
+    995,
+    690,
+    1310
+   ],
+   "bbox_norm": [
+    0.2308,
+    0.6633,
+    0.2875,
+    0.8733
+   ],
+   "bbox_pct_stage": 1.19,
+   "bbox_pct_image": 1.19
+  },
+  {
+   "idx": 13,
+   "name": "쓰러진 엔타블러처·기둥(아래 블리드)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    714,
+    1280,
+    1018,
+    1500
+   ],
+   "bbox_norm": [
+    0.2975,
+    0.8533,
+    0.4242,
+    1.0
+   ],
+   "bbox_pct_stage": 1.86,
+   "bbox_pct_image": 1.86
+  },
+  {
+   "idx": 14,
+   "name": "비아 사크라 관람로(울타리·군중, 근사)",
+   "kind": "road",
+   "note": "",
+   "box_px": [
+    300,
+    400,
+    2400,
+    1500
+   ],
+   "bbox_norm": [
+    0.125,
+    0.2667,
+    1.0,
+    1.0
+   ],
+   "bbox_pct_stage": 64.17,
+   "bbox_pct_image": 64.17,
+   "poly_pct_stage": 18.52,
+   "poly_pct_image": 18.52
+  },
+  {
+   "idx": 15,
+   "name": "아래 왼쪽 관람로(울타리·군중, 근사)",
+   "kind": "road",
+   "note": "",
+   "box_px": [
+    0,
+    1030,
+    760,
+    1500
+   ],
+   "bbox_norm": [
+    0.0,
+    0.6867,
+    0.3167,
+    1.0
+   ],
+   "bbox_pct_stage": 9.92,
+   "bbox_pct_image": 9.92,
+   "poly_pct_stage": 4.32,
+   "poly_pct_image": 4.32
+  },
+  {
+   "idx": 16,
+   "name": "올리브·참나무 숲(오른쪽 아래)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    1266,
+    1000,
+    2400,
+    1500
+   ],
+   "bbox_norm": [
+    0.5275,
+    0.6667,
+    1.0,
+    1.0
+   ],
+   "bbox_pct_stage": 15.75,
+   "bbox_pct_image": 15.75
+  }
+ ],
+ "groups": {
+  "중앙 기념물 군(포카스+안토니누스·파우스티나+로물루스)": {
+   "members": [
+    "포카스 기둥",
+    "안토니누스·파우스티나 신전(바로크 정면)",
+    "로물루스 신전(원형 돔·청동 문)"
+   ],
+   "box_px": [
+    600,
+    140,
+    1614,
+    968
+   ],
+   "bbox_norm": [
+    0.25,
+    0.0933,
+    0.6725,
+    0.6453
+   ],
+   "bbox_pct_stage": 23.32,
+   "union_pct_stage": 14.77,
+   "hull_pct_stage": 20.8,
+   "centroid_norm": [
+    0.5054,
+    0.3758
+   ]
+  }
+ }
+}

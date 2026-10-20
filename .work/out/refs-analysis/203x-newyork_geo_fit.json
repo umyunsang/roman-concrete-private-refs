@@ -1,0 +1,146 @@
+{
+ "ref": "203x-newyork",
+ "theta": 26.0,
+ "n": 12,
+ "base_points_art": {
+  "엠파이어 스테이트 빌딩": [
+   1261,
+   1533
+  ],
+  "크라이슬러 빌딩": [
+   1465,
+   1370
+  ],
+  "타임스스퀘어(전광판 탑)": [
+   888,
+   1160
+  ],
+  "플랫아이언 빌딩": [
+   952,
+   1740
+  ],
+  "뉴욕 증권거래소": [
+   530,
+   1675
+  ],
+  "원 월드 트레이드 센터": [
+   237,
+   1558
+  ],
+  "자유의 여신상(리버티섬 받침)": [
+   235,
+   2445
+  ],
+  "브루클린 다리": [
+   1024,
+   2294
+  ],
+  "맨해튼 다리": [
+   1162,
+   2246
+  ],
+  "GE 빌딩": [
+   1776,
+   1319
+  ],
+  "링컨 센터": [
+   1604,
+   832
+  ],
+  "센트럴파크": [
+   1788,
+   1261
+  ]
+ },
+ "fit": {
+  "scale_mm_per_km": 43.82,
+  "rot_deg": 40.48,
+  "reflect": false,
+  "rms_mm": 88.16,
+  "mean_mm": 81.39
+ },
+ "fit_with_reflection": {
+  "scale_mm_per_km": 43.82,
+  "rot_deg": 40.48,
+  "reflect": false,
+  "rms_mm": 88.16,
+  "mean_mm": 81.39
+ },
+ "north_on_screen_deg(오른쪽=0, 위=+90)": 80.8,
+ "per_landmark": {
+  "엠파이어 스테이트 빌딩": {
+   "real_km_from_center": 0.0,
+   "plan_mm_from_center": 0.0,
+   "fit_residual_mm": 26.7
+  },
+  "크라이슬러 빌딩": {
+   "real_km_from_center": 0.93,
+   "plan_mm_from_center": 65.3,
+   "fit_residual_mm": 18.5
+  },
+  "타임스스퀘어(전광판 탑)": {
+   "real_km_from_center": 1.06,
+   "plan_mm_from_center": 141.6,
+   "fit_residual_mm": 87.7
+  },
+  "플랫아이언 빌딩": {
+   "real_km_from_center": 0.87,
+   "plan_mm_from_center": 87.4,
+   "fit_residual_mm": 73.0
+  },
+  "뉴욕 증권거래소": {
+   "real_km_from_center": 5.07,
+   "plan_mm_from_center": 130.2,
+   "fit_residual_mm": 118.6
+  },
+  "원 월드 트레이드 센터": {
+   "real_km_from_center": 4.59,
+   "plan_mm_from_center": 169.4,
+   "fit_residual_mm": 140.8
+  },
+  "자유의 여신상(리버티섬 받침)": {
+   "real_km_from_center": 8.21,
+   "plan_mm_from_center": 355.1,
+   "fit_residual_mm": 97.0
+  },
+  "브루클린 다리": {
+   "real_km_from_center": 4.77,
+   "plan_mm_from_center": 263.2,
+   "fit_residual_mm": 87.2
+  },
+  "맨해튼 다리": {
+   "real_km_from_center": 4.54,
+   "plan_mm_from_center": 244.5,
+   "fit_residual_mm": 76.1
+  },
+  "GE 빌딩": {
+   "real_km_from_center": 1.28,
+   "plan_mm_from_center": 112.2,
+   "fit_residual_mm": 52.8
+  },
+  "링컨 센터": {
+   "real_km_from_center": 2.67,
+   "plan_mm_from_center": 246.3,
+   "fit_residual_mm": 104.1
+  },
+  "센트럴파크": {
+   "real_km_from_center": 4.18,
+   "plan_mm_from_center": 127.5,
+   "fit_residual_mm": 94.2
+  }
+ },
+ "distance_law": {
+  "plan_mm = a * real_km^k": {
+   "a": 96.9,
+   "k": 0.49
+  }
+ },
+ "real_extent_km": [
+  6.7,
+  10.4
+ ],
+ "plan_extent_mm": [
+  294.7,
+  550.1
+ ]
+}

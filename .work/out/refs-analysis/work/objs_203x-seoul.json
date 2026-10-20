@@ -1,0 +1,268 @@
+[
+ {
+  "name": "흥인지문(동대문)+성곽",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   582,
+   258,
+   866,
+   596
+  ],
+  "bbox": [
+   582,
+   277,
+   865,
+   506
+  ],
+  "mask_area_u2": 37171,
+  "rect_fill_pct": 38.7
+ },
+ {
+  "name": "N서울타워+남산",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   588,
+   316,
+   764,
+   836
+  ],
+  "bbox": [
+   588,
+   316,
+   764,
+   806
+  ],
+  "mask_area_u2": 37600,
+  "rect_fill_pct": 41.1
+ },
+ {
+  "name": "롯데월드타워",
+  "kind": "hero",
+  "core": true,
+  "rect": [
+   698,
+   500,
+   868,
+   1036
+  ],
+  "bbox": [
+   698,
+   503,
+   868,
+   1036
+  ],
+  "mask_area_u2": 49290,
+  "rect_fill_pct": 54.1
+ },
+ {
+  "name": "코엑스·무역센터",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   486,
+   650,
+   704,
+   1006
+  ],
+  "bbox": [
+   487,
+   650,
+   704,
+   994
+  ],
+  "mask_area_u2": 48125,
+  "rect_fill_pct": 62.0
+ },
+ {
+  "name": "서울시청",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   492,
+   416,
+   646,
+   632
+  ],
+  "bbox": [
+   492,
+   416,
+   646,
+   632
+  ],
+  "mask_area_u2": 27549,
+  "rect_fill_pct": 82.8
+ },
+ {
+  "name": "DDP",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   792,
+   490,
+   999,
+   662
+  ],
+  "bbox": [
+   796,
+   504,
+   998,
+   662
+  ],
+  "mask_area_u2": 21946,
+  "rect_fill_pct": 61.6
+ },
+ {
+  "name": "숭례문",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   298,
+   426,
+   528,
+   686
+  ],
+  "bbox": [
+   304,
+   437,
+   528,
+   686
+  ],
+  "mask_area_u2": 44338,
+  "rect_fill_pct": 74.1
+ },
+ {
+  "name": "구 서울역",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   36,
+   420,
+   254,
+   700
+  ],
+  "bbox": [
+   48,
+   429,
+   231,
+   669
+  ],
+  "mask_area_u2": 30466,
+  "rect_fill_pct": 49.9
+ },
+ {
+  "name": "63빌딩",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   222,
+   496,
+   318,
+   844
+  ],
+  "bbox": [
+   227,
+   517,
+   318,
+   834
+  ],
+  "mask_area_u2": 21382,
+  "rect_fill_pct": 64.0
+ },
+ {
+  "name": "국회의사당",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   34,
+   684,
+   274,
+   888
+  ],
+  "bbox": [
+   45,
+   684,
+   270,
+   880
+  ],
+  "mask_area_u2": 26216,
+  "rect_fill_pct": 53.5
+ },
+ {
+  "name": "고속터미널",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   284,
+   740,
+   510,
+   940
+  ],
+  "bbox": [
+   311,
+   742,
+   506,
+   927
+  ],
+  "mask_area_u2": 23783,
+  "rect_fill_pct": 52.6
+ },
+ {
+  "name": "시내버스",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   176,
+   874,
+   330,
+   1002
+  ],
+  "bbox": [
+   182,
+   880,
+   324,
+   994
+  ],
+  "mask_area_u2": 10057,
+  "rect_fill_pct": 51.0
+ },
+ {
+  "name": "지하철",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   33,
+   1001,
+   250,
+   1144
+  ],
+  "bbox": [
+   62,
+   1010,
+   226,
+   1134
+  ],
+  "mask_area_u2": 11233,
+  "rect_fill_pct": 36.2
+ },
+ {
+  "name": "택시",
+  "kind": "vehicle",
+  "core": true,
+  "rect": [
+   830,
+   846,
+   954,
+   934
+  ],
+  "bbox": [
+   832,
+   852,
+   948,
+   923
+  ],
+  "mask_area_u2": 4647,
+  "rect_fill_pct": 42.6
+ }
+]

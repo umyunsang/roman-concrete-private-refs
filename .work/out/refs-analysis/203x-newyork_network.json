@@ -1,0 +1,137 @@
+{
+ "road_width": null,
+ "water_width": null,
+ "road_bleed": {
+  "left": [],
+  "right": [],
+  "top": [],
+  "bottom": []
+ },
+ "water_bleed": {
+  "left": [],
+  "right": [],
+  "top": [],
+  "bottom": []
+ },
+ "ground_bleed": {
+  "left": [
+   [
+    2422,
+    2596
+   ]
+  ],
+  "right": [
+   [
+    467,
+    655
+   ],
+   [
+    667,
+    728
+   ],
+   [
+    1067,
+    1135
+   ],
+   [
+    1140,
+    1349
+   ],
+   [
+    1353,
+    1418
+   ],
+   [
+    1420,
+    1474
+   ]
+  ],
+  "top": [],
+  "bottom": []
+ },
+ "landmark_touch_12px": {
+  "엠파이어 스테이트 빌딩": {
+   "road": false,
+   "water": false
+  },
+  "크라이슬러 빌딩": {
+   "road": false,
+   "water": false
+  },
+  "타임스스퀘어(전광판 탑)": {
+   "road": false,
+   "water": false
+  },
+  "킹콩": {
+   "road": false,
+   "water": false
+  },
+  "브로드웨이(극장 블록)": {
+   "road": false,
+   "water": false
+  },
+  "플랫아이언 빌딩": {
+   "road": false,
+   "water": false
+  },
+  "이정표(가로등)": {
+   "road": false,
+   "water": false
+  },
+  "링컨 센터": {
+   "road": false,
+   "water": false
+  },
+  "GE 빌딩": {
+   "road": false,
+   "water": false
+  },
+  "센트럴파크": {
+   "road": false,
+   "water": false
+  },
+  "크리스마스 트리": {
+   "road": false,
+   "water": false
+  },
+  "버스": {
+   "road": false,
+   "water": false
+  },
+  "다리 이정판 2개": {
+   "road": false,
+   "water": false
+  },
+  "뉴욕 증권거래소": {
+   "road": false,
+   "water": false
+  },
+  "원 월드 트레이드 센터": {
+   "road": false,
+   "water": false
+  },
+  "택시": {
+   "road": false,
+   "water": false
+  },
+  "지하철·월스트리트역 간판": {
+   "road": false,
+   "water": false
+  },
+  "자유의 여신상(리버티섬 받침)": {
+   "road": false,
+   "water": false
+  },
+  "브루클린 다리": {
+   "road": false,
+   "water": false
+  },
+  "맨해튼 다리": {
+   "road": false,
+   "water": false
+  }
+ },
+ "n_touch_road": 0,
+ "n_touch_water": 0,
+ "n_landmarks": 20
+}

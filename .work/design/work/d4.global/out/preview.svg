@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="594mm" viewBox="0 0 420 594">
+<defs><clipPath id="poster"><rect x="0" y="0" width="420" height="594"/></clipPath><pattern id="vine" width="4" height="2.3" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)"><line x1="0" y1="1" x2="4" y2="1" stroke="#7d9a52" stroke-width="0.5"/></pattern><linearGradient id="seafade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fb3cc" stop-opacity="0.55"/><stop offset="1" stop-color="#8fb3cc" stop-opacity="0.08"/></linearGradient></defs>
+<g clip-path="url(#poster)">
+<rect x="0.00" y="0.00" width="420.00" height="594.00" rx="0" fill="#ead6a8" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<rect x="0.00" y="92.00" width="420.00" height="413.00" rx="0" fill="#e3c995" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<rect x="296.00" y="444.00" width="124.00" height="61.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="296.00" y="444.00" width="124.00" height="61.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="352.00" y="240.00" width="68.00" height="50.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="352.00" y="240.00" width="68.00" height="50.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="112.00" y="190.00" width="114.00" height="46.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="112.00" y="190.00" width="114.00" height="46.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="0.00" y="326.00" width="60.00" height="46.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="0.00" y="326.00" width="60.00" height="46.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="376.00" y="214.00" width="44.00" height="26.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="376.00" y="214.00" width="44.00" height="26.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="150.00" y="456.00" width="80.00" height="44.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="150.00" y="456.00" width="80.00" height="44.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="312.00" y="505.00" width="108.00" height="63.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="312.00" y="505.00" width="108.00" height="63.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="298.00" y="24.00" width="122.00" height="68.00" rx="0" fill="#b9c58a" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<rect x="298.00" y="24.00" width="122.00" height="68.00" rx="0" fill="url(#vine)" stroke="none" stroke-width="0.3" fill-opacity="0.6"/>
+<rect x="300.00" y="64.00" width="120.00" height="96.00" rx="0" fill="#b3b48c" stroke="none" stroke-width="0.3" fill-opacity="0.55"/>
+<polygon points="216.51,505.00 325.63,568.00 0.00,568.00 0.00,505.00" fill="url(#seafade)" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<polygon points="0.00,380.00 216.51,505.00 0.00,505.00" fill="#8fb3cc" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<polyline points="0.00,380.00 216.51,505.00" fill="none" stroke="#4f7593" stroke-width="0.9"/>
+<text x="2.00" y="378.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.2" fill="#2c4d66" text-anchor="start" font-weight="normal" transform="rotate(30 2.00 378.50)">해안선 y = tan30·x + 380 (지층 단면 10mm)</text>
+<polygon points="-20.12,311.62 -16.64,313.63 -13.15,315.64 -9.67,317.66 -6.18,319.67 -2.69,321.68 0.79,323.70 4.28,325.71 7.76,327.72 11.25,329.73 14.74,331.75 18.22,333.76 21.71,335.77 25.20,337.78 28.68,339.80 32.17,341.81 35.65,343.82 39.14,345.84 42.63,347.85 46.11,349.86 49.60,351.87 53.08,353.89 56.57,355.90 60.06,357.91 63.54,359.92 67.03,361.94 70.52,363.95 74.00,365.96 77.49,367.98 80.97,369.99 84.46,372.00 87.95,374.01 91.43,376.03 94.92,378.04 98.40,380.05 101.89,382.06 105.38,384.08 108.86,386.09 112.35,388.10 115.84,390.12 119.32,392.13 122.81,394.14 126.29,396.15 129.78,398.17 133.27,400.18 136.75,402.19 140.24,404.20 143.72,406.22 147.21,408.23 150.70,410.24 154.18,412.26 157.67,414.27 161.16,416.28 164.64,418.29 168.13,420.31 171.47,422.23 171.72,422.59 171.74,422.86 171.69,423.11 171.58,423.34 171.41,423.53 171.19,423.70 170.94,423.83 170.67,423.92 170.39,423.98 170.11,424.00 169.85,423.98 169.43,424.03 166.15,425.93 162.69,427.93 159.22,429.93 155.76,431.93 152.29,433.93 148.83,435.93 145.36,437.93 141.90,439.93 138.44,441.93 134.97,443.93 131.51,445.93 128.04,447.93 124.58,449.93 121.12,451.93 117.65,453.93 114.19,455.93 110.72,457.93 130.72,469.47 134.19,467.47 137.65,465.47 141.12,463.47 144.58,461.47 148.04,459.47 151.51,457.47 154.97,455.47 158.44,453.47 161.90,451.47 165.36,449.47 168.83,447.47 172.29,445.47 175.76,443.47 179.22,441.47 182.69,439.47 186.15,437.47 189.80,435.37 191.91,433.75 193.79,431.89 195.21,429.92 196.17,427.87 196.65,425.78 196.65,423.70 196.18,421.65 195.26,419.67 193.91,417.80 192.16,416.06 190.04,414.48 187.76,413.17 184.13,411.07 180.64,409.06 177.16,407.04 173.67,405.03 170.18,403.02 166.70,401.00 163.21,398.99 159.72,396.98 156.24,394.97 152.75,392.95 149.27,390.94 145.78,388.93 142.29,386.92 138.81,384.90 135.32,382.89 131.84,380.88 128.35,378.86 124.86,376.85 121.38,374.84 117.89,372.83 114.40,370.81 110.92,368.80 107.43,366.79 103.95,364.78 100.46,362.76 96.97,360.75 93.49,358.74 90.00,356.72 86.52,354.71 83.03,352.70 79.54,350.69 76.06,348.67 72.57,346.66 69.08,344.65 65.60,342.64 62.11,340.62 58.63,338.61 55.14,336.60 51.65,334.58 48.17,332.57 44.68,330.56 41.20,328.55 37.71,326.53 34.22,324.52 30.74,322.51 27.25,320.50 23.76,318.48 20.28,316.47 16.79,314.46 13.31,312.44 9.82,310.43 6.33,308.42 2.85,306.41 -0.64,304.39 -4.12,302.38" fill="#6fa8d0" stroke="#3d6f98" stroke-width="0.3" fill-opacity="1.0"/>
+<polygon points="348.00,291.42 440.15,238.22 424.15,228.98 332.00,282.18" fill="#b89a70" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polyline points="340.00,286.80 432.15,233.60" fill="none" stroke="#fbf4e2" stroke-width="0.6" stroke-dasharray="2,1.5"/>
+<polygon points="75.57,230.82 228.00,142.81 220.00,138.19 67.57,226.20" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="84.02,171.31 131.33,198.62 139.33,194.00 92.02,166.69" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="166.93,360.19 131.46,380.66 141.46,386.44 176.93,365.96" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="216.00,140.50 230.50,148.87 238.50,144.25 224.00,135.88" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="339.98,286.81 395.06,318.61 403.06,313.99 347.98,282.19" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="399.06,311.68 387.01,318.64 395.01,323.26 407.06,316.30" fill="#cdb38a" stroke="#86683f" stroke-width="0.25" fill-opacity="1.0"/>
+<polygon points="336.00,160.00 424.00,210.81 424.00,184.81 336.00,134.00" fill="#c99a6e" stroke="#7a5232" stroke-width="0.4" fill-opacity="0.8"/>
+<polyline points="336.00,160.00 336.00,134.00" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="344.00,164.62 344.00,138.62" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="352.00,169.24 352.00,143.24" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="360.00,173.86 360.00,147.86" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="368.00,178.48 368.00,152.48" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="376.00,183.09 376.00,157.09" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="384.00,187.71 384.00,161.71" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="392.00,192.33 392.00,166.33" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="400.00,196.95 400.00,170.95" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="408.00,201.57 408.00,175.57" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="416.00,206.19 416.00,180.19" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<polyline points="424.00,210.81 424.00,184.81" fill="none" stroke="#7a5232" stroke-width="0.35"/>
+<rect x="107.40" y="348.00" width="46.80" height="41.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="130.80" y="369.30" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">테베레 하역장</text>
+<rect x="90.10" y="303.00" width="24.20" height="32.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="102.20" y="319.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">석회 가마</text>
+<rect x="156.00" y="366.00" width="20.00" height="12.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="166.00" y="372.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">재료 수레</text>
+<rect x="64.00" y="348.00" width="36.00" height="20.00" rx="0" fill="#d9e4ea" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="82.00" y="358.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">바지선 1</text>
+<rect x="150.00" y="428.00" width="34.00" height="18.00" rx="0" fill="#d9e4ea" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="167.00" y="437.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">바지선 2</text>
+<rect x="112.00" y="476.00" width="40.00" height="24.00" rx="0" fill="#d9e4ea" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="132.00" y="488.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">화산재 운반선</text>
+<rect x="176.00" y="448.00" width="30.00" height="22.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="191.00" y="459.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">오스티아</text>
+<rect x="336.00" y="54.00" width="42.00" height="22.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="357.00" y="65.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">포도밭 농장</text>
+<rect x="350.00" y="266.00" width="20.00" height="16.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="360.00" y="274.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">아피아 가도 수레</text>
+<rect x="306.00" y="464.00" width="22.00" height="20.00" rx="0" fill="#efc793" stroke="#9a6a3a" stroke-width="0.3" fill-opacity="0.85"/>
+<text x="317.00" y="474.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#5a3410" text-anchor="middle" font-weight="normal">교외 빌라</text>
+<polygon points="330.00,70.00 353.00,33.00 365.00,33.00 388.00,70.00" fill="#a7aea4" stroke="#6f7b72" stroke-width="0.4" fill-opacity="0.7"/>
+<rect x="330.00" y="30.00" width="58.00" height="40.00" rx="0" fill="none" stroke="#2f6b3a" stroke-width="0.4" fill-opacity="1.0" stroke-dasharray="1.2,0.8"/>
+<text x="359.00" y="67.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#33463a" text-anchor="middle" font-weight="bold">베수비오(배경) 58×40</text>
+<rect x="18.00" y="198.00" width="96.00" height="90.00" rx="0" fill="#d6e8c4" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="0.82"/>
+<text x="66.00" y="241.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L1 판테온</text>
+<text x="66.00" y="246.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">96×90mm</text>
+<rect x="18.00" y="98.00" width="96.00" height="84.00" rx="0" fill="#d6e8c4" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="0.82"/>
+<text x="66.00" y="138.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L2 트라야누스 시장</text>
+<text x="66.00" y="143.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">96×84mm</text>
+<rect x="224.00" y="94.00" width="112.00" height="96.00" rx="0" fill="#d6e8c4" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="0.82"/>
+<text x="280.00" y="140.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L3 카라칼라 욕장(절개)</text>
+<text x="280.00" y="145.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">112×96mm</text>
+<rect x="336.00" y="134.00" width="84.00" height="74.80" rx="0" fill="none" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="1.0" stroke-dasharray="2,1"/>
+<text x="378.00" y="169.90" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L4 수도교 아치 열(아쿠아 안토니니아나)</text>
+<text x="378.00" y="174.60" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">84×75mm</text>
+<rect x="354.00" y="288.00" width="66.00" height="70.00" rx="0" fill="#d6e8c4" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="0.82"/>
+<text x="387.00" y="321.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L5 카이킬리아 메텔라 무덤</text>
+<text x="387.00" y="326.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">66×70mm</text>
+<rect x="5.00" y="372.00" width="97.00" height="62.00" rx="0" fill="#d6e8c4" stroke="#2f6b3a" stroke-width="0.7" fill-opacity="0.82"/>
+<text x="53.50" y="401.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#1d4a26" text-anchor="middle" font-weight="bold">L6 포르투스 항</text>
+<text x="53.50" y="406.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#1d4a26" text-anchor="middle" font-weight="normal">97×62mm</text>
+<polygon points="79.83,411.69 51.44,407.30 43.83,390.91 64.62,378.91 93.01,383.30 100.62,399.69" fill="#e9c3a3" stroke="#7a3a2a" stroke-width="0.4" fill-opacity="0.9"/>
+<polygon points="79.83,405.69 51.44,401.30 43.83,384.91 64.62,372.91 93.01,377.30 100.62,393.69" fill="#e9c3a3" stroke="#7a3a2a" stroke-width="0.4" fill-opacity="0.9"/>
+<polygon points="48.84,429.80 43.52,432.16 37.31,433.64 30.66,434.15 24.00,433.64 17.80,432.16 12.47,429.80 8.38,426.72 5.81,423.14 4.94,419.30 5.81,415.46 8.38,411.88 12.47,408.80 17.80,406.44 24.00,404.96 30.66,404.45 37.31,404.96 43.52,406.44 48.84,408.80 52.93,411.88 55.50,415.46 56.38,419.30 55.50,423.14 52.93,426.72" fill="#a9cde2" stroke="#7a3a2a" stroke-width="0.4" fill-opacity="0.9"/>
+<polygon points="5.02,422.30 5.98,415.90 6.84,410.70 8.53,407.30 8.92,406.75 9.87,405.90 10.83,406.75 11.22,407.30 12.90,410.70 13.77,415.90 14.72,422.30 14.72,430.30 13.89,431.92 13.65,432.32 13.28,432.68 12.82,433.00 12.26,433.27 11.63,433.48 10.95,433.62 10.24,433.69 9.51,433.69 8.79,433.62 8.11,433.48 7.48,433.27 6.93,433.00 6.46,432.68 6.10,432.32 5.85,431.92 5.02,430.30" fill="#f4ead8" stroke="#7a3a2a" stroke-width="0.4" fill-opacity="0.9"/>
+<polygon points="351.84,342.35 292.18,376.80 292.18,383.80 351.84,349.35" fill="#8c6a45" stroke="#5a4028" stroke-width="0.3" fill-opacity="1.0"/>
+<polygon points="292.18,376.80 207.82,376.80 207.82,383.80 292.18,383.80" fill="#8c6a45" stroke="#5a4028" stroke-width="0.3" fill-opacity="1.0"/>
+<polygon points="207.82,376.80 148.16,342.35 148.16,349.35 207.82,383.80" fill="#8c6a45" stroke="#5a4028" stroke-width="0.3" fill-opacity="1.0"/>
+<polygon points="292.18,376.80 207.82,376.80 148.16,342.35 148.16,293.65 207.82,259.20 292.18,259.20 351.84,293.65 351.84,342.35" fill="#d6c19f" stroke="#5a4028" stroke-width="0.6" fill-opacity="1.0"/>
+<ellipse cx="250.00" cy="318.00" rx="81.57" ry="47.09" fill="#e8dcc0" stroke="#7a5a3a" stroke-width="0.5"/>
+<ellipse cx="250.00" cy="318.00" rx="46.29" ry="26.73" fill="#c49a68" stroke="#7a5a3a" stroke-width="0.4"/>
+<polygon points="171.21,305.81 173.35,301.89 176.07,298.10 179.36,294.45 183.18,290.99 187.52,287.73 192.32,284.70 197.57,281.92 203.21,279.42 209.22,277.22 215.53,275.32 222.10,273.75 228.89,272.51 235.84,271.62 242.89,271.09 250.00,270.91 257.11,271.09 264.16,271.62 264.16,211.62 257.11,211.09 250.00,210.91 242.89,211.09 235.84,211.62 228.89,212.51 222.10,213.75 215.53,215.32 209.22,217.22 203.21,219.42 197.57,221.92 192.32,224.70 187.52,227.73 183.18,230.99 179.36,234.45 176.07,238.10 173.35,241.89 171.21,245.81" fill="#dcc8a4" stroke="#6a4a2a" stroke-width="0.4" fill-opacity="0.88"/>
+<polygon points="264.16,271.62 271.11,272.51 277.90,273.75 284.47,275.32 290.78,277.22 296.79,279.42 302.43,281.92 307.68,284.70 312.48,287.73 316.82,290.99 320.64,294.45 323.93,298.10 326.65,301.89 328.79,305.81 330.33,309.82 331.26,313.90 331.57,318.00 331.26,322.10 330.33,326.18 328.79,330.19 328.79,302.19 330.33,298.18 331.26,294.10 331.57,290.00 331.26,285.90 330.33,281.82 328.79,277.81 326.65,273.89 323.93,270.10 320.64,266.45 316.82,262.99 312.48,259.73 307.68,256.70 302.43,253.92 296.79,251.42 290.78,249.22 284.47,247.32 277.90,245.75 271.11,244.51 264.16,243.62" fill="#dcc8a4" stroke="#6a4a2a" stroke-width="0.4" fill-opacity="0.88"/>
+<polygon points="328.79,330.19 326.65,334.11 323.93,337.90 320.64,341.55 316.82,345.01 312.48,348.27 307.68,351.30 302.43,354.08 296.79,356.58 290.78,358.78 284.47,360.68 277.90,362.25 271.11,363.49 264.16,364.38 257.11,364.91 250.00,365.09 242.89,364.91 235.84,364.38 228.89,363.49 222.10,362.25 215.53,360.68 209.22,358.78 203.21,356.58 197.57,354.08 192.32,351.30 187.52,348.27 183.18,345.01 179.36,341.55 176.07,337.90 173.35,334.11 171.21,330.19 169.67,326.18 168.74,322.10 168.43,318.00 168.74,313.90 169.67,309.82 171.21,305.81 171.21,293.81 169.67,297.82 168.74,301.90 168.43,306.00 168.74,310.10 169.67,314.18 171.21,318.19 173.35,322.11 176.07,325.90 179.36,329.55 183.18,333.01 187.52,336.27 192.32,339.30 197.57,342.08 203.21,344.58 209.22,346.78 215.53,348.68 222.10,350.25 228.89,351.49 235.84,352.38 242.89,352.91 250.00,353.09 257.11,352.91 264.16,352.38 271.11,351.49 277.90,350.25 284.47,348.68 290.78,346.78 296.79,344.58 302.43,342.08 307.68,339.30 312.48,336.27 316.82,333.01 320.64,329.55 323.93,325.90 326.65,322.11 328.79,318.19" fill="#dcc8a4" stroke="#6a4a2a" stroke-width="0.4" fill-opacity="0.6"/>
+<polygon points="208.00,376.80 292.00,376.80 292.00,383.80 208.00,383.80" fill="#b8b0a2" stroke="#3a3a3a" stroke-width="0.5" fill-opacity="1.0"/>
+<text x="250.00" y="382.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#ffffff" text-anchor="middle" font-weight="bold">기초 절개(콘크리트 고리 단면)</text>
+<text x="250.00" y="322.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.6" fill="#3a2410" text-anchor="middle" font-weight="bold">콜로세움 — Core 히어로·최대 단일 오브젝트</text>
+<text x="250.00" y="327.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.6" fill="#3a2410" text-anchor="middle" font-weight="normal">투영 상자 204×173mm = 35,257mm²</text>
+<rect x="148.20" y="211.00" width="203.80" height="173.00" rx="0" fill="none" stroke="#2f6b3a" stroke-width="0.5" fill-opacity="1.0" stroke-dasharray="2.5,1.2"/>
+<rect x="208.00" y="386.00" width="42.00" height="24.00" rx="0" fill="#f2b77a" stroke="#a0562a" stroke-width="0.4" fill-opacity="0.9"/>
+<text x="229.00" y="398.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.1" fill="#5a2a0a" text-anchor="middle" font-weight="bold">공사장(다져 넣기)</text>
+<circle cx="275.0" cy="450.0" r="32.0" fill="#fbf1de" stroke="#d0650e" stroke-width="1.2"/>
+<circle cx="263.0" cy="442.0" r="4.5" fill="#ffffff" stroke="#9a8a70" stroke-width="0.4"/>
+<circle cx="284.0" cy="437.0" r="3.5" fill="#ffffff" stroke="#9a8a70" stroke-width="0.4"/>
+<circle cx="271.0" cy="461.0" r="5.5" fill="#ffffff" stroke="#9a8a70" stroke-width="0.4"/>
+<circle cx="289.0" cy="457.0" r="3" fill="#ffffff" stroke="#9a8a70" stroke-width="0.4"/>
+<circle cx="256.0" cy="462.0" r="2.6" fill="#ffffff" stroke="#9a8a70" stroke-width="0.4"/>
+<polyline points="255.00,424.00 274.00,451.00 287.00,476.00" fill="none" stroke="#3a2a1a" stroke-width="0.5"/>
+<text x="275.00" y="477.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#8a3a00" text-anchor="middle" font-weight="bold">Z1 확대 창 Ø64 · A</text>
+<rect x="212.00" y="426.00" width="28.00" height="36.00" rx="0" fill="#fdf3e2" stroke="#d0650e" stroke-width="0.4" fill-opacity="0.9"/>
+<rect x="212.00" y="418.00" width="95.00" height="64.00" rx="0" fill="none" stroke="#d0650e" stroke-width="0.35" fill-opacity="1.0" stroke-dasharray="1.5,1"/>
+<rect x="116.00" y="220.00" width="54.00" height="44.00" rx="0" fill="#fde9cf" stroke="#d0650e" stroke-width="0.7" fill-opacity="0.95"/>
+<text x="117.50" y="224.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.2" fill="#8a3a00" text-anchor="start" font-weight="bold">C1 판테온 돔의 가벼운 골재</text>
+<text x="117.50" y="228.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#8a3a00" text-anchor="start" font-weight="normal">Detail 54×44 · 표지 B</text>
+<rect x="52.00" y="453.00" width="54.00" height="48.00" rx="0" fill="#fde9cf" stroke="#d0650e" stroke-width="0.7" fill-opacity="0.95"/>
+<text x="53.50" y="457.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.2" fill="#8a3a00" text-anchor="start" font-weight="bold">C2 포르투스 방파제와 바닷물</text>
+<text x="53.50" y="461.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#8a3a00" text-anchor="start" font-weight="normal">Detail 54×48 · 표지 C</text>
+<rect x="312.00" y="398.00" width="54.00" height="58.00" rx="0" fill="#fde9cf" stroke="#d0650e" stroke-width="0.7" fill-opacity="0.95"/>
+<text x="313.50" y="402.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.2" fill="#8a3a00" text-anchor="start" font-weight="bold">C4 메텔라 무덤 드럼의 재결속</text>
+<text x="313.50" y="406.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#8a3a00" text-anchor="start" font-weight="normal">Detail 54×58 · 표지 D</text>
+<polyline points="222.50,395.80 210.00,403.00 210.00,505.00" fill="none" stroke="#3f3aa0" stroke-width="0.55"/>
+<circle cx="222.5" cy="395.8" r="0.9" fill="#444"/>
+<polyline points="275.00,383.80 275.00,418.00" fill="none" stroke="#d0650e" stroke-width="0.55"/>
+<circle cx="275.0" cy="383.8" r="0.9" fill="#444"/>
+<polyline points="275.00,482.00 275.00,505.00" fill="none" stroke="#d0650e" stroke-width="0.55"/>
+<circle cx="275.0" cy="482.0" r="0.9" fill="#444"/>
+<polyline points="94.00,216.00 116.00,228.70" fill="none" stroke="#d0650e" stroke-width="0.55"/>
+<circle cx="94.0" cy="216.0" r="0.9" fill="#444"/>
+<polyline points="56.00,422.80 56.00,453.00" fill="none" stroke="#d0650e" stroke-width="0.55"/>
+<circle cx="56.0" cy="422.8" r="0.9" fill="#444"/>
+<polyline points="370.50,316.00 370.50,395.40 366.00,398.00" fill="none" stroke="#d0650e" stroke-width="0.55"/>
+<circle cx="370.5" cy="316.0" r="0.9" fill="#444"/>
+<rect x="270.00" y="194.00" width="48.00" height="50.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="270.80" y="196.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">콜로세움</text>
+<rect x="18.00" y="186.00" width="40.00" height="46.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="18.80" y="188.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">판테온</text>
+<rect x="170.00" y="94.00" width="52.00" height="66.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="170.80" y="96.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">카라칼라 욕장</text>
+<rect x="118.00" y="95.00" width="49.00" height="51.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="118.80" y="97.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">트라야누스 시장</text>
+<rect x="334.00" y="190.00" width="50.00" height="48.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="334.80" y="192.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">수도교</text>
+<rect x="374.00" y="360.00" width="44.00" height="44.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="374.80" y="362.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">카이킬리아 메텔라 무덤</text>
+<rect x="4.00" y="436.00" width="46.00" height="44.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="4.80" y="438.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">포르투스 항</text>
+<rect x="390.00" y="22.00" width="28.00" height="44.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="390.80" y="24.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">베수비오</text>
+<rect x="116.00" y="331.00" width="30.00" height="16.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="116.80" y="333.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">테베레 하역장·석회 가마</text>
+<rect x="72.00" y="322.00" width="16.00" height="24.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="72.80" y="324.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">바지선</text>
+<rect x="154.00" y="480.00" width="22.00" height="23.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="154.80" y="482.80" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">화산재 운반선</text>
+<rect x="213.50" y="403.50" width="24.00" height="19.00" rx="0" fill="#ffffff" stroke="#5a4ab0" stroke-width="0.35" fill-opacity="0.45" stroke-dasharray="1.2,0.8"/>
+<text x="214.30" y="406.30" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="1.9" fill="#3a2a90" text-anchor="start" font-weight="normal">콜로세움 공사장</text>
+<text x="8.00" y="322.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#24465f" text-anchor="start" font-weight="bold" transform="rotate(30 8.00 322.00)">TIBERIS 테베레강</text>
+<text x="8.50" y="484.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#24465f" text-anchor="start" font-weight="bold" transform="rotate(30 8.50 484.50)">MARE TYRRHENUM 티레니아해</text>
+<text x="372.00" y="272.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#24465f" text-anchor="start" font-weight="bold" transform="rotate(-30 372.00 272.00)">VIA APPIA 아피아 가도 → 캄파니아</text>
+<text x="344.00" y="112.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#24465f" text-anchor="start" font-weight="bold" transform="rotate(30 344.00 112.00)">COLLI ALBANI 알바노 구릉 — 로마 건물의 화산재</text>
+<text x="176.00" y="476.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.4" fill="#24465f" text-anchor="start" font-weight="bold" transform="rotate(30 176.00 476.00)">OSTIA 오스티아</text>
+<rect x="90.00" y="211.00" width="262.00" height="258.80" rx="0" fill="none" stroke="#c82236" stroke-width="0.45" fill-opacity="1.0" stroke-dasharray="3,1.5"/>
+<text x="91.00" y="468.30" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#c82236" text-anchor="start" font-weight="bold">히어로 군 상자 39.1% · 껍질 25.6% · 실루엣 19.3%</text>
+<rect x="18.00" y="94.00" width="334.00" height="375.80" rx="0" fill="none" stroke="#7a1424" stroke-width="0.4" fill-opacity="1.0" stroke-dasharray="1,1.2"/>
+<text x="19.00" y="97.20" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.2" fill="#7a1424" text-anchor="start" font-weight="bold">도심·시내 코어 군 상자 72.4% · 껍질 58.8% · 실루엣 36.0%</text>
+<polygon points="126.50,92.00 126.50,40.00 210.00,10.00 293.50,40.00 293.50,92.00" fill="#fbf1de" stroke="#c82236" stroke-width="0.8" fill-opacity="1.0"/>
+<text x="210.00" y="56.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="9.5" fill="#c82236" text-anchor="middle" font-weight="bold">ROMAN CONCRETE · ROMA</text>
+<text x="210.00" y="67.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#7a1424" text-anchor="middle" font-weight="normal">도시 인포그래픽 '로마 편' — 신전 페디먼트 정면 입면</text>
+<text x="210.00" y="74.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.6" fill="#7a1424" text-anchor="middle" font-weight="normal">126.5~293.5 × 10~92 (폭 39.8%)</text>
+<rect x="18.00" y="20.00" width="100.00" height="72.00" rx="0" fill="#fbf4e6" stroke="#3f3aa0" stroke-width="0.8" fill-opacity="0.93"/>
+<text x="20.00" y="26.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#3f3aa0" text-anchor="start" font-weight="bold">L 로마 콘크리트란?(정의 + 재료)</text>
+<text x="20.00" y="31.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#3f3aa0" text-anchor="start" font-weight="normal">Basic · 100×72mm = 7,200mm²</text>
+<rect x="18.00" y="505.00" width="196.00" height="60.00" rx="0" fill="#fbf4e6" stroke="#3f3aa0" stroke-width="0.8" fill-opacity="0.93"/>
+<text x="20.00" y="511.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#3f3aa0" text-anchor="start" font-weight="bold">B 제작 과정 6단계</text>
+<text x="20.00" y="516.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#3f3aa0" text-anchor="start" font-weight="normal">Basic · 196×60mm = 11,760mm²</text>
+<polygon points="35.67,520.00 51.33,529.09 35.67,538.17 20.00,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="24.00" cy="543.00" r="3" fill="#c82236"/>
+<text x="24.00" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="28.50" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">재료 준비</text>
+<polygon points="67.80,520.00 83.47,529.09 67.80,538.17 52.13,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="56.13" cy="543.00" r="3" fill="#c82236"/>
+<text x="56.13" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60.63" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">마른 혼합</text>
+<polygon points="99.93,520.00 115.60,529.09 99.93,538.17 84.27,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="88.27" cy="543.00" r="3" fill="#c82236"/>
+<text x="88.27" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="92.77" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">물 붓기</text>
+<polygon points="132.07,520.00 147.73,529.09 132.07,538.17 116.40,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="120.40" cy="543.00" r="3" fill="#c82236"/>
+<text x="120.40" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="124.90" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">뜨거운 혼합</text>
+<polygon points="164.20,520.00 179.87,529.09 164.20,538.17 148.53,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="152.53" cy="543.00" r="3" fill="#c82236"/>
+<text x="152.53" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="157.03" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">다져 넣기</text>
+<polygon points="196.33,520.00 212.00,529.09 196.33,538.17 180.67,529.09" fill="#f6e6c8" stroke="#c82236" stroke-width="0.4" fill-opacity="1.0"/>
+<circle cx="184.67" cy="543.00" r="3" fill="#c82236"/>
+<text x="184.67" y="544.10" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="189.17" y="544.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#5a1420" text-anchor="start" font-weight="bold">굳기·석회 알갱이</text>
+<polyline points="22.00,555.00 208.00,555.00" fill="none" stroke="#7a5a40" stroke-width="0.4" stroke-dasharray="1.5,1"/>
+<text x="22.00" y="560.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.1" fill="#7a5a40" text-anchor="start" font-weight="normal">등각 소형 장면 6칸 + 바닥 화살표 + 시간 화살표(피라미드 CHANGE OF THE FORM 문법)</text>
+<rect x="222.00" y="505.00" width="86.00" height="56.00" rx="0" fill="#fbf4e6" stroke="#d0650e" stroke-width="0.8" fill-opacity="0.93"/>
+<text x="224.00" y="511.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="3.0" fill="#d0650e" text-anchor="start" font-weight="bold">D 석회 알갱이·자가치유·뜨거운 혼합</text>
+<text x="224.00" y="516.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.3" fill="#d0650e" text-anchor="start" font-weight="normal">Detail · 86×56mm = 4,816mm²</text>
+<rect x="332.00" y="466.00" width="70.00" height="30.00" rx="0" fill="#fbf4e6" stroke="#2f7f86" stroke-width="0.8" fill-opacity="0.93"/>
+<text x="334.00" y="472.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.5" fill="#2f7f86" text-anchor="start" font-weight="bold">S 100년 vs 2000년</text>
+<text x="334.00" y="477.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#2f7f86" text-anchor="start" font-weight="normal">Support · 70×30mm = 2,100mm²</text>
+<rect x="335.00" y="481.00" width="3.00" height="4.00" rx="0" fill="#9aa6ad" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<text x="339.00" y="484.50" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#2a4a50" text-anchor="start" font-weight="normal">현대 약 100년</text>
+<rect x="335.00" y="488.00" width="60.00" height="4.00" rx="0" fill="#c9b28a" stroke="none" stroke-width="0.3" fill-opacity="1.0"/>
+<text x="336.00" y="491.30" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.0" fill="#4a3410" text-anchor="start" font-weight="bold">로마 2,000년+</text>
+<rect x="18.00" y="568.00" width="384.00" height="13.00" rx="0" fill="#efe2c6" stroke="#8a7a60" stroke-width="0.4" fill-opacity="1.0" stroke-dasharray="2,1"/>
+<text x="21.00" y="576.00" font-family="Apple SD Gothic Neo, AppleSDGothicNeo, Noto Sans CJK KR, sans-serif" font-size="2.6" fill="#5a4a30" text-anchor="start" font-weight="normal">내부 골격 미리보기(인쇄 지면 아님) · 무대 = STAGE 하나(확장 0) · 패널 L·B·D·S · 랜드마크 6 · 티어 색은 이 내부 도면에만</text>
+</g></svg>

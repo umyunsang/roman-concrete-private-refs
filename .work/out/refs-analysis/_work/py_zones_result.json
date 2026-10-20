@@ -1,0 +1,710 @@
+{
+ "image": "/Users/um-yunsang/roman-concrete-private-refs/.work/dl/refs-cities/203x-pyramid/StH_2024_04_Poster_re.jpg",
+ "size_px": [
+  1000,
+  1395
+ ],
+ "stage_px": [
+  0,
+  465,
+  1000,
+  1112
+ ],
+ "stage_norm": [
+  0.0,
+  0.3333,
+  1.0,
+  0.7971
+ ],
+ "stage_pct_image": 46.38,
+ "zones": [
+  {
+   "idx": 1,
+   "name": "타이틀(날개 원반+카르투슈, PYRAMID)",
+   "kind": "title",
+   "note": "",
+   "box_px": [
+    205,
+    55,
+    782,
+    195
+   ],
+   "bbox_norm": [
+    0.205,
+    0.0394,
+    0.782,
+    0.1398
+   ],
+   "bbox_pct_stage": 12.49,
+   "bbox_pct_image": 5.79,
+   "w_mm": 242.3,
+   "h_mm": 59.6
+  },
+  {
+   "idx": 2,
+   "name": "WHAT IS PYRAMID 피라미드란?",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    55,
+    248,
+    172
+   ],
+   "bbox_norm": [
+    0.055,
+    0.0394,
+    0.248,
+    0.1233
+   ],
+   "bbox_pct_stage": 3.49,
+   "bbox_pct_image": 1.62,
+   "w_mm": 81.1,
+   "h_mm": 49.8
+  },
+  {
+   "idx": 3,
+   "name": "PYRAMID DISTRIBUTION 위치도(지도 사진)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    788,
+    55,
+    945,
+    190
+   ],
+   "bbox_norm": [
+    0.788,
+    0.0394,
+    0.945,
+    0.1362
+   ],
+   "bbox_pct_stage": 3.28,
+   "bbox_pct_image": 1.52,
+   "w_mm": 65.9,
+   "h_mm": 57.5
+  },
+  {
+   "idx": 4,
+   "name": "HISTORY 왕조 띠(전폭 막대 2단)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    200,
+    945,
+    302
+   ],
+   "bbox_norm": [
+    0.055,
+    0.1434,
+    0.945,
+    0.2165
+   ],
+   "bbox_pct_stage": 14.03,
+   "bbox_pct_image": 6.51,
+   "w_mm": 373.8,
+   "h_mm": 43.4
+  },
+  {
+   "idx": 5,
+   "name": "CHANGE OF THE FORM 형태 변화(5단 공정 띠)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    330,
+    522,
+    448
+   ],
+   "bbox_norm": [
+    0.055,
+    0.2366,
+    0.522,
+    0.3211
+   ],
+   "bbox_pct_stage": 8.52,
+   "bbox_pct_image": 3.95,
+   "w_mm": 196.1,
+   "h_mm": 50.2
+  },
+  {
+   "idx": 6,
+   "name": "PYRAMID'S GOLDEN AGE 파라오 3",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    555,
+    333,
+    735,
+    497
+   ],
+   "bbox_norm": [
+    0.555,
+    0.2387,
+    0.735,
+    0.3563
+   ],
+   "bbox_pct_stage": 4.56,
+   "bbox_pct_image": 2.12,
+   "w_mm": 75.6,
+   "h_mm": 69.8
+  },
+  {
+   "idx": 7,
+   "name": "GREAT PYRAMID OF GIZA 제원",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    745,
+    333,
+    948,
+    462
+   ],
+   "bbox_norm": [
+    0.745,
+    0.2387,
+    0.948,
+    0.3312
+   ],
+   "bbox_pct_stage": 4.05,
+   "bbox_pct_image": 1.88,
+   "w_mm": 85.3,
+   "h_mm": 54.9
+  },
+  {
+   "idx": 8,
+   "name": "INTERIOR AND MATERIALS 단면·재료",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    478,
+    372,
+    640
+   ],
+   "bbox_norm": [
+    0.055,
+    0.3427,
+    0.372,
+    0.4588
+   ],
+   "bbox_pct_stage": 7.94,
+   "bbox_pct_image": 3.68,
+   "w_mm": 133.1,
+   "h_mm": 69.0
+  },
+  {
+   "idx": 9,
+   "name": "NECROPOLIS 묘역 평면도",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    745,
+    478,
+    948,
+    697
+   ],
+   "bbox_norm": [
+    0.745,
+    0.3427,
+    0.948,
+    0.4996
+   ],
+   "bbox_pct_stage": 6.87,
+   "bbox_pct_image": 3.19,
+   "w_mm": 85.3,
+   "h_mm": 93.3
+  },
+  {
+   "idx": 10,
+   "name": "PAPYRUS JARF 파피루스",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    662,
+    248,
+    745
+   ],
+   "bbox_norm": [
+    0.055,
+    0.4746,
+    0.248,
+    0.5341
+   ],
+   "bbox_pct_stage": 2.48,
+   "bbox_pct_image": 1.15,
+   "w_mm": 81.1,
+   "h_mm": 35.3
+  },
+  {
+   "idx": 11,
+   "name": "CONSTRUCTION TOOLS 건설 도구",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    972,
+    300,
+    1095
+   ],
+   "bbox_norm": [
+    0.055,
+    0.6968,
+    0.3,
+    0.7849
+   ],
+   "bbox_pct_stage": 4.66,
+   "bbox_pct_image": 2.16,
+   "w_mm": 102.9,
+   "h_mm": 52.4
+  },
+  {
+   "idx": 12,
+   "name": "COMPARE HEIGHTS 높이 비교",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    55,
+    1118,
+    352,
+    1312
+   ],
+   "bbox_norm": [
+    0.055,
+    0.8014,
+    0.352,
+    0.9405
+   ],
+   "bbox_pct_stage": 8.91,
+   "bbox_pct_image": 4.13,
+   "w_mm": 124.7,
+   "h_mm": 82.6
+  },
+  {
+   "idx": 13,
+   "name": "GIZA PYRAMID COMPLEX 피라미드군",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    388,
+    1118,
+    730,
+    1312
+   ],
+   "bbox_norm": [
+    0.388,
+    0.8014,
+    0.73,
+    0.9405
+   ],
+   "bbox_pct_stage": 10.25,
+   "bbox_pct_image": 4.76,
+   "w_mm": 143.6,
+   "h_mm": 82.6
+  },
+  {
+   "idx": 14,
+   "name": "GREAT SPHINX OF GIZA",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    755,
+    1118,
+    948,
+    1318
+   ],
+   "bbox_norm": [
+    0.755,
+    0.8014,
+    0.948,
+    0.9448
+   ],
+   "bbox_pct_stage": 5.97,
+   "bbox_pct_image": 2.77,
+   "w_mm": 81.1,
+   "h_mm": 85.2
+  },
+  {
+   "idx": 15,
+   "name": "푸터(203X 로고·크레딧·QR)",
+   "kind": "footer",
+   "note": "",
+   "box_px": [
+    55,
+    1330,
+    948,
+    1362
+   ],
+   "bbox_norm": [
+    0.055,
+    0.9534,
+    0.948,
+    0.9763
+   ],
+   "bbox_pct_stage": 4.42,
+   "bbox_pct_image": 2.05,
+   "w_mm": 375.1,
+   "h_mm": 13.6
+  },
+  {
+   "idx": 16,
+   "name": "장면 무대(위 패널 줄 아래~아래 패널 줄 위)",
+   "kind": "map",
+   "note": "",
+   "box_px": [
+    0,
+    465,
+    1000,
+    1112
+   ],
+   "bbox_norm": [
+    0.0,
+    0.3333,
+    1.0,
+    0.7971
+   ],
+   "bbox_pct_stage": 100.0,
+   "bbox_pct_image": 46.38,
+   "w_mm": 420.0,
+   "h_mm": 275.5
+  },
+  {
+   "idx": 17,
+   "name": "지평선(하늘 그라데이션/사막 띠 경계)",
+   "kind": "terrain",
+   "note": "",
+   "box_px": [
+    0,
+    776,
+    1000,
+    786
+   ],
+   "bbox_norm": [
+    0.0,
+    0.5563,
+    1.0,
+    0.5634
+   ],
+   "bbox_pct_stage": 1.55,
+   "bbox_pct_image": 0.72,
+   "w_mm": 420.0,
+   "h_mm": 4.3
+  },
+  {
+   "idx": 18,
+   "name": "대피라미드(계단 코어, 히어로)",
+   "kind": "hero",
+   "note": "",
+   "box_px": [
+    89,
+    505,
+    949,
+    1103
+   ],
+   "bbox_norm": [
+    0.089,
+    0.362,
+    0.949,
+    0.7907
+   ],
+   "bbox_pct_stage": 79.49,
+   "bbox_pct_image": 36.87,
+   "w_mm": 361.2,
+   "h_mm": 254.6,
+   "poly_pct_stage": 39.54,
+   "poly_pct_image": 18.34,
+   "poly_mm2": 45756
+  },
+  {
+   "idx": 19,
+   "name": "원형 외곽 점선(높이 146.7m 원래 모양)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    76,
+    473,
+    949,
+    1103
+   ],
+   "bbox_norm": [
+    0.076,
+    0.3391,
+    0.949,
+    0.7907
+   ],
+   "bbox_pct_stage": 85.01,
+   "bbox_pct_image": 39.43,
+   "w_mm": 366.7,
+   "h_mm": 268.3,
+   "poly_pct_stage": 42.51,
+   "poly_pct_image": 19.71,
+   "poly_mm2": 49183
+  },
+  {
+   "idx": 20,
+   "name": "내부 절개(통로·방·환기 통로, 반투명)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    390,
+    515,
+    700,
+    935
+   ],
+   "bbox_norm": [
+    0.39,
+    0.3692,
+    0.7,
+    0.6703
+   ],
+   "bbox_pct_stage": 20.12,
+   "bbox_pct_image": 9.33,
+   "w_mm": 130.2,
+   "h_mm": 178.8
+  },
+  {
+   "idx": 21,
+   "name": "'높이 146.7m' 라벨(둥근 상자+지시선)",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    486,
+    490,
+    556,
+    526
+   ],
+   "bbox_norm": [
+    0.486,
+    0.3513,
+    0.556,
+    0.3771
+   ],
+   "bbox_pct_stage": 0.39,
+   "bbox_pct_image": 0.18,
+   "w_mm": 29.4,
+   "h_mm": 15.3
+  },
+  {
+   "idx": 22,
+   "name": "'밑변의 길이 230m' 치수선",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    80,
+    860,
+    512,
+    1106
+   ],
+   "bbox_norm": [
+    0.08,
+    0.6165,
+    0.512,
+    0.7928
+   ],
+   "bbox_pct_stage": 16.43,
+   "bbox_pct_image": 7.62,
+   "w_mm": 181.4,
+   "h_mm": 104.7
+  },
+  {
+   "idx": 23,
+   "name": "방위 점선 화살표(West·North)+나침반",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    170,
+    650,
+    605,
+    1008
+   ],
+   "bbox_norm": [
+    0.17,
+    0.4659,
+    0.605,
+    0.7226
+   ],
+   "bbox_pct_stage": 24.07,
+   "bbox_pct_image": 11.16,
+   "w_mm": 182.7,
+   "h_mm": 152.4
+  },
+  {
+   "idx": 24,
+   "name": "스핑크스(Support)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    689,
+    891,
+    903,
+    1046
+   ],
+   "bbox_norm": [
+    0.689,
+    0.6387,
+    0.903,
+    0.7498
+   ],
+   "bbox_pct_stage": 5.13,
+   "bbox_pct_image": 2.38,
+   "w_mm": 89.9,
+   "h_mm": 66.0
+  },
+  {
+   "idx": 25,
+   "name": "'높이 20m'·'길이 73.5m' 치수",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    733,
+    891,
+    926,
+    1060
+   ],
+   "bbox_norm": [
+    0.733,
+    0.6387,
+    0.926,
+    0.7599
+   ],
+   "bbox_pct_stage": 5.04,
+   "bbox_pct_image": 2.34,
+   "w_mm": 81.1,
+   "h_mm": 72.0
+  },
+  {
+   "idx": 26,
+   "name": "MOMO(파라오 고양이 마스코트+말풍선)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    553,
+    988,
+    655,
+    1100
+   ],
+   "bbox_norm": [
+    0.553,
+    0.7082,
+    0.655,
+    0.7885
+   ],
+   "bbox_pct_stage": 1.77,
+   "bbox_pct_image": 0.82,
+   "w_mm": 42.8,
+   "h_mm": 47.7
+  },
+  {
+   "idx": 27,
+   "name": "야자수(왼쪽 가장자리 블리드)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    38,
+    815,
+    72,
+    864
+   ],
+   "bbox_norm": [
+    0.038,
+    0.5842,
+    0.072,
+    0.6194
+   ],
+   "bbox_pct_stage": 0.26,
+   "bbox_pct_image": 0.12,
+   "w_mm": 14.3,
+   "h_mm": 20.9
+  },
+  {
+   "idx": 28,
+   "name": "낙타·관광객 소품(축척 단서)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    885,
+    1014,
+    910,
+    1034
+   ],
+   "bbox_norm": [
+    0.885,
+    0.7269,
+    0.91,
+    0.7412
+   ],
+   "bbox_pct_stage": 0.08,
+   "bbox_pct_image": 0.04,
+   "w_mm": 10.5,
+   "h_mm": 8.5
+  }
+ ],
+ "groups": {
+  "코어 군(피라미드+외곽 점선+절개+치수+방위+스핑크스+MOMO)": {
+   "members": [
+    "대피라미드(계단 코어, 히어로)",
+    "원형 외곽 점선(높이 146.7m 원래 모양)",
+    "내부 절개(통로·방·환기 통로, 반투명)",
+    "'높이 146.7m' 라벨(둥근 상자+지시선)",
+    "'밑변의 길이 230m' 치수선",
+    "방위 점선 화살표(West·North)+나침반",
+    "스핑크스(Support)",
+    "'높이 20m'·'길이 73.5m' 치수",
+    "MOMO(파라오 고양이 마스코트+말풍선)"
+   ],
+   "box_px": [
+    76,
+    473,
+    949,
+    1106
+   ],
+   "bbox_norm": [
+    0.076,
+    0.3391,
+    0.949,
+    0.7928
+   ],
+   "bbox_pct_stage": 85.41,
+   "union_pct_stage": 59.36,
+   "hull_pct_stage": 66.63,
+   "centroid_norm": [
+    0.4916,
+    0.607
+   ],
+   "w_mm": 366.7,
+   "h_mm": 269.5
+  },
+  "히어로(대피라미드 실루엣)": {
+   "members": [
+    "대피라미드(계단 코어, 히어로)"
+   ],
+   "box_px": [
+    89,
+    505,
+    949,
+    1103
+   ],
+   "bbox_norm": [
+    0.089,
+    0.362,
+    0.949,
+    0.7907
+   ],
+   "bbox_pct_stage": 79.49,
+   "union_pct_stage": 39.68,
+   "hull_pct_stage": 39.67,
+   "centroid_norm": [
+    0.5197,
+    0.5889
+   ],
+   "w_mm": 361.2,
+   "h_mm": 254.6
+  }
+ },
+ "stage_mm": [
+  420.0,
+  275.5
+ ]
+}

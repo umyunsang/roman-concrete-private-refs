@@ -1,0 +1,12 @@
+src = open("scripts/wireframe_v16.py", encoding="utf-8").read()
+exec(compile(src, "wireframe_v16.py", "exec"))
+import time
+t0 = time.time()
+P = Layer(0, 0, PW, PH, "page", bg=BG + (255,))
+draw_title(P)
+panel_definition(P); panel_recipe(P); panel_where(P); panel_lime(P); panel_history(P); panel_100v2000(P)
+out = P.img.resize((P.w // SS, P.h // SS), Image.LANCZOS)
+out.convert("RGB").save("out/v16_work/test2.png")
+out.crop((0, 0, 1680, 600)).convert("RGB").save("out/v16_work/test2_top.png")
+out.crop((0, 1980, 1680, 2376)).convert("RGB").save("out/v16_work/test2_bot.png")
+print("sec", time.time() - t0)

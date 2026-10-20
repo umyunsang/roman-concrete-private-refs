@@ -1,0 +1,51 @@
+{
+ "203x-paris": {
+  "panel_box_mm2_median": 4040,
+  "panel_box_mm2_min": 3420,
+  "panel_box_mm2_max": 9705,
+  "landmark_box_mm2_median": 9534,
+  "landmark_box_mm2_min": 3779,
+  "landmark_box_mm2_max": 18610,
+  "ratio_landmark_to_panel_median": 2.36,
+  "share_landmarks_smaller_than_min_panel": "0/9",
+  "hero_box_mm": [
+   182.7,
+   411.6
+  ],
+  "hero_h_pct_poster": 69.3,
+  "hero_cx_pct": 53.4,
+  "hero_silhouette_mm2": 25450
+ },
+ "203x-shanghai": {
+  "panel_box_mm2_median": 5453,
+  "panel_box_mm2_min": 2731,
+  "panel_box_mm2_max": 9552,
+  "landmark_box_mm2_median": 5318,
+  "landmark_box_mm2_min": 3176,
+  "landmark_box_mm2_max": 18404,
+  "ratio_landmark_to_panel_median": 0.98,
+  "share_landmarks_smaller_than_min_panel": "0/14",
+  "hero_box_mm": [
+   46.6,
+   273.7
+  ],
+  "hero_h_pct_poster": 46.1,
+  "hero_cx_pct": 56.0
+ },
+ "203x-hongkong": {
+  "panel_box_mm2_median": 5387,
+  "panel_box_mm2_min": 3961,
+  "panel_box_mm2_max": 7267,
+  "landmark_box_mm2_median": 5574,
+  "landmark_box_mm2_min": 1662,
+  "landmark_box_mm2_max": 10875,
+  "ratio_landmark_to_panel_median": 1.03,
+  "share_landmarks_smaller_than_min_panel": "2/12",
+  "hero_box_mm": [
+   64.3,
+   298.3
+  ],
+  "hero_h_pct_poster": 50.2,
+  "hero_cx_pct": 12.3
+ }
+}

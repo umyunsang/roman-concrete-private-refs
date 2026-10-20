@@ -1,0 +1,41 @@
+{
+ "density_stage_pct": 46.8,
+ "ground_pct": 45.1,
+ "water_pct": 8.1,
+ "ground_modal_rgb": [
+  236,
+  216,
+  172
+ ],
+ "empty_6x6_windows_outside_clear_2ppm": 0,
+ "empty_samples": [],
+ "top_edge_first_opaque_y_mm": [
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0,
+  92.0
+ ],
+ "land_bottom_last_opaque_y_mm_x230_410": [
+  513.0,
+  505.0,
+  505.0,
+  505.0,
+  505.0,
+  505.0,
+  505.0
+ ],
+ "left_edge_water_pct_y400_518": 100.0
+}

@@ -1,0 +1,36 @@
+[v2_check.py] 4.3s 사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM | 사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,092 · 히어로 비 5.63 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배) | 사전 검사 완료: 필수 요소 모두 있음 · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 랜드마크 9 · 허용 안 된 겹침 0 · 경고 0
+사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM
+사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,092 · 히어로 비 5.63 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배)
+[v2_build.py] 0.2s 사양 JSON 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/spec.json · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 무대 173460.0 · 랜드마크 9 · Basic 최소 ['P5 지금 배우는 중(연구 → 현장 → 적용)', 5670] · Detail 최대 ['Z1 확대 창: 콜로세움 기초 콘크리트 단면 → 석회 알갱이', 5460] · 필수 요소 모두 있음
+[v2_svg.py] 0.1s 미리보기 SVG 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/preview.svg
+[render.py] 11.0s [render   8.7s] 라벨 자리 | [render   9.3s] 지형 | [render   9.5s] 패널
+[v2_check.py] 0.3s 보조 통과 drawn.json 계약 형식: footprints [{name, kind, poly}]·roads [{id, name, polys}]·objects [{id, name, box}](화면 mm, 필수 필드·id 중복 0) | 보조 통과 그린 무대 = STAGE 하나(R·T 확장 0) | 사후 검사 실패: 실패 5건 → /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json
+── 사후 검사 실패 항목 ──
+⑪ 실패 위계(그린 상자): 6패널 Basic 최소 ≥ Detail 최대(Z1 합성)·Detail 최소 ≥ Support × 1.1·R·T 0 + 지도(그린 외곽 상자끼리): 히어로 군(건물 ∪ 광장) ÷ 중앙값 4.5~7.9·≥ 최대 × 1.1·표준 랜드마크 각각 ≥ 4,500·베수비오 최소·콜로세움 건물 실루엣 ≥ 다른 건물 × 1.2
+    - 자료 없음: drawn.objects 'hero_plaza'(조경 광장 외곽 상자) — 히어로 군 = 건물 ∪ 광장을 잴 수 없다
+    - 히어로 ÷ 표준 랜드마크 중앙값 1.89(4.5~7.9 밖)
+    - 히어로 군 11168 < 랜드마크 최대 × 1.1
+    - 자료 없음: drawn.objects 'hero' sil_mm2(콜로세움 건물 실루엣 면적, 알파 ≥ 128)
+    - 자료 없음: drawn.objects sil_mm2 L1·L2·L3·L4·L5·L6·L7·L8·L9
+⑯ 실패 인쇄 선 굵기: 내부선 0.10~0.20·지시선 0.30·콜아웃 테두리 0.25·Z1 테두리 0.60·P5 계단선 0.35, 그보다 가는 선은 print:false
+    - 테두리 굵기 자료 없음: Z1 원(확대 창)
+    - 테두리 굵기 자료 없음: C1(콜아웃)
+    - 테두리 굵기 자료 없음: C2(콜아웃)
+    - 테두리 굵기 자료 없음: C4(콜아웃)
+    - 자료 없음: drawn.strokes(인쇄 선 굵기 기록 [{role, lw, print, count}])
+⑰ 통과 정보 층 정합(INFO_ONLY): 지시선 끝–앵커 ≤ 0.5mm(6mm 밖은 맞추지 못함 = 실패), 허용쌍 밖 라벨 블록–Blender 실루엣 겹침 0
+⑱ 실패 기준선 8.1 콜로세움 본체(그린 결과): 반축 44×36.6·장축 315°·중심·폭 비 0.53±0.02·θ 구간 외벽 높이 ±0.5·정면 ≤ 17·둘째 고리 37/정면 ≤ 12·나무 바닥 55±3%·건물 상자
+    - 8.1-1 외곽 타원 반축 44×36.6(평면, ±0.05) — 값 null · 자료 없음 · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    - 8.1-2 장축 평면 방위 315°(화면 가로, ±0.5°) — 값 null · 자료 없음 · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    - 8.1-3 외곽 타원 중심 평면 (446.54, 161.86)(±0.5) — 값 null · 자료 없음 · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    - 8.1-5 θ 구간 외벽 높이 = D2 표 ±0.5(4층 53·3층 37·2층 24.5, 경사 부 — 값 null · 자료 없음(외벽 표) · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    - 8.1-6 경기장 앞 정면(θ 18~72°) 높이 ≤ 17(경기장이 보이게) — 값 null · 자료 없음 · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    - 8.1-7 둘째 고리 높이 37(±0.5)·정면 10~80° ≤ 12 — 값 null · 자료 없음(둘째 고리) · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+    … 외 1건
+⑲ 실패 기준선 8.2 받침 없음 + 12:49 히어로 군(그린 결과): 받침 옆면 0·받침·절개 footprint 0·광장·공사장·인물 무리·네로 받침·문·시내 지붕과 나무·LocalBanana 조경 복제 0
+    - 8.2-1 팔각 받침 옆면 0mm(땅 위에 바로 놓임) — 값 null · 자료 없음 · drawn.forms.hero(그린 본체 반축·방위·중심·외벽 표·둘째 고리·나무 바닥 비·받침 옆면) 없음
+㉑ 실패 P5 계단: 채움판 없는 꺾은선(D15 좌표 ±0.3mm·굵기 0.35)과 글 블록 간격 ≥ 1.5mm
+    - 계단선 굵기 자료 없음
+사후 검사 실패: 실패 5건 → /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json
+결과: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json
+uv run --no-project --with pillow --with opencv-python-headless --with numpy   16.22s user 0.32s system 103% cpu 15.943 total

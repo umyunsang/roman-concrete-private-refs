@@ -1,0 +1,428 @@
+{
+ "좌표계": "아트 2000x2800px(원본 타일 정합), 정규 좌표 = x/2000, y/2800, A2 mm = x*0.21, y*0.21214",
+ "파일": {
+  "203x-tokyo": {
+   "zones.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_zones.png",
+   "analysis.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_analysis.json",
+   "objects.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_objects.json",
+   "network.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_network.json",
+   "geo_fit.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_geo_fit.json",
+   "gaps.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_gaps.json",
+   "label_angles.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_label_angles.json",
+   "objects_vis.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-tokyo_objects_vis.png"
+  },
+  "203x-newyork2-centralpark": {
+   "zones.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_zones.png",
+   "analysis.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_analysis.json",
+   "objects.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_objects.json",
+   "network.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_network.json",
+   "geo_fit.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_geo_fit.json",
+   "gaps.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_gaps.json",
+   "label_angles.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_label_angles.json",
+   "objects_vis.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork2-centralpark_objects_vis.png"
+  },
+  "203x-newyork": {
+   "zones.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_zones.png",
+   "analysis.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_analysis.json",
+   "objects.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_objects.json",
+   "network.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_network.json",
+   "geo_fit.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_geo_fit.json",
+   "gaps.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_gaps.json",
+   "label_angles.json": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_label_angles.json",
+   "objects_vis.png": "/Users/um-yunsang/roman-concrete-private-refs/.work/out/refs-analysis/203x-newyork_objects_vis.png"
+  }
+ },
+ "핵심": {
+  "203x-tokyo": {
+   "지도무대_포스터대비%": 80.3,
+   "패널수": 6,
+   "패널면적_포스터대비%": 12.6,
+   "밀도": {
+    "objects_union_pct": 40.5,
+    "landmarks_union_pct": 37.6,
+    "road_pct": 4.2,
+    "water_pct": 2.8,
+    "ground_pct": 0.0
+   },
+   "코어군": {
+    "중앙 군": {
+     "덩어리%": 27.6,
+     "볼록껍질%": 35.3,
+     "외곽상자%": 47.2,
+     "구성원상자합%": 31.4,
+     "로마무대환산_덩어리%": 31.9,
+     "로마무대환산_껍질%": 40.8,
+     "무게중심_norm": [
+      0.564,
+      0.465
+     ],
+     "외곽상자_mm": [
+      105.0,
+      92.7,
+      362.5,
+      460.1
+     ],
+     "모양": {
+      "principal_axis_deg": 75.7,
+      "elongation": 1.42,
+      "solidity_mass_over_hull": 0.78,
+      "mass_bbox_art": [
+       500,
+       437,
+       1726,
+       2169
+      ],
+      "mass_bbox_aspect_w_over_h": 0.71
+     }
+    },
+    "중앙 군 + 스카이트리 + 스미다강 상류": {
+     "덩어리%": 36.8,
+     "볼록껍질%": 49.6,
+     "외곽상자%": 60.5,
+     "구성원상자합%": 43.1,
+     "로마무대환산_덩어리%": 42.5,
+     "로마무대환산_껍질%": 57.3,
+     "무게중심_norm": [
+      0.647,
+      0.478
+     ],
+     "외곽상자_mm": [
+      105.0,
+      75.5,
+      420.0,
+      460.1
+     ],
+     "모양": {
+      "principal_axis_deg": -75.7,
+      "elongation": 1.05,
+      "solidity_mass_over_hull": 0.73,
+      "mass_bbox_art": [
+       500,
+       356,
+       2000,
+       2169
+      ],
+      "mass_bbox_aspect_w_over_h": 0.83
+     }
+    }
+   },
+   "투영_지도창": {
+    "n_seg": 1000,
+    "pos": {
+     "deg": 30.01,
+     "sd": 0.24,
+     "len_px": 16256,
+     "n": 222
+    },
+    "neg": {
+     "deg": -29.93,
+     "sd": 0.33,
+     "len_px": 6717,
+     "n": 109
+    },
+    "vert": {
+     "deg": 89.77,
+     "sd": 0.23,
+     "len_px": 15716,
+     "n": 292
+    }
+   },
+   "압축지리": {
+    "평균오차mm": 90.83,
+    "RMSmm": 101.11,
+    "mm_per_km": 25.45,
+    "북쪽_화면각": 74.9,
+    "거리법칙": {
+     "plan_mm = a * real_km^k": {
+      "a": 114.1,
+      "k": 0.225
+     }
+    },
+    "점수": 13
+   },
+   "이웃간격": {
+    "화소_중앙값mm": 0.0,
+    "상자_중앙값mm": 0.0
+   },
+   "라벨기울기": {
+    "Shinkansen(이름+본문)": -29.5,
+    "Tokyo Station": -29.0,
+    "Meiji Jingu Shrine": -30.0,
+    "Rainbow Bridge": -30.0,
+    "Tokyo Metropolitan Gov.": -30.0,
+    "Tokyo Skytree": -29.5,
+    "Imperial Palace": -30.0,
+    "Sensoji Kaminarimon": -29.5,
+    "Roppongi Hills Mori Tower": -29.5,
+    "Statue of Hachiko": -29.5,
+    "Gotokuji Temple": -30.0,
+    "Tokyo Tower": -30.0,
+    "Sumida River(바닥 글)": 30.0
+   }
+  },
+  "203x-newyork2-centralpark": {
+   "지도무대_포스터대비%": 95.9,
+   "패널수": 5,
+   "패널면적_포스터대비%": 10.9,
+   "밀도": {
+    "objects_union_pct": 26.3,
+    "landmarks_union_pct": 21.9,
+    "road_pct": 0.0,
+    "water_pct": 17.3,
+    "ground_pct": 41.7
+   },
+   "코어군": {
+    "센트럴파크 + 뮤지엄 마일": {
+     "덩어리%": 16.0,
+     "볼록껍질%": 22.1,
+     "외곽상자%": 29.5,
+     "구성원상자합%": 14.8,
+     "로마무대환산_덩어리%": 22.1,
+     "로마무대환산_껍질%": 30.5,
+     "무게중심_norm": [
+      0.449,
+      0.344
+     ],
+     "외곽상자_mm": [
+      0.0,
+      118.8,
+      389.8,
+      299.8
+     ],
+     "모양": {
+      "principal_axis_deg": 14.7,
+      "elongation": 2.76,
+      "solidity_mass_over_hull": 0.72,
+      "mass_bbox_art": [
+       0,
+       560,
+       1856,
+       1413
+      ],
+      "mass_bbox_aspect_w_over_h": 2.18
+     }
+    },
+    "맨해튼 북부 띠 전체": {
+     "덩어리%": 19.7,
+     "볼록껍질%": 27.7,
+     "외곽상자%": 46.8,
+     "구성원상자합%": 24.6,
+     "로마무대환산_덩어리%": 27.2,
+     "로마무대환산_껍질%": 38.2,
+     "무게중심_norm": [
+      0.424,
+      0.282
+     ],
+     "외곽상자_mm": [
+      0.0,
+      10.4,
+      386.8,
+      299.8
+     ],
+     "모양": {
+      "principal_axis_deg": 26.8,
+      "elongation": 2.55,
+      "solidity_mass_over_hull": 0.71,
+      "mass_bbox_art": [
+       0,
+       26,
+       1842,
+       1413
+      ],
+      "mass_bbox_aspect_w_over_h": 1.33
+     }
+    }
+   },
+   "투영_지도창": {
+    "n_seg": 436,
+    "pos": {
+     "deg": 30.17,
+     "sd": 0.24,
+     "len_px": 13690,
+     "n": 121
+    },
+    "neg": {
+     "deg": -30.05,
+     "sd": 0.32,
+     "len_px": 2240,
+     "n": 48
+    },
+    "vert": {
+     "deg": 89.81,
+     "sd": 0.23,
+     "len_px": 4625,
+     "n": 99
+    }
+   },
+   "압축지리": {
+    "평균오차mm": 52.83,
+    "RMSmm": 57.17,
+    "mm_per_km": 64.81,
+    "북쪽_화면각": 69.1,
+    "거리법칙": {
+     "plan_mm = a * real_km^k": {
+      "a": 118.7,
+      "k": 0.595
+     }
+    },
+    "점수": 14
+   },
+   "이웃간격": {
+    "화소_중앙값mm": 0.2,
+    "상자_중앙값mm": 0.0
+   },
+   "라벨기울기": {
+    "The Metropolitan Museum of Art": 30.0,
+    "American Museum of Natural History": 30.0,
+    "Soldiers' and Sailors' Monument": 30.0,
+    "Cathedral of St. John the Divine": -30.0,
+    "Solomon R. Guggenheim Museum": 30.0,
+    "Queensboro Bridge": 30.0,
+    "Roosevelt Island Tramway": 30.0,
+    "Opera Gallery New York": -30.0,
+    "CENTRAL PARK(바닥 글)": 18.5
+   }
+  },
+  "203x-newyork": {
+   "지도무대_포스터대비%": 82.0,
+   "패널수": 6,
+   "패널면적_포스터대비%": 15.7,
+   "밀도": {
+    "objects_union_pct": 41.9,
+    "landmarks_union_pct": 34.3,
+    "road_pct": 0.0,
+    "water_pct": 0.0,
+    "ground_pct": 12.3
+   },
+   "코어군": {
+    "미드타운 군": {
+     "덩어리%": 19.7,
+     "볼록껍질%": 26.6,
+     "외곽상자%": 31.9,
+     "구성원상자합%": 21.6,
+     "로마무대환산_덩어리%": 23.2,
+     "로마무대환산_껍질%": 31.4,
+     "무게중심_norm": [
+      0.593,
+      0.403
+     ],
+     "외곽상자_mm": [
+      127.7,
+      83.2,
+      346.7,
+      381.2
+     ],
+     "모양": {
+      "principal_axis_deg": -87.8,
+      "elongation": 1.35,
+      "solidity_mass_over_hull": 0.74,
+      "mass_bbox_art": [
+       608,
+       392,
+       1651,
+       1797
+      ],
+      "mass_bbox_aspect_w_over_h": 0.74
+     }
+    },
+    "미드타운 + 업타운(센트럴파크 방향)": {
+     "덩어리%": 23.1,
+     "볼록껍질%": 29.5,
+     "외곽상자%": 38.5,
+     "구성원상자합%": 27.4,
+     "로마무대환산_덩어리%": 27.2,
+     "로마무대환산_껍질%": 34.8,
+     "무게중심_norm": [
+      0.665,
+      0.397
+     ],
+     "외곽상자_mm": [
+      156.0,
+      83.2,
+      420.0,
+      381.2
+     ],
+     "모양": {
+      "principal_axis_deg": 14.4,
+      "elongation": 1.09,
+      "solidity_mass_over_hull": 0.78,
+      "mass_bbox_art": [
+       743,
+       392,
+       2000,
+       1797
+      ],
+      "mass_bbox_aspect_w_over_h": 0.89
+     }
+    }
+   },
+   "투영_지도창": {
+    "n_seg": 773,
+    "pos": {
+     "deg": 25.98,
+     "sd": 0.2,
+     "len_px": 9500,
+     "n": 109
+    },
+    "neg": {
+     "deg": -26.0,
+     "sd": 0.3,
+     "len_px": 7568,
+     "n": 109
+    },
+    "vert": {
+     "deg": 89.89,
+     "sd": 0.18,
+     "len_px": 36098,
+     "n": 340
+    }
+   },
+   "압축지리": {
+    "평균오차mm": 81.39,
+    "RMSmm": 88.16,
+    "mm_per_km": 43.82,
+    "북쪽_화면각": 80.8,
+    "거리법칙": {
+     "plan_mm = a * real_km^k": {
+      "a": 96.9,
+      "k": 0.49
+     }
+    },
+    "점수": 12
+   },
+   "이웃간격": {
+    "화소_중앙값mm": 0.0,
+    "상자_중앙값mm": 0.0
+   },
+   "라벨기울기": {
+    "Christmas Tree": 26.0,
+    "GE Building": 26.0,
+    "Street Sign": 17.0,
+    "Statue of Liberty": 26.5,
+    "Brooklyn Bridge": 0.0,
+    "Manhattan Bridge": 25.5,
+    "King Kong": 26.0,
+    "EAST RIVER(바닥 글)": 26.0
+   }
+  }
+ },
+ "1차실측_정정": {
+  "203x-tokyo": [
+   "코어 bbox 33.3%(포스터) → 37.9%(포스터)=지도 무대의 47.2%. 도쿄역 오른쪽 끝(x 863/1000)과 도쿄 타워 받침 아래(y 1084/1400)가 1차 상자 밖이었다.",
+   "스미다강 '폭 약 70(포스터 폭 7%)'은 30° 띠를 가로로 자른 폭이다. 띠에 수직인 폭은 14.2~17.5mm(3.4~4.2%), 주 대각로 18.0mm와 같다.",
+   "HISTORY 오른쪽 끝 960 → 914.5(글 블록 오른쪽 끝, 1000 기준).",
+   "스카이트리 높이 59.3% → 탑 59.5%(받침 판 포함 61.1%). 꼭대기 y 75.5mm, HISTORY 패널 아래 3mm."
+  ],
+  "203x-newyork2-centralpark": [
+   "코어 bbox 41.5%(포스터, x0~830·y0~700)는 타이틀·하늘 모서리와 할렘까지 넣은 상자다. 센트럴파크+뮤지엄 마일만 재면 외곽 상자 28.3%(포스터)=지도의 29.5%, 실점유 덩어리 16.0%다. 북부 띠 전체도 덩어리 19.7%.",
+   "이스트강 '폭 약 250'은 세로 두께(420~514px=210~257/1000)다. 띠에 수직인 폭은 76~94mm(포스터 폭 18~22%).",
+   "CITY SYMBOL·CITY INFORMATION 오른쪽 끝 960 → 912~917(1000 기준)."
+  ],
+  "203x-newyork": [
+   "히어로 엠파이어 높이 46.1% → 47.3%(안테나 끝 y 78.9mm~바닥 360.0mm). '타이틀 침범 아님' → 안테나 끝이 타이틀 아래 막대에 닿는다(겹침 0~4mm).",
+   "코어 bbox 22.0%(포스터) → 26.2%(포스터)=지도의 31.9%(타임스스퀘어 라벨·플랫아이언 포함). 실점유 덩어리 19.7%.",
+   "라벨 18개 → 약 21개 + 강 바닥 글 2(저해상 구역이 있어 ±2).",
+   "투영 26.0°는 정확한 2:1(26.57°)보다 0.5° 낮다. 방위 45° 직교 투영이면 카메라 고도 약 29.2°."
+  ]
+ }
+}

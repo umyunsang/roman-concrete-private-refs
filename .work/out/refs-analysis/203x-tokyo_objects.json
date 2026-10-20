@@ -1,0 +1,665 @@
+{
+ "ref": "203x-tokyo",
+ "map_stage_art": [
+  0,
+  433,
+  2000,
+  2682
+ ],
+ "map_stage_area_px": 4498000,
+ "map_stage_mm": [
+  0.0,
+  91.9,
+  420.0,
+  569.0
+ ],
+ "landmarks": {
+  "도쿄 도청": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    715,
+    437,
+    1045,
+    1190
+   ],
+   "bbox_norm": [
+    0.3575,
+    0.1561,
+    0.5225,
+    0.425
+   ],
+   "wh_mm": [
+    69.3,
+    159.7
+   ],
+   "area_mm2": 8047.0,
+   "pct_of_map_stage": 4.02,
+   "n_components": 1
+  },
+  "가미나리몬(센소지)": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    1290,
+    840,
+    1692,
+    1238
+   ],
+   "bbox_norm": [
+    0.645,
+    0.3,
+    0.846,
+    0.4421
+   ],
+   "wh_mm": [
+    84.4,
+    84.4
+   ],
+   "area_mm2": 4182.0,
+   "pct_of_map_stage": 2.09,
+   "n_components": 1
+  },
+  "아사쿠사 등롱": {
+   "tier": "중앙 군(소품)",
+   "label": true,
+   "bbox_art": [
+    1282,
+    572,
+    1471,
+    931
+   ],
+   "bbox_norm": [
+    0.641,
+    0.2043,
+    0.7355,
+    0.3325
+   ],
+   "wh_mm": [
+    39.7,
+    76.2
+   ],
+   "area_mm2": 731.0,
+   "pct_of_map_stage": 0.36,
+   "n_components": 0
+  },
+  "아사쿠사 등롱(우)": {
+   "tier": "중앙 군(소품)",
+   "label": false,
+   "bbox_art": [
+    1578,
+    881,
+    1602,
+    918
+   ],
+   "bbox_norm": [
+    0.789,
+    0.3146,
+    0.801,
+    0.3279
+   ],
+   "wh_mm": [
+    5.0,
+    7.8
+   ],
+   "area_mm2": 7.0,
+   "pct_of_map_stage": 0.0,
+   "n_components": 0
+  },
+  "도쿄 스카이트리": {
+   "tier": "히어로(측면 기둥)",
+   "label": true,
+   "bbox_art": [
+    1631,
+    356,
+    1977,
+    2067
+   ],
+   "bbox_norm": [
+    0.8155,
+    0.1271,
+    0.9885,
+    0.7382
+   ],
+   "wh_mm": [
+    72.7,
+    363.0
+   ],
+   "area_mm2": 9267.0,
+   "pct_of_map_stage": 4.62,
+   "n_components": 0
+  },
+  "황궁": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    988,
+    978,
+    1430,
+    1419
+   ],
+   "bbox_norm": [
+    0.494,
+    0.3493,
+    0.715,
+    0.5068
+   ],
+   "wh_mm": [
+    92.8,
+    93.6
+   ],
+   "area_mm2": 4854.0,
+   "pct_of_map_stage": 2.42,
+   "n_components": 1
+  },
+  "메이지 신궁(도리이·숲 판)": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    623,
+    1130,
+    1134,
+    1637
+   ],
+   "bbox_norm": [
+    0.3115,
+    0.4036,
+    0.567,
+    0.5846
+   ],
+   "wh_mm": [
+    107.3,
+    107.6
+   ],
+   "area_mm2": 5656.0,
+   "pct_of_map_stage": 2.82,
+   "n_components": 1
+  },
+  "도쿄 타워": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    500,
+    1175,
+    1009,
+    2169
+   ],
+   "bbox_norm": [
+    0.25,
+    0.4196,
+    0.5045,
+    0.7746
+   ],
+   "wh_mm": [
+    106.9,
+    210.9
+   ],
+   "area_mm2": 7540.0,
+   "pct_of_map_stage": 3.76,
+   "n_components": 1
+  },
+  "롯폰기 힐스 모리 타워": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    331,
+    1328,
+    559,
+    1899
+   ],
+   "bbox_norm": [
+    0.1655,
+    0.4743,
+    0.2795,
+    0.6782
+   ],
+   "wh_mm": [
+    47.9,
+    121.1
+   ],
+   "area_mm2": 5289.0,
+   "pct_of_map_stage": 2.64,
+   "n_components": 0
+  },
+  "하치코 동상": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    28,
+    1770,
+    405,
+    2165
+   ],
+   "bbox_norm": [
+    0.014,
+    0.6321,
+    0.2025,
+    0.7732
+   ],
+   "wh_mm": [
+    79.2,
+    83.8
+   ],
+   "area_mm2": 4243.0,
+   "pct_of_map_stage": 2.12,
+   "n_components": 1
+  },
+  "고토쿠지(마네키네코)": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    286,
+    1972,
+    668,
+    2333
+   ],
+   "bbox_norm": [
+    0.143,
+    0.7043,
+    0.334,
+    0.8332
+   ],
+   "wh_mm": [
+    80.2,
+    76.6
+   ],
+   "area_mm2": 3831.0,
+   "pct_of_map_stage": 1.91,
+   "n_components": 1
+  },
+  "도쿄역": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    1151,
+    1455,
+    1726,
+    1899
+   ],
+   "bbox_norm": [
+    0.5755,
+    0.5196,
+    0.863,
+    0.6782
+   ],
+   "wh_mm": [
+    120.8,
+    94.2
+   ],
+   "area_mm2": 5596.0,
+   "pct_of_map_stage": 2.79,
+   "n_components": 1
+  },
+  "신칸센": {
+   "tier": "중앙 군",
+   "label": true,
+   "bbox_art": [
+    1036,
+    1482,
+    1546,
+    1796
+   ],
+   "bbox_norm": [
+    0.518,
+    0.5293,
+    0.773,
+    0.6414
+   ],
+   "wh_mm": [
+    107.1,
+    66.6
+   ],
+   "area_mm2": 2015.0,
+   "pct_of_map_stage": 1.01,
+   "n_components": 1
+  },
+  "시내버스": {
+   "tier": "중앙 군(탈것)",
+   "label": true,
+   "bbox_art": [
+    893,
+    1606,
+    1037,
+    1715
+   ],
+   "bbox_norm": [
+    0.4465,
+    0.5736,
+    0.5185,
+    0.6125
+   ],
+   "wh_mm": [
+    30.2,
+    23.1
+   ],
+   "area_mm2": 445.0,
+   "pct_of_map_stage": 0.22,
+   "n_components": 1
+  },
+  "JR 지상철": {
+   "tier": "탈것",
+   "label": true,
+   "bbox_art": [
+    1052,
+    1845,
+    1412,
+    2100
+   ],
+   "bbox_norm": [
+    0.526,
+    0.6589,
+    0.706,
+    0.75
+   ],
+   "wh_mm": [
+    75.6,
+    54.1
+   ],
+   "area_mm2": 2331.0,
+   "pct_of_map_stage": 1.16,
+   "n_components": 1
+  },
+  "도쿄 메트로": {
+   "tier": "탈것",
+   "label": true,
+   "bbox_art": [
+    1118,
+    2057,
+    1348,
+    2188
+   ],
+   "bbox_norm": [
+    0.559,
+    0.7346,
+    0.674,
+    0.7814
+   ],
+   "wh_mm": [
+    48.3,
+    27.8
+   ],
+   "area_mm2": 886.0,
+   "pct_of_map_stage": 0.44,
+   "n_components": 1
+  },
+  "수상버스": {
+   "tier": "탈것",
+   "label": true,
+   "bbox_art": [
+    1484,
+    1788,
+    1672,
+    1902
+   ],
+   "bbox_norm": [
+    0.742,
+    0.6386,
+    0.836,
+    0.6793
+   ],
+   "wh_mm": [
+    39.5,
+    24.2
+   ],
+   "area_mm2": 650.0,
+   "pct_of_map_stage": 0.32,
+   "n_components": 1
+  },
+  "레인보우 브리지": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    802,
+    2022,
+    1393,
+    2593
+   ],
+   "bbox_norm": [
+    0.401,
+    0.7221,
+    0.6965,
+    0.9261
+   ],
+   "wh_mm": [
+    124.1,
+    121.1
+   ],
+   "area_mm2": 5324.0,
+   "pct_of_map_stage": 2.66,
+   "n_components": 0
+  },
+  "대관람차": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    1404,
+    1986,
+    1651,
+    2388
+   ],
+   "bbox_norm": [
+    0.702,
+    0.7093,
+    0.8255,
+    0.8529
+   ],
+   "wh_mm": [
+    51.9,
+    85.3
+   ],
+   "area_mm2": 2465.0,
+   "pct_of_map_stage": 1.23,
+   "n_components": 0
+  },
+  "도쿄 빅사이트": {
+   "tier": "주변",
+   "label": true,
+   "bbox_art": [
+    1510,
+    2262,
+    1932,
+    2700
+   ],
+   "bbox_norm": [
+    0.755,
+    0.8079,
+    0.966,
+    0.9643
+   ],
+   "wh_mm": [
+    88.6,
+    92.9
+   ],
+   "area_mm2": 4945.0,
+   "pct_of_map_stage": 2.47,
+   "n_components": 1
+  },
+  "택시": {
+   "tier": "탈것",
+   "label": true,
+   "bbox_art": [
+    1142,
+    2318,
+    1252,
+    2412
+   ],
+   "bbox_norm": [
+    0.571,
+    0.8279,
+    0.626,
+    0.8614
+   ],
+   "wh_mm": [
+    23.1,
+    19.9
+   ],
+   "area_mm2": 359.0,
+   "pct_of_map_stage": 0.18,
+   "n_components": 1
+  },
+  "녹지 판(좌상)": {
+   "tier": "풍경 판",
+   "label": false,
+   "bbox_art": [
+    508,
+    1130,
+    760,
+    1295
+   ],
+   "bbox_norm": [
+    0.254,
+    0.4036,
+    0.38,
+    0.4625
+   ],
+   "wh_mm": [
+    52.9,
+    35.0
+   ],
+   "area_mm2": 1106.0,
+   "pct_of_map_stage": 0.55,
+   "n_components": 1
+  },
+  "녹지 판(우)": {
+   "tier": "풍경 판",
+   "label": false,
+   "bbox_art": [
+    1555,
+    1222,
+    2000,
+    1661
+   ],
+   "bbox_norm": [
+    0.7775,
+    0.4364,
+    1.0,
+    0.5932
+   ],
+   "wh_mm": [
+    93.5,
+    93.1
+   ],
+   "area_mm2": 5530.0,
+   "pct_of_map_stage": 2.76,
+   "n_components": 1
+  }
+ },
+ "objects_union_pct_of_map_stage": 40.5,
+ "landmarks_union_pct_of_map_stage": 37.6,
+ "road_pct_of_map_stage": 4.2,
+ "water_pct_of_map_stage": 2.8,
+ "ground_pct_of_map_stage": 0.0,
+ "core_groups": {
+  "중앙 군": {
+   "members": [
+    "도쿄 도청",
+    "가미나리몬(센소지)",
+    "아사쿠사 등롱",
+    "황궁",
+    "메이지 신궁(도리이·숲 판)",
+    "도쿄 타워",
+    "도쿄역",
+    "신칸센",
+    "시내버스"
+   ],
+   "note": "도청·황궁·가미나리몬(등롱)·메이지 신궁·도쿄 타워·도쿄역·신칸센·시내버스 + 그 라벨. 스카이트리·강은 제외",
+   "bbox_art": [
+    500,
+    437,
+    1726,
+    2169
+   ],
+   "bbox_norm": [
+    0.25,
+    0.1561,
+    0.863,
+    0.7746
+   ],
+   "bbox_mm": [
+    105.0,
+    92.7,
+    362.5,
+    460.1
+   ],
+   "bbox_pct_of_map_stage": 47.2,
+   "member_box_union_pct": 31.4,
+   "mass_pct_of_map_stage": 27.6,
+   "hull_pct_of_map_stage": 35.3,
+   "object_px_pct_of_map_stage": 20.4,
+   "centroid_norm": [
+    0.564,
+    0.465
+   ],
+   "close_r_px": 60,
+   "shape": {
+    "principal_axis_deg": 75.7,
+    "elongation": 1.42,
+    "solidity_mass_over_hull": 0.78,
+    "mass_bbox_art": [
+     500,
+     437,
+     1726,
+     2169
+    ],
+    "mass_bbox_aspect_w_over_h": 0.71
+   }
+  },
+  "중앙 군 + 스카이트리 + 스미다강 상류": {
+   "members": [
+    "도쿄 도청",
+    "가미나리몬(센소지)",
+    "아사쿠사 등롱",
+    "황궁",
+    "메이지 신궁(도리이·숲 판)",
+    "도쿄 타워",
+    "도쿄역",
+    "신칸센",
+    "시내버스",
+    "도쿄 스카이트리",
+    "수상버스",
+    "녹지 판(우)"
+   ],
+   "note": "중앙 군에 오른쪽 기둥 히어로(스카이트리)와 그 사이 스미다강 상류 구간·수상버스·우측 녹지 판을 더한 확장 덩어리",
+   "bbox_art": [
+    500,
+    356,
+    2000,
+    2169
+   ],
+   "bbox_norm": [
+    0.25,
+    0.1271,
+    1.0,
+    0.7746
+   ],
+   "bbox_mm": [
+    105.0,
+    75.5,
+    420.0,
+    460.1
+   ],
+   "bbox_pct_of_map_stage": 60.5,
+   "member_box_union_pct": 43.1,
+   "mass_pct_of_map_stage": 36.8,
+   "hull_pct_of_map_stage": 49.6,
+   "object_px_pct_of_map_stage": 27.0,
+   "centroid_norm": [
+    0.647,
+    0.478
+   ],
+   "close_r_px": 60,
+   "shape": {
+    "principal_axis_deg": -75.7,
+    "elongation": 1.05,
+    "solidity_mass_over_hull": 0.73,
+    "mass_bbox_art": [
+     500,
+     356,
+     2000,
+     2169
+    ],
+    "mass_bbox_aspect_w_over_h": 0.83
+   }
+  }
+ }
+}

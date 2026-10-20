@@ -1,0 +1,1296 @@
+{
+ "stage_area_mm2": 162120.0,
+ "stage_area_mm2_ext": 162120.0,
+ "stage_rects": [
+  [
+   0.0,
+   92.0,
+   420.0,
+   478.0
+  ]
+ ],
+ "stage_area_raster_mm2": 162225,
+ "poster_area_mm2": 249480.0,
+ "panels_print": [
+  "L",
+  "P2",
+  "B",
+  "D",
+  "S",
+  "P5"
+ ],
+ "required_elements": {
+  "ok": true,
+  "missing": [],
+  "unexpected_panels": [],
+  "panels": [
+   "L",
+   "P2",
+   "B",
+   "D",
+   "S",
+   "P5"
+  ],
+  "panels_expected": [
+   "L",
+   "P2",
+   "B",
+   "D",
+   "S",
+   "P5"
+  ],
+  "landmarks": [
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "L8",
+   "L9"
+  ],
+  "landmarks_expected": [
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "L8",
+   "L9"
+  ],
+  "nero": {
+   "source": "PROPS",
+   "name": "네로 청동 거상과 콘크리트(벽돌 마감) 받침",
+   "box": [
+    243.6,
+    278.0,
+    257.5,
+    303.2
+   ]
+  },
+  "bridge": {
+   "source": "L8.bridge_screen",
+   "name": "폰스 아일리우스 다리",
+   "has_polys": true
+  },
+  "rule": "하나라도 없으면 실패(위계 비교 전에 판정). 사후 검사 ⑬이 그린 결과(drawn.json)로 다시 본다"
+ },
+ "landmark_shape_source": {
+  "L1": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L2": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L3": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L4": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L5": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L6": {
+   "overlap": "box",
+   "ground": "box"
+  },
+  "L7": {
+   "overlap": "poly_screen",
+   "ground": "ground_screen"
+  },
+  "L8": {
+   "overlap": "poly_screen",
+   "ground": "ground_screen"
+  },
+  "L9": {
+   "overlap": "poly_screen",
+   "ground": "ground_screen"
+  }
+ },
+ "label_shape_source": {
+  "콜로세움(Amphitheatrum Flavium)": "slot",
+  "판테온(Pantheon)": "slot",
+  "카라칼라 욕장(Thermae Antoninianae)": "slot",
+  "트라야누스 시장(Mercati di Traiano)": "slot",
+  "수도교(Aqua Antoniniana)": "slot",
+  "카이킬리아 메텔라 무덤": "slot",
+  "포르투스 항(Portus)": "slot",
+  "막센티우스 바실리카(Basilica of Maxentius)": "slot",
+  "네로 거상 주석(콘크리트 받침 위의 청동 거상)": "slot",
+  "마르켈루스 극장(Theatrum Marcelli)": "slot",
+  "하드리아누스 영묘(Mausoleum Hadriani) + 폰스 아일리우스": "slot"
+ },
+ "hierarchy_rule_d5": {
+  "basis": "사전 = 투영(예정) 상자끼리·실루엣끼리 비교(통과 보고 아님). 최종 판정은 사후 ⑪(drawn.objects 그린 외곽 상자·sil_mm2)",
+  "hero_group": "콜로세움 건물 ∪ 기초 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 거상 받침(사용자 13:33, 예정 상자)",
+  "hero_group_box": [
+   292.2,
+   242.5,
+   400.2,
+   346.2
+  ],
+  "hero_group_area": 11200,
+  "hero_group_box_d5_decision": [
+   214.49,
+   232.44,
+   434.99,
+   387.64
+  ],
+  "hero_building_box": [
+   292.2,
+   242.5,
+   400.2,
+   346.2
+  ],
+  "hero_building_sil_mm2": 9031,
+  "landmark_median": 6092,
+  "hero_over_median": 1.84,
+  "building_sil_rule": "콜로세움 건물 실루엣 ≥ 다른 건물 실루엣 × 1.2",
+  "building_sil_rows": [
+   {
+    "id": "L1",
+    "name": "판테온",
+    "sil_mm2": 14157,
+    "source": "상자(실루엣 자료 없음, 상한)",
+    "pass": null
+   },
+   {
+    "id": "L2",
+    "name": "트라야누스 시장",
+    "sil_mm2": 8064,
+    "source": "상자(실루엣 자료 없음, 상한)",
+    "pass": null
+   },
+   {
+    "id": "L3",
+    "name": "카라칼라 욕장(절개)",
+    "sil_mm2": 9100,
+    "source": "상자(실루엣 자료 없음, 상한)",
+    "pass": null
+   },
+   {
+    "id": "L4",
+    "name": "수도교 아치 열(아쿠아 안토니니아나)",
+    "sil_mm2": 1661,
+    "source": "수도교 아치 열 평행사변형",
+    "pass": true
+   },
+   {
+    "id": "L5",
+    "name": "카이킬리아 메텔라 무덤",
+    "sil_mm2": 6866,
+    "source": "상자(실루엣 자료 없음, 상한)",
+    "pass": true
+   },
+   {
+    "id": "L6",
+    "name": "포르투스 항",
+    "sil_mm2": 2870,
+    "source": "포르투스 외형 다각형",
+    "pass": true
+   },
+   {
+    "id": "L7",
+    "name": "막센티우스 바실리카",
+    "sil_mm2": 2952,
+    "source": "poly_screen",
+    "pass": true
+   },
+   {
+    "id": "L8",
+    "name": "하드리아누스 영묘·폰스 아일리우스",
+    "sil_mm2": 2661,
+    "source": "poly_screen",
+    "pass": true
+   },
+   {
+    "id": "L9",
+    "name": "마르켈루스 극장",
+    "sil_mm2": 2952,
+    "source": "poly_screen",
+    "pass": true
+   }
+  ],
+  "building_sil_fail": [],
+  "building_sil_undetermined_pre": [
+   "L1",
+   "L2",
+   "L3"
+  ],
+  "building_sil_over_max_other": 3.06,
+  "model_source": "map:HERO_COLOSSEUM",
+  "landscape_source": "map:HERO_LANDSCAPE"
+ },
+ "hierarchy": {
+  "core_stage_mm2": 162120.0,
+  "core_stage_main_mm2": 162120.0,
+  "hero_box": [
+   292.2,
+   242.5,
+   400.2,
+   346.2
+  ],
+  "hero_wh": [
+   108.0,
+   103.7
+  ],
+  "hero_area": 11200,
+  "hero_building_box": [
+   292.2,
+   242.5,
+   400.2,
+   346.2
+  ],
+  "hero_building_sil_mm2": 9031,
+  "basis": "사전 판정(투영 상자끼리). 예정 상자로 통과를 보고하지 않는다 — 최종은 사후 ⑪",
+  "landmark_areas": {
+   "판테온": 14157,
+   "트라야누스 시장": 8064,
+   "카라칼라 욕장(절개)": 9100,
+   "수도교 아치 열(아쿠아 안토니니아나)": 4384,
+   "카이킬리아 메텔라 무덤": 6866,
+   "포르투스 항": 6092,
+   "막센티우스 바실리카": 4564,
+   "하드리아누스 영묘·폰스 아일리우스": 5390,
+   "마르켈루스 극장": 4701
+  },
+  "landmark_count": 9,
+  "landmark_median": 6092,
+  "hero_over_landmark_median": 1.84,
+  "hero_over_landmark_max": 0.79,
+  "landmark_min_rule_mm2": 4500.0,
+  "vesuvius_area": null,
+  "tier_areas": {
+   "Basic": {
+    "L 로마 콘크리트란?(정의 + 재료)": 9072,
+    "P2 아치·볼트·돔(콘크리트가 가능하게 한 모양)": 7488,
+    "B 제작 과정 6단계": 19292,
+    "D 왜 오래가나(석회 알갱이 자가치유 4단계 + 단면 원)": 12720,
+    "P5 지금 배우는 것(연구 → 현장 → 적용)": 8268
+   },
+   "Detail": {
+    "Z1 확대 원: 로마 콘크리트 단면 → 석회 알갱이": 2116
+   },
+   "Support": {
+    "S 100년 vs 2000년(❻ 안으로 옮김)": 2106
+   }
+  },
+  "z1_box_source": "composite_box",
+  "basic_min": [
+   "P2 아치·볼트·돔(콘크리트가 가능하게 한 모양)",
+   7488
+  ],
+  "detail_max": [
+   "Z1 확대 원: 로마 콘크리트 단면 → 석회 알갱이",
+   2116
+  ],
+  "detail_min": [
+   "Z1 확대 원: 로마 콘크리트 단면 → 석회 알갱이",
+   2116
+  ],
+  "support": [
+   "S 100년 vs 2000년(❻ 안으로 옮김)",
+   2106
+  ],
+  "ratio_basicmin_over_detailmax": 3.539,
+  "ratio_detailmin_over_support": 1.005,
+  "panel_count_rule": {
+   "rule": "인쇄 패널 5~7개(도시편 중앙값 6, 사용자 결정 2절)",
+   "count": 6,
+   "ids": [
+    "L",
+    "P2",
+    "B",
+    "D",
+    "S",
+    "P5"
+   ],
+   "pass": true
+  },
+  "checks": {
+   "필수 요소 존재(패널 6·랜드마크 L1~L9·네로 거상·R7·폰스 아일리우스 다리)": true,
+   "패널 수 5~7(도시편 근거·사용자 결정 2절)": true,
+   "인쇄 패널 = L·P2·B·D·S·P5": true,
+   "Core 지도 무대 > 모든 Basic·Detail·Support 요소": true,
+   "콜로세움 = 최대 단일 오브젝트(투영 상자 ≥ 표준 랜드마크 최대 × 1.0, 건물 실루엣은 아래 × 1.2)": false,
+   "Basic 각 요소 ≥ 확대 원(Z1)(최소 Basic ≥ 최대 Detail)": true,
+   "표준 랜드마크 하한(각 ≥ 4,500 mm², 메텔라 4,620과 같은 등급)": false,
+   "콜로세움 건물 실루엣 ≥ 다른 건물 실루엣 × 1.2(사전: 실루엣이 있는 건물만, 상자만 있는 건물은 사후 ⑪)": true
+  }
+ },
+ "objects_boxes": {
+  "콜로세움(히어로)": {
+   "box": [
+    292.2,
+    242.5,
+    400.2,
+    346.2
+   ],
+   "wh": [
+    108.0,
+    103.7
+   ],
+   "area": 11200
+  },
+  "판테온": {
+   "box": [
+    120.0,
+    142.0,
+    241.0,
+    259.0
+   ],
+   "wh": [
+    121.0,
+    117.0
+   ],
+   "area": 14157
+  },
+  "트라야누스 시장": {
+   "box": [
+    92.0,
+    298.0,
+    188.0,
+    382.0
+   ],
+   "wh": [
+    96.0,
+    84.0
+   ],
+   "area": 8064
+  },
+  "카라칼라 욕장(절개)": {
+   "box": [
+    248.48,
+    105.84,
+    351.52,
+    194.16
+   ],
+   "wh": [
+    103.0,
+    88.3
+   ],
+   "area": 9100
+  },
+  "수도교 아치 열(아쿠아 안토니니아나)": {
+   "box": [
+    351.5,
+    142.5,
+    420.0,
+    206.5
+   ],
+   "wh": [
+    68.5,
+    64.0
+   ],
+   "area": 4384
+  },
+  "카이킬리아 메텔라 무덤": {
+   "box": [
+    269.82,
+    384.27,
+    350.28,
+    469.61
+   ],
+   "wh": [
+    80.5,
+    85.3
+   ],
+   "area": 6866
+  },
+  "포르투스 항": {
+   "box": [
+    56.2,
+    401.6,
+    153.2,
+    464.4
+   ],
+   "wh": [
+    97.0,
+    62.8
+   ],
+   "area": 6092
+  },
+  "막센티우스 바실리카": {
+   "box": [
+    23.4,
+    232.4,
+    100.5,
+    291.6
+   ],
+   "wh": [
+    77.1,
+    59.2
+   ],
+   "area": 4564
+  },
+  "하드리아누스 영묘·폰스 아일리우스": {
+   "box": [
+    191.3,
+    314.9,
+    282.2,
+    374.2
+   ],
+   "wh": [
+    90.9,
+    59.3
+   ],
+   "area": 5390
+  },
+  "마르켈루스 극장": {
+   "box": [
+    9.47,
+    120.88,
+    90.67,
+    178.78
+   ],
+   "wh": [
+    81.2,
+    57.9
+   ],
+   "area": 4701
+  }
+ },
+ "panel_rects": {
+  "L": [
+   14.0,
+   8.0,
+   122.0,
+   92.0
+  ],
+  "P2": [
+   302.0,
+   20.0,
+   406.0,
+   92.0
+  ],
+  "B": [
+   14.0,
+   482.0,
+   196.0,
+   588.0
+  ],
+  "D": [
+   202.0,
+   482.0,
+   322.0,
+   588.0
+  ],
+  "S": [
+   328.0,
+   553.0,
+   406.0,
+   580.0
+  ],
+  "P5": [
+   328.0,
+   482.0,
+   406.0,
+   588.0
+  ]
+ },
+ "portus_spec": {
+  "lighthouse": {
+   "plan_angle_deg": 78.0,
+   "plan_r": 22.0,
+   "screen_base": [
+    67.18,
+    461.95
+   ],
+   "island_r": 3.4,
+   "apex_z": 25.4
+  },
+  "canals": [
+   {
+    "name": "강 쪽 운하",
+    "plan_x": [
+     494.66,
+     497.66
+    ],
+    "plan_y": [
+     322.24,
+     340.1
+    ]
+   },
+   {
+    "name": "외항 쪽 운하",
+    "plan_x": [
+     494.66,
+     497.66
+    ],
+    "plan_y": [
+     367.1,
+     384.6
+    ]
+   }
+  ]
+ },
+ "z1": {
+  "circle": {
+   "c": [
+    290.0,
+    535.0
+   ],
+   "d": 46.0
+  },
+  "text_box": null,
+  "composite_box": [
+   267.0,
+   512.0,
+   313.0,
+   558.0
+  ],
+  "area": 2116
+ },
+ "overlaps_not_allowed": [
+  [
+   "타이틀",
+   "바닥 글 TIBERIS 테베레강",
+   81.9
+  ],
+  [
+   "콜로세움",
+   "강",
+   79.2
+  ],
+  [
+   "L1 판테온",
+   "강",
+   51.1
+  ],
+  [
+   "L3 카라칼라 욕장(절개)",
+   "강",
+   31.9
+  ],
+  [
+   "L4 수도교 아치 열(아쿠아 안토니니아나)",
+   "강",
+   567.1
+  ],
+  [
+   "L5 카이킬리아 메텔라 무덤",
+   "강",
+   208.4
+  ],
+  [
+   "소품 네로 청동 거상과 콘크리트(벽돌 마감) 받침",
+   "강",
+   26.8
+  ],
+  [
+   "라벨 콜로세움(Amphitheatrum Flavium)",
+   "강",
+   7.6
+  ],
+  [
+   "라벨 카라칼라 욕장(Thermae Antoninianae)",
+   "라벨 네로 거상 주석(콘크리트 받침 위의 청동 거상)",
+   94.6
+  ],
+  [
+   "라벨 카라칼라 욕장(Thermae Antoninianae)",
+   "강",
+   1261.3
+  ],
+  [
+   "라벨 카이킬리아 메텔라 무덤",
+   "강",
+   0.8
+  ],
+  [
+   "라벨 네로 거상 주석(콘크리트 받침 위의 청동 거상)",
+   "강",
+   507.3
+  ]
+ ],
+ "slot_overlaps_allowed": {
+  "rule": "라벨 슬롯은 허용 영역이다. 슬롯-길·슬롯-랜드마크 상자 겹침은 실패가 아니며, 실제 글 블록 외곽은 사후 검사(drawn.json)가 판정한다",
+  "pairs": [
+   [
+    "콜로세움",
+    "라벨 카라칼라 욕장(Thermae Antoninianae)",
+    11.9
+   ],
+   [
+    "L1 판테온",
+    "라벨 판테온(Pantheon)",
+    345.6
+   ],
+   [
+    "L1 판테온",
+    "라벨 카라칼라 욕장(Thermae Antoninianae)",
+    190.3
+   ],
+   [
+    "L1 판테온",
+    "라벨 네로 거상 주석(콘크리트 받침 위의 청동 거상)",
+    1261.3
+   ],
+   [
+    "L5 카이킬리아 메텔라 무덤",
+    "라벨 콜로세움(Amphitheatrum Flavium)",
+    98.0
+   ],
+   [
+    "L5 카이킬리아 메텔라 무덤",
+    "라벨 하드리아누스 영묘(Mausoleum Hadriani) + 폰스 아일리우스",
+    324.0
+   ]
+  ]
+ },
+ "allowed_keyword_pairs": [
+  [
+   [
+    "길 R_route"
+   ],
+   [
+    "L1 ",
+    "L2 ",
+    "L3 ",
+    "L4 ",
+    "L5 ",
+    "L6 ",
+    "L7 ",
+    "L8 ",
+    "L9 ",
+    "콜로세움",
+    "강",
+    "소품 네로"
+   ]
+  ],
+  [
+   [
+    "소품 네로",
+    "소품 네로의"
+   ],
+   [
+    "콜로세움"
+   ]
+  ],
+  [
+   [
+    "소품 네로",
+    "소품 네로의"
+   ],
+   [
+    "L7 "
+   ]
+  ],
+  [
+   [
+    "라벨 막센티우스",
+    "라벨 바실리카",
+    "라벨 BASILICA",
+    "라벨 Basilica"
+   ],
+   [
+    "라벨 네로",
+    "라벨 거상",
+    "라벨 콘크리트(벽돌 마감)"
+   ]
+  ],
+  [
+   [
+    "라벨 하드리아누스",
+    "라벨 영묘",
+    "라벨 MAUSOLEUM",
+    "라벨 Mausoleum"
+   ],
+   [
+    "강"
+   ]
+  ],
+  [
+   [
+    "라벨 마르켈루스",
+    "라벨 극장",
+    "라벨 THEATRE",
+    "라벨 Theatre"
+   ],
+   [
+    "강"
+   ]
+  ]
+ ],
+ "land_in_sea": {},
+ "land_in_river": {
+  "콜로세움": 79.2,
+  "판테온": 51.1,
+  "카라칼라 욕장(절개)": 31.9,
+  "수도교 아치 열(아쿠아 안토니니아나)": 567.1,
+  "카이킬리아 메텔라 무덤": 208.4,
+  "네로 청동 거상과 콘크리트(벽돌 마감) 받침": 26.8
+ },
+ "bridge": {
+  "found": true,
+  "source": "L8.bridge_screen",
+  "polys": true,
+  "river_overlap_mm2": 279.2,
+  "rule": "다리 상판(L8)의 강 위 부분은 land_in_river에서 뺀다(다리–강·다리–R7 접촉은 정상)"
+ },
+ "water_items_on_land_pct": {},
+ "portus_land_sea_split_mm2": {
+  "육지": 1639,
+  "바다": 1230
+ },
+ "contact_distance_mm": {
+  "판테온": 0.0,
+  "트라야누스 시장": 5.2,
+  "카라칼라 욕장(절개)": 0.0,
+  "수도교 아치 열(아쿠아 안토니니아나)": 0.0,
+  "카이킬리아 메텔라 무덤": 0.0,
+  "포르투스 항": 0.0,
+  "막센티우스 바실리카": 93.1,
+  "하드리아누스 영묘·폰스 아일리우스": 7.8,
+  "마르켈루스 극장": 157.1,
+  "콜로세움": 0.0
+ },
+ "contact_ok_le_2.5mm": {
+  "판테온": true,
+  "트라야누스 시장": false,
+  "카라칼라 욕장(절개)": true,
+  "수도교 아치 열(아쿠아 안토니니아나)": true,
+  "카이킬리아 메텔라 무덤": true,
+  "포르투스 항": true,
+  "막센티우스 바실리카": false,
+  "하드리아누스 영묘·폰스 아일리우스": false,
+  "마르켈루스 극장": false,
+  "콜로세움": true
+ },
+ "ring_distance_mm": {
+  "판테온": 193,
+  "트라야누스 시장": 212,
+  "카라칼라 욕장(절개)": 161,
+  "수도교 아치 열(아쿠아 안토니니아나)": 142,
+  "카이킬리아 메텔라 무덤": 129,
+  "포르투스 항": 273,
+  "막센티우스 바실리카": 292,
+  "하드리아누스 영묘·폰스 아일리우스": 117,
+  "마르켈루스 극장": 341
+ },
+ "ring_distance_background_mm": {},
+ "ring_range_median": [
+  117,
+  341,
+  193
+ ],
+ "left_right": {
+  "왼쪽": 8,
+  "오른쪽": 1
+ },
+ "left_right_names": {
+  "왼쪽": [
+   "판테온",
+   "트라야누스 시장",
+   "카라칼라 욕장(절개)",
+   "카이킬리아 메텔라 무덤",
+   "포르투스 항",
+   "막센티우스 바실리카",
+   "하드리아누스 영묘·폰스 아일리우스",
+   "마르켈루스 극장"
+  ],
+  "오른쪽": [
+   "수도교 아치 열(아쿠아 안토니니아나)"
+  ]
+ },
+ "hero_cluster": {
+  "definition": "콜로세움(받침·벽) + 공사장 + 하역장·석회 가마·수레 + 하역장 길 + 테베레 구간(x 100~232)(바지선 2는 하구 쪽이라 뺌). 비율의 분모 = 무대 162,120mm²(STAGE, 확장 0)",
+  "bbox": [
+   100.0,
+   242.5,
+   400.2,
+   478.2
+  ],
+  "bbox_wh": [
+   300.2,
+   235.7
+  ],
+  "bbox_pct_stage": 43.6,
+  "hull_pct_stage": 22.3,
+  "hull_mm2": 36180,
+  "silhouette_pct_stage": 8.9,
+  "silhouette_mm2": 14502,
+  "centroid_mm": [
+   283.6,
+   335.0
+  ],
+  "centroid_norm_poster": [
+   0.675,
+   0.564
+  ],
+  "aspect_h_over_w": 0.79
+ },
+ "core_group_city": {
+  "definition": "히어로 군 + 판테온 + 트라야누스 시장 + 카라칼라 욕장 + 시내 길 2개(도심·시내 구역). 분모 = 무대 162,120mm²",
+  "bbox": [
+   92.0,
+   105.8,
+   400.2,
+   478.2
+  ],
+  "bbox_wh": [
+   308.2,
+   372.4
+  ],
+  "bbox_pct_stage": 70.8,
+  "hull_pct_stage": 52.4,
+  "silhouette_pct_stage": 28.7,
+  "silhouette_mm2": 46544,
+  "hull_mm2": 84959,
+  "centroid_norm_poster": [
+   0.547,
+   0.432
+  ],
+  "components_after_close": 3
+ },
+ "density_estimate": {
+  "stage_area_mm2": 162120.0,
+  "note": "배치 상자 × 덮는 비율 추정(판정에 쓰지 않는다). 판정은 렌더 실측(사후 검사 ⑦): 건물·소품·사람·나무·밭·포도밭·구릉 레이어 알파 ≥ 128 합집합 ÷ 전체 무대 173,460mm² ≥ 39.3%(레퍼런스와 같은 정의). 열린 무대(무대 − 패널·Detail이 덮는 면적) 값은 기록만 한다",
+  "hero_union_mm2": 9031,
+  "landmarks_alpha_est_mm2": 41392,
+  "background_alpha_est_mm2": 0,
+  "props_alpha_est_mm2": 210,
+  "objects_pct_stage_est": 31.2,
+  "objects_pct_poster_est": 20.3,
+  "planted_cover_est_mm2": 0,
+  "planted_count": 0,
+  "objects_plus_planted_pct_stage_est": 31.2,
+  "objects_plus_planted_pct_poster_est": 20.3,
+  "panels_details_cover_stage_mm2": 53,
+  "objects_plus_planted_pct_open_stage_est": 31.2,
+  "river_pct_stage": 9.8,
+  "sea_pct_stage": 5.2,
+  "roads_pct_stage": 0.0,
+  "panel_area_pct_poster": 23.6,
+  "panel_area_mm2": 58946,
+  "map_panels_cover_stage_pct": 0.0
+ },
+ "geo": {
+  "rotation_plan_minus_real_deg": -18.1,
+  "real_north_screen_bearing_deg(시계 방향, 화면 위=0)": 330.5,
+  "bearing_error_abs_mean_deg": 49.1,
+  "bearing_error_abs_median_deg": 41.2,
+  "bearing_error_max": [
+   "카라칼라 욕장(절개)",
+   171.7
+  ],
+  "distance_law": "평면 mm ≈ 205 × km^0.03",
+  "distance_exponent": 0.03,
+  "items": [
+   {
+    "name": "판테온",
+    "real_km": 1.6,
+    "real_bearing": 306,
+    "plan_mm": 190,
+    "plan_bearing": 313,
+    "err_deg": 25
+   },
+   {
+    "name": "트라야누스 시장",
+    "real_km": 0.8,
+    "real_bearing": 321,
+    "plan_mm": 178,
+    "plan_bearing": 254,
+    "err_deg": -49
+   },
+   {
+    "name": "카라칼라 욕장(절개)",
+    "real_km": 1.2,
+    "real_bearing": 179,
+    "plan_mm": 220,
+    "plan_bearing": 349,
+    "err_deg": -172
+   },
+   {
+    "name": "카이킬리아 메텔라 무덤",
+    "real_km": 4.9,
+    "real_bearing": 151,
+    "plan_mm": 177,
+    "plan_bearing": 191,
+    "err_deg": 58
+   },
+   {
+    "name": "포르투스 항",
+    "real_km": 22.9,
+    "real_bearing": 237,
+    "plan_mm": 263,
+    "plan_bearing": 229,
+    "err_deg": 10
+   },
+   {
+    "name": "막센티우스 바실리카",
+    "real_km": 0.3,
+    "real_bearing": 299,
+    "plan_mm": 246,
+    "plan_bearing": 287,
+    "err_deg": 6
+   },
+   {
+    "name": "하드리아누스 영묘·폰스 아일리우스",
+    "real_km": 2.6,
+    "real_bearing": 304,
+    "plan_mm": 102,
+    "plan_bearing": 244,
+    "err_deg": -41
+   },
+   {
+    "name": "마르켈루스 극장",
+    "real_km": 1.1,
+    "real_bearing": 280,
+    "plan_mm": 337,
+    "plan_bearing": 313,
+    "err_deg": 51
+   },
+   {
+    "name": "테베레 하구(오스티아 쪽, 근사)",
+    "real_km": 26.8,
+    "real_bearing": 232,
+    "plan_mm": 248,
+    "plan_bearing": 224,
+    "err_deg": 10
+   },
+   {
+    "name": "알바노 구릉(몬테 카보)",
+    "real_km": 23.7,
+    "real_bearing": 131,
+    "plan_mm": 266,
+    "plan_bearing": 358,
+    "err_deg": -114
+   },
+   {
+    "name": "오스티아 안티카(근사)",
+    "real_km": 22.3,
+    "real_bearing": 228,
+    "plan_mm": 222,
+    "plan_bearing": 207,
+    "err_deg": -3
+   }
+  ],
+  "no_geo": {
+   "수도교 아치 열(아쿠아 안토니니아나)": "없음"
+  }
+ },
+ "labels": {
+  "wall_flag_tag": 11,
+  "floor_text": 2,
+  "total": 13
+ },
+ "pair_marks_spec": {
+  "counts": {
+   "1": 2,
+   "2": 2,
+   "3": 2,
+   "4": 2
+  },
+  "expected_drawn": {
+   "1": 2,
+   "2": 2,
+   "3": 2,
+   "4": 2,
+   "5": 0
+  },
+  "items": [
+   {
+    "glyph": "1",
+    "pt": [
+     372.0,
+     163.0
+    ],
+    "source": "map",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "1",
+    "pt": [
+     304.5,
+     33.5
+    ],
+    "source": "panel",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "2",
+    "pt": [
+     75.6,
+     254.0
+    ],
+    "source": "map",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "2",
+    "pt": [
+     328.6,
+     33.5
+    ],
+    "source": "panel",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "3",
+    "pt": [
+     141.5,
+     306.6
+    ],
+    "source": "map",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "3",
+    "pt": [
+     352.7,
+     33.5
+    ],
+    "source": "panel",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "4",
+    "pt": [
+     168.0,
+     160.0
+    ],
+    "source": "map",
+    "from": "PRINT_MARKS"
+   },
+   {
+    "glyph": "4",
+    "pt": [
+     376.8,
+     33.5
+    ],
+    "source": "panel",
+    "from": "PRINT_MARKS"
+   }
+  ],
+  "has_PAIR_MARKS": true,
+  "rule": "표지는 사양의 mark·mark_pt 값으로만 그린다(이름 추론 금지). 사후 검사 ⑬이 그린 표지 17개(A 3·B~D 각 2·숫자 1~4 각 2)를 본다"
+ },
+ "baseline_8": {
+  "pass": false,
+  "failed": [
+   "8.1-3",
+   "8.1-9",
+   "8.2-3"
+  ],
+  "items": [
+   {
+    "id": "8.1-1",
+    "name": "외곽 타원 반축 44×36.6(평면, ±0.05)",
+    "pass": true,
+    "value": [
+     44.0,
+     36.6
+    ],
+    "expected": [
+     44.0,
+     36.6
+    ],
+    "note": ""
+   },
+   {
+    "id": "8.1-2",
+    "name": "장축 평면 방위 315°(화면 가로, ±0.5°)",
+    "pass": true,
+    "value": 315.0,
+    "expected": 315.0,
+    "note": ""
+   },
+   {
+    "id": "8.1-3",
+    "name": "외곽 타원 중심 평면 (495.76, 124.72)(±0.5)",
+    "pass": false,
+    "value": [
+     519.98,
+     120.42
+    ],
+    "expected": [
+     495.76,
+     124.72
+    ],
+    "note": ""
+   },
+   {
+    "id": "8.1-4",
+    "name": "콜로세움 폭 ÷ 조경 영역 대표 폭 203.5 = 0.53±0.02",
+    "pass": true,
+    "value": 0.531,
+    "expected": 0.53,
+    "note": ""
+   },
+   {
+    "id": "8.1-5",
+    "name": "θ 구간 외벽 높이 = D2 표 ±0.5(4층 53·3층 37·2층 24.5, 경사 부벽·수직 절단 포함)",
+    "pass": true,
+    "value": null,
+    "expected": "D2 표",
+    "note": ""
+   },
+   {
+    "id": "8.1-6",
+    "name": "경기장 앞 정면(θ 18~72°) 높이 ≤ 17(경기장이 보이게)",
+    "pass": true,
+    "value": 17.0,
+    "expected": 17.0,
+    "note": ""
+   },
+   {
+    "id": "8.1-7",
+    "name": "둘째 고리 높이 37(±0.5)·정면 10~80° ≤ 12",
+    "pass": true,
+    "value": {
+     "h": 37.0,
+     "front_az": [
+      10,
+      80
+     ],
+     "front_h_max": 12.0
+    },
+    "expected": {
+     "h": 37.0,
+     "front_az": [
+      10,
+      80
+     ],
+     "front_h": [
+      9.0,
+      12.0
+     ],
+     "front_h_max": 12.0
+    },
+    "note": ""
+   },
+   {
+    "id": "8.1-8",
+    "name": "경기장 복원 나무 바닥 55±3%(나머지 하이포게움)",
+    "pass": true,
+    "value": 0.55,
+    "expected": 0.55,
+    "note": ""
+   },
+   {
+    "id": "8.1-9",
+    "name": "건물 화면 상자 [273.28, 215.35, 418.78, 355.14](±1.5 mm)",
+    "pass": false,
+    "value": [
+     292.2,
+     242.5,
+     400.2,
+     346.2
+    ],
+    "expected": [
+     273.28,
+     215.35,
+     418.78,
+     355.14
+    ],
+    "note": ""
+   },
+   {
+    "id": "8.2-1",
+    "name": "팔각 받침 옆면 0mm(땅 위에 바로 놓임)",
+    "pass": true,
+    "value": [
+     0.0,
+     0.0
+    ],
+    "expected": 0.0,
+    "note": ""
+   },
+   {
+    "id": "8.2-2",
+    "name": "받침·앞 변 기초 절개 0(형태·footprint)",
+    "pass": true,
+    "value": null,
+    "expected": [],
+    "note": ""
+   },
+   {
+    "id": "8.2-3",
+    "name": "히어로 둘레: 판석·경계석·문 앞 포장·인물 무리·노점·공사장·둘레 나무·길 0, 네로 거상 받침 있음",
+    "pass": false,
+    "value": {
+     "판석·경계석·문 앞 포장 0": true,
+     "공사장 0": true,
+     "인물 무리·노점 0": true,
+     "길 0": false,
+     "네로 거상 받침": true
+    },
+    "expected": "모두",
+    "note": "어긋남: 길 0"
+   },
+   {
+    "id": "8.2-4",
+    "name": "LocalBanana 조경 배치 복제 부품 0(12:49 철회: 단칸 아치·벽돌 담·작은 신전·열주·6주 신전·문 폐허·포장 고리·갈래길)",
+    "pass": true,
+    "value": [],
+    "expected": [],
+    "note": ""
+   },
+   {
+    "id": "D7-2",
+    "name": "다리 북쪽 진입 경사 윗끝 = 다리 상판 = 디딤 아래(높이 차 0), 챌면 같게 → 기단 윗면",
+    "pass": true,
+    "value": {
+     "북쪽 차": 0.0,
+     "남쪽 차": 0.0,
+     "챌면": [
+      0.67,
+      0.66,
+      0.67
+     ],
+     "챌면 합 차": 0.0
+    },
+    "expected": 0.0,
+    "note": "map"
+   }
+  ],
+  "hero_model_source": "map:HERO_COLOSSEUM",
+  "landscape_source": "map:HERO_LANDSCAPE",
+  "rule": "기준선 8.1(본체 비례·방향·부서진 정도·보이는 면)·8.2(받침 없음)·12:49 철회(LocalBanana 조경 복제 0, 승인 설계 히어로 군)·D5(Z1 출발점)·D7(R7·영묘 높이). 사전 결과는 기록이고, 사후 ⑱·⑲·⑳이 실패하면 make.py 종료 코드 1",
+  "context": {
+   "building_box": [
+    292.2,
+    242.5,
+    400.2,
+    346.2
+   ],
+   "building_w": 108.0,
+   "rep_w": null,
+   "cut_footprints": [],
+   "composition": {
+    "판석·경계석·문 앞 포장 0": true,
+    "공사장 0": true,
+    "인물 무리·노점 0": true,
+    "길 0": false,
+    "네로 거상 받침": true
+   },
+   "lb_replica": [],
+   "reserve_intrusions": null,
+   "mark_a": null,
+   "r7_gap": null,
+   "mausoleum": {
+    "r7_top_z": 3.0,
+    "deck_z": 3.0,
+    "step_bottom_z": 3.0,
+    "risers": [
+     0.67,
+     0.66,
+     0.67
+    ],
+    "plinth_z": 5.0,
+    "source": "map"
+   }
+  }
+ },
+ "warnings": []
+}

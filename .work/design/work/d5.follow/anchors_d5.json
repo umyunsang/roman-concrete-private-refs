@@ -1,0 +1,181 @@
+{
+ "source": "d5 out/drawn.json(설계 그림의 지시선 끝·시작점·짝 표지 중심, 화면 mm)",
+ "rule": "Blender 앵커 ANCHOR_<이름>은 이 점에서 1.5mm 안의 보이는 면 위 3D 점에 둔다(숨긴 Empty, 루트 자식)",
+ "anchors": {
+  "HERO_label": {
+   "pt": [
+    269.97,
+    247.7
+   ],
+   "owner": "hero"
+  },
+  "NERO_label": {
+   "pt": [
+    184.2,
+    201.77
+   ],
+   "owner": "hero"
+  },
+  "WS_label": {
+   "pt": [
+    225.53,
+    398.9
+   ],
+   "owner": "hero"
+  },
+  "WS_s6": {
+   "pt": [
+    222.5,
+    395.8
+   ],
+   "owner": "hero"
+  },
+  "WS_z1": {
+   "pt": [
+    232.0,
+    396.8
+   ],
+   "owner": "hero"
+  },
+  "L1_label": {
+   "pt": [
+    65.59,
+    208.44
+   ],
+   "owner": "city"
+  },
+  "L1_c1": {
+   "pt": [
+    105.1,
+    218.6
+   ],
+   "owner": "city"
+  },
+  "L1_m4": {
+   "pt": [
+    78.79,
+    203.91
+   ],
+   "owner": "city"
+  },
+  "L2_label": {
+   "pt": [
+    105.34,
+    140.82
+   ],
+   "owner": "city"
+  },
+  "L2_m3": {
+   "pt": [
+    76.22,
+    111.65
+   ],
+   "owner": "city"
+  },
+  "L7_label": {
+   "pt": [
+    211.82,
+    172.44
+   ],
+   "owner": "city"
+  },
+  "L7_m2": {
+   "pt": [
+    225.0,
+    177.0
+   ],
+   "owner": "city"
+  },
+  "L9_label": {
+   "pt": [
+    52.75,
+    312.75
+   ],
+   "owner": "city"
+  },
+  "L3_label": {
+   "pt": [
+    234.86,
+    117.89
+   ],
+   "owner": "baths"
+  },
+  "L4_label": {
+   "pt": [
+    384.15,
+    187.97
+   ],
+   "owner": "baths"
+  },
+  "L4_m1": {
+   "pt": [
+    372.0,
+    163.0
+   ],
+   "owner": "baths"
+  },
+  "L5_label": {
+   "pt": [
+    368.31,
+    347.29
+   ],
+   "owner": "suburb"
+  },
+  "L5_c4": {
+   "pt": [
+    338.4,
+    314.95
+   ],
+   "owner": "suburb"
+  },
+  "V_label": {
+   "pt": [
+    368.0,
+    124.0
+   ],
+   "owner": "suburb"
+  },
+  "L6_label": {
+   "pt": [
+    36.13,
+    433.51
+   ],
+   "owner": "coast"
+  },
+  "L6_c2": {
+   "pt": [
+    56.0,
+    422.8
+   ],
+   "owner": "coast"
+  },
+  "L8_label": {
+   "pt": [
+    141.49,
+    424.71
+   ],
+   "owner": "coast"
+  },
+  "BARGE1_label": {
+   "pt": [
+    82.8,
+    356.9
+   ],
+   "owner": "coast"
+  },
+  "ASH_label": {
+   "pt": [
+    144.25,
+    495.05
+   ],
+   "owner": "coast"
+  },
+  "EMP_label": {
+   "pt": [
+    130.81,
+    360.2
+   ],
+   "owner": "coast"
+  }
+ }
+}

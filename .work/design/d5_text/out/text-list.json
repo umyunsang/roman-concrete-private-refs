@@ -1,0 +1,806 @@
+[
+ {
+  "layer": "바닥 글",
+  "role": "floor_ko",
+  "font": "b",
+  "text": "테베레강"
+ },
+ {
+  "layer": "바닥 글",
+  "role": "floor_ko",
+  "font": "b",
+  "text": "티레니아해"
+ },
+ {
+  "layer": "지도 라벨 콜로세움",
+  "role": "label_ko",
+  "font": "b",
+  "text": "콜로세움"
+ },
+ {
+  "layer": "지도 라벨 콜로세움",
+  "role": "label_body",
+  "font": "m",
+  "text": "겉은 돌, 속과 기초는 콘크리트"
+ },
+ {
+  "layer": "지도 라벨 카라칼라 욕장",
+  "role": "label_ko",
+  "font": "b",
+  "text": "카라칼라 욕장"
+ },
+ {
+  "layer": "지도 라벨 카라칼라 욕장",
+  "role": "label_body",
+  "font": "m",
+  "text": "열탕실 돔 경간 약 36 m, 복원안 기준"
+ },
+ {
+  "layer": "지도 라벨 트라야누스 시장",
+  "role": "label_ko",
+  "font": "b",
+  "text": "트라야누스 시장"
+ },
+ {
+  "layer": "지도 라벨 트라야누스 시장",
+  "role": "label_body",
+  "font": "m",
+  "text": "판상 결정이 균열을 막았다(2014)"
+ },
+ {
+  "layer": "지도 라벨 판테온",
+  "role": "label_ko",
+  "font": "b",
+  "text": "판테온"
+ },
+ {
+  "layer": "지도 라벨 판테온",
+  "role": "label_body",
+  "font": "m",
+  "text": "돔 지름 43.3 m"
+ },
+ {
+  "layer": "지도 라벨 수도교",
+  "role": "label_ko",
+  "font": "b",
+  "text": "수도교"
+ },
+ {
+  "layer": "지도 라벨 수도교",
+  "role": "label_body",
+  "font": "m",
+  "text": "욕장 저수조 64개에 물을 댔다"
+ },
+ {
+  "layer": "지도 라벨 카이킬리아 메텔라 무덤",
+  "role": "label_ko",
+  "font": "b",
+  "text": "카이킬리아 메텔라 무덤"
+ },
+ {
+  "layer": "지도 라벨 카이킬리아 메텔라 무덤",
+  "role": "label_body",
+  "font": "m",
+  "text": "기원전 30~10년 · 드럼 지름 29 m"
+ },
+ {
+  "layer": "지도 라벨 포르투스 항",
+  "role": "label_ko",
+  "font": "b",
+  "text": "포르투스 항"
+ },
+ {
+  "layer": "지도 라벨 포르투스 항",
+  "role": "label_body",
+  "font": "m",
+  "text": "육각 내항과 바다 쪽 외항·등대"
+ },
+ {
+  "layer": "지도 라벨 막센티우스 바실리카",
+  "role": "label_ko",
+  "font": "b",
+  "text": "막센티우스 바실리카"
+ },
+ {
+  "layer": "지도 라벨 막센티우스 바실리카",
+  "role": "label_body",
+  "font": "m",
+  "text": "신랑은 교차 볼트 3칸"
+ },
+ {
+  "layer": "지도 소품 글 네로 거상",
+  "role": "prop_label",
+  "font": "b",
+  "text": "네로 거상"
+ },
+ {
+  "layer": "지도 소품 글 네로 거상",
+  "role": "prop_label",
+  "font": "m",
+  "text": "높이 약 30 m 청동상,"
+ },
+ {
+  "layer": "지도 소품 글 네로 거상",
+  "role": "prop_label",
+  "font": "m",
+  "text": "콘크리트 받침"
+ },
+ {
+  "layer": "지도 라벨 마르켈루스 극장",
+  "role": "label_ko",
+  "font": "b",
+  "text": "마르켈루스 극장"
+ },
+ {
+  "layer": "지도 라벨 마르켈루스 극장",
+  "role": "label_body",
+  "font": "m",
+  "text": "잠긴 기초에서 결정이 자랐다(2011)"
+ },
+ {
+  "layer": "지도 라벨 하드리아누스 영묘",
+  "role": "label_ko",
+  "font": "b",
+  "text": "하드리아누스 영묘"
+ },
+ {
+  "layer": "지도 라벨 하드리아누스 영묘",
+  "role": "label_body",
+  "font": "m",
+  "text": "겉은 대리석, 속은 콘크리트 원통"
+ },
+ {
+  "layer": "지도 ❸",
+  "role": "badge",
+  "font": "b",
+  "text": "3"
+ },
+ {
+  "layer": "지도 ❸",
+  "role": "head_ko",
+  "font": "b",
+  "text": "길 따라 보기"
+ },
+ {
+  "layer": "입구 표지",
+  "role": "subtitle",
+  "font": "b",
+  "text": "입구"
+ },
+ {
+  "layer": "입구 표지",
+  "role": "route_mark",
+  "font": "b",
+  "text": "아피아 가도"
+ },
+ {
+  "layer": "출구 표지",
+  "role": "subtitle",
+  "font": "b",
+  "text": "출구 · 바다로 → ❹"
+ },
+ {
+  "layer": "타이틀",
+  "role": "title_main",
+  "font": "b",
+  "text": "로마 콘크리트"
+ },
+ {
+  "layer": "타이틀",
+  "role": "title_line",
+  "font": "b",
+  "text": "로마 건축물로 읽는 로마 콘크리트"
+ },
+ {
+  "layer": "패널 L",
+  "role": "badge",
+  "font": "b",
+  "text": "1"
+ },
+ {
+  "layer": "패널 L",
+  "role": "head_en",
+  "font": "b",
+  "text": "로마 콘크리트란?"
+ },
+ {
+  "layer": "패널 L",
+  "role": "body",
+  "font": "m",
+  "text": "생석회와 화산재가 물과 반응해 굳는 반죽에"
+ },
+ {
+  "layer": "패널 L",
+  "role": "body",
+  "font": "m",
+  "text": "돌·벽돌 조각(골재)을 다져 넣은 로마 건축 재료."
+ },
+ {
+  "layer": "패널 L",
+  "role": "body",
+  "font": "m",
+  "text": "돔·볼트·방파제에 쓰였고 철근은 쓰지 않았다."
+ },
+ {
+  "layer": "패널 L",
+  "role": "subtitle",
+  "font": "b",
+  "text": "생석회"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "석회암을 구운 것"
+ },
+ {
+  "layer": "패널 L",
+  "role": "subtitle",
+  "font": "b",
+  "text": "화산재"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "시내 = 알바노 구릉"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "바다 = 포추올리"
+ },
+ {
+  "layer": "패널 L",
+  "role": "subtitle",
+  "font": "b",
+  "text": "골재"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "응회암·벽돌·"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "경석 조각"
+ },
+ {
+  "layer": "패널 L",
+  "role": "subtitle",
+  "font": "b",
+  "text": "물"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "육상 = 민물"
+ },
+ {
+  "layer": "패널 L",
+  "role": "iconcaption",
+  "font": "m",
+  "text": "바다 공사 = 바닷물"
+ },
+ {
+  "layer": "패널 L",
+  "role": "body",
+  "font": "b",
+  "text": "섞는 순서는 ❹"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "badge",
+  "font": "b",
+  "text": "2"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "head_en",
+  "font": "b",
+  "text": "아치·볼트·돔"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "b",
+  "text": "아치"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "콘크리트 없이 돌·벽돌"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "쐐기가 서로 밀어 선다"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "b",
+  "text": "배럴 볼트"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "반원 단면 터널 지붕"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "바실리카 측랑"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "b",
+  "text": "교차 볼트"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "두 터널이 직각 교차"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "바실리카 신랑"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "b",
+  "text": "돔"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "반구 지붕과 빛 구멍(오큘러스)"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "caption",
+  "font": "m",
+  "text": "위로 갈수록 가벼운 골재(판테온)"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "m",
+  "text": "트라야누스 시장 대회랑 8.6 m"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "m",
+  "text": "카라칼라 열탕실 약 36 m"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "body",
+  "font": "m",
+  "text": "판테온 43.3 m"
+ },
+ {
+  "layer": "패널 P2",
+  "role": "footnote",
+  "font": "m",
+  "text": "기둥 없이 덮은 폭(경간) · 반죽을 나무 거푸집에 다져 넣어 곡면 지붕을 만들었다"
+ },
+ {
+  "layer": "패널 B",
+  "role": "badge",
+  "font": "b",
+  "text": "4"
+ },
+ {
+  "layer": "패널 B",
+  "role": "head_en",
+  "font": "b",
+  "text": "만드는 과정"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "1"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "재료 준비"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "생석회·화산재·골재"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "2"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "마른 혼합"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "물 없이 먼저 섞기"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "폼페이 현장의 미리 섞은 더미(2025)"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "3"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "물 붓기"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "육상 건물은 민물"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "4"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "뜨거운 혼합"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "끓어오르며 알갱이가 남는다"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "5"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "다져 넣기"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "거푸집에 층층이 다져 넣는다"
+ },
+ {
+  "layer": "패널 B",
+  "role": "number",
+  "font": "b",
+  "text": "6"
+ },
+ {
+  "layer": "패널 B",
+  "role": "step",
+  "font": "b",
+  "text": "굳기·석회 알갱이"
+ },
+ {
+  "layer": "패널 B",
+  "role": "body",
+  "font": "m",
+  "text": "굳은 단면 속 흰 알갱이"
+ },
+ {
+  "layer": "패널 D",
+  "role": "badge",
+  "font": "b",
+  "text": "5"
+ },
+ {
+  "layer": "패널 D",
+  "role": "head_en",
+  "font": "b",
+  "text": "석회 알갱이"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "왜 오래가나"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "뜨거운 혼합"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "생석회+물 → 흰 석회 알갱이"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "균열"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "금이 알갱이를 지난다"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "빗물"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "빗물이 칼슘을 녹인다"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "결정 봉합"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "탄산칼슘이 틈을 메운다"
+ },
+ {
+  "layer": "확대 원",
+  "role": "caption",
+  "font": "m",
+  "text": "로마 콘크리트 단면"
+ },
+ {
+  "layer": "패널 D",
+  "role": "caption",
+  "font": "b",
+  "text": "바닷물"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "바닷물 · 포르투스"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "바닷물과 반응해 새 광물이 자라"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "더 단단해졌다(2017·코사 항 시료)"
+ },
+ {
+  "layer": "패널 D",
+  "role": "caption",
+  "font": "m",
+  "text": "류사이트 용출"
+ },
+ {
+  "layer": "패널 D",
+  "role": "caption",
+  "font": "m",
+  "text": "접합부 재편"
+ },
+ {
+  "layer": "패널 D",
+  "role": "subtitle",
+  "font": "b",
+  "text": "빗물 · 메텔라 무덤"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "화산재 속 류사이트가 녹아"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "접합부를 다시 짰다(2021 연구)"
+ },
+ {
+  "layer": "패널 D",
+  "role": "body",
+  "font": "m",
+  "text": "2023 MIT 연구(프리베르노 시료)가 뜨거운 혼합을 제시하고, 2025 폼페이 공사 현장 연구가 확인했다"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "badge",
+  "font": "b",
+  "text": "6"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "head_en",
+  "font": "b",
+  "text": "지금 배우는 것"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "subtitle",
+  "font": "b",
+  "text": "연구"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "2014 시장 모르타르: 판상 결정이 균열을 막음"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "2017 항구: 바닷물이 새 광물을 키움"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "subtitle",
+  "font": "b",
+  "text": "현장"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "2023 MIT: 뜨거운 혼합·석회 알갱이 제시"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "2025 폼페이 공사 현장에서 확인"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "subtitle",
+  "font": "b",
+  "text": "적용"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "제안·연구 단계: 해안·항만 보호 구조물"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "큰 골재·철근 없음 · 3D 프린팅 내구성"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "subtitle",
+  "font": "b",
+  "text": "가져올 것"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "반응하는 화산재와 석회의 결합"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "뜨거운 혼합·석회 알갱이"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "subtitle",
+  "font": "b",
+  "text": "못 가져올 것"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "강도가 느리게 붙는다"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "body",
+  "font": "m",
+  "text": "철근을 못 지킨다(알칼리성 낮음)"
+ },
+ {
+  "layer": "패널 P5",
+  "role": "footnote",
+  "font": "m",
+  "text": "탄소: 만들 때 배출은 현대 콘크리트와 같거나 더 크고, 수명이 길어 연간 배출은 적다"
+ },
+ {
+  "layer": "패널 S",
+  "role": "head_en",
+  "font": "b",
+  "text": "100 대 2,000"
+ },
+ {
+  "layer": "패널 S",
+  "role": "head_ko",
+  "font": "b",
+  "text": "콘크리트 수명"
+ },
+ {
+  "layer": "패널 S",
+  "role": "body",
+  "font": "b",
+  "text": "현대 콘크리트 약 100년"
+ },
+ {
+  "layer": "패널 S",
+  "role": "body",
+  "font": "b",
+  "text": "로마 콘크리트 2,000년+"
+ },
+ {
+  "layer": "패널 S",
+  "role": "footnote",
+  "font": "m",
+  "text": "강도가 아니라 수명이다"
+ },
+ {
+  "layer": "패널 S",
+  "role": "footnote",
+  "font": "m",
+  "text": "압축 강도는 현대 콘크리트가 높다"
+ }
+]

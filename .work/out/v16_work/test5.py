@@ -1,0 +1,13 @@
+import time
+src = open("scripts/wireframe_v16.py", encoding="utf-8").read()
+exec(compile(src, "wireframe_v16.py", "exec"))
+t0 = time.time()
+L = Layer(10, 125, 170, 380, "core")
+draw_core(L)
+print("draw", time.time() - t0)
+print(L.measure())
+bg = Layer(10, 125, 170, 380, "bg", bg=BG + (255,))
+bg.paste(L)
+out = bg.img.resize((bg.w // SS, bg.h // SS), Image.LANCZOS).convert("RGB")
+out.save("out/v16_work/test5.png")
+print(out.size)

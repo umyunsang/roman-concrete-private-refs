@@ -1,0 +1,614 @@
+{
+ "ref": "203x-newyork",
+ "map_stage_art": [
+  0,
+  390,
+  2000,
+  2685
+ ],
+ "map_stage_area_px": 4590000,
+ "map_stage_mm": [
+  0.0,
+  82.7,
+  420.0,
+  569.6
+ ],
+ "landmarks": {
+  "엠파이어 스테이트 빌딩": {
+   "tier": "히어로(코어)",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1095,
+    392,
+    1415,
+    1697
+   ],
+   "bbox_norm": [
+    0.5475,
+    0.14,
+    0.7075,
+    0.6061
+   ],
+   "wh_mm": [
+    67.2,
+    276.8
+   ],
+   "area_mm2": 12434.0,
+   "pct_of_map_stage": 6.08,
+   "n_components": 0
+  },
+  "크라이슬러 빌딩": {
+   "tier": "코어",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1340,
+    464,
+    1612,
+    1500
+   ],
+   "bbox_norm": [
+    0.67,
+    0.1657,
+    0.806,
+    0.5357
+   ],
+   "wh_mm": [
+    57.1,
+    219.8
+   ],
+   "area_mm2": 8697.0,
+   "pct_of_map_stage": 4.25,
+   "n_components": 0
+  },
+  "타임스스퀘어(전광판 탑)": {
+   "tier": "코어",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    743,
+    520,
+    1012,
+    1253
+   ],
+   "bbox_norm": [
+    0.3715,
+    0.1857,
+    0.506,
+    0.4475
+   ],
+   "wh_mm": [
+    56.5,
+    155.5
+   ],
+   "area_mm2": 6132.0,
+   "pct_of_map_stage": 3.0,
+   "n_components": 0
+  },
+  "킹콩": {
+   "tier": "코어",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1005,
+    760,
+    1171,
+    1008
+   ],
+   "bbox_norm": [
+    0.5025,
+    0.2714,
+    0.5855,
+    0.36
+   ],
+   "wh_mm": [
+    34.9,
+    52.6
+   ],
+   "area_mm2": 1184.0,
+   "pct_of_map_stage": 0.58,
+   "n_components": 0
+  },
+  "브로드웨이(극장 블록)": {
+   "tier": "코어",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    848,
+    1063,
+    1120,
+    1314
+   ],
+   "bbox_norm": [
+    0.424,
+    0.3796,
+    0.56,
+    0.4693
+   ],
+   "wh_mm": [
+    57.1,
+    53.2
+   ],
+   "area_mm2": 2195.0,
+   "pct_of_map_stage": 1.07,
+   "n_components": 0
+  },
+  "플랫아이언 빌딩": {
+   "tier": "코어",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    887,
+    1352,
+    1172,
+    1797
+   ],
+   "bbox_norm": [
+    0.4435,
+    0.4829,
+    0.586,
+    0.6418
+   ],
+   "wh_mm": [
+    59.8,
+    94.4
+   ],
+   "area_mm2": 3920.0,
+   "pct_of_map_stage": 1.92,
+   "n_components": 0
+  },
+  "이정표(가로등)": {
+   "tier": "코어(소품)",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1357,
+    1352,
+    1498,
+    1734
+   ],
+   "bbox_norm": [
+    0.6785,
+    0.4829,
+    0.749,
+    0.6193
+   ],
+   "wh_mm": [
+    29.6,
+    81.0
+   ],
+   "area_mm2": 994.0,
+   "pct_of_map_stage": 0.49,
+   "n_components": 0
+  },
+  "링컨 센터": {
+   "tier": "업타운",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1538,
+    611,
+    1703,
+    865
+   ],
+   "bbox_norm": [
+    0.769,
+    0.2182,
+    0.8515,
+    0.3089
+   ],
+   "wh_mm": [
+    34.6,
+    53.9
+   ],
+   "area_mm2": 1452.0,
+   "pct_of_map_stage": 0.71,
+   "n_components": 0
+  },
+  "GE 빌딩": {
+   "tier": "업타운",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1683,
+    818,
+    1868,
+    1392
+   ],
+   "bbox_norm": [
+    0.8415,
+    0.2921,
+    0.934,
+    0.4971
+   ],
+   "wh_mm": [
+    38.9,
+    121.8
+   ],
+   "area_mm2": 3917.0,
+   "pct_of_map_stage": 1.92,
+   "n_components": 0
+  },
+  "센트럴파크": {
+   "tier": "업타운(블리드)",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1560,
+    768,
+    2000,
+    1332
+   ],
+   "bbox_norm": [
+    0.78,
+    0.2743,
+    1.0,
+    0.4757
+   ],
+   "wh_mm": [
+    92.4,
+    119.6
+   ],
+   "area_mm2": 5625.0,
+   "pct_of_map_stage": 2.75,
+   "n_components": 0
+  },
+  "크리스마스 트리": {
+   "tier": "업타운(소품)",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1870,
+    1086,
+    1949,
+    1301
+   ],
+   "bbox_norm": [
+    0.935,
+    0.3879,
+    0.9745,
+    0.4646
+   ],
+   "wh_mm": [
+    16.6,
+    45.6
+   ],
+   "area_mm2": 443.0,
+   "pct_of_map_stage": 0.22,
+   "n_components": 0
+  },
+  "버스": {
+   "tier": "탈것",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1595,
+    1408,
+    1763,
+    1537
+   ],
+   "bbox_norm": [
+    0.7975,
+    0.5029,
+    0.8815,
+    0.5489
+   ],
+   "wh_mm": [
+    35.3,
+    27.4
+   ],
+   "area_mm2": 586.0,
+   "pct_of_map_stage": 0.29,
+   "n_components": 0
+  },
+  "다리 이정판 2개": {
+   "tier": "소품",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    1508,
+    1583,
+    1815,
+    1768
+   ],
+   "bbox_norm": [
+    0.754,
+    0.5654,
+    0.9075,
+    0.6314
+   ],
+   "wh_mm": [
+    64.5,
+    39.2
+   ],
+   "area_mm2": 986.0,
+   "pct_of_map_stage": 0.48,
+   "n_components": 0
+  },
+  "뉴욕 증권거래소": {
+   "tier": "다운타운",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    421,
+    1422,
+    736,
+    1712
+   ],
+   "bbox_norm": [
+    0.2105,
+    0.5079,
+    0.368,
+    0.6114
+   ],
+   "wh_mm": [
+    66.1,
+    61.5
+   ],
+   "area_mm2": 3208.0,
+   "pct_of_map_stage": 1.57,
+   "n_components": 0
+  },
+  "원 월드 트레이드 센터": {
+   "tier": "다운타운",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    192,
+    1167,
+    312,
+    1615
+   ],
+   "bbox_norm": [
+    0.096,
+    0.4168,
+    0.156,
+    0.5768
+   ],
+   "wh_mm": [
+    25.2,
+    95.0
+   ],
+   "area_mm2": 1817.0,
+   "pct_of_map_stage": 0.89,
+   "n_components": 0
+  },
+  "택시": {
+   "tier": "탈것",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    250,
+    1598,
+    489,
+    1748
+   ],
+   "bbox_norm": [
+    0.125,
+    0.5707,
+    0.2445,
+    0.6243
+   ],
+   "wh_mm": [
+    50.2,
+    31.8
+   ],
+   "area_mm2": 1058.0,
+   "pct_of_map_stage": 0.52,
+   "n_components": 0
+  },
+  "지하철·월스트리트역 간판": {
+   "tier": "탈것",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    359,
+    1881,
+    648,
+    2125
+   ],
+   "bbox_norm": [
+    0.1795,
+    0.6718,
+    0.324,
+    0.7589
+   ],
+   "wh_mm": [
+    60.7,
+    51.8
+   ],
+   "area_mm2": 1852.0,
+   "pct_of_map_stage": 0.91,
+   "n_components": 0
+  },
+  "자유의 여신상(리버티섬 받침)": {
+   "tier": "먼 랜드마크(좌하 전경)",
+   "label": true,
+   "method": "GrabCut",
+   "bbox_art": [
+    78,
+    1661,
+    413,
+    2558
+   ],
+   "bbox_norm": [
+    0.039,
+    0.5932,
+    0.2065,
+    0.9136
+   ],
+   "wh_mm": [
+    70.3,
+    190.3
+   ],
+   "area_mm2": 5950.0,
+   "pct_of_map_stage": 2.91,
+   "n_components": 0
+  },
+  "브루클린 다리": {
+   "tier": "연결(전경)",
+   "label": true,
+   "method": "poly∩비지면",
+   "bbox_art": [
+    638,
+    1752,
+    1194,
+    2372
+   ],
+   "bbox_norm": [
+    0.319,
+    0.6257,
+    0.597,
+    0.8471
+   ],
+   "wh_mm": [
+    116.8,
+    131.5
+   ],
+   "area_mm2": 10412.0,
+   "pct_of_map_stage": 5.09,
+   "n_components": 0
+  },
+  "맨해튼 다리": {
+   "tier": "연결(전경)",
+   "label": true,
+   "method": "poly∩비지면",
+   "bbox_art": [
+    994,
+    1608,
+    1437,
+    2338
+   ],
+   "bbox_norm": [
+    0.497,
+    0.5743,
+    0.7185,
+    0.835
+   ],
+   "wh_mm": [
+    93.0,
+    154.9
+   ],
+   "area_mm2": 9772.0,
+   "pct_of_map_stage": 4.78,
+   "n_components": 0
+  }
+ },
+ "objects_union_pct_of_map_stage": 41.9,
+ "landmarks_union_pct_of_map_stage": 34.3,
+ "road_pct_of_map_stage": 0.0,
+ "water_pct_of_map_stage": 0.0,
+ "ground_pct_of_map_stage": 12.3,
+ "core_groups": {
+  "미드타운 군": {
+   "members": [
+    "엠파이어 스테이트 빌딩",
+    "크라이슬러 빌딩",
+    "타임스스퀘어(전광판 탑)",
+    "킹콩",
+    "브로드웨이(극장 블록)",
+    "플랫아이언 빌딩",
+    "이정표(가로등)"
+   ],
+   "note": "타임스스퀘어 전광판 탑·킹콩·브로드웨이·엠파이어·크라이슬러·플랫아이언·이정표 + 그 라벨",
+   "bbox_art": [
+    608,
+    392,
+    1651,
+    1797
+   ],
+   "bbox_norm": [
+    0.304,
+    0.14,
+    0.8255,
+    0.6418
+   ],
+   "bbox_mm": [
+    127.7,
+    83.2,
+    346.7,
+    381.2
+   ],
+   "bbox_pct_of_map_stage": 31.9,
+   "member_box_union_pct": 21.6,
+   "mass_pct_of_map_stage": 19.7,
+   "hull_pct_of_map_stage": 26.6,
+   "object_px_pct_of_map_stage": 16.8,
+   "centroid_norm": [
+    0.593,
+    0.403
+   ],
+   "close_r_px": 60,
+   "shape": {
+    "principal_axis_deg": -87.8,
+    "elongation": 1.35,
+    "solidity_mass_over_hull": 0.74,
+    "mass_bbox_art": [
+     608,
+     392,
+     1651,
+     1797
+    ],
+    "mass_bbox_aspect_w_over_h": 0.74
+   }
+  },
+  "미드타운 + 업타운(센트럴파크 방향)": {
+   "members": [
+    "엠파이어 스테이트 빌딩",
+    "크라이슬러 빌딩",
+    "타임스스퀘어(전광판 탑)",
+    "킹콩",
+    "브로드웨이(극장 블록)",
+    "플랫아이언 빌딩",
+    "이정표(가로등)",
+    "링컨 센터",
+    "GE 빌딩",
+    "센트럴파크",
+    "크리스마스 트리",
+    "버스"
+   ],
+   "note": "미드타운 군에 링컨 센터·GE 빌딩·센트럴파크(오른쪽 블리드)·트리·버스를 더한 섬 위쪽 덩어리",
+   "bbox_art": [
+    743,
+    392,
+    2000,
+    1797
+   ],
+   "bbox_norm": [
+    0.3715,
+    0.14,
+    1.0,
+    0.6418
+   ],
+   "bbox_mm": [
+    156.0,
+    83.2,
+    420.0,
+    381.2
+   ],
+   "bbox_pct_of_map_stage": 38.5,
+   "member_box_union_pct": 27.4,
+   "mass_pct_of_map_stage": 23.1,
+   "hull_pct_of_map_stage": 29.5,
+   "object_px_pct_of_map_stage": 20.0,
+   "centroid_norm": [
+    0.665,
+    0.397
+   ],
+   "close_r_px": 60,
+   "shape": {
+    "principal_axis_deg": 14.4,
+    "elongation": 1.09,
+    "solidity_mass_over_hull": 0.78,
+    "mass_bbox_art": [
+     743,
+     392,
+     2000,
+     1797
+    ],
+    "mass_bbox_aspect_w_over_h": 0.89
+   }
+  }
+ }
+}

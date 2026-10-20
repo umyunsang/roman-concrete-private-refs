@@ -1,0 +1,170 @@
+{
+ "203x-tokyo": {
+  "full": "203x-tokyo/StH_2021_05_Poster_Tokyo-1.jpg",
+  "full_wh": [
+   1000,
+   1400
+  ],
+  "art_wh": [
+   2000,
+   2800
+  ],
+  "hi_res_cover_pct": 50.0,
+  "tiles": {
+   "01": {
+    "file": "203x-tokyo/StH_2021_Poster_Tokyo_01.jpg",
+    "score": 0.9789,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     0.0,
+     0.0
+    ],
+    "art_wh": [
+     1000,
+     933
+    ]
+   },
+   "04": {
+    "file": "203x-tokyo/StH_2021_Poster_Tokyo_04.jpg",
+    "score": 0.9751,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     1000.0,
+     934.0
+    ],
+    "art_wh": [
+     1000,
+     934
+    ]
+   },
+   "05": {
+    "file": "203x-tokyo/StH_2021_Poster_Tokyo_05.jpg",
+    "score": 0.9839,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     0.0,
+     1868.0
+    ],
+    "art_wh": [
+     1000,
+     933
+    ]
+   }
+  }
+ },
+ "203x-newyork2-centralpark": {
+  "full": "203x-newyork2-centralpark/StH_202209_158_new-york2.jpg",
+  "full_wh": [
+   1000,
+   1400
+  ],
+  "art_wh": [
+   2000,
+   2800
+  ],
+  "hi_res_cover_pct": 50.0,
+  "tiles": {
+   "01": {
+    "file": "203x-newyork2-centralpark/1000_StH_202209_158_poster_01.jpg",
+    "score": 0.9926,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     0.0,
+     0.0
+    ],
+    "art_wh": [
+     1000,
+     933
+    ]
+   },
+   "04": {
+    "file": "203x-newyork2-centralpark/1000_StH_202209_158_poster_04.jpg",
+    "score": 0.963,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     1000.0,
+     932.0
+    ],
+    "art_wh": [
+     1000,
+     934
+    ]
+   },
+   "05": {
+    "file": "203x-newyork2-centralpark/1000_StH_202209_158_poster_05.jpg",
+    "score": 0.9445,
+    "scale_tile_to_full": 0.5,
+    "scale_tile_to_art": 1.0,
+    "art_xy": [
+     0.0,
+     1866.0
+    ],
+    "art_wh": [
+     1000,
+     933
+    ]
+   }
+  }
+ },
+ "203x-newyork": {
+  "full": "203x-newyork/New-York1.jpg",
+  "full_wh": [
+   450,
+   630
+  ],
+  "art_wh": [
+   2000,
+   2800
+  ],
+  "hi_res_cover_pct": 49.8,
+  "tiles": {
+   "1": {
+    "file": "203x-newyork/1000_35_newyork_1.jpg",
+    "score": 0.9832,
+    "scale_tile_to_full": 0.22455,
+    "scale_tile_to_art": 0.998,
+    "art_xy": [
+     0.0,
+     0.0
+    ],
+    "art_wh": [
+     998,
+     931
+    ]
+   },
+   "4": {
+    "file": "203x-newyork/1000_35_newyork_4.jpg",
+    "score": 0.9884,
+    "scale_tile_to_full": 0.22455,
+    "scale_tile_to_art": 0.998,
+    "art_xy": [
+     1000.0,
+     933.3
+    ],
+    "art_wh": [
+     998,
+     931
+    ]
+   },
+   "5": {
+    "file": "203x-newyork/1000_35_newyork_5.jpg",
+    "score": 0.9919,
+    "scale_tile_to_full": 0.22455,
+    "scale_tile_to_art": 0.998,
+    "art_xy": [
+     0.0,
+     1866.7
+    ],
+    "art_wh": [
+     998,
+     931
+    ]
+   }
+  }
+ }
+}

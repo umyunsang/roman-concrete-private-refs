@@ -1,0 +1,17 @@
+[v2_check.py] 0.1s     } |     ^ | SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 326
+ Traceback (most recent call last):
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/v2_check.py", line 2566, in <module>
+    sys.exit(main_pre(sys.argv[1], sys.argv[2]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/v2_check.py", line 141, in main_pre
+    import v2_data as D_  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/v2_data.py", line 9, in <module>
+    from v2_map import *  # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/v2_map.py", line 358
+    }
+    ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 326
+
+실패: v2_check.py(사전 검사 결과 없음)

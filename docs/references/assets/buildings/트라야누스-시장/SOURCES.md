@@ -1,0 +1,2 @@
+- user_trajan_markets.png — 사용자 제공(2026-10-19 16:25), 원본 URL: https://www.researchgate.net/publication/267376765/figure/fig1/AS:669491574870022@1536630638303/sometric-view-of-the-Trajans-Markets-MacDonald-1-the-Great-Hall-is-highlighted.png
+- user_trajan_markets.jpg — 사용자 제공(2026-10-19 16:28, ResearchGate 등각도 대신 이것으로 변경), 원본 URL: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3wTeIZeeli7VUWzNu3wwaWn9ujxD1P5b7ctbayTkGQ&s=10

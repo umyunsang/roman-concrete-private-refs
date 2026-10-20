@@ -1,0 +1,12 @@
+import time
+src = open("scripts/wireframe_v16.py", encoding="utf-8").read()
+exec(compile(src, "wireframe_v16.py", "exec"))
+t0 = time.time()
+L = Layer(232, 180, 448, 390, "arena", bg=BG + (255,))
+draw_arena(L)
+print("draw", time.time() - t0)
+m = L.measure()
+print(m)
+out = L.img.resize((L.w // SS, L.h // SS), Image.LANCZOS).convert("RGB")
+out.save("out/v16_work/test4.png")
+print(out.size)

@@ -1,0 +1,82 @@
+{
+ "_note": "통합 루프(사용자 12:18): 설계 패키지(map·panels·render·global, .work/design/OWNERS.json)와 Blender 패키지(hero·city·baths·suburb·coast·ground·bglobal)를 한 회차에 함께 고친다. 다시 짓는 순서: 설계 병합 d{N+1} → current 링크 갱신 → hero → city → baths → suburb → coast → ground(맨 마지막, X_CUT_* 적용) → 렌더 b{N+1} → 정보 층(d{N+1} render.py INFO_ONLY) → 합성 · compose.py는 설계 다이어그램과 같은 가장자리 그라데이션(위 4 mm, 아래 62 mm)으로 지도를 합성한다(사용자 13:40, bglobal은 유지한다)",
+ "hero": {
+  "files": [
+   "lib/roma_pkg_hero.py",
+   "lib/roma_colo.py",
+   "lib/roma_colo_in.py",
+   "lib/roma_layers.py"
+  ],
+  "collections": [
+   "HERO_Colosseum"
+  ],
+  "module": "roma_pkg_hero",
+  "crop": "hero"
+ },
+ "city": {
+  "files": [
+   "lib/roma_pkg_city.py"
+  ],
+  "collections": [
+   "LM_City"
+  ],
+  "module": "roma_pkg_city",
+  "crop": "city"
+ },
+ "baths": {
+  "files": [
+   "lib/roma_pkg_baths.py"
+  ],
+  "collections": [
+   "LM_Baths"
+  ],
+  "module": "roma_pkg_baths",
+  "crop": "baths"
+ },
+ "suburb": {
+  "files": [
+   "lib/roma_pkg_suburb.py"
+  ],
+  "collections": [
+   "LM_Suburb"
+  ],
+  "module": "roma_pkg_suburb",
+  "crop": "suburb_far"
+ },
+ "coast": {
+  "files": [
+   "lib/roma_pkg_coast.py"
+  ],
+  "collections": [
+   "LM_Coast"
+  ],
+  "module": "roma_pkg_coast",
+  "crop": "coast"
+ },
+ "ground": {
+  "files": [
+   "lib/roma_pkg_ground.py"
+  ],
+  "collections": [
+   "MAP_Ground"
+  ],
+  "module": "roma_pkg_ground",
+  "crop": null
+ },
+ "bglobal": {
+  "files": [
+   "lib/roma_kit.py",
+   "lib/roma_flat.py",
+   "lib/roma_geo.py",
+   "lib/roma_props.py",
+   "lib/roma_render.py",
+   "lib/roma_load.py",
+   "tools/compose.py"
+  ],
+  "collections": [
+   "PROTO"
+  ],
+  "module": null,
+  "crop": null
+ }
+}

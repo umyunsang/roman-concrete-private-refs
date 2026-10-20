@@ -1,0 +1,26 @@
+[v2_check.py] 4.2s     8절 D7-1 R7 북쪽 끝–광장 판석 틈 0(≤ 0.05mm) — 값 7.403  | 사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,110 · 히어로 비 5.62 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배) | 사전 검사 완료: 필수 요소 모두 있음 · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 랜드마크 9 · 허용 안 된 겹침 1 · 경고 0
+사전 8절 검사 실패: 실패 1건 D7-1 · 본체 원천 map:HERO_COLOSSEUM
+    8절 D7-1 R7 북쪽 끝–광장 판석 틈 0(≤ 0.05mm) — 값 7.403 
+사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,110 · 히어로 비 5.62 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배)
+[v2_build.py] 0.2s 사양 JSON 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/spec.json · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 무대 173460.0 · 랜드마크 9 · Basic 최소 ['P5 지금 배우는 중(연구 → 현장 → 적용)', 5670] · Detail 최대 ['Z1 확대 창: 콜로세움 기초 콘크리트 단면 → 석회 알갱이', 5460] · 필수 요소 모두 있음
+[v2_svg.py] 0.2s 미리보기 SVG 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/preview.svg
+[render.py] 10.6s [render   8.6s] 라벨 자리 | [render   9.1s] 지형 | [render   9.2s] 패널
+[v2_check.py] 0.2s 보조 통과 drawn.json 계약 형식: footprints [{name, kind, poly}]·roads [{id, name, polys}]·objects [{id, name, box}](화면 mm, 필수 필드·id 중복 0) | 보조 통과 그린 무대 = STAGE 하나(R·T 확장 0) | 사후 검사 실패: 실패 7건 → /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json
+── 사후 검사 실패 항목 ──
+② 실패 라벨 배율 1.00·글자면 결정 7 ±0.1(소품 주석 2.6·짝 표지 2.2)·피치 4.15±0.05·슬롯 넘침 ≤ 0.5mm·라벨/길/건물/지시선과 2mm 이상·깃대형 깃대 수직(x 편차 ≤ 0.1)·끝점 Ø0.9·대상 간격 ≤ 0.5
+    - 슬롯 넘침 3.51mm: 포르투스 항
+⑤ 실패 길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움·바실리카–R2)
+    - 콜로세움 길-지면 간격 27.06mm > 1.6
+⑦ 실패 밀도 ≥ 39.3%(렌더 실측, 전체 무대 173,460mm² 기준 판정 · 열린 무대 값 기록)
+    - 밀도(전체 무대) 32.68% < 39.3%
+⑨ 실패 포르투스 입구 18~22mm·섬 양옆 물길 ≥ 4mm·탑–두 팔 끝 보이는 물 ≥ 4mm·운하 2곳 연속
+    - 섬 옆 물길 3.25mm < 4
+⑰ 통과 정보 층 정합(INFO_ONLY): 지시선 끝–앵커 ≤ 0.5mm(6mm 밖은 맞추지 못함 = 실패), 허용쌍 밖 라벨 블록–Blender 실루엣 겹침 0
+⑱ 실패 기준선 8.1 콜로세움 본체(그린 결과): 반축 44×36.6·장축 315°·중심·폭 비 0.53±0.02·θ 구간 외벽 높이 ±0.5·정면 ≤ 17·둘째 고리 37/정면 ≤ 12·나무 바닥 55±3%·건물 상자
+    - 8.1-4 콜로세움 폭 ÷ 조경(광장) 폭 = 0.53±0.02 — 값 null · 자료 없음(본체 폭 107.69999999999999 · 광장 폭 None)
+⑲ 실패 기준선 8.2 받침 없음 + 12:49 히어로 군(그린 결과): 받침 옆면 0·받침·절개 footprint 0·광장·공사장·인물 무리·네로 받침·문·시내 지붕과 나무·LocalBanana 조경 복제 0
+    - 8.2-3 히어로 군 구성(12:49): 광장 포장·기초 공사장·인물 무리 ≥ 3·네로 거상 받침 — 값 {"광장 포장": false, "기초 공사장": true, "인물 무리": 4, "네로 거상 받침": true, "문(아피아 가도·하역장 길)": true, "둘레 시내 지붕과 나무": true} · 없음: 광장 포장
+⑳ 실패 D5·D7 연결(그린 결과): Z1 지시선 = 공사장 거푸집 오른쪽 면에서 ↘30° 한 직선·A 표지 자리·R7–광장 틈 0·영묘 양 끝 높이 차 0
+    - D7-1 R7 북쪽 끝–광장 판석 틈 0(≤ 0.05mm) — 값 null · 자료 없음
+사후 검사 실패: 실패 7건 → /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json
+결과: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/post_check.json

@@ -1,0 +1,158 @@
+{
+ "Shinkansen(이름+본문)": {
+  "box": [
+   1440,
+   1245,
+   1560,
+   1395
+  ],
+  "baseline_deg": -29.5,
+  "stem_p90_px": 13.0,
+  "stem_p90_mm": 2.7,
+  "text_px": 1918
+ },
+ "Tokyo Station": {
+  "box": [
+   1565,
+   1305,
+   1720,
+   1460
+  ],
+  "baseline_deg": -29.0,
+  "stem_p90_px": 17.0,
+  "stem_p90_mm": 3.6,
+  "text_px": 1307
+ },
+ "Meiji Jingu Shrine": {
+  "box": [
+   1140,
+   1450,
+   1290,
+   1605
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 17.0,
+  "stem_p90_mm": 3.6,
+  "text_px": 2873
+ },
+ "Rainbow Bridge": {
+  "box": [
+   700,
+   2240,
+   860,
+   2395
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 15.700000000000017,
+  "stem_p90_mm": 3.3,
+  "text_px": 3276
+ },
+ "Tokyo Metropolitan Gov.": {
+  "box": [
+   1040,
+   615,
+   1260,
+   835
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 13.0,
+  "stem_p90_mm": 2.7,
+  "text_px": 4831
+ },
+ "Tokyo Skytree": {
+  "box": [
+   1580,
+   720,
+   1760,
+   895
+  ],
+  "baseline_deg": -29.5,
+  "stem_p90_px": 12.0,
+  "stem_p90_mm": 2.5,
+  "text_px": 4396
+ },
+ "Imperial Palace": {
+  "box": [
+   1205,
+   860,
+   1350,
+   1060
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 35.0,
+  "stem_p90_mm": 7.3,
+  "text_px": 4196
+ },
+ "Sensoji Kaminarimon": {
+  "box": [
+   1430,
+   690,
+   1590,
+   940
+  ],
+  "baseline_deg": -29.5,
+  "stem_p90_px": 13.0,
+  "stem_p90_mm": 2.7,
+  "text_px": 5412
+ },
+ "Roppongi Hills Mori Tower": {
+  "box": [
+   100,
+   1415,
+   345,
+   1565
+  ],
+  "baseline_deg": -29.5,
+  "stem_p90_px": 15.0,
+  "stem_p90_mm": 3.1,
+  "text_px": 5613
+ },
+ "Statue of Hachiko": {
+  "box": [
+   150,
+   1650,
+   345,
+   1810
+  ],
+  "baseline_deg": -29.5,
+  "stem_p90_px": 17.0,
+  "stem_p90_mm": 3.6,
+  "text_px": 5572
+ },
+ "Gotokuji Temple": {
+  "box": [
+   150,
+   2200,
+   300,
+   2350
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 14.0,
+  "stem_p90_mm": 2.9,
+  "text_px": 2846
+ },
+ "Tokyo Tower": {
+  "box": [
+   585,
+   1480,
+   690,
+   1645
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 13.0,
+  "stem_p90_mm": 2.7,
+  "text_px": 2779
+ },
+ "Sumida River(바닥 글)": {
+  "box": [
+   1335,
+   1885,
+   1480,
+   1965
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 10.0,
+  "stem_p90_mm": 2.1,
+  "text_px": 1891
+ }
+}

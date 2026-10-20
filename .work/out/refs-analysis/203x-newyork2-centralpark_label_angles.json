@@ -1,0 +1,110 @@
+{
+ "The Metropolitan Museum of Art": {
+  "box": [
+   495,
+   670,
+   700,
+   880
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 17.0,
+  "stem_p90_mm": 3.6,
+  "text_px": 5146
+ },
+ "American Museum of Natural History": {
+  "box": [
+   430,
+   410,
+   640,
+   560
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 11.099999999999998,
+  "stem_p90_mm": 2.3,
+  "text_px": 308
+ },
+ "Soldiers' and Sailors' Monument": {
+  "box": [
+   740,
+   500,
+   990,
+   720
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 14.0,
+  "stem_p90_mm": 2.9,
+  "text_px": 6478
+ },
+ "Cathedral of St. John the Divine": {
+  "box": [
+   1170,
+   380,
+   1460,
+   600
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 14.0,
+  "stem_p90_mm": 2.9,
+  "text_px": 5997
+ },
+ "Solomon R. Guggenheim Museum": {
+  "box": [
+   1000,
+   1080,
+   1230,
+   1270
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 14.400000000000034,
+  "stem_p90_mm": 3.0,
+  "text_px": 5426
+ },
+ "Queensboro Bridge": {
+  "box": [
+   600,
+   1880,
+   780,
+   2040
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 14.0,
+  "stem_p90_mm": 2.9,
+  "text_px": 2354
+ },
+ "Roosevelt Island Tramway": {
+  "box": [
+   950,
+   1280,
+   1120,
+   1450
+  ],
+  "baseline_deg": 30.0,
+  "stem_p90_px": 10.300000000000004,
+  "stem_p90_mm": 2.2,
+  "text_px": 305
+ },
+ "Opera Gallery New York": {
+  "box": [
+   480,
+   1220,
+   640,
+   1360
+  ],
+  "baseline_deg": -30.0,
+  "stem_p90_px": 15.0,
+  "stem_p90_mm": 3.1,
+  "text_px": 3407
+ },
+ "CENTRAL PARK(바닥 글)": {
+  "box": [
+   1140,
+   548,
+   1312,
+   672
+  ],
+  "baseline_deg": 18.5,
+  "stem_p90_px": null,
+  "stem_p90_mm": null,
+  "text_px": 16
+ }
+}

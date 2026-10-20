@@ -1,0 +1,158 @@
+--- /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.global/v2_build.py	2026-10-19 13:26:33
++++ v2_build.py	2026-10-19 15:32:05
+@@ -239,7 +239,7 @@
+     details.append(e)
+ 
+ size_table = [{"tier": "Core", "name": "지도 무대 전체(로마 건축물 지도, STAGE 하나·확장 0)", "box": list(D.STAGE), "ext_rects": D.STAGE_EXT, "area_mm2": D.STAGE_AREA_EXT}]
+-size_table.append({"tier": "Core(히어로)", "name": "콜로세움(건물 ∪ 조경 광장, 단일 오브젝트)", "box": hb, "area_mm2": H["hero_area"],
++size_table.append({"tier": "Core(히어로)", "name": "콜로세움 히어로 군(건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침, 13:33)", "box": hb, "area_mm2": H["hero_area"],
+                    "building_box": HD5.get("hero_building_box"), "building_sil_mm2": HD5.get("hero_building_sil_mm2"), "basis": "사전 투영(예정) 상자 — 최종은 사후 ⑪"})
+ for x in landmarks:
+     size_table.append({"tier": "Core(표준 랜드마크)", "name": x["name"], "box": x["projected_box"], "area_mm2": x["projected_area_mm2"]})
+@@ -295,7 +295,7 @@
+             "applied": [
+                 "8.1 콜로세움 본체: 외곽 타원 반축 44×36.6(평면, 장축 315° = 화면 가로), 중심 (446.54,161.86)(조경 중심에서 뒤-왼쪽으로 물림), 아치 40칸, θ 구간 외벽 높이(4층 53·3층 37·2층 24.5, 경사 부벽·수직 절단), 정면 18~72° ≤ 17, 둘째 고리 37(정면 10~80° ≤ 12), 나무 바닥 55%·하이포게움. core_map.hero.colosseum",
+                 "8.1 비례: 콜로세움 폭 ≈ 조경(광장) 폭의 0.53. 이 비례가 d4의 ring_ratio 0.74·벽 60/28/12보다 우선한다(폐기)",
+-                "12:49 사용자 철회: 콜로세움 둘레에 LocalBanana 조경 배치를 옮겨 오지 않는다. 둘레는 승인 설계의 히어로 군(광장 포장·기초 공사장·인물 무리·네로 거상 받침·문·둘레 시내 지붕과 나무)이다. core_map.hero.landscape",
++                "12:49 사용자 철회: 콜로세움 둘레에 LocalBanana 조경 배치를 옮겨 오지 않는다. 13:33: 넓은 판석 광장·경계석·문 앞 포장 0 → 히어로 군 = 콜로세움 건물 ∪ 기초 공사장 ∪ 인물 무리 ∪ 노점 2 ∪ 네로 거상 받침(사용자 13:33 히어로 군). 13:35: 옛 광장 자리(조경 중심 평면 R 90.5)를 땅·길·집·나무로 채우지 않고 Core 건축물(메텔라·판테온)이 더 잘 보이는 배치에 쓴다. core_map.hero.landscape",
+                 "8.2 팔각형 받침대 없음: 받침 옆면 0mm, 팔각 외곽·지층·앞 변 기초 절개 0. 확대 창 Z1 출발점은 공사장 거푸집 오른쪽 면(다져 넣은 층) (232.0, 396.8)",
+                 "8.3·0-1 그림체: 벡터 일러스트(203X). " + D.STYLE_RULE + ". 제작 단계 면제 표시는 쓰지 않는다(와이어프레임이 루프 안에 있다)",
+                 "8.4: Comfy 재구성 모델 0. 7절(P2·P5·L7~L9·네로 받침)은 d4 이행을 유지한다",
+@@ -387,7 +387,7 @@
+         "required_elements": REQ,
+         "basis_d5": "사전 checks는 투영(예정) 상자끼리의 판정이다(통과 보고 아님). 최종 판정은 사후 ⑪(drawn.objects 그린 외곽 상자끼리·sil_mm2 실루엣끼리)이고 make.py가 post_summary에 적는다",
+         "rule_d5": HD5,
+-        "hero_definition": "히어로 = 콜로세움 건물 ∪ 조경 광장(단일 오브젝트). 사전 히어로 군 상자 = 건물 실루엣 상자 ∪ 예약 반지름 화면 타원(결정 [139.7, 226.4, 360.2, 381.6] = 34,222mm²)",
++        "hero_definition": "최대 단일 오브젝트 = 콜로세움 건물(실루엣 ≥ 다른 건물 × 1.2). 히어로 군 = 콜로세움 건물 ∪ 기초 공사장 ∪ 인물 무리 ∪ 노점 2 ∪ 네로 거상 받침(사용자 13:33 히어로 군). 사전 히어로 군 상자 = 부품 예정 상자의 합, 사후 = 그린 외곽 상자(drawn.objects hero_group)",
+         "l5_rule": "메텔라는 그린 상자가 66×64.8 = 4,276.8mm²로 하한 미달이었다(d4). 설계 2D 그림은 사양 상자 [354,288,420,358] 중심 기준 %.2f배(x 420에서 잘림) → 4,530 이상(render), Blender suburb는 fit_to_box" % D.L5_DRAW_SCALE,
+         "post_summary": None,
+     },
+@@ -430,29 +430,28 @@
+     },
+     "core_map": {
+         "hero": {
+-            "name": "콜로세움(Amphitheatrum Flavium) — 히어로·최대 단일 오브젝트(건물 ∪ 조경 광장)",
++            "name": "콜로세움(Amphitheatrum Flavium) — 히어로·최대 단일 오브젝트(건물). 히어로 군 = 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침",
+             # render 하위 호환 열쇠(map 옛 상수가 남아 있으면 그 값, 없으면 받침 0의 기본값). d5 원천은 아래 colosseum·landscape다
+             "center_screen": list(getattr(D, "HERO_C", D.HERO_LANDSCAPE_D5["center_screen"])), "center_plan": R1(getattr(D, "HERO_C_PLAN", D.HERO_LANDSCAPE_D5["center_plan"])),
+-            "oct_R_plan": getattr(D, "HERO_R", D.HERO_LANDSCAPE_D5["reserve_R_plan"]), "base_side_T": getattr(D, "HERO_SIDE", 0.0), "ring_ratio": getattr(D, "HERO_RING", None),
+-            "base_oct_screen": [R1(p) for p in oct_], "walls": getattr(D, "HERO_WALLS", []),
+-            "legacy_keys_note": "center_screen·oct_R_plan·base_side_T·ring_ratio·base_oct_screen·walls·cutaway는 d4 render 하위 호환 열쇠다. 8.1·8.2의 원천은 colosseum·landscape(받침 0)이고, 옛 값이 남아 있으면 사전 baseline_8·사후 ⑱⑲가 실패로 잡는다",
++            "nofill_R_plan": 90.5, "nofill_rule": "13:35: 옛 광장 자리(조경 중심 평면 R 90.5)에는 Core 랜드마크와 히어로 군만 둔다(집·나무·밭·길·소품 0)",
++            "removed_keys_d5": "d4 받침 열쇠(oct_R_plan·base_side_T·ring_ratio·base_oct_screen·walls·cutaway)는 d5에서 뺐다(8.2·13:33). 원천은 colosseum·landscape",
+             "projected_box": hb, "projected_wh": H["hero_wh"], "projected_area_mm2": H["hero_area"],
+             "hero_group_box": hb, "building_box": HD5.get("hero_building_box"), "building_sil_mm2": HD5.get("hero_building_sil_mm2"),
+             "colosseum": colosseum_spec(), "landscape": landscape_spec(),
+-            "cutaway": getattr(D, "HERO_CUTAWAY", None), "worksite": D.WORKSITE,
++            "worksite": D.WORKSITE,
+             "interior": getattr(D, "HERO_INTERIOR", None),
+             "form": [
+                 "기준선 8.1(LocalBanana와 같은 본체): 외곽 타원 반축 44×36.6(평면, 장축 315° = 화면 가로), 중심 (446.54,161.86) = 조경 중심 (462.34,173.66)에서 뒤-왼쪽 (−15.8,−11.8), 아치 40칸, 층 윗선 z 11.5·24.5·37·53",
+                 "부서진 정도(θ = atan2(dY,dX)): 100~205° 왼쪽~뒤-왼쪽 4층 53(앞쪽 끝 100~112° 경사 부벽 41·46·50, 뒤쪽 끝 205~209° 수직 절단 44), 209~322° 뒤~오른쪽 3층 37(일부 33.5), 322~338° 3층 → 2층 계단 31·27, 338~18° 앞-오른쪽 2층 24.5(들쭉날쭉 18~24.5), 18~72° 경기장 앞 정면 1층 + 토막 ≤ 17, 72~100° 앞-왼쪽 3층 30·37",
+                 "보이는 면: 둘째 고리 37(정면 10~80°만 9~12), 관람석(깊이 10.4~22.7, 높이 24.0→4.4, 계단석 θ 238~360°·0~48°, 나머지 방사벽·짙은 빈칸), 경기장 반축 20.1×12.7 — u ≥ −2.0 복원 나무 바닥(55%, Z 0.6, 난간), u < −2.0 하이포게움(바닥 Z −4.0, 동심 벽·중앙 통로·칸막이)",
+                 "기준선 8.2: 팔각형 받침대 없음 — 콜로세움과 둘레는 지도 땅(Z 0) 위에 바로 놓이고 도시 조직과 이어진다. 받침 옆면·지층·앞 변 기초 절개 0",
+-                "둘레(12:49 철회 뒤 승인 설계 히어로 군): 광장 포장(조경 영역 = 옛 히어로 자리, 예약 반지름 평면 90), 기초 공사장(거푸집·다짐 막대 일꾼·반죽 통·재료 더미), 인물 무리(키 4.9), 네로 거상 받침, 문(아피아 가도 R1·하역장 길 R4, 영묘 길 R7은 광장 판석까지), 둘레 시내 지붕과 나무. LocalBanana 조경 배치는 옮겨 오지 않는다",
++                "둘레(13:33·13:35): 넓은 판석 광장·경계석·문 앞 포장은 0이다. 히어로 군 = 기초 공사장(거푸집·다짐 막대 일꾼·반죽 통·재료 더미), 인물 무리 4(키 4.9), 노점 2(땅 기준점 (210, 364)·(300, 359)), 네로 거상 받침과 작은 포장 마당. 길 R1·R4·R7은 옛 광장 경계(평면 R 90.5)에서 끝난다. 그 안은 땅·길·집·나무 0이고 Core 랜드마크(메텔라)가 들어온다. LocalBanana 조경 배치는 옮겨 오지 않는다(12:49)",
+                 "확대 창 Z1 출발점 = 공사장 거푸집 오른쪽 면(다져 넣은 층) (232.0, 396.8) → ↘30° 한 직선 → Z1 원 (272.38, 420.11)",
+                 "높이 과장 없음(8.1 수치 그대로), 라벨 수치는 실제값(약 188×156 m, 높이 약 48 m)",
+             ],
+             "gates": {"아피아 가도 문(R1, 광장 뒤-오른쪽)": R1(D.to_screen(*D.road_plan(R1_ROAD)[0])) if R1_ROAD else None,
+-                      "하역장 길 문(R4, 광장 앞-왼쪽)": R1(D.to_screen(*D.road_plan(R4_ROAD)[0])) if R4_ROAD else None,
+-                      "영묘 길 R7 북쪽 끝(광장 판석)": R1(D.to_screen(*D.road_plan(R7_ROAD)[0])) if R7_ROAD else None},
++                      "하역장 길 R4 끝(옛 광장 경계 R 90.5)": R1(D.to_screen(*D.road_plan(R4_ROAD)[0])) if R4_ROAD else None,
++                      "영묘 길 R7 북쪽 끝(옛 광장 경계 R 90.5)": R1(D.to_screen(*D.road_plan(R7_ROAD)[0])) if R7_ROAD else None},
+         },
+         "landmarks": landmarks,
+         "background": background,
+@@ -466,9 +465,9 @@
+                    "spec": _bridge_spec(), "polys_screen": [[R2(p) for p in pg] for pg in (BRIDGE.get("polys") or [])] if BRIDGE else None,
+                    "rule": "상판이 ↘ 팔을 건너 R7과 만난다(상판 높이 3, 아치 3개). 다리–강·다리–R7 접촉은 정상(사전 허용쌍·사후 ⑭ 제외). 다리는 L8 영묘 묶음"},
+         "zones": {
+-            "도심": "콜로세움(건물 ∪ 조경 광장, 받침 0) + 테베레 ↘ 팔 + 하역장·석회 가마·수레·기초 공사장(지도 가운데) + 네로 거상 받침과 작은 포장 마당 [172,196,198,228](뒤-왼쪽)",
++            "도심": "콜로세움(건물, 받침 0, 13:33 광장 0) + 인물 무리·노점 + 테베레 ↘ 팔 + 하역장·석회 가마·수레·기초 공사장(지도 가운데) + 네로 거상 받침과 작은 포장 마당 [172,196,198,228](뒤-왼쪽)",
+             "시내": "트라야누스 시장(왼쪽 위) · 판테온(왼쪽 가운데) · 마르켈루스 극장(판테온과 강 사이 둑) · 막센티우스 바실리카(히어로 4층 조각 뒤) · 카라칼라 욕장(뒤쪽 가운데-오른쪽)",
+-            "테베레 오른쪽 둑": "하드리아누스 영묘 + 폰스 아일리우스(굽이 안쪽, 길 R7이 콜로세움 광장 판석(북쪽 끝 평면 (489.6, 250.4))에서 다리 북쪽 끝까지)",
++            "테베레 오른쪽 둑": "하드리아누스 영묘 + 폰스 아일리우스(굽이 안쪽, 길 R7이 옛 광장 경계(북쪽 끝 평면 (489.6, 259.96), R 90.5)에서 다리 북쪽 끝까지)",
+             "남동 교외": "수도교 아치 열(오른쪽 위) · 아피아 가도 · 카이킬리아 메텔라 무덤(오른쪽 가운데) · 포도밭·교외 빌라(오른쪽 아래, 무대 아래 변 y 505까지). 하단 띠 오른쪽은 P5(띠 바탕)",
+             "서남서 해안": "테베레 하구 · 포르투스(육각 내항 육지 + 외항·등대 바다) · 오스티아(하구 왼쪽 둑, Z1 글 칸 아래) · 바다(왼쪽 아래 모서리)",
+             "가장 먼 곳": "무대 안 오른쪽 위: 베수비오 %s · 포도밭 농장 %s · 알바노 구릉 띠 %s(그리는 순서 산 → 농장 → 구릉, 앞 능선이 산 밑동 x 360~418 전체를 3~5mm 연속으로 가림). 위 띠 오른쪽은 P2(종이 바탕)" % (fbox(VES_BOX), fbox(FARM.get("box") if FARM else None), fbox(ALBANO.get("box") if ALBANO else None)),
+@@ -479,7 +478,7 @@
+             "plan": {"arm1": f"평면 Y = {D.RIVER_Y} (↘, 왼쪽 변 → 굽이)", "arm2": f"평면 X = {D.RIVER_XB} (↙, 굽이 → 해안 Y {D.COAST_Y})", "fillet_R": D.RIVER_FILLET},
+             "width_screen_perp_mm": {"↘ 팔": D.RIVER_W1, "↙ 팔(하구 쪽)": D.RIVER_W2},
+             "polygon_screen": river_poly,
+-            "rules": ["±30°만(수직 구간 0), 꺾임은 평면 직각 1회(둥근 굽이)", "콜로세움 광장 앞-왼쪽 가장자리와 나란히 흐른다(조경 예약 반지름 90 밖): 그 사이 띠가 하역장·석회 가마·수레 자리", "강은 콜로세움 군의 가장자리만 지나고 가르지 않는다", "물 면 = 평면색 한 값(PAL water), 둑 = 평면 면 톤(AO 0)", "하구는 바다로 흘러들고(사용자 B 원래 결정·트라바키), 하구 오른쪽 둑에 포르투스, 왼쪽 둑에 오스티아", "폰스 아일리우스가 ↘ 팔을 건너 영묘(오른쪽 둑)와 R7(왼쪽 둑)을 잇는다"],
++            "rules": ["±30°만(수직 구간 0), 꺾임은 평면 직각 1회(둥근 굽이)", "콜로세움 앞-왼쪽(옛 광장 경계 R 90.5 밖)과 나란히 흐른다: 그 사이 띠가 하역장·석회 가마·수레 자리", "강은 콜로세움 군의 가장자리만 지나고 가르지 않는다", "물 면 = 평면색 한 값(PAL water), 둑 = 평면 면 톤(AO 0)", "하구는 바다로 흘러들고(사용자 B 원래 결정·트라바키), 하구 오른쪽 둑에 포르투스, 왼쪽 둑에 오스티아", "폰스 아일리우스가 ↘ 팔을 건너 영묘(오른쪽 둑)와 R7(왼쪽 둑)을 잇는다"],
+             "river_pct_stage": chk["density_estimate"]["river_pct_stage"],
+         },
+         "sea_coast": {
+@@ -509,7 +508,7 @@
+                      "note": "오른쪽 변 밖(남동 시골)에서 ↖로 들어와 카라칼라 욕장 오른쪽 변 (336,160)에 닿는다(아쿠아 마르키아의 지선 아쿠아 안토니니아나 → 욕장 저수조 64개[S47][S49]). 2단 관통 아치(높이 26·교각 간격 8 유지, 아래층 개구 폭 5.3·위층 3.9, 아치 안쪽 면 1.5mm, 개구부 뒤로 지면이 보인다), 지면보다 채도를 2배 이상 높인 벽돌·석재 색(지스몬디 2.1~4.6배). 숫자 짝 표지 1 = 아치 면"},
+         "road_rules": ["±30° 띠만, 꺾임은 평면 직각", "폭은 화면 수직 폭. 주축 16mm + 흰 중앙선 1.6mm(도쿄·베를린), 보조 8~10mm", "길과 실제 지면 다각형의 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움·바실리카–R2, 사후 검사 ⑤)",
+                        "길 연장은 map이 사양 좌표(plan_pts)에 넣는다. render는 길 좌표를 하드코딩하지 않는다", "모든 랜드마크가 길·강·해안·수도교 중 하나에 2.5mm 안으로 닿는다(도쿄 19/23)",
+-                       "R7(폭 8, 평면 X 489.6)은 콜로세움 광장 판석(북쪽 끝 (489.6, 250.4), 틈 0)에서 폰스 아일리우스 북쪽 끝(Y 304.76)까지 간다. 남쪽 끝 Y 294.76~304.76에 Z 0→3.0 진입 경사(다리 상판 3.0과 높이 차 0). R7–콜로세움 광장·R7–강·R7–L8 접촉 허용"],
++                       "R7(폭 8, 평면 X 489.6)은 옛 광장 경계(평면 R 90.5, 북쪽 끝 (489.6, 259.96))에서 폰스 아일리우스 북쪽 끝(Y 304.76)까지 간다. 남쪽 끝 Y 294.76~304.76에 Z 0→3.0 진입 경사(다리 상판 3.0과 높이 차 0). R7–강·R7–L8 접촉 허용"],
+         "props": D.PROPS,
+         "terrain": D.TERRAIN,
+         "planted": D.PLANTED,
+@@ -548,7 +547,7 @@
+         "process_representation": {
+             "decision": "패널 안 단계 도식(B) + 지도 위 공사장 장면(Core 소품) + 지시선 1개",
+             "panel": "B 196×60mm: 6칸 등각 소형 장면, 칸 사이 바닥 화살표(신문), 아래 시간 화살표(피라미드), 단계 번호 원(폼페이 레드). 단계명 3.0mm, 설명 2.6mm(피치 3.9), 시간 화살표 글 2.1mm",
+-            "map_scene": "콜로세움 광장 앞 가장자리의 기초 공사장(거푸집·다짐 막대 일꾼·반죽 통·재료 더미, 상자 [208,386,250,410]) + 테베레 하역장·석회 가마·수레·바지선(① 재료 준비와 같은 그림). 거푸집 오른쪽 면(다져 넣은 층)이 확대 창 Z1의 출발점",
++            "map_scene": "콜로세움 앞-왼쪽 땅 위의 기초 공사장(거푸집·다짐 막대 일꾼·반죽 통·재료 더미, 상자 [208,386,250,410]) + 테베레 하역장·석회 가마·수레·바지선(① 재료 준비와 같은 그림). 거푸집 오른쪽 면(다져 넣은 층)이 확대 창 Z1의 출발점",
+             "link": D.LEADERS[0],
+             "evidence": "피라미드 CHANGE OF THE FORM 196×50mm(끝 아이콘이 히어로 꼭짓점 15mm 옆), 런던 BUS LINE 9(지도 위 버스 → 패널 제목 지시선), 신문 바닥 화살표, 자금성 ROOF BUILDING(패널 안 등각 아이콘)",
+         },
+@@ -628,9 +627,9 @@
+             "texts": "[{text, layer(층), role(label_en·label_ko·label_sup·label_body·prop_annot·tag·head_en·head_ko·step·subtitle·body·note·mark 등), font, em, face(글자면 mm), bbox 또는 poly, pitch(여러 줄일 때), panel(속한 상자 id)}]. role 'mark'(짝 표지)는 text = 글자(A~D·1~4), c = 중심 [x,y], source = map·detail·panel, r = 원 반지름(2.0)을 함께 쓴다(총 17개: A 3·B 2·C 2·D 2·숫자 8)",
+             "labels": "[{name(슬롯 이름), kind(브래킷·깃대형·태그·소품 주석), poly(실제 글 블록 평행사변형), dir(↗·↘), scale, slot([x0,y0,x1,y1]), faces{en,ko,sup,body | 소품 주석은 모든 줄 2.6}, pitch, leader{pts, dot_d, target, gap, lw}, clearance{building(알파 ≥128 건물과의 최소 간격 mm)}}]. 깃대형은 leader.pts가 한 수직선(x 편차 ≤ 0.1)",
+             "leaders": "[{name(사양 지시선 이름), pts, dot_d, lw(0.30), target, gap(대상 면과의 간격 mm), mark{letter, c}}]. '→ 확대 창 Z1' 지시선은 공사장 거푸집 오른쪽 면 (232.0, 396.8)에서 ↘30° 한 직선",
+-            "footprints": "[{name, kind, poly}] — 판테온 광장·돔·드럼, 욕장 지면, 시장 지면, 메텔라 대지·드럼, 공사장 받침·거푸집 앞면·거푸집 오른쪽 면, 콜로세움 광장(조경 광장 판석 외곽)·외벽, 포르투스, 선체, 바실리카 지면·측랑 볼트·신랑 유적, 영묘 기단·원통, 폰스 아일리우스 다리, 극장 반원 아케이드, 네로 거상 받침·네로 거상, 오스티아. 콜로세움 받침·기초 절개 footprint는 0(8.2)",
++            "footprints": "[{name, kind, poly}] — 판테온 광장·돔·드럼, 욕장 지면, 시장 지면, 메텔라 대지·드럼, 공사장 받침·거푸집 앞면·거푸집 오른쪽 면, 콜로세움 건물·외벽, 노점 1·2, 포르투스, 선체, 바실리카 지면·측랑 볼트·신랑 유적, 영묘 기단·원통, 폰스 아일리우스 다리, 극장 반원 아케이드, 네로 거상 받침·네로 거상, 오스티아. 콜로세움 받침·기초 절개 footprint는 0(8.2)",
+             "roads": "[{id, name, polys}](실제로 그린 길 띠, R7 포함, polys = 다각형 목록)",
+-            "objects": "[{id, name, box, sil_mm2}] — id 'hero'(콜로세움 건물 외곽 상자 + 알파 ≥128 실루엣 면적 sil_mm2), 'hero_plaza'(조경 광장 외곽 상자), L1~L9(각 sil_mm2), V, worksite, 소품(네로 거상 포함). 히어로 군 = hero ∪ hero_plaza(사후 ⑪)",
++            "objects": "[{id, name, box, sil_mm2}] — id 'hero'(콜로세움 건물 외곽 상자 + 알파 ≥128 실루엣 면적 sil_mm2), 'hero_group'(히어로 군 외곽 상자 = 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침), L1~L9(각 sil_mm2), V, worksite, 소품(네로 거상 포함). 사후 ⑪은 hero_group으로 잰다",
+             "boxes": "[{id(L·P2·B·D·S·P5·Z1 원·Z1 글 칸·Z1 합성·C1·C2·C4), tier, box 또는 circle{c,d}, border(테두리를 그렸는가), lw(테두리 굵기: 콜아웃 0.25·Z1 0.60), kind}]",
+             "strokes": "[{role(내부선·지시선·콜아웃 테두리·Z1 테두리·P5 계단선·복원 점선·보조선 …), lw, print(인쇄 여부), count}] — 인쇄 선 굵기 요약(사후 ⑯). 0.10mm보다 가는 보조선은 print:false",
+             "forms": "{hero: {semi_axes_plan, major_az_deg, center_plan, wall_profile[[t0,t1,lo,hi,메모]], second_ring{h, front_az, front_h_max}, wood_frac, base_side_mm}(실제로 그린 본체 값, 사후 ⑱), aqueduct_form, basilica_form, hypogeum}",
+@@ -648,7 +647,7 @@
+                   "③ 패널 본문 ≥ 2.55mm·주석 ≥ 2.05mm", "④ 지시선 수직·±30°(±0.5°)·꺾임 ≤ 1·끝점 Ø0.9±0.05·대상 간격 ≤ 0.5mm·교차 0", "⑤ 길-지면 간격 ≤ 1.6mm(바실리카–R2 포함)", "⑥ S 바깥 길이 비 20.0±0.2",
+                   "⑦ 밀도 ≥ 39.3%(전체 무대 173,460mm² 기준, 열린 무대 값 기록)", "⑧ 인물 군 ≥ %d곳·군마다 5~7명·간격 3.5~5mm·키 4.6~5.2" % D.CROWD_MIN,
+                   "⑨ 포르투스 입구 18~22mm·섬 양옆 ≥ 4mm·탑–두 팔 끝 ≥ 4mm·운하 2곳 연속", "⑩ 티어 색 사용 0",
+-                  "⑪ 위계(그린 상자): 6패널 Basic 최소 ≥ Detail 최대·Detail 최소 ≥ Support × 1.1·R·T 0 + 지도(그린 외곽 상자끼리): 히어로 군(hero ∪ hero_plaza) ÷ 중앙값 4.5~7.9·≥ 최대 × 1.1·표준 랜드마크 각각 ≥ 4,500·베수비오 최소·콜로세움 건물 실루엣 ≥ 다른 건물 × 1.2",
++                  "⑪ 위계(그린 상자): 6패널 Basic 최소 ≥ Detail 최대·Detail 최소 ≥ Support × 1.1·R·T 0 + 지도(그린 외곽 상자끼리): 히어로 군(hero_group = 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침) ÷ 중앙값 3.2~7.9·≥ 최대 × 1.1·표준 랜드마크 각각 ≥ 4,500·베수비오 최소·콜로세움 건물 실루엣 ≥ 다른 건물 × 1.2",
+                   "⑫ 글 블록-상자 테두리 ≥ 3mm",
+                   "⑬ 필수 요소 존재(패널 6·L1~L9·네로 거상·R7·다리·표지 A 3·B~D 각 2·숫자 1~4 각 2, 지도 표지 간격 ≥ 2mm)", "⑭ 건물 실루엣 간격 ≥ 2mm(길–지면 접속·다리–강·다리–R7 제외)", "⑮ 운하 사양 끝점 = 그린 끝점 ±0.3mm",
+                   "⑯ 인쇄 선 굵기(내부선 0.10~0.20·지시선 0.30·콜아웃 테두리 0.25·Z1 테두리 0.60·P5 계단선 0.35, 가는 보조선 print:false)",
+@@ -661,7 +660,7 @@
+     },
+     "verification": {
+         "scope": [
+-            "사전 검사(v2_check.json, 사양 기하): 필수 요소 존재 → 위계(투영 상자끼리: 히어로 군 = 건물 ∪ 광장·Basic ≥ Detail ≥ Support×1.1·베수비오·랜드마크 하한 4,500·히어로 ÷ 중앙값 4.5~7.9·건물 실루엣 × 1.2) · 패널 수 5~7 · 겹침 · 땅/강/바다 · 길 접촉 ≤ 2.5 · 고리 거리 · 히어로 군 · 밀도 근사 · 압축 지리 · 짝 표지 기록 · 기준선 8.1·8.2·D5·D7(baseline_8, 기록)",
++            "사전 검사(v2_check.json, 사양 기하): 필수 요소 존재 → 위계(투영 상자끼리: 히어로 군 = 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침·Basic ≥ Detail ≥ Support×1.1·베수비오·랜드마크 하한 4,500·히어로 ÷ 중앙값 3.2~7.9·건물 실루엣 × 1.2) · 패널 수 5~7 · 겹침 · 땅/강/바다 · 길 접촉 ≤ 2.5 · 고리 거리 · 히어로 군 · 밀도 근사 · 압축 지리 · 짝 표지 기록 · 기준선 8.1·8.2·D5·D7(baseline_8, 기록)",
+             "사후 검사(post_check.json, 그린 결과): ①~㉑ + 보조. 실패 1건이라도 있으면 make.py 종료 코드 1",
+             "자체 시험(v2_check.py --selftest = make.py --selftest): d4 사양(받침·고리 0.74)이면 8.1·8.2 새 검사가 실패, d5 사양이면 통과, LocalBanana 복제 부품 감지, drawn 계약 형식 판정",
+         ],
+@@ -669,18 +668,18 @@
+             "라벨 글 블록–강 둑 2mm: drawn.json에 강·바다 다각형이 없어 사후 검사가 보지 못한다(render가 water 다각형을 기록하면 더할 수 있다)",
+             "짝 표지 위치 = 사양 mark_pt: 숫자 3·4는 render가 실제 면 위로 ±5·±4mm 맞추므로 위치 일치는 기록만 하고 판정하지 않는다(A는 사후 ⑳이 판정)",
+             "형태 사양(하이포게움 동심 벽·칸막이 세부, 수도교 관통 아치, 베수비오 앞 능선 연속 가림·농장–구릉 한 실루엣, P2 스팬 막대 비례)은 그림으로 확인한다(검사 항목 없음)",
+-            "둘레 시내 지붕과 나무의 밀도·조경 경계와 첫 집 줄 사이 빈 띠 ≤ 3mm(평면): 사양 TERRAIN 존재만 본다. 와이어프레임에서는 b{N} map.png 무대 밀도(땅색 ±6·물색이 아닌 화소 ≥ 39.3%, 목표 41%)를 통합 담당이 잰다",
++            "와이어프레임 밀도: b{N} map.png 무대 [0, 92, 420, 505]에서 땅색 ±6·물색이 아닌 화소 ≥ 34.0%(목표 36.0%)를 통합 담당이 잰다(13:33 광장 제거 반영)",
+             "와이어프레임 표현 레이어 L0~L6·디테일 밀도(6×6mm 빈 단색 면 0)는 Blender 패키지 보고(roma_kit.layer_audit)로 본다",
+         ],
+     },
+     "worker_handoff": {
+-        "map": "우선순위: 기준선 8절(05:27~12:49, 12:49 철회 포함) > 0-1 통합 루프 > 7절. v2_map.py 단일 원본: 지형·테베레강·바다·해안·길(R1~R7, R7 북쪽 끝은 광장 판석 (489.6, 250.4)까지)·포르투스 기하·랜드마크 L1~L9(L9 상자 [30.5,271.4,111.7,329.3]·L6 [5.0,372.0,102.0,434.8] 정정)·네로 거상 받침·소품. "
++        "map": "우선순위: 기준선 8절(05:27~12:49, 12:49 철회 포함) > 0-1 통합 루프 > 7절. v2_map.py 단일 원본: 지형·테베레강·바다·해안·길(R1~R7, R7 북쪽 끝은 옛 광장 경계 (489.6, 259.96))·포르투스 기하·랜드마크 L1~L9(L9 상자 [30.5,271.4,111.7,329.3]·L6 [5.0,372.0,102.0,434.8] 정정)·네로 거상 받침·소품. "
+                "콜로세움 본체는 HERO_COLOSSEUM(dict, v2_base.HERO_COLO_D5 형식: center_plan·semi_axes_plan·major_az_deg·wall_profile[[t0,t1,lo,hi,메모]]·second_ring·floor.wood_frac·arena_semi_axes_plan·base_side_mm 0)로, 둘레는 HERO_LANDSCAPE(dict: center_plan·reserve_R_plan·rep_R_plan·boundary_plan 또는 boundary_screen·parts·crowds·base_side_mm 0)로 등록한다. "
+-               "완료 조건: 사전 baseline_8 실패 0(받침 옆면 0·절개 0·반축·폭 비 0.53·θ 구간 높이·둘째 고리·나무 바닥·Z1 출발점·R7–광장 틈 0)·LocalBanana 조경 복제 부품 0·사양에 콜로세움 받침 서술 0(네로 받침 제외)",
++               "완료 조건: 사전 baseline_8 실패 0(받침 옆면 0·절개 0·반축·폭 비 0.53·θ 구간 높이·둘째 고리·나무 바닥·Z1 출발점·R7 끝 = 옛 광장 경계 R 90.5)·LocalBanana 조경 복제 부품 0·사양에 콜로세움 받침 서술 0(네로 받침 제외)",
+         "panels": "우선순위: 기준선 8절 > 0-1 > 7절. v2_panels.py 단일 원본: 틀(타이틀·푸터), 패널 rect 6개(L·P2·B·D·S·P5, D15 P5 조판·D16 P2 수치), Detail 상자·글(Z1 Ø60 중심 (275,450)·글 칸·합성 상자 유지, C1·C2·C4), 지시선 꼭짓점(LEADERS: '→ 확대 창 Z1'은 (232.0,396.8) → ↘30° → (272.38,420.11), 굵기 0.30·끝점 Ø0.9), 짝 표지(A 지도 쪽 (233.75,393.77)·숫자 1~4), 라벨 슬롯·본문(LABELS, blender_anchor 열쇠), 바닥 글. "
+                   "완료 조건: 사전 baseline_8 D5-1·D5-2 통과·사후 ①(인쇄 글 '기초 절개'·'받침 앞 변' 0)·②③⑪⑫⑬⑳ 통과",
+         "render": "우선순위: 기준선 8절 > 0-1 > 7절. render.py: 사양을 읽어 그리기만 한다(사양 값을 덮어쓰지 않는다). 콜로세움은 core_map.hero.colosseum·landscape로 그리고(받침 0), 메텔라 설계 그림은 사양 상자 중심 기준 1.04배(x 420에서 잘림). 벡터 일러스트(AO·조명·그림자 0, ISO_TONE). "
+-                  "drawn.json은 drawn_contract.schema(목록형)와 새 기록(objects hero·hero_plaza·sil_mm2, forms.hero, strokes, p5.stair, crowds height_mm)을 쓴다. INFO_ONLY=1이면 out/info/info_layer.png와 info_check.json(앵커 맞춤 기록)을 쓴다. "
++                  "drawn.json은 drawn_contract.schema(목록형)와 새 기록(objects hero·hero_group·sil_mm2, hero.stalls, forms.hero, strokes, p5.stair, crowds height_mm)을 쓴다. INFO_ONLY=1이면 out/info/info_layer.png와 info_check.json(앵커 맞춤 기록)을 쓴다. "
+                   "완료 조건: 사후 ①~㉑ + 보조 실패 0(make.py 종료 코드 0)",
+         "global": "우선순위: 기준선 8절 > 0-1 > 7절. v2_base.py 공용 상수(d5: HERO_COLO_D5·HERO_LANDSCAPE_D5·LB_REPLICA_KEYS·PERSON_H·Z1_START·R7_LINK_D5·PRINT_LINE_MM·P5_STAIR·BLENDER_ANCHORS·BLENDER_STAGE·HEIGHTS_Z, 순수 기하 도우미)·v2_data.py 모음(hero_model·hero_landscape·hero_building_polys·landscape_width·hero_part_names·blender_anchor_items)·"
+                   "v2_check.py 사전 검사(+ baseline_8)와 사후 검사(①~㉑ + 보조)·자체 시험(--selftest)·v2_build.py 조립(colosseum·landscape·blender_handoff·drawn_contract schema)·v2_text.py 원칙·충돌 글·v2_svg.py 내부 골격 미리보기·make.py 실행기(--info 정보 층 선택 실행, --selftest). "

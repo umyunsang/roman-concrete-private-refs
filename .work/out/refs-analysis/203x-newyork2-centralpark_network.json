@@ -1,0 +1,191 @@
+{
+ "road_width": null,
+ "water_width": {
+  "px_q25_med_q75_q90": [
+   16.0,
+   69.2,
+   165.1,
+   243.0
+  ],
+  "mm_med": 14.5,
+  "pct_poster_w_med": 3.5,
+  "mean_w_px(area/centerline)": 44.1,
+  "mean_w_mm": 9.3,
+  "centerline_len_px": 21668,
+  "area_px": 955580
+ },
+ "road_bleed": {
+  "left": [],
+  "right": [],
+  "top": [],
+  "bottom": []
+ },
+ "water_bleed": {
+  "left": [
+   [
+    2076,
+    2101
+   ],
+   [
+    2120,
+    2192
+   ],
+   [
+    2246,
+    2316
+   ],
+   [
+    2326,
+    2800
+   ]
+  ],
+  "right": [
+   [
+    148,
+    593
+   ],
+   [
+    1202,
+    1230
+   ],
+   [
+    1244,
+    1274
+   ],
+   [
+    1288,
+    1337
+   ]
+  ],
+  "top": [],
+  "bottom": [
+   [
+    0,
+    101
+   ]
+  ]
+ },
+ "ground_bleed": {
+  "left": [
+   [
+    837,
+    1208
+   ],
+   [
+    1365,
+    2017
+   ]
+  ],
+  "right": [
+   [
+    1337,
+    2800
+   ]
+  ],
+  "top": [
+   [
+    1433,
+    1989
+   ]
+  ],
+  "bottom": [
+   [
+    101,
+    2000
+   ]
+  ]
+ },
+ "landmark_touch_12px": {
+  "컬럼비아 대학교": {
+   "road": false,
+   "water": false
+  },
+  "세인트 존 더 디바인 대성당": {
+   "road": false,
+   "water": false
+  },
+  "아폴로 극장": {
+   "road": false,
+   "water": false
+  },
+  "미국 자연사 박물관": {
+   "road": false,
+   "water": false
+  },
+  "군인·선원 기념비": {
+   "road": false,
+   "water": false
+  },
+  "다코타": {
+   "road": false,
+   "water": false
+  },
+  "메트로폴리탄 미술관": {
+   "road": false,
+   "water": false
+  },
+  "센트럴파크(북쪽 숲·연못)": {
+   "road": false,
+   "water": false
+  },
+  "센트럴파크(스트로베리 필즈·보 브리지)": {
+   "road": false,
+   "water": false
+  },
+  "구겐하임 미술관": {
+   "road": false,
+   "water": false
+  },
+  "노이에 갤러리": {
+   "road": false,
+   "water": false
+  },
+  "쿠퍼 휴잇 디자인 박물관": {
+   "road": false,
+   "water": false
+  },
+  "뉴욕시 박물관": {
+   "road": false,
+   "water": false
+  },
+  "오페라 갤러리": {
+   "road": false,
+   "water": false
+  },
+  "애플 5번가": {
+   "road": false,
+   "water": false
+  },
+  "트램웨이 탑·객차(맨해튼 쪽)": {
+   "road": false,
+   "water": true
+  },
+  "트램웨이 탑(퀸즈 쪽)": {
+   "road": false,
+   "water": true
+  },
+  "퀸즈버러교": {
+   "road": false,
+   "water": true
+  },
+  "윌리엄스버그교": {
+   "road": false,
+   "water": true
+  },
+  "수상택시(위)": {
+   "road": false,
+   "water": true
+  },
+  "수상택시(아래)": {
+   "road": false,
+   "water": true
+  },
+  "택시": {
+   "road": false,
+   "water": false
+  }
+ },
+ "n_touch_road": 0,
+ "n_touch_water": 6,
+ "n_landmarks": 22
+}

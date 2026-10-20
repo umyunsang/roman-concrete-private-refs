@@ -1,0 +1,164 @@
+{
+ "ref": "203x-newyork2-centralpark",
+ "theta": 30.0,
+ "n": 14,
+ "base_points_art": {
+  "메트로폴리탄 미술관": [
+   502,
+   1130
+  ],
+  "구겐하임 미술관": [
+   977,
+   1117
+  ],
+  "노이에 갤러리": [
+   784,
+   1274
+  ],
+  "쿠퍼 휴잇 디자인 박물관": [
+   1365,
+   934
+  ],
+  "뉴욕시 박물관": [
+   1423,
+   889
+  ],
+  "미국 자연사 박물관": [
+   361,
+   842
+  ],
+  "다코타": [
+   145,
+   976
+  ],
+  "군인·선원 기념비": [
+   744,
+   623
+  ],
+  "세인트 존 더 디바인 대성당": [
+   1039,
+   483
+  ],
+  "컬럼비아 대학교": [
+   1394,
+   425
+  ],
+  "아폴로 극장": [
+   1663,
+   488
+  ],
+  "애플 5번가": [
+   173,
+   1637
+  ],
+  "퀸즈버러교": [
+   998,
+   1893
+  ],
+  "윌리엄스버그교": [
+   426,
+   2442
+  ]
+ },
+ "fit": {
+  "scale_mm_per_km": 64.81,
+  "rot_deg": 32.58,
+  "reflect": false,
+  "rms_mm": 57.17,
+  "mean_mm": 52.83
+ },
+ "fit_with_reflection": {
+  "scale_mm_per_km": 64.81,
+  "rot_deg": 32.58,
+  "reflect": false,
+  "rms_mm": 57.17,
+  "mean_mm": 52.83
+ },
+ "north_on_screen_deg(오른쪽=0, 위=+90)": 69.1,
+ "per_landmark": {
+  "메트로폴리탄 미술관": {
+   "real_km_from_center": 0.0,
+   "plan_mm_from_center": 0.0,
+   "fit_residual_mm": 63.8
+  },
+  "구겐하임 미술관": {
+   "real_km_from_center": 0.53,
+   "plan_mm_from_center": 81.5,
+   "fit_residual_mm": 24.3
+  },
+  "노이에 갤러리": {
+   "real_km_from_center": 0.33,
+   "plan_mm_from_center": 64.8,
+   "fit_residual_mm": 67.9
+  },
+  "쿠퍼 휴잇 디자인 박물관": {
+   "real_km_from_center": 0.71,
+   "plan_mm_from_center": 159.2,
+   "fit_residual_mm": 54.2
+  },
+  "뉴욕시 박물관": {
+   "real_km_from_center": 1.73,
+   "plan_mm_from_center": 173.7,
+   "fit_residual_mm": 18.2
+  },
+  "미국 자연사 박물관": {
+   "real_km_from_center": 0.93,
+   "plan_mm_from_center": 89.7,
+   "fit_residual_mm": 63.8
+  },
+  "다코타": {
+   "real_km_from_center": 1.14,
+   "plan_mm_from_center": 76.7,
+   "fit_residual_mm": 68.6
+  },
+  "군인·선원 기념비": {
+   "real_km_from_center": 2.09,
+   "plan_mm_from_center": 157.7,
+   "fit_residual_mm": 55.5
+  },
+  "세인트 존 더 디바인 대성당": {
+   "real_km_from_center": 2.7,
+   "plan_mm_from_center": 215.0,
+   "fit_residual_mm": 25.0
+  },
+  "컬럼비아 대학교": {
+   "real_km_from_center": 3.11,
+   "plan_mm_from_center": 261.0,
+   "fit_residual_mm": 44.0
+  },
+  "아폴로 극장": {
+   "real_km_from_center": 3.56,
+   "plan_mm_from_center": 277.2,
+   "fit_residual_mm": 21.4
+  },
+  "애플 5번가": {
+   "real_km_from_center": 1.91,
+   "plan_mm_from_center": 162.1,
+   "fit_residual_mm": 74.3
+  },
+  "퀸즈버러교": {
+   "real_km_from_center": 2.59,
+   "plan_mm_from_center": 244.1,
+   "fit_residual_mm": 68.1
+  },
+  "윌리엄스버그교": {
+   "real_km_from_center": 7.34,
+   "plan_mm_from_center": 393.8,
+   "fit_residual_mm": 90.4
+  }
+ },
+ "distance_law": {
+  "plan_mm = a * real_km^k": {
+   "a": 118.7,
+   "k": 0.595
+  }
+ },
+ "real_extent_km": [
+  2.5,
+  10.7
+ ],
+ "plan_extent_mm": [
+  347.3,
+  564.6
+ ]
+}

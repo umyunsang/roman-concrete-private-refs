@@ -1,0 +1,53 @@
+{
+  "global": {
+    "files": [
+      "common.py",
+      "analysis.py",
+      "main.py",
+      "prim.py"
+    ],
+    "desc": "공용 도구(글꼴·팔레트·레이어·등각 글자·라벨 규격·소품·받침)·로우폴리 원시 도형 라이브러리 prim.py·자동 검사·조립. 하위 호환 변경만 허용(함수 이름·인자 삭제/변경 금지, 선택 인자 추가는 가능)"
+  },
+  "core": {
+    "files": [
+      "m_core.py",
+      "m_core_*.py"
+    ],
+    "desc": "Core: 로마 콘크리트 제작 과정 셀 체인(셀·간판·기계·인물·바닥 글·화살표)"
+  },
+  "arena": {
+    "files": [
+      "m_arena.py",
+      "m_arena_*.py"
+    ],
+    "desc": "아레나(콜로세움, LocalBanana 형태)와 그 라벨"
+  },
+  "support_top": {
+    "files": [
+      "m_support_top.py",
+      "m_support_top_*.py"
+    ],
+    "desc": "위 줄·뒤쪽: 카라칼라 욕장(절개)·판테온·베수비오(Support-2)·밑동을 가리는 포도밭 농장과 그 라벨"
+  },
+  "support_bottom": {
+    "files": [
+      "m_support_bottom.py",
+      "m_support_bottom_*.py"
+    ],
+    "desc": "아래 줄: 수도교·포르투스 항·카이킬리아 메텔라 무덤(추가 Support 후보 포함)과 그 라벨"
+  },
+  "map": {
+    "files": [
+      "m_map.py",
+      "m_map_*.py"
+    ],
+    "desc": "지면·테베레강·바다·길·풍경 소품(밭·수레·배·기중기·다리·바지선)·지형명(바닥 글)"
+  },
+  "panels": {
+    "files": [
+      "m_panels.py",
+      "m_panels_*.py"
+    ],
+    "desc": "화면 평행 정보: 타이틀·Basic(L1 정의·L2 레시피·R1 위치도·B2 연대기·B3 100 vs 2000)·Detail(B1 석회 알갱이 패널·확대 창과 지시선)·푸터"
+  }
+}

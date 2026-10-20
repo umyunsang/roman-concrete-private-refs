@@ -1,0 +1,9 @@
+=== MEMORY ===
+--- today-2026-10-19.md ---
+## 19:54 | unknown
+d5 로마 콘크리트 3차 시안 gen(`.work/design/d5/out/시안_3차.png`, make.py pass); 강 경로 user 지정대로 재설계; 건물 크기·Detail/Basic 위계 확정; 검사 규칙 8개 완화. user 승인 대기; 2줄 제한 이미지 미확인; 요구사항 cross-session 출처 → 재확인 필요
+--- now.md ---
+
+## 20:12 | unknown
+d5 로마 콘크리트 인포그래픽 3·4차 시안(`시안_3차.png`, `시안_4차.png`) 제작: 강 경로 재설계, Core 크기 위계, Detail·Basic 배치, 메인 지적 4건·Blender b6 6건 반영, make.py exit 0이나 정식 실행 14회로 한도 12 초과, 사용자 승인 및 위계 결정 재확인 대기, 산맥 띠 미적용.
+

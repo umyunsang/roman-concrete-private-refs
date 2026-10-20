@@ -1,0 +1,36 @@
+{
+ "203x-seoul": {
+  "plate_bbox_u": [
+   0,
+   276,
+   1000,
+   1143
+  ],
+  "left_edge_y": [
+   578,
+   985
+  ],
+  "right_edge_y": [
+   591,
+   1038
+  ],
+  "plate_px_pct_of_poster": 10.4
+ },
+ "203x-london": {
+  "plate_bbox_u": [
+   0,
+   207,
+   1000,
+   1204
+  ],
+  "left_edge_y": [
+   681,
+   938
+  ],
+  "right_edge_y": [
+   667,
+   897
+  ],
+  "plate_px_pct_of_poster": 9.0
+ }
+}

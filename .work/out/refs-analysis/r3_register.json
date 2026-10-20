@@ -1,0 +1,170 @@
+{
+ "203x-taipei": {
+  "full_px": [
+   1000,
+   1395
+  ],
+  "tiles": {
+   "01": {
+    "file": "203x-taipei/1000_StH_2023_12_Poster_re_01.jpg",
+    "tile_px": [
+     1000,
+     930
+    ],
+    "score": 0.9638,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     1,
+     500,
+     466
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "04": {
+    "file": "203x-taipei/1000_StH_2023_12_Poster_re_04.jpg",
+    "tile_px": [
+     1000,
+     931
+    ],
+    "score": 0.9841,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     500,
+     467,
+     1000,
+     933
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "05": {
+    "file": "203x-taipei/1000_StH_2023_12_Poster_re_05.jpg",
+    "tile_px": [
+     1000,
+     930
+    ],
+    "score": 0.9888,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     934,
+     500,
+     1399
+    ],
+    "native_px_per_norm": 2.0
+   }
+  }
+ },
+ "203x-jeju": {
+  "full_px": [
+   450,
+   630
+  ],
+  "tiles": {
+   "01": {
+    "file": "203x-jeju/1000_40_jejudo_1.jpg",
+    "tile_px": [
+     1000,
+     933
+    ],
+    "score": 0.9568,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     0,
+     500,
+     466
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "04": {
+    "file": "203x-jeju/1000_40_jejudo_4.jpg",
+    "tile_px": [
+     1000,
+     933
+    ],
+    "score": 0.9467,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     500,
+     467,
+     1000,
+     933
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "05": {
+    "file": "203x-jeju/1000_40_jejudo_5.jpg",
+    "tile_px": [
+     1000,
+     933
+    ],
+    "score": 0.9549,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     933,
+     500,
+     1399
+    ],
+    "native_px_per_norm": 2.0
+   }
+  }
+ },
+ "203x-forbiddencity": {
+  "full_px": [
+   1000,
+   1400
+  ],
+  "tiles": {
+   "01": {
+    "file": "203x-forbiddencity/StH_202010_137_Poster_01.jpg",
+    "tile_px": [
+     1000,
+     933
+    ],
+    "score": 0.9717,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     0,
+     500,
+     466
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "04": {
+    "file": "203x-forbiddencity/StH_202010_137_Poster_04.jpg",
+    "tile_px": [
+     1000,
+     934
+    ],
+    "score": 0.9536,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     500,
+     466,
+     1000,
+     933
+    ],
+    "native_px_per_norm": 2.0
+   },
+   "05": {
+    "file": "203x-forbiddencity/StH_202010_137_Poster_05.jpg",
+    "tile_px": [
+     1000,
+     933
+    ],
+    "score": 0.9623,
+    "scale_to_norm": 0.5,
+    "box_norm1000": [
+     0,
+     934,
+     500,
+     1400
+    ],
+    "native_px_per_norm": 2.0
+   }
+  }
+ }
+}

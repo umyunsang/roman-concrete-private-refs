@@ -1,0 +1,416 @@
+{
+ "203x-seoul": {
+  "title": {
+   "name": "타이틀 록업(CITY LANDMARK INFOGRAPHICS / SEOUL / City Where Past and Present Coexist)",
+   "rough": [
+    340,
+    62,
+    662,
+    252
+   ],
+   "bbox": [
+    342,
+    70,
+    661,
+    251
+   ],
+   "ink_pct": 49.7
+  },
+  "panels": [
+   {
+    "name": "SUMMARY 요약 정보",
+    "slot": "TL",
+    "rough": [
+     45,
+     68,
+     252,
+     192
+    ],
+    "bbox": [
+     51,
+     74,
+     248,
+     192
+    ],
+    "ink_pct": 16.8
+   },
+   {
+    "name": "Symbol 상징",
+    "slot": "TL",
+    "rough": [
+     45,
+     196,
+     252,
+     392
+    ],
+    "bbox": [
+     51,
+     201,
+     249,
+     392
+    ],
+    "ink_pct": 17.5
+   },
+   {
+    "name": "HISTORY 역사",
+    "slot": "TR",
+    "rough": [
+     748,
+     68,
+     962,
+     218
+    ],
+    "bbox": [
+     753,
+     73,
+     947,
+     218
+    ],
+    "ink_pct": 21.2
+   },
+   {
+    "name": "PERSON IN SEOUL 인물",
+    "slot": "BL(하단 띠 좌)",
+    "rough": [
+     45,
+     1172,
+     245,
+     1332
+    ],
+    "bbox": [
+     51,
+     1178,
+     244,
+     1331
+    ],
+    "ink_pct": 25.7
+   },
+   {
+    "name": "HANGANG RIVER BRIDGES 한강의 다리",
+    "slot": "B(하단 띠 중앙, 가장 넓음)",
+    "rough": [
+     255,
+     1172,
+     724,
+     1332
+    ],
+    "bbox": [
+     262,
+     1177,
+     724,
+     1331
+    ],
+    "ink_pct": 33.2
+   },
+   {
+    "name": "FAMOUS CULTURE AREA 문화지역",
+    "slot": "BR(하단 띠 우)",
+    "rough": [
+     745,
+     1172,
+     962,
+     1332
+    ],
+    "bbox": [
+     753,
+     1177,
+     950,
+     1332
+    ],
+    "ink_pct": 35.0
+   }
+  ],
+  "footer": {
+   "name": "푸터(Street H 로고·크레딧·203X)",
+   "rough": [
+    40,
+    1338,
+    965,
+    1375
+   ],
+   "bbox": [
+    51,
+    1344,
+    931,
+    1368
+   ],
+   "ink_pct": 5.4
+  }
+ },
+ "203x-london": {
+  "title": {
+   "name": "타이틀 배너(CITY LANDMARK INFOGRAPHICS / When a man is tired of London… / LONDON)",
+   "rough": [
+    312,
+    38,
+    952,
+    198
+   ],
+   "bbox": [
+    317,
+    38,
+    952,
+    198
+   ],
+   "ink_pct": 91.2
+  },
+  "panels": [
+   {
+    "name": "HISTORY 왕조로 본 역사",
+    "slot": "TL",
+    "rough": [
+     45,
+     48,
+     252,
+     242
+    ],
+    "bbox": [
+     51,
+     53,
+     248,
+     239
+    ],
+    "ink_pct": 16.0
+   },
+   {
+    "name": "WILLIAM MORRIS 윌리엄 모리스",
+    "slot": "TL",
+    "rough": [
+     45,
+     243,
+     252,
+     338
+    ],
+    "bbox": [
+     51,
+     251,
+     248,
+     338
+    ],
+    "ink_pct": 50.7
+   },
+   {
+    "name": "CITY INFORMATION 도시 정보",
+    "slot": "TR",
+    "rough": [
+     748,
+     208,
+     952,
+     382
+    ],
+    "bbox": [
+     753,
+     214,
+     952,
+     379
+    ],
+    "ink_pct": 41.0
+   },
+   {
+    "name": "FAMOUS FESTIVALS 축제",
+    "slot": "R(지도 무대 안 오른쪽)",
+    "rough": [
+     748,
+     918,
+     962,
+     1202
+    ],
+    "bbox": [
+     748,
+     918,
+     954,
+     1202
+    ],
+    "ink_pct": 45.0
+   },
+   {
+    "name": "STREET PERFORMANCE 거리공연",
+    "slot": "BR(하단 띠 우, 윗변 y1216이 P6·P7과 같음)",
+    "rough": [
+     748,
+     1208,
+     962,
+     1332
+    ],
+    "bbox": [
+     752,
+     1216,
+     938,
+     1332
+    ],
+    "ink_pct": 29.3
+   },
+   {
+    "name": "HARRY BECK 해리 벡",
+    "slot": "BL(하단 띠 좌)",
+    "rough": [
+     45,
+     1208,
+     252,
+     1332
+    ],
+    "bbox": [
+     51,
+     1217,
+     249,
+     1331
+    ],
+    "ink_pct": 51.0
+   },
+   {
+    "name": "BUS LINE 9 9번 버스 노선도",
+    "slot": "B(하단 띠 중앙, 버스 지시선이 들어옴)",
+    "rough": [
+     325,
+     1208,
+     692,
+     1332
+    ],
+    "bbox": [
+     325,
+     1216,
+     687,
+     1331
+    ],
+    "ink_pct": 24.5
+   }
+  ],
+  "footer": {
+   "name": "푸터",
+   "rough": [
+    40,
+    1336,
+    965,
+    1375
+   ],
+   "bbox": [
+    51,
+    1344,
+    952,
+    1369
+   ],
+   "ink_pct": 8.0
+  }
+ },
+ "203x-berlin": {
+  "title": {
+   "name": "타이틀 록업(브란덴부르크 문 액자 + 콰드리가 / Berlin / The City Where the Wall That Divided Germany Fell)",
+   "rough": [
+    282,
+    28,
+    722,
+    217
+   ],
+   "bbox": [
+    282,
+    33,
+    721,
+    217
+   ],
+   "ink_pct": 65.6
+  },
+  "panels": [
+   {
+    "name": "CITY INFORMATION 도시 정보",
+    "slot": "TL",
+    "rough": [
+     36,
+     38,
+     248,
+     155
+    ],
+    "bbox": [
+     42,
+     44,
+     226,
+     155
+    ],
+    "ink_pct": 17.9
+   },
+   {
+    "name": "FAMOUS CULTURE AREA 문화지역(점 격자 위치도+핀 7)",
+    "slot": "TL",
+    "rough": [
+     36,
+     175,
+     258,
+     348
+    ],
+    "bbox": [
+     41,
+     182,
+     255,
+     347
+    ],
+    "ink_pct": 27.6
+   },
+   {
+    "name": "HISTORY 역사",
+    "slot": "TR",
+    "rough": [
+     742,
+     38,
+     962,
+     182
+    ],
+    "bbox": [
+     746,
+     43,
+     956,
+     174
+    ],
+    "ink_pct": 12.1
+   },
+   {
+    "name": "FAMOUS FOOD 유명한 음식",
+    "slot": "BL(하단 좌, 코어 판 왼쪽)",
+    "rough": [
+     36,
+     1212,
+     252,
+     1338
+    ],
+    "bbox": [
+     42,
+     1218,
+     243,
+     1330
+    ],
+    "ink_pct": 20.0
+   },
+   {
+    "name": "AMPELMANN 암펠만 신호등",
+    "slot": "BL(하단 좌, 코어 판 왼쪽)",
+    "rough": [
+     276,
+     1212,
+     442,
+     1328
+    ],
+    "bbox": [
+     281,
+     1212,
+     442,
+     1321
+    ],
+    "ink_pct": 42.9
+   }
+  ],
+  "footer": {
+   "name": "푸터(203X·Street H 로고·크레딧·QR)",
+   "rough": [
+    36,
+    1342,
+    965,
+    1378
+   ],
+   "bbox": [
+    41,
+    1342,
+    961,
+    1375
+   ],
+   "ink_pct": 4.3
+  }
+ }
+}

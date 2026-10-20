@@ -1,0 +1,7 @@
+# Recent
+
+## 2026-10-19
+Disk cleanup freed space from 12GB to 37GB by deleting untracked artifacts, chat logs, workflow logs, and `.planning` dirs. Still pending: 12 frozen argo folders (no perm), a 5.3GB nested vendor repo, the workflow-log cleanup script (awaiting confirm), 2 `.planning` dirs in `frozen-r15/evidence` (needs `chmod u+w`), and CHOOGuard `.planning` regenerated at 12:15 (stop session first). Roman concrete Blender integration loop round 1 (goal A, max 4 rounds) is in progress. The user withdrew the surrounding-landscape request, set the Blender modeling worker to Opus and the rest to Sonnet (integration stage to Sonnet, applies on restart), and replaced Codex auto-judging with user judgment. The plaza slab was removed, and the b7 diorama terrain was reworked with rewritten aqueduct arches, 4 hidden objects and 7 Nero colossus objects deleted, and b7 re-rendered. Parallel round-1 fixes are incomplete, the loop result is unverified, and the user's judgment is pending.
+
+## Identity Candidates
+- IDENTITY CANDIDATE: [none identified]

@@ -1,0 +1,11 @@
+VERSION=2
+SRC=/Users/um-yunsang/.claude/plugins/cache/claude-plugins-official/remember/0.43.1/identity.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/core-memories.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/today-2026-10-19.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/now.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/recent.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/archive.md
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember
+SRC=/Users/um-yunsang/.claude/plugins/cache/claude-plugins-official/remember/0.43.1/config.json
+SRC=/Users/um-yunsang/.remember/config.json
+SRC=/Users/um-yunsang/roman-concrete-private-refs/.work/design/.remember/config.json

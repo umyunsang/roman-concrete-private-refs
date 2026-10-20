@@ -1,0 +1,590 @@
+{
+ "anchors": [
+  {
+   "anchor": "HERO_label",
+   "kind": "label",
+   "target": "콜로세움",
+   "anchor_pt": [
+    268.8,
+    244.54
+   ],
+   "spec_pt": [
+    269.97,
+    247.7
+   ],
+   "dev_mm": 3.37,
+   "snapped": false,
+   "reason": "지시선 방향 밖(꺾임·각도 규칙 유지)"
+  },
+  {
+   "anchor": "NERO_label",
+   "kind": "label",
+   "target": "네로 거상",
+   "anchor_pt": [
+    184.98,
+    202.1
+   ],
+   "spec_pt": [
+    184.2,
+    201.77
+   ],
+   "dev_mm": 0.85,
+   "snapped": true,
+   "new_pt": [
+    184.93,
+    202.19
+   ],
+   "residual_mm": 0.1
+  },
+  {
+   "anchor": "WS_label",
+   "kind": "tag",
+   "target": "콜로세움 공사장",
+   "anchor_pt": [
+    225.53,
+    398.9
+   ],
+   "snapped": false,
+   "reason": "말풍선 태그(지시선 없음): 자리만 기록"
+  },
+  {
+   "anchor": "L1_label",
+   "kind": "label",
+   "target": "판테온",
+   "anchor_pt": [
+    63.0,
+    207.5
+   ],
+   "spec_pt": [
+    65.59,
+    208.44
+   ],
+   "dev_mm": 2.75,
+   "snapped": false,
+   "reason": "지시선 방향 밖(꺾임·각도 규칙 유지)"
+  },
+  {
+   "anchor": "L2_label",
+   "kind": "label",
+   "target": "트라야누스 시장",
+   "anchor_pt": [
+    105.34,
+    140.82
+   ],
+   "spec_pt": [
+    105.34,
+    140.82
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L3_label",
+   "kind": "label",
+   "target": "카라칼라 욕장",
+   "anchor_pt": [
+    234.86,
+    118.7
+   ],
+   "spec_pt": [
+    234.86,
+    117.89
+   ],
+   "dev_mm": 0.81,
+   "snapped": true,
+   "new_pt": [
+    234.86,
+    118.7
+   ],
+   "residual_mm": 0.0
+  },
+  {
+   "anchor": "L4_label",
+   "kind": "label",
+   "target": "수도교",
+   "anchor_pt": [
+    384.15,
+    188.31
+   ],
+   "spec_pt": [
+    384.15,
+    187.97
+   ],
+   "dev_mm": 0.35,
+   "snapped": true,
+   "new_pt": [
+    384.15,
+    188.31
+   ],
+   "residual_mm": 0.0
+  },
+  {
+   "anchor": "L5_label",
+   "kind": "label",
+   "target": "카이킬리아 메텔라 무덤",
+   "anchor_pt": [
+    381.28,
+    344.55
+   ],
+   "spec_pt": [
+    368.31,
+    347.29
+   ],
+   "dev_mm": 13.26,
+   "snapped": false,
+   "reason": "6mm 밖"
+  },
+  {
+   "anchor": "L6_label",
+   "kind": "label",
+   "target": "포르투스 항",
+   "anchor_pt": [
+    37.59,
+    434.64
+   ],
+   "spec_pt": [
+    36.13,
+    433.51
+   ],
+   "dev_mm": 1.85,
+   "snapped": false,
+   "reason": "지시선 방향 밖(꺾임·각도 규칙 유지)"
+  },
+  {
+   "anchor": "L7_label",
+   "kind": "label",
+   "target": "막센티우스 바실리카",
+   "anchor_pt": [
+    212.0,
+    170.0
+   ],
+   "spec_pt": [
+    212.0,
+    170.0
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L8_label",
+   "kind": "label",
+   "target": "하드리아누스 영묘",
+   "anchor_pt": [
+    138.0,
+    423.8
+   ],
+   "spec_pt": [
+    139.97,
+    425.59
+   ],
+   "dev_mm": 2.66,
+   "snapped": true,
+   "new_pt": [
+    137.72,
+    424.29
+   ],
+   "residual_mm": 0.56
+  },
+  {
+   "anchor": "L9_label",
+   "kind": "label",
+   "target": "마르켈루스 극장",
+   "anchor_pt": [
+    52.0,
+    315.0
+   ],
+   "spec_pt": [
+    52.0,
+    315.0
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "V_label",
+   "kind": "label",
+   "target": "베수비오",
+   "anchor_pt": [
+    368.0,
+    122.8
+   ],
+   "spec_pt": [
+    368.0,
+    122.8
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "BARGE1_label",
+   "kind": "label",
+   "target": "바지선",
+   "anchor_pt": [
+    85.0,
+    361.8
+   ],
+   "spec_pt": [
+    82.8,
+    356.9
+   ],
+   "dev_mm": 5.37,
+   "snapped": false,
+   "reason": "지시선 방향 밖(꺾임·각도 규칙 유지)"
+  },
+  {
+   "anchor": "ASH_label",
+   "kind": "label",
+   "target": "화산재 운반선",
+   "anchor_pt": [
+    142.75,
+    490.8
+   ],
+   "spec_pt": [
+    144.25,
+    495.05
+   ],
+   "dev_mm": 4.5,
+   "snapped": false,
+   "reason": "지시선 방향 밖(꺾임·각도 규칙 유지)"
+  },
+  {
+   "anchor": "EMP_label",
+   "kind": "tag",
+   "target": "테베레 하역장·석회 가마",
+   "anchor_pt": [
+    130.81,
+    360.2
+   ],
+   "snapped": false,
+   "reason": "말풍선 태그(지시선 없음): 자리만 기록"
+  },
+  {
+   "anchor": "WS_z1",
+   "kind": "leader",
+   "target": "→ 확대 창 Z1",
+   "anchor_pt": [
+    232.07,
+    396.77
+   ],
+   "spec_pt": [
+    232.0,
+    396.8
+   ],
+   "dev_mm": 0.07,
+   "snapped": true,
+   "new_pt": [
+    232.07,
+    396.77
+   ],
+   "new_end": [
+    272.49,
+    420.11
+   ],
+   "note": "방향 유지, 끝은 대상 경계와 다시 만난 점"
+  },
+  {
+   "anchor": "WS_s6",
+   "kind": "link",
+   "target": "⑥",
+   "anchor_pt": [
+    222.5,
+    395.75
+   ],
+   "spec_pt": [
+    222.5,
+    395.8
+   ],
+   "dev_mm": 0.05,
+   "snapped": true,
+   "new_pt": [
+    222.5,
+    395.75
+   ]
+  },
+  {
+   "anchor": "L1_c1",
+   "kind": "leader",
+   "target": "콜아웃 C1",
+   "anchor_pt": [
+    94.0,
+    216.0
+   ],
+   "spec_pt": [
+    105.1,
+    218.6
+   ],
+   "dev_mm": 11.4,
+   "snapped": false,
+   "reason": "6mm 밖"
+  },
+  {
+   "anchor": "L6_c2",
+   "kind": "leader",
+   "target": "콜아웃 C2",
+   "anchor_pt": [
+    56.0,
+    421.58
+   ],
+   "spec_pt": [
+    56.0,
+    422.8
+   ],
+   "dev_mm": 1.22,
+   "snapped": true,
+   "new_pt": [
+    56.0,
+    421.58
+   ],
+   "new_end": [
+    56.0,
+    453.0
+   ],
+   "note": "방향 유지, 끝은 대상 경계와 다시 만난 점"
+  },
+  {
+   "anchor": "L5_c4",
+   "kind": "leader",
+   "target": "콜아웃 C4",
+   "anchor_pt": [
+    370.5,
+    316.0
+   ],
+   "spec_pt": [
+    338.4,
+    314.95
+   ],
+   "dev_mm": 32.12,
+   "snapped": false,
+   "reason": "6mm 밖"
+  },
+  {
+   "anchor": "L4_m1",
+   "kind": "mark",
+   "target": "1",
+   "anchor_pt": [
+    372.0,
+    162.4
+   ],
+   "spec_pt": [
+    372.0,
+    163.0
+   ],
+   "dev_mm": 0.6,
+   "snapped": true
+  },
+  {
+   "anchor": "L7_m2",
+   "kind": "mark",
+   "target": "2",
+   "anchor_pt": [
+    225.0,
+    177.0
+   ],
+   "spec_pt": [
+    225.0,
+    177.0
+   ],
+   "dev_mm": 0.0,
+   "snapped": true
+  },
+  {
+   "anchor": "L2_m3",
+   "kind": "mark",
+   "target": "3",
+   "anchor_pt": [
+    76.2,
+    111.7
+   ],
+   "spec_pt": [
+    76.22,
+    111.65
+   ],
+   "dev_mm": 0.05,
+   "snapped": true
+  },
+  {
+   "anchor": "L1_m4",
+   "kind": "mark",
+   "target": "4",
+   "anchor_pt": [
+    78.4,
+    204.6
+   ],
+   "spec_pt": [
+    78.79,
+    203.91
+   ],
+   "dev_mm": 0.79,
+   "snapped": true
+  }
+ ],
+ "unmatched": [],
+ "label_sil": [
+  {
+   "label": "콜로세움",
+   "nearest_root": "BATHS_Caracalla_root",
+   "gap_mm": 14.89,
+   "overlap": false
+  },
+  {
+   "label": "카라칼라 욕장",
+   "nearest_root": "BATHS_Caracalla_root",
+   "gap_mm": 8.8,
+   "overlap": false
+  },
+  {
+   "label": "트라야누스 시장",
+   "nearest_root": "CITY_TrajanMarket_root",
+   "gap_mm": 5.68,
+   "overlap": false
+  },
+  {
+   "label": "판테온",
+   "nearest_root": "CITY_Pantheon_root",
+   "gap_mm": 2.22,
+   "overlap": false
+  },
+  {
+   "label": "수도교",
+   "nearest_root": "BATHS_Aqueduct_root",
+   "gap_mm": 2.35,
+   "overlap": false
+  },
+  {
+   "label": "카이킬리아 메텔라 무덤",
+   "nearest_root": "SUB_Metella_root",
+   "gap_mm": 14.24,
+   "overlap": false
+  },
+  {
+   "label": "포르투스 항",
+   "nearest_root": "COAST_PortusLighthouse_root",
+   "gap_mm": 1.9,
+   "overlap": false
+  },
+  {
+   "label": "막센티우스 바실리카",
+   "nearest_root": "CITY_Maxentius_root",
+   "gap_mm": 3.49,
+   "overlap": false
+  },
+  {
+   "label": "네로 거상",
+   "nearest_root": "CITY_Maxentius_root",
+   "gap_mm": 7.12,
+   "overlap": false
+  },
+  {
+   "label": "마르켈루스 극장",
+   "nearest_root": "CITY_Pantheon_root",
+   "gap_mm": 2.32,
+   "overlap": false
+  },
+  {
+   "label": "하드리아누스 영묘",
+   "nearest_root": "COAST_Ostia_root",
+   "gap_mm": 15.85,
+   "overlap": false
+  },
+  {
+   "label": "베수비오",
+   "nearest_root": "SUB_Albani_root",
+   "gap_mm": 2.16,
+   "overlap": false
+  },
+  {
+   "label": "바지선",
+   "nearest_root": "CITY_Marcellus_root",
+   "gap_mm": 2.48,
+   "overlap": false
+  },
+  {
+   "label": "화산재 운반선",
+   "nearest_root": "COAST_AshShip_root",
+   "gap_mm": 4.76,
+   "overlap": false
+  },
+  {
+   "label": "테베레 하역장·석회 가마",
+   "nearest_root": "HERO_Plaza_root",
+   "gap_mm": 6.44,
+   "overlap": false
+  },
+  {
+   "label": "콜로세움 공사장",
+   "nearest_root": "HERO_Worksite_root",
+   "gap_mm": 3.49,
+   "overlap": false
+  }
+ ],
+ "notes": [],
+ "round": 5,
+ "sil_path": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/rounds/work/bglobal_sil_test.json",
+ "sil_roots": 34,
+ "sil_anchors": [
+  "ASH_label",
+  "BARGE1_label",
+  "EMP_label",
+  "HERO_label",
+  "L1_c1",
+  "L1_label",
+  "L1_m4",
+  "L2_label",
+  "L2_m3",
+  "L3_label",
+  "L4_label",
+  "L4_m1",
+  "L5_c4",
+  "L5_label",
+  "L6_c2",
+  "L6_label",
+  "L7_label",
+  "L7_m2",
+  "L8_label",
+  "L9_label",
+  "NERO_label",
+  "V_label",
+  "WS_label",
+  "WS_s6",
+  "WS_z1"
+ ],
+ "bands": {
+  "top": [
+   0,
+   0,
+   420,
+   92.0
+  ],
+  "top_alpha": 1.0,
+  "bottom": [
+   0,
+   505.0,
+   420,
+   594
+  ],
+  "bottom_alpha": [
+   0.38,
+   1.0
+  ],
+  "bottom_ramp_to_y": 568.0,
+  "color": [
+   231,
+   208,
+   160
+  ],
+  "rule": "d4: 하단 띠 밑 바다 알파 0.62→0 ↔ 정보 층 베일 알파 0.38→1.0(y 505→568), 568 아래 1.0"
+ },
+ "output": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/info/info_layer.png",
+ "drawn_info": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/info/drawn_info.json",
+ "floor_text_draws": 1,
+ "summary": {
+  "anchors": 25,
+  "snapped": 15,
+  "unmatched": 10,
+  "label_sil_overlaps": 0
+ }
+}

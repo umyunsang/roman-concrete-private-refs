@@ -1,0 +1,8 @@
+[v2_check.py] 5.7s 사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM | 사전 위계(예정 상자): 히어로 군 [177.0, 199.0, 304.2, 410.2] = 26,865 mm² · 중앙값 6,110 · 히어로 비 4.4 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배) | 사전 검사 완료: 필수 요소 모두 있음 · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 랜드마크 9 · 허용 안 된 겹침 0 · 경고 0
+사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM
+사전 위계(예정 상자): 히어로 군 [177.0, 199.0, 304.2, 410.2] = 26,865 mm² · 중앙값 6,110 · 히어로 비 4.4 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배)
+[v2_build.py] 0.2s 사양 JSON 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/spec.json · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 무대 173460.0 · 랜드마크 9 · Basic 최소 ['P5 지금 배우는 중(연구 → 현장 → 적용)', 5670] · Detail 최대 ['Z1 확대 창: 콜로세움 기초 콘크리트 단면 → 석회 알갱이', 5460] · 필수 요소 모두 있음
+[v2_svg.py] 0.2s 미리보기 SVG 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/preview.svg
+[render.py] 14.1s [render  11.4s] 라벨 자리 | [render  12.0s] 지형 | [render  12.2s] 패널
+[v2_check.py] 0.4s 보조 통과 drawn.json 계약 형식: footprints [{name, kind, poly}]·roads [{id, name, polys}]·objects [{id, name, box}](화면 mm, 필수 필드·id 중복 0) | 보조 통과 그린 무대 = STAGE 하나(R·T 확장 0) | 사후 검사 통과: 실패 0건 → /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/post_check.json
+완료: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out · 사전 검사 통과: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/v2_check.json · 사후 검사 통과: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/verify2/d5/out/post_check.json 

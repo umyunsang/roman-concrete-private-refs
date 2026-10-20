@@ -1,0 +1,366 @@
+{
+ "anchors": [
+  {
+   "anchor": "HERO_label",
+   "kind": "label",
+   "target": "콜로세움",
+   "anchor_pt": [
+    295.77,
+    260.09
+   ],
+   "spec_pt": [
+    295.77,
+    260.09
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "NERO_label",
+   "kind": "label",
+   "target": "네로 거상",
+   "anchor_pt": [
+    250.56,
+    281.26
+   ],
+   "spec_pt": [
+    250.56,
+    281.26
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L1_label",
+   "kind": "label",
+   "target": "판테온",
+   "anchor_pt": [
+    170.0,
+    169.5
+   ],
+   "spec_pt": [
+    170.0,
+    169.5
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L2_label",
+   "kind": "label",
+   "target": "트라야누스 시장",
+   "anchor_pt": [
+    92.0,
+    352.0
+   ],
+   "spec_pt": [
+    92.0,
+    352.0
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L3_label",
+   "kind": "label",
+   "target": "카라칼라 욕장",
+   "anchor_pt": [
+    256.99,
+    129.45
+   ],
+   "spec_pt": [
+    256.99,
+    129.45
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L4_label",
+   "kind": "label",
+   "target": "수도교",
+   "anchor_pt": [
+    384.35,
+    186.38
+   ],
+   "spec_pt": [
+    384.35,
+    186.38
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L5_label",
+   "kind": "label",
+   "target": "카이킬리아 메텔라 무덤",
+   "anchor_pt": [
+    277.87,
+    440.35
+   ],
+   "spec_pt": [
+    277.87,
+    440.35
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L6_label",
+   "kind": "label",
+   "target": "포르투스 항",
+   "anchor_pt": [
+    88.79,
+    464.24
+   ],
+   "spec_pt": [
+    88.79,
+    464.24
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L7_label",
+   "kind": "label",
+   "target": "막센티우스 바실리카",
+   "anchor_pt": [
+    57.5,
+    250.37
+   ],
+   "spec_pt": [
+    57.5,
+    250.37
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L8_label",
+   "kind": "label",
+   "target": "하드리아누스 영묘",
+   "anchor_pt": [
+    245.95,
+    356.47
+   ],
+   "spec_pt": [
+    245.95,
+    356.47
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L9_label",
+   "kind": "label",
+   "target": "마르켈루스 극장",
+   "anchor_pt": [
+    30.97,
+    164.48
+   ],
+   "spec_pt": [
+    30.97,
+    164.48
+   ],
+   "dev_mm": 0.0,
+   "snapped": true,
+   "reason": "이미 일치"
+  },
+  {
+   "anchor": "L4_m1",
+   "kind": "mark",
+   "target": "1",
+   "anchor_pt": [
+    372.0,
+    163.0
+   ],
+   "spec_pt": [
+    372.0,
+    163.0
+   ],
+   "dev_mm": 0.0,
+   "snapped": true
+  },
+  {
+   "anchor": "L7_m2",
+   "kind": "mark",
+   "target": "2",
+   "anchor_pt": [
+    74.51,
+    253.39
+   ],
+   "spec_pt": [
+    75.6,
+    254.0
+   ],
+   "dev_mm": 1.25,
+   "snapped": true
+  },
+  {
+   "anchor": "L2_m3",
+   "kind": "mark",
+   "target": "3",
+   "anchor_pt": [
+    141.5,
+    306.6
+   ],
+   "spec_pt": [
+    141.5,
+    306.61
+   ],
+   "dev_mm": 0.01,
+   "snapped": true
+  },
+  {
+   "anchor": "L1_m4",
+   "kind": "mark",
+   "target": "4",
+   "anchor_pt": [
+    168.0,
+    160.0
+   ],
+   "spec_pt": [
+    167.78,
+    160.78
+   ],
+   "dev_mm": 0.81,
+   "snapped": true
+  }
+ ],
+ "unmatched": [],
+ "label_sil": [
+  {
+   "label": "콜로세움",
+   "nearest_root": "HERO_Colosseum_root",
+   "gap_mm": 1.68,
+   "overlap": false
+  },
+  {
+   "label": "카라칼라 욕장",
+   "nearest_root": "HERO_Colosseum_root",
+   "gap_mm": 2.46,
+   "overlap": false
+  },
+  {
+   "label": "트라야누스 시장",
+   "nearest_root": "CITY_Maxentius_root",
+   "gap_mm": 55.75,
+   "overlap": false
+  },
+  {
+   "label": "판테온",
+   "nearest_root": "CITY_Pantheon_root",
+   "gap_mm": 2.39,
+   "overlap": false
+  },
+  {
+   "label": "수도교",
+   "nearest_root": "BATHS_Aqueduct_root",
+   "gap_mm": 6.04,
+   "overlap": false
+  },
+  {
+   "label": "카이킬리아 메텔라 무덤",
+   "nearest_root": "SUB_Metella_root",
+   "gap_mm": 15.36,
+   "overlap": false
+  },
+  {
+   "label": "포르투스 항",
+   "nearest_root": "COAST_PortusClaudius_root",
+   "gap_mm": 4.47,
+   "overlap": false
+  },
+  {
+   "label": "막센티우스 바실리카",
+   "nearest_root": "CITY_Maxentius_root",
+   "gap_mm": 2.4,
+   "overlap": false
+  },
+  {
+   "label": "네로 거상",
+   "nearest_root": "CITY_Pantheon_root",
+   "gap_mm": 15.47,
+   "overlap": false
+  },
+  {
+   "label": "마르켈루스 극장",
+   "nearest_root": "CITY_Marcellus_root",
+   "gap_mm": 4.35,
+   "overlap": false
+  },
+  {
+   "label": "하드리아누스 영묘",
+   "nearest_root": "HERO_Colosseum_root",
+   "gap_mm": 11.84,
+   "overlap": false
+  }
+ ],
+ "notes": [],
+ "round": 5,
+ "sil_path": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/rounds/b6/sil.json",
+ "sil_roots": 20,
+ "sil_anchors": [
+  "HERO_label",
+  "L1_label",
+  "L1_m4",
+  "L2_label",
+  "L2_m3",
+  "L3_label",
+  "L4_label",
+  "L4_m1",
+  "L5_label",
+  "L6_label",
+  "L7_label",
+  "L7_m2",
+  "L8_label",
+  "L9_label",
+  "NERO_label",
+  "V_label"
+ ],
+ "bands": {
+  "top": [
+   0,
+   0,
+   420,
+   92.0
+  ],
+  "top_alpha": 1.0,
+  "bottom": [
+   0,
+   478.0,
+   420,
+   594
+  ],
+  "bottom_alpha": [
+   0.38,
+   1.0
+  ],
+  "bottom_ramp_to_y": 568.0,
+  "color": [
+   231,
+   208,
+   160
+  ],
+  "rule": "d4: 하단 띠 밑 바다 알파 0.62→0 ↔ 정보 층 베일 알파 0.38→1.0(y 505→568), 568 아래 1.0"
+ },
+ "output": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d5/out/info/info_layer.png",
+ "drawn_info": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d5/out/info/drawn_info.json",
+ "floor_text_draws": 1,
+ "summary": {
+  "anchors": 15,
+  "snapped": 15,
+  "unmatched": 0,
+  "label_sil_overlaps": 0
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "image": "/Users/um-yunsang/roman-concrete-private-refs/.work/dl/refs-cities/203x-cheongwadae/StH_202206_155_cheongwadae.jpg",
+ "size": [
+  1000,
+  1400
+ ],
+ "stage_px": [
+  0,
+  205,
+  1000,
+  1195
+ ],
+ "stage_norm": [
+  0.0,
+  0.1464,
+  1.0,
+  0.8536
+ ],
+ "stage_mm": [
+  420.0,
+  420.0
+ ],
+ "objects": [
+  {
+   "name": "본관(Main Office)",
+   "kind": "hero",
+   "bbox_px": [
+    291,
+    404,
+    745,
+    720
+   ],
+   "bbox_norm": [
+    0.291,
+    0.2886,
+    0.745,
+    0.5143
+   ],
+   "w_mm": 190.7,
+   "h_mm": 134.1,
+   "bbox_mm2": 25565,
+   "mask_mm2": 8388,
+   "mask_pct_stage": 4.75,
+   "bbox_pct_stage": 14.49,
+   "centroid_norm": [
+    0.5551,
+    0.3916
+   ]
+  },
+  {
+   "name": "본관 2층 구조 판",
+   "kind": "core_info",
+   "bbox_px": [
+    600,
+    365,
+    821,
+    492
+   ],
+   "bbox_norm": [
+    0.6,
+    0.2607,
+    0.821,
+    0.3514
+   ],
+   "w_mm": 92.8,
+   "h_mm": 53.9,
+   "bbox_mm2": 5002,
+   "mask_mm2": 2415,
+   "mask_pct_stage": 1.37,
+   "bbox_pct_stage": 2.84,
+   "centroid_norm": [
+    0.7103,
+    0.3058
+   ]
+  },
+  {
+   "name": "관저",
+   "kind": "core_secondary",
+   "bbox_px": [
+    704,
+    607,
+    982,
+    806
+   ],
+   "bbox_norm": [
+    0.704,
+    0.4336,
+    0.982,
+    0.5757
+   ],
+   "w_mm": 116.8,
+   "h_mm": 84.4,
+   "bbox_mm2": 9858,
+   "mask_mm2": 4495,
+   "mask_pct_stage": 2.55,
+   "bbox_pct_stage": 5.59,
+   "centroid_norm": [
+    0.8499,
+    0.5005
+   ]
+  },
+  {
+   "name": "영빈관",
+   "kind": "landmark",
+   "bbox_px": [
+    96,
+    468,
+    247,
+    558
+   ],
+   "bbox_norm": [
+    0.096,
+    0.3343,
+    0.247,
+    0.3986
+   ],
+   "w_mm": 63.4,
+   "h_mm": 38.2,
+   "bbox_mm2": 2422,
+   "mask_mm2": 1390,
+   "mask_pct_stage": 0.79,
+   "bbox_pct_stage": 1.37,
+   "centroid_norm": [
+    0.1714,
+    0.367
+   ]
+  },
+  {
+   "name": "상춘재",
+   "kind": "landmark",
+   "bbox_px": [
+    576,
+    888,
+    758,
+    1059
+   ],
+   "bbox_norm": [
+    0.576,
+    0.6343,
+    0.758,
+    0.7564
+   ],
+   "w_mm": 76.4,
+   "h_mm": 72.6,
+   "bbox_mm2": 5546,
+   "mask_mm2": 2917,
+   "mask_pct_stage": 1.65,
+   "bbox_pct_stage": 3.14,
+   "centroid_norm": [
+    0.6591,
+    0.6986
+   ]
+  },
+  {
+   "name": "침류각",
+   "kind": "landmark",
+   "bbox_px": [
+    819,
+    859,
+    940,
+    946
+   ],
+   "bbox_norm": [
+    0.819,
+    0.6136,
+    0.94,
+    0.6757
+   ],
+   "w_mm": 50.8,
+   "h_mm": 36.9,
+   "bbox_mm2": 1876,
+   "mask_mm2": 1037,
+   "mask_pct_stage": 0.59,
+   "bbox_pct_stage": 1.06,
+   "centroid_norm": [
+    0.8761,
+    0.6466
+   ]
+  },
+  {
+   "name": "수궁터",
+   "kind": "landmark",
+   "bbox_px": [
+    600,
+    840,
+    706,
+    899
+   ],
+   "bbox_norm": [
+    0.6,
+    0.6,
+    0.706,
+    0.6421
+   ],
+   "w_mm": 44.5,
+   "h_mm": 25.0,
+   "bbox_mm2": 1114,
+   "mask_mm2": 560,
+   "mask_pct_stage": 0.32,
+   "bbox_pct_stage": 0.63,
+   "centroid_norm": [
+    0.6527,
+    0.6207
+   ]
+  },
+  {
+   "name": "여민관 1·2·3관",
+   "kind": "landmark",
+   "bbox_px": [
+    58,
+    981,
+    268,
+    1192
+   ],
+   "bbox_norm": [
+    0.058,
+    0.7007,
+    0.268,
+    0.8514
+   ],
+   "w_mm": 88.2,
+   "h_mm": 89.5,
+   "bbox_mm2": 7896,
+   "mask_mm2": 4531,
+   "mask_pct_stage": 2.57,
+   "bbox_pct_stage": 4.48,
+   "centroid_norm": [
+    0.1473,
+    0.7901
+   ]
+  },
+  {
+   "name": "춘추관 군",
+   "kind": "landmark",
+   "bbox_px": [
+    696,
+    1026,
+    925,
+    1217
+   ],
+   "bbox_norm": [
+    0.696,
+    0.7329,
+    0.925,
+    0.8693
+   ],
+   "w_mm": 96.2,
+   "h_mm": 81.0,
+   "bbox_mm2": 7794,
+   "mask_mm2": 2343,
+   "mask_pct_stage": 1.33,
+   "bbox_pct_stage": 4.42,
+   "centroid_norm": [
+    0.8216,
+    0.8048
+   ]
+  },
+  {
+   "name": "정문",
+   "kind": "landmark",
+   "bbox_px": [
+    70,
+    851,
+    95,
+    891
+   ],
+   "bbox_norm": [
+    0.07,
+    0.6079,
+    0.095,
+    0.6364
+   ],
+   "w_mm": 10.5,
+   "h_mm": 17.0,
+   "bbox_mm2": 178,
+   "mask_mm2": 119,
+   "mask_pct_stage": 0.07,
+   "bbox_pct_stage": 0.1,
+   "centroid_norm": [
+    0.0834,
+    0.6219
+   ]
+  },
+  {
+   "name": "녹지원 반송",
+   "kind": "landmark",
+   "bbox_px": [
+    425,
+    1038,
+    512,
+    1114
+   ],
+   "bbox_norm": [
+    0.425,
+    0.7414,
+    0.512,
+    0.7957
+   ],
+   "w_mm": 36.5,
+   "h_mm": 32.2,
+   "bbox_mm2": 1178,
+   "mask_mm2": 942,
+   "mask_pct_stage": 0.53,
+   "bbox_pct_stage": 0.67,
+   "centroid_norm": [
+    0.4698,
+    0.7672
+   ]
+  }
+ ],
+ "groups": {
+  "hero": {
+   "members": [
+    "본관(Main Office)"
+   ],
+   "bbox_px": [
+    291,
+    404,
+    745,
+    720
+   ],
+   "bbox_norm": [
+    0.291,
+    0.2886,
+    0.745,
+    0.5143
+   ],
+   "w_mm": 190.7,
+   "h_mm": 134.1,
+   "union_mask_pct_stage": 4.75,
+   "bbox_pct_stage": 14.49,
+   "hull_pct_stage": 7.99,
+   "union_mask_mm2": 8388
+  },
+  "core_tight": {
+   "members": [
+    "본관(Main Office)",
+    "본관 2층 구조 판",
+    "관저"
+   ],
+   "bbox_px": [
+    291,
+    365,
+    982,
+    806
+   ],
+   "bbox_norm": [
+    0.291,
+    0.2607,
+    0.982,
+    0.5757
+   ],
+   "w_mm": 290.2,
+   "h_mm": 187.1,
+   "union_mask_pct_stage": 8.67,
+   "bbox_pct_stage": 30.78,
+   "hull_pct_stage": 17.32,
+   "union_mask_mm2": 15297
+  }
+ },
+ "union_all_pct_stage": 16.43
+}

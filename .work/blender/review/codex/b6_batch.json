@@ -1,0 +1,58 @@
+{
+ "bench": {
+  "state": "done",
+  "grade": "C",
+  "score": 62.0,
+  "n": 6,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_bench.json",
+  "model": "gpt-6.1-sol"
+ },
+ "hier": {
+  "state": "done",
+  "grade": "C",
+  "score": 62.0,
+  "n": 7,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_hier.json",
+  "model": "gpt-6.1-sol"
+ },
+ "comp": {
+  "state": "done",
+  "grade": "C",
+  "score": 64.0,
+  "n": 8,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_comp.json",
+  "model": "gpt-6.1-sol"
+ },
+ "visual": {
+  "state": "done",
+  "grade": "C",
+  "score": 61.0,
+  "n": 8,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_visual.json",
+  "model": "gpt-6.1-sol"
+ },
+ "acc": {
+  "state": "done",
+  "grade": "C",
+  "score": 58.0,
+  "n": 9,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_acc.json",
+  "model": "gpt-6.1-sol"
+ },
+ "proj": {
+  "state": "done",
+  "grade": "C",
+  "score": 62.0,
+  "n": 7,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_proj.json",
+  "model": "gpt-6.1-sol"
+ },
+ "map": {
+  "state": "done",
+  "grade": "C",
+  "score": 61.0,
+  "n": 6,
+  "file": "/Users/um-yunsang/roman-concrete-private-refs/.work/blender/review/codex/b6_map.json",
+  "model": "gpt-6.1-sol"
+ }
+}

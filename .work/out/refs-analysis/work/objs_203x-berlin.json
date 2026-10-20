@@ -1,0 +1,325 @@
+[
+ {
+  "name": "베를린 TV탑",
+  "kind": "hero",
+  "core": true,
+  "rect": [
+   566,
+   110,
+   694,
+   1176
+  ],
+  "bbox": [
+   566,
+   315,
+   694,
+   1172
+  ],
+  "mask_area_u2": 60500,
+  "rect_fill_pct": 44.3
+ },
+ {
+  "name": "TV탑 받침 판(이스트사이드·세계시계·정자·나무)",
+  "kind": "plate",
+  "core": true,
+  "rect": [
+   343,
+   978,
+   897,
+   1347
+  ],
+  "bbox": [
+   343,
+   978,
+   897,
+   1347
+  ],
+  "mask_area_u2": 164065,
+  "rect_fill_pct": 80.3
+ },
+ {
+  "name": "베를린 돔",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   426,
+   462,
+   710,
+   812
+  ],
+  "bbox": [
+   431,
+   462,
+   705,
+   810
+  ],
+  "mask_area_u2": 56006,
+  "rect_fill_pct": 56.3
+ },
+ {
+  "name": "이스트 사이드 갤러리",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   378,
+   913,
+   567,
+   1097
+  ],
+  "bbox": [
+   382,
+   917,
+   567,
+   1097
+  ],
+  "mask_area_u2": 21607,
+  "rect_fill_pct": 62.1
+ },
+ {
+  "name": "세계시계(Weltzeituhr)",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   748,
+   1043,
+   837,
+   1182
+  ],
+  "bbox": [
+   755,
+   1095,
+   816,
+   1182
+  ],
+  "mask_area_u2": 4084,
+  "rect_fill_pct": 33.0
+ },
+ {
+  "name": "카이저 빌헬름 기념 교회",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   300,
+   373,
+   494,
+   582
+  ],
+  "bbox": [
+   300,
+   373,
+   486,
+   576
+  ],
+  "mask_area_u2": 27815,
+  "rect_fill_pct": 68.6
+ },
+ {
+  "name": "국회의사당(+판)",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   13,
+   478,
+   367,
+   737
+  ],
+  "bbox": [
+   16,
+   512,
+   367,
+   736
+  ],
+  "mask_area_u2": 45210,
+  "rect_fill_pct": 49.3
+ },
+ {
+  "name": "홀로코스트 기념비(+판)",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   110,
+   713,
+   394,
+   897
+  ],
+  "bbox": [
+   110,
+   714,
+   394,
+   897
+  ],
+  "mask_area_u2": 33417,
+  "rect_fill_pct": 63.9
+ },
+ {
+  "name": "브란덴부르크 문(+원판)",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   0,
+   858,
+   260,
+   1082
+  ],
+  "bbox": [
+   1,
+   864,
+   257,
+   1078
+  ],
+  "mask_area_u2": 39437,
+  "rect_fill_pct": 67.7
+ },
+ {
+  "name": "체크포인트 찰리",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   333,
+   758,
+   497,
+   967
+  ],
+  "bbox": [
+   333,
+   765,
+   494,
+   967
+  ],
+  "mask_area_u2": 18072,
+  "rect_fill_pct": 52.7
+ },
+ {
+  "name": "유대인 박물관(+숲)",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   688,
+   230,
+   907,
+   442
+  ],
+  "bbox": [
+   688,
+   230,
+   907,
+   442
+  ],
+  "mask_area_u2": 36681,
+  "rect_fill_pct": 79.0
+ },
+ {
+  "name": "베를린 중앙역",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   693,
+   418,
+   999,
+   627
+  ],
+  "bbox": [
+   703,
+   418,
+   960,
+   604
+  ],
+  "mask_area_u2": 29553,
+  "rect_fill_pct": 46.2
+ },
+ {
+  "name": "전승기념탑(+원판)",
+  "kind": "landmark",
+  "core": false,
+  "rect": [
+   730,
+   593,
+   950,
+   1032
+  ],
+  "bbox": [
+   730,
+   620,
+   932,
+   1001
+  ],
+  "mask_area_u2": 24603,
+  "rect_fill_pct": 25.5
+ },
+ {
+  "name": "S반",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   683,
+   798,
+   847,
+   917
+  ],
+  "bbox": [
+   716,
+   803,
+   842,
+   898
+  ],
+  "mask_area_u2": 5730,
+  "rect_fill_pct": 29.4
+ },
+ {
+  "name": "U반",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   823,
+   1188,
+   917,
+   1287
+  ],
+  "bbox": [
+   842,
+   1213,
+   914,
+   1280
+  ],
+  "mask_area_u2": 2648,
+  "rect_fill_pct": 28.5
+ },
+ {
+  "name": "노란 버스",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   230,
+   878,
+   300,
+   937
+  ],
+  "bbox": [
+   234,
+   881,
+   296,
+   933
+  ],
+  "mask_area_u2": 1970,
+  "rect_fill_pct": 47.7
+ },
+ {
+  "name": "택시",
+  "kind": "vehicle",
+  "core": false,
+  "rect": [
+   908,
+   563,
+   987,
+   612
+  ],
+  "bbox": [
+   908,
+   576,
+   984,
+   612
+  ],
+  "mask_area_u2": 1516,
+  "rect_fill_pct": 39.2
+ }
+]

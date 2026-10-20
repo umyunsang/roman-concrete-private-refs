@@ -1,0 +1,2 @@
+- user_acropolis.jpg — 사용자 제공(2026-10-19 22:05), 원본 URL: https://tourimage.interpark.com//Spot/179/15342/201810/6367460382508644500.jpg
+- user_acropolis_hill.jpg — 사용자 제공(2026-10-19 22:22, 아크로폴리스 언덕 디오라마 참조), 원본 URL: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQioYj886KF6evKii-jK0uiMR-wN3u5XEJDqFUHQBqrg&s=10

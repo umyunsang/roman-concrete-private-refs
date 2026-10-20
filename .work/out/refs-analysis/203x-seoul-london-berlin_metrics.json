@@ -1,0 +1,1864 @@
+{
+ "203x-seoul": {
+  "register": {
+   "full_size": [
+    450,
+    630
+   ],
+   "scale_full_per_art": 0.225,
+   "tiles": {
+    "1": {
+     "score": 0.9813,
+     "best_scale": 0.225,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      0.0,
+      0.0
+     ],
+     "offset_expected": [
+      0,
+      0
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    },
+    "4": {
+     "score": 0.9817,
+     "best_scale": 0.225,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      1000.0,
+      933.3
+     ],
+     "offset_expected": [
+      1000,
+      933
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    },
+    "5": {
+     "score": 0.9772,
+     "best_scale": 0.225,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      0.0,
+      1866.7
+     ],
+     "offset_expected": [
+      0,
+      1867
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    }
+   },
+   "hires_cover_pct": 50.0
+  },
+  "stats": {
+   "map_stage_u": [
+    0,
+    251,
+    1000,
+    1177
+   ],
+   "map_stage_mm": [
+    0.0,
+    106.5,
+    420.0,
+    499.4
+   ],
+   "map_stage_pct_of_poster_area": 66.1,
+   "map_stage_height_pct": 66.1,
+   "fg_elements_y_extent_u": [
+    261,
+    1143
+   ],
+   "object_density_pct_of_M": 48.1,
+   "object_union_pct_of_poster": 31.8,
+   "core": {
+    "members": [
+     "흥인지문(동대문)+성곽",
+     "N서울타워+남산",
+     "롯데월드타워",
+     "코엑스·무역센터",
+     "서울시청"
+    ],
+    "obj_box_union_u": [
+     486,
+     258,
+     868,
+     1036
+    ],
+    "obj_box_union_mm": [
+     204.1,
+     109.5,
+     364.6,
+     439.6
+    ],
+    "obj_box_pct_of_M": 32.1,
+    "obj_box_pct_of_poster": 21.2,
+    "mass_area_pct_of_M": 25.3,
+    "mass_area_pct_of_poster": 16.8,
+    "mass_bbox_u": [
+     486,
+     261,
+     868,
+     1036
+    ],
+    "mass_bbox_mm": [
+     204.1,
+     110.7,
+     364.6,
+     439.6
+    ],
+    "mass_bbox_pct_of_M": 32.0,
+    "mass_fill_of_bbox_pct": 79.2,
+    "silhouette_pct_of_M": 24.6,
+    "core_water_px": 12660,
+    "core_water_pct_of_M": 1.37,
+    "convex_hull_pct_of_M": 27.6,
+    "centroid_u": [
+     682,
+     674
+    ],
+    "centroid_norm": [
+     0.682,
+     0.481
+    ],
+    "core_share_of_all_objects_pct": 51.2
+   },
+   "river_visible_px": 23548,
+   "river_visible_pct_of_M": 2.54,
+   "sea": {
+    "bbox_u": [
+     0,
+     989,
+     1000,
+     1400
+    ],
+    "area_pct_of_poster": 17.4,
+    "area_in_M_pct": 9.0
+   }
+  },
+  "geo": {
+   "loglog_r2": 0.5,
+   "bearing_err_deg_after_fit": {
+    "국회의사당": 32.0,
+    "63빌딩": 17.0,
+    "구 서울역": 30.0,
+    "숭례문": 37.0,
+    "서울시청": 17.0,
+    "흥인지문": 51.0,
+    "DDP": 23.0,
+    "고속터미널": -25.0,
+    "코엑스": -39.0,
+    "롯데월드타워": -31.0
+   },
+   "bearing_abs_err_median": 30.0,
+   "theta": 26.0,
+   "n": 11,
+   "north_on_screen_deg": 47.9,
+   "dist_exponent_b": 0.31,
+   "dist_coef_mm": 89.0,
+   "real_km_range_from_center": [
+    1.5,
+    10.95
+   ],
+   "poster_mm_range_from_center": [
+    80.2,
+    201.1
+   ],
+   "mm_per_km_range": [
+    18.4,
+    113.7
+   ],
+   "per_point": {
+    "국회의사당": {
+     "real_km": 6.89,
+     "poster_mm": 184.1
+    },
+    "63빌딩": {
+     "real_km": 5.47,
+     "poster_mm": 143.6
+    },
+    "구 서울역": {
+     "real_km": 1.5,
+     "poster_mm": 170.1
+    },
+    "숭례문": {
+     "real_km": 1.5,
+     "poster_mm": 89.1
+    },
+    "서울시청": {
+     "real_km": 1.9,
+     "poster_mm": 80.2
+    },
+    "N서울타워": {
+     "real_km": 0.0,
+     "poster_mm": 0.0
+    },
+    "흥인지문": {
+     "real_km": 2.89,
+     "poster_mm": 107.9
+    },
+    "DDP": {
+     "real_km": 2.51,
+     "poster_mm": 111.3
+    },
+    "고속터미널": {
+     "real_km": 5.32,
+     "poster_mm": 145.5
+    },
+    "코엑스": {
+     "real_km": 7.67,
+     "poster_mm": 157.1
+    },
+    "롯데월드타워": {
+     "real_km": 10.95,
+     "poster_mm": 201.1
+    }
+   },
+   "fit": {
+    "reflect": false,
+    "rms_mm": 69.2,
+    "mean_err_mm": 63.4,
+    "per_point_err_mm": {
+     "국회의사당": 98.8,
+     "63빌딩": 60.6,
+     "구 서울역": 95.4,
+     "숭례문": 20.6,
+     "서울시청": 42.5,
+     "N서울타워": 49.6,
+     "흥인지문": 81.9,
+     "DDP": 101.3,
+     "고속터미널": 19.5,
+     "코엑스": 56.6,
+     "롯데월드타워": 70.3
+    }
+   }
+  },
+  "angles": {
+   "per_tile": {
+    "1": {
+     "pos": {
+      "deg": 26.5,
+      "sd": 0.27,
+      "n": 8,
+      "len_px": 636
+     },
+     "neg": {
+      "deg": -25.99,
+      "sd": 0.11,
+      "n": 3,
+      "len_px": 344
+     },
+     "vert": {
+      "deg": 90.0,
+      "sd": 0.01,
+      "n": 5,
+      "len_px": 660
+     },
+     "horiz": null
+    },
+    "4": {
+     "pos": {
+      "deg": 26.18,
+      "sd": 0.46,
+      "n": 181,
+      "len_px": 12806
+     },
+     "neg": {
+      "deg": -25.94,
+      "sd": 0.35,
+      "n": 226,
+      "len_px": 15008
+     },
+     "vert": {
+      "deg": 89.99,
+      "sd": 0.46,
+      "n": 131,
+      "len_px": 8174
+     },
+     "horiz": {
+      "deg": 0.1,
+      "sd": 0.29,
+      "n": 7,
+      "len_px": 268
+     }
+    },
+    "5": {
+     "pos": {
+      "deg": 26.03,
+      "sd": 0.21,
+      "n": 81,
+      "len_px": 5722
+     },
+     "neg": {
+      "deg": -25.72,
+      "sd": 0.42,
+      "n": 52,
+      "len_px": 3751
+     },
+     "vert": {
+      "deg": 89.98,
+      "sd": 0.43,
+      "n": 47,
+      "len_px": 2521
+     },
+     "horiz": null
+    }
+   },
+   "share_pct": {
+    "horiz(|a|<4)": 0.8,
+    "ground_axes(20-36)": 66.8,
+    "vertical(84-90)": 20.8
+   },
+   "window_pct": {
+    "26.57±1.5": 63.2,
+    "30.0±1.5": 0.6
+   },
+   "n_segments_map": 942
+  },
+  "label_text_mm": [
+   {
+    "label": "Sungnyemun Gate",
+    "bands_mm": [
+     4.45,
+     3.82,
+     3.39,
+     3.18,
+     3.39,
+     2.76
+    ],
+    "pitch_mm": [
+     5.3,
+     6.36,
+     4.45,
+     4.24,
+     4.67
+    ]
+   },
+   {
+    "label": "63 Building",
+    "bands_mm": [
+     4.45,
+     3.82,
+     3.39,
+     3.39,
+     3.18,
+     3.39,
+     3.18,
+     2.76,
+     1.91,
+     1.48
+    ],
+    "pitch_mm": [
+     5.73,
+     6.36,
+     4.24,
+     4.45,
+     4.24,
+     4.45,
+     4.67,
+     6.58,
+     2.97
+    ]
+   },
+   {
+    "label": "Lotte World Tower",
+    "bands_mm": [
+     4.45,
+     3.82,
+     3.18,
+     2.97,
+     2.97
+    ],
+    "pitch_mm": [
+     5.51,
+     6.58,
+     4.45,
+     4.24
+    ]
+   },
+   {
+    "label": "Cheonggye Creek",
+    "bands_mm": [
+     4.88,
+     3.61,
+     3.18,
+     3.18,
+     2.97,
+     2.97
+    ],
+    "pitch_mm": [
+     5.51,
+     6.36,
+     4.45,
+     4.45,
+     4.24
+    ]
+   },
+   {
+    "label": "Taxi",
+    "bands_mm": [
+     4.03,
+     3.39,
+     3.39,
+     3.18
+    ],
+    "pitch_mm": [
+     6.58,
+     4.24,
+     4.45
+    ]
+   },
+   {
+    "label": "Seoul Express Bus Terminal",
+    "bands_mm": [
+     4.45,
+     4.24,
+     3.61,
+     3.39,
+     3.39,
+     3.39,
+     2.97
+    ],
+    "pitch_mm": [
+     4.88,
+     5.51,
+     6.15,
+     4.45,
+     4.24,
+     4.67
+    ]
+   },
+   {
+    "label": "City Bus",
+    "bands_mm": [
+     2.12,
+     4.24,
+     3.39,
+     2.97,
+     3.39,
+     3.18
+    ],
+    "pitch_mm": [
+     7.85,
+     5.51,
+     6.58,
+     4.03,
+     4.45
+    ]
+   },
+   {
+    "label": "Subway",
+    "bands_mm": [
+     1.7,
+     4.24,
+     3.82,
+     3.18,
+     3.18,
+     2.97
+    ],
+    "pitch_mm": [
+     7.85,
+     5.3,
+     6.58,
+     4.24,
+     4.45
+    ]
+   }
+  ],
+  "title_text_mm": [
+   {
+    "name": "SUMMARY(패널 제목, 고해상)",
+    "band_mm": 7.4
+   },
+   {
+    "name": "Symbol(패널 소제목, 고해상)",
+    "band_mm": 4.9
+   },
+   {
+    "name": "SEOUL(메인 타이틀)",
+    "band_mm": 50.1
+   },
+   {
+    "name": "CITY WHERE PAST AND PRESENT COEXIST(부제)",
+    "band_mm": 9.5
+   },
+   {
+    "name": "PERSON IN SEOUL(하단 패널 제목, 고해상)",
+    "band_mm": 7.4
+   }
+  ],
+  "sizes": {
+   "hero": [
+    "롯데월드타워(히어로, 잠실)",
+    "hero",
+    71.4,
+    226.1,
+    16146
+   ],
+   "largest_box": [
+    "흥인지문(동대문)+성곽",
+    "landmark",
+    119.3,
+    143.4,
+    17104
+   ],
+   "std_n": 10,
+   "std_w_median": 86.7,
+   "std_h_median": 109.5,
+   "std_area_median": 8854,
+   "std_w_range": [
+    37.8,
+    119.3
+   ],
+   "std_h_range": [
+    67.1,
+    218.1
+   ],
+   "hero_over_std_area": 1.82,
+   "props": [
+    [
+     "시내버스",
+     59.6,
+     48.4
+    ],
+    [
+     "지하철(+선로·터널 입구)",
+     87.4,
+     56.8
+    ],
+    [
+     "택시",
+     48.7,
+     30.1
+    ]
+   ],
+   "panel_count": 6,
+   "panel_area_pct": 15.7,
+   "title_w_pct": 31.9,
+   "title_mm": [
+    134,
+    77
+   ],
+   "objects_mm": [
+    [
+     "롯데월드타워(히어로, 잠실)",
+     "hero",
+     71.4,
+     226.1,
+     16146
+    ],
+    [
+     "흥인지문(동대문)+성곽",
+     "landmark",
+     119.3,
+     143.4,
+     17104
+    ],
+    [
+     "N서울타워+남산 블록",
+     "landmark",
+     73.9,
+     218.1,
+     16123
+    ],
+    [
+     "코엑스·무역센터",
+     "landmark",
+     91.1,
+     145.9,
+     13302
+    ],
+    [
+     "서울시청",
+     "landmark",
+     64.7,
+     91.7,
+     5928
+    ],
+    [
+     "DDP(동대문디자인플라자)",
+     "landmark",
+     85.7,
+     67.1,
+     5746
+    ],
+    [
+     "숭례문",
+     "landmark",
+     94.1,
+     105.7,
+     9942
+    ],
+    [
+     "구 서울역",
+     "landmark",
+     86.9,
+     113.3,
+     9848
+    ],
+    [
+     "63빌딩",
+     "landmark",
+     37.8,
+     140.9,
+     5326
+    ],
+    [
+     "국회의사당",
+     "landmark",
+     94.5,
+     83.2,
+     7859
+    ],
+    [
+     "고속터미널",
+     "landmark",
+     86.5,
+     80.6,
+     6974
+    ],
+    [
+     "시내버스",
+     "landmark",
+     59.6,
+     48.4,
+     2884
+    ],
+    [
+     "지하철(+선로·터널 입구)",
+     "landmark",
+     87.4,
+     56.8,
+     4966
+    ],
+    [
+     "택시",
+     "landmark",
+     48.7,
+     30.1,
+     1467
+    ]
+   ]
+  },
+  "plate": {
+   "plate_bbox_u": [
+    0,
+    276,
+    1000,
+    1143
+   ],
+   "left_edge_y": [
+    578,
+    985
+   ],
+   "right_edge_y": [
+    591,
+    1038
+   ],
+   "plate_px_pct_of_poster": 10.4
+  },
+  "units": "정규 1000x1400 단위 / A2 mm 환산(가로 0.42, 세로 0.4243 mm/단위)"
+ },
+ "203x-london": {
+  "register": {
+   "full_size": [
+    567,
+    794
+   ],
+   "scale_full_per_art": 0.2835,
+   "tiles": {
+    "1": {
+     "score": 0.978,
+     "best_scale": 0.28279,
+     "scale_ratio_to_full": 0.9975,
+     "offset_art_est": [
+      0.0,
+      0.0
+     ],
+     "offset_expected": [
+      0,
+      0
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    },
+    "4": {
+     "score": 0.951,
+     "best_scale": 0.28279,
+     "scale_ratio_to_full": 0.9975,
+     "offset_art_est": [
+      1001.8,
+      934.7
+     ],
+     "offset_expected": [
+      1000,
+      933
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    },
+    "5": {
+     "score": 0.9662,
+     "best_scale": 0.2835,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      0.0,
+      1866.0
+     ],
+     "offset_expected": [
+      0,
+      1867
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    }
+   },
+   "hires_cover_pct": 50.0
+  },
+  "stats": {
+   "map_stage_u": [
+    0,
+    198,
+    1000,
+    1208
+   ],
+   "map_stage_mm": [
+    0.0,
+    84.0,
+    420.0,
+    512.5
+   ],
+   "map_stage_pct_of_poster_area": 72.1,
+   "map_stage_height_pct": 72.1,
+   "fg_elements_y_extent_u": [
+    40,
+    1184
+   ],
+   "object_density_pct_of_M": 43.5,
+   "object_union_pct_of_poster": 31.9,
+   "core": {
+    "members": [
+     "빅벤(엘리자베스 타워)",
+     "웨스트민스터 사원",
+     "30 St Mary Axe(거킨)",
+     "빨간 전화박스",
+     "타워브리지",
+     "더 샤드",
+     "런던 아이",
+     "신사(볼러 모자)",
+     "블랙캡",
+     "런던 버스",
+     "언더그라운드+원형 표지",
+     "근위병 2명"
+    ],
+    "obj_box_union_u": [
+     38,
+     40,
+     964,
+     1187
+    ],
+    "obj_box_union_mm": [
+     16.0,
+     17.0,
+     404.9,
+     503.6
+    ],
+    "obj_box_pct_of_M": 105.2,
+    "obj_box_pct_of_poster": 75.9,
+    "mass_area_pct_of_M": 46.2,
+    "mass_area_pct_of_poster": 33.8,
+    "mass_bbox_u": [
+     40,
+     40,
+     954,
+     1185
+    ],
+    "mass_bbox_mm": [
+     16.8,
+     17.0,
+     400.7,
+     502.8
+    ],
+    "mass_bbox_pct_of_M": 103.6,
+    "mass_fill_of_bbox_pct": 45.2,
+    "silhouette_pct_of_M": 43.5,
+    "core_water_px": 7716,
+    "core_water_pct_of_M": 0.76,
+    "convex_hull_pct_of_M": 71.8,
+    "centroid_u": [
+     467,
+     719
+    ],
+    "centroid_norm": [
+     0.467,
+     0.514
+    ],
+    "core_share_of_all_objects_pct": 100.0
+   },
+   "river_visible_px": 7716,
+   "river_visible_pct_of_M": 0.76
+  },
+  "geo": {
+   "loglog_r2": 0.75,
+   "bearing_err_deg_after_fit": {
+    "웨스트민스터 사원": -128.0,
+    "런던 아이": -132.0,
+    "30 St Mary Axe": 9.0,
+    "타워브리지": 12.0,
+    "더 샤드": -15.0
+   },
+   "bearing_abs_err_median": 15.0,
+   "theta": 26.0,
+   "n": 6,
+   "north_on_screen_deg": 152.4,
+   "dist_exponent_b": 0.49,
+   "dist_coef_mm": 137.0,
+   "real_km_range_from_center": [
+    0.24,
+    3.45
+   ],
+   "poster_mm_range_from_center": [
+    53.4,
+    290.4
+   ],
+   "mm_per_km_range": [
+    72.3,
+    433.5
+   ],
+   "per_point": {
+    "웨스트민스터 사원": {
+     "real_km": 0.24,
+     "poster_mm": 105.3
+    },
+    "빅벤": {
+     "real_km": 0.0,
+     "poster_mm": 0.0
+    },
+    "런던 아이": {
+     "real_km": 0.45,
+     "poster_mm": 53.4
+    },
+    "30 St Mary Axe": {
+     "real_km": 3.43,
+     "poster_mm": 290.4
+    },
+    "타워브리지": {
+     "real_km": 3.45,
+     "poster_mm": 249.5
+    },
+    "더 샤드": {
+     "real_km": 2.67,
+     "poster_mm": 216.7
+    }
+   },
+   "fit": {
+    "reflect": false,
+    "rms_mm": 67.7,
+    "mean_err_mm": 60.0,
+    "per_point_err_mm": {
+     "웨스트민스터 사원": 102.9,
+     "빅벤": 15.5,
+     "런던 아이": 93.6,
+     "30 St Mary Axe": 38.9,
+     "타워브리지": 38.7,
+     "더 샤드": 70.3
+    }
+   }
+  },
+  "angles": {
+   "per_tile": {
+    "1": {
+     "pos": {
+      "deg": 26.09,
+      "sd": 0.27,
+      "n": 15,
+      "len_px": 2055
+     },
+     "neg": {
+      "deg": -25.99,
+      "sd": 0.16,
+      "n": 15,
+      "len_px": 1783
+     },
+     "vert": {
+      "deg": 89.97,
+      "sd": 0.15,
+      "n": 101,
+      "len_px": 5814
+     },
+     "horiz": null
+    },
+    "4": {
+     "pos": {
+      "deg": 25.83,
+      "sd": 0.59,
+      "n": 270,
+      "len_px": 13036
+     },
+     "neg": {
+      "deg": -26.05,
+      "sd": 0.44,
+      "n": 70,
+      "len_px": 4472
+     },
+     "vert": {
+      "deg": 90.01,
+      "sd": 0.54,
+      "n": 133,
+      "len_px": 8652
+     },
+     "horiz": {
+      "deg": 0.2,
+      "sd": 0.85,
+      "n": 12,
+      "len_px": 521
+     }
+    },
+    "5": {
+     "pos": {
+      "deg": 26.06,
+      "sd": 0.37,
+      "n": 61,
+      "len_px": 5707
+     },
+     "neg": {
+      "deg": -26.02,
+      "sd": 0.46,
+      "n": 49,
+      "len_px": 3731
+     },
+     "vert": {
+      "deg": 90.03,
+      "sd": 0.3,
+      "n": 76,
+      "len_px": 4981
+     },
+     "horiz": {
+      "deg": 0.35,
+      "sd": 0.76,
+      "n": 5,
+      "len_px": 456
+     }
+    }
+   },
+   "share_pct": {
+    "horiz(|a|<4)": 1.7,
+    "ground_axes(20-36)": 45.2,
+    "vertical(84-90)": 31.8
+   },
+   "window_pct": {
+    "26.57±1.5": 40.1,
+    "30.0±1.5": 0.3
+   },
+   "n_segments_map": 1178
+  },
+  "label_text_mm": [
+   {
+    "label": "Big Ben",
+    "bands_mm": [
+     4.24,
+     5.51,
+     3.18,
+     3.18,
+     4.03,
+     2.76
+    ],
+    "pitch_mm": [
+     5.3,
+     7.0,
+     4.67,
+     3.82,
+     5.94
+    ]
+   },
+   {
+    "label": "Westminster Abbey",
+    "bands_mm": [
+     39.87,
+     2.97,
+     3.18
+    ],
+    "pitch_mm": [
+     41.36,
+     4.67
+    ]
+   },
+   {
+    "label": "The Underground",
+    "bands_mm": [
+     11.45,
+     4.03,
+     3.39,
+     2.76,
+     2.97,
+     2.55,
+     2.97
+    ],
+    "pitch_mm": [
+     15.27,
+     5.94,
+     6.58,
+     4.45,
+     4.88,
+     4.45
+    ]
+   },
+   {
+    "label": "London Bus",
+    "bands_mm": [
+     5.51,
+     4.24,
+     3.61,
+     3.39,
+     3.39
+    ],
+    "pitch_mm": [
+     8.27,
+     5.94,
+     6.36,
+     4.67
+    ]
+   },
+   {
+    "label": "Black Cab",
+    "bands_mm": [
+     1.7,
+     18.24,
+     2.97,
+     2.33
+    ],
+    "pitch_mm": [
+     2.33,
+     21.0,
+     4.88
+    ]
+   }
+  ],
+  "title_text_mm": [
+   {
+    "name": "HISTORY(패널 제목, 고해상)",
+    "band_mm": 6.6
+   },
+   {
+    "name": "WILLIAM MORRIS(패널 제목, 고해상)",
+    "band_mm": 4.2
+   },
+   {
+    "name": "LONDON(메인 타이틀)",
+    "band_mm": 25.2
+   },
+   {
+    "name": "HARRY BECK(하단 패널 제목, 고해상)",
+    "band_mm": 7.6
+   }
+  ],
+  "sizes": {
+   "hero": [
+    "빅벤(히어로, 엘리자베스 타워)",
+    "hero",
+    97.4,
+    436.2,
+    42501
+   ],
+   "largest_box": [
+    "빅벤(히어로, 엘리자베스 타워)",
+    "hero",
+    97.4,
+    436.2,
+    42501
+   ],
+   "std_n": 5,
+   "std_w_median": 98.3,
+   "std_h_median": 175.2,
+   "std_area_median": 17595,
+   "std_w_range": [
+    42.8,
+    126.0
+   ],
+   "std_h_range": [
+    128.5,
+    181.2
+   ],
+   "hero_over_std_area": 2.42,
+   "props": [
+    [
+     "빨간 전화박스",
+     19.7,
+     50.5
+    ],
+    [
+     "신사(볼러 모자·우산)",
+     26.0,
+     78.9
+    ],
+    [
+     "블랙캡",
+     53.8,
+     37.3
+    ],
+    [
+     "런던 버스(9번)",
+     63.0,
+     52.6
+    ],
+    [
+     "언더그라운드+원형 표지",
+     80.6,
+     77.6
+    ],
+    [
+     "근위병 2명",
+     52.9,
+     122.2
+    ]
+   ],
+   "panel_count": 7,
+   "panel_area_pct": 16.5,
+   "title_w_pct": 63.5,
+   "title_mm": [
+    267,
+    68
+   ],
+   "objects_mm": [
+    [
+     "빅벤(히어로, 엘리자베스 타워)",
+     "hero",
+     97.4,
+     436.2,
+     42501
+    ],
+    [
+     "웨스트민스터 사원",
+     "landmark",
+     98.3,
+     179.0,
+     17595
+    ],
+    [
+     "30 St Mary Axe(거킨)",
+     "landmark",
+     46.2,
+     128.5,
+     5939
+    ],
+    [
+     "빨간 전화박스",
+     "landmark",
+     19.7,
+     50.5,
+     997
+    ],
+    [
+     "타워브리지",
+     "landmark",
+     125.2,
+     145.5,
+     18215
+    ],
+    [
+     "더 샤드",
+     "landmark",
+     42.8,
+     181.2,
+     7761
+    ],
+    [
+     "런던 아이",
+     "landmark",
+     126.0,
+     175.2,
+     22079
+    ],
+    [
+     "신사(볼러 모자·우산)",
+     "landmark",
+     26.0,
+     78.9,
+     2056
+    ],
+    [
+     "블랙캡",
+     "landmark",
+     53.8,
+     37.3,
+     2005
+    ],
+    [
+     "런던 버스(9번)",
+     "landmark",
+     63.0,
+     52.6,
+     3316
+    ],
+    [
+     "언더그라운드+원형 표지",
+     "landmark",
+     80.6,
+     77.6,
+     6261
+    ],
+    [
+     "근위병 2명",
+     "landmark",
+     52.9,
+     122.2,
+     6469
+    ]
+   ]
+  },
+  "plate": {
+   "plate_bbox_u": [
+    0,
+    207,
+    1000,
+    1204
+   ],
+   "left_edge_y": [
+    681,
+    938
+   ],
+   "right_edge_y": [
+    667,
+    897
+   ],
+   "plate_px_pct_of_poster": 9.0
+  },
+  "units": "정규 1000x1400 단위 / A2 mm 환산(가로 0.42, 세로 0.4243 mm/단위)"
+ },
+ "203x-berlin": {
+  "register": {
+   "full_size": [
+    1000,
+    1400
+   ],
+   "scale_full_per_art": 0.5,
+   "tiles": {
+    "1": {
+     "score": 0.9601,
+     "best_scale": 0.5,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      0.0,
+      0.0
+     ],
+     "offset_expected": [
+      0,
+      0
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    },
+    "4": {
+     "score": 0.9672,
+     "best_scale": 0.5,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      1000.0,
+      932.0
+     ],
+     "offset_expected": [
+      1000,
+      933
+     ],
+     "tile_size": [
+      1000,
+      934
+     ]
+    },
+    "5": {
+     "score": 0.9656,
+     "best_scale": 0.5,
+     "scale_ratio_to_full": 1.0,
+     "offset_art_est": [
+      0.0,
+      1868.0
+     ],
+     "offset_expected": [
+      0,
+      1867
+     ],
+     "tile_size": [
+      1000,
+      933
+     ]
+    }
+   },
+   "hires_cover_pct": 50.0
+  },
+  "stats": {
+   "map_stage_u": [
+    0,
+    217,
+    1000,
+    1342
+   ],
+   "map_stage_mm": [
+    0.0,
+    92.1,
+    420.0,
+    569.4
+   ],
+   "map_stage_pct_of_poster_area": 80.4,
+   "map_stage_height_pct": 80.4,
+   "fg_elements_y_extent_u": [
+    110,
+    1327
+   ],
+   "object_density_pct_of_M": 39.4,
+   "object_union_pct_of_poster": 31.9,
+   "core": {
+    "members": [
+     "베를린 TV탑",
+     "TV탑 받침 판(이스트사이드·세계시계·정자·나무)",
+     "베를린 돔",
+     "이스트 사이드 갤러리",
+     "세계시계(Weltzeituhr)"
+    ],
+    "obj_box_union_u": [
+     343,
+     110,
+     897,
+     1347
+    ],
+    "obj_box_union_mm": [
+     144.1,
+     46.7,
+     376.7,
+     571.5
+    ],
+    "obj_box_pct_of_M": 60.9,
+    "obj_box_pct_of_poster": 48.9,
+    "mass_area_pct_of_M": 21.5,
+    "mass_area_pct_of_poster": 17.4,
+    "mass_bbox_u": [
+     343,
+     110,
+     897,
+     1328
+    ],
+    "mass_bbox_mm": [
+     144.1,
+     46.7,
+     376.7,
+     563.5
+    ],
+    "mass_bbox_pct_of_M": 60.0,
+    "mass_fill_of_bbox_pct": 36.1,
+    "silhouette_pct_of_M": 20.2,
+    "core_water_px": 12625,
+    "core_water_pct_of_M": 1.12,
+    "convex_hull_pct_of_M": 39.5,
+    "centroid_u": [
+     586,
+     917
+    ],
+    "centroid_norm": [
+     0.586,
+     0.655
+    ],
+    "core_share_of_all_objects_pct": 51.4
+   },
+   "river_visible_px": 17521,
+   "river_visible_pct_of_M": 1.56
+  },
+  "geo": {
+   "loglog_r2": 0.29,
+   "bearing_err_deg_after_fit": {
+    "국회의사당": 28.0,
+    "브란덴부르크 문": 54.0,
+    "홀로코스트 기념비": 21.0,
+    "체크포인트 찰리": -11.0,
+    "카이저 빌헬름 교회": 1.0,
+    "베를린 돔": -5.0,
+    "이스트 사이드 갤러리": -96.0,
+    "유대인 박물관": -64.0,
+    "베를린 중앙역": 7.0,
+    "전승기념탑": -31.0,
+    "세계시계(알렉산더 광장)": 82.0
+   },
+   "bearing_abs_err_median": 28.0,
+   "theta": 30.0,
+   "n": 12,
+   "north_on_screen_deg": -4.8,
+   "dist_exponent_b": 0.42,
+   "dist_coef_mm": 160.0,
+   "real_km_range_from_center": [
+    0.26,
+    5.34
+   ],
+   "poster_mm_range_from_center": [
+    53.5,
+    478.3
+   ],
+   "mm_per_km_range": [
+    35.1,
+    413.0
+   ],
+   "per_point": {
+    "국회의사당": {
+     "real_km": 2.26,
+     "poster_mm": 349.1
+    },
+    "브란덴부르크 문": {
+     "real_km": 2.2,
+     "poster_mm": 202.0
+    },
+    "홀로코스트 기념비": {
+     "real_km": 2.22,
+     "poster_mm": 242.8
+    },
+    "체크포인트 찰리": {
+     "real_km": 1.95,
+     "poster_mm": 161.2
+    },
+    "카이저 빌헬름 교회": {
+     "real_km": 5.34,
+     "poster_mm": 382.4
+    },
+    "베를린 돔": {
+     "real_km": 0.6,
+     "poster_mm": 247.5
+    },
+    "TV탑": {
+     "real_km": 0.0,
+     "poster_mm": 0.0
+    },
+    "이스트 사이드 갤러리": {
+     "real_km": 2.7,
+     "poster_mm": 94.7
+    },
+    "유대인 박물관": {
+     "real_km": 2.27,
+     "poster_mm": 478.3
+    },
+    "베를린 중앙역": {
+     "real_km": 2.75,
+     "poster_mm": 374.9
+    },
+    "전승기념탑": {
+     "real_km": 4.08,
+     "poster_mm": 146.6
+    },
+    "세계시계(알렉산더 광장)": {
+     "real_km": 0.26,
+     "poster_mm": 53.5
+    }
+   },
+   "fit": {
+    "reflect": false,
+    "rms_mm": 155.4,
+    "mean_err_mm": 135.8,
+    "per_point_err_mm": {
+     "국회의사당": 163.0,
+     "브란덴부르크 문": 189.1,
+     "홀로코스트 기념비": 96.8,
+     "체크포인트 찰리": 59.2,
+     "카이저 빌헬름 교회": 50.4,
+     "베를린 돔": 82.0,
+     "TV탑": 144.7,
+     "이스트 사이드 갤러리": 35.7,
+     "유대인 박물관": 320.8,
+     "베를린 중앙역": 144.2,
+     "전승기념탑": 186.4,
+     "세계시계(알렉산더 광장)": 157.3
+    }
+   }
+  },
+  "angles": {
+   "per_tile": {
+    "1": {
+     "pos": null,
+     "neg": null,
+     "vert": {
+      "deg": 89.73,
+      "sd": 0.61,
+      "n": 10,
+      "len_px": 617
+     },
+     "horiz": null
+    },
+    "4": {
+     "pos": {
+      "deg": 29.73,
+      "sd": 0.7,
+      "n": 92,
+      "len_px": 7052
+     },
+     "neg": {
+      "deg": -29.82,
+      "sd": 0.51,
+      "n": 76,
+      "len_px": 5523
+     },
+     "vert": {
+      "deg": 90.0,
+      "sd": 0.85,
+      "n": 152,
+      "len_px": 8669
+     },
+     "horiz": {
+      "deg": -1.59,
+      "sd": 1.24,
+      "n": 5,
+      "len_px": 195
+     }
+    },
+    "5": {
+     "pos": {
+      "deg": 29.87,
+      "sd": 0.54,
+      "n": 33,
+      "len_px": 3500
+     },
+     "neg": {
+      "deg": -30.0,
+      "sd": 0.22,
+      "n": 17,
+      "len_px": 1719
+     },
+     "vert": {
+      "deg": 90.02,
+      "sd": 0.34,
+      "n": 85,
+      "len_px": 7697
+     },
+     "horiz": null
+    }
+   },
+   "share_pct": {
+    "horiz(|a|<4)": 1.6,
+    "ground_axes(20-36)": 44.7,
+    "vertical(84-90)": 42.1
+   },
+   "window_pct": {
+    "26.57±1.5": 0.6,
+    "30.0±1.5": 41.6
+   },
+   "n_segments_map": 678
+  },
+  "label_text_mm": [
+   {
+    "label": "Reichstagsgebaeude",
+    "bands_mm": [
+     4.67,
+     3.61,
+     3.18,
+     3.18,
+     3.18
+    ],
+    "pitch_mm": [
+     5.3,
+     5.51,
+     3.82,
+     3.82
+    ]
+   },
+   {
+    "label": "Kaiser-Wilhelm-Gedaechtniskirche",
+    "bands_mm": [
+     8.27,
+     4.03,
+     3.39,
+     2.97,
+     1.7,
+     13.79,
+     1.7
+    ],
+    "pitch_mm": [
+     9.33,
+     6.36,
+     3.82,
+     9.33,
+     2.76,
+     14.63
+    ]
+   },
+   {
+    "label": "Berlin Hauptbahnhof",
+    "bands_mm": [
+     4.03,
+     4.03,
+     3.39,
+     3.39,
+     3.61
+    ],
+    "pitch_mm": [
+     5.09,
+     5.51,
+     4.24,
+     4.03
+    ]
+   },
+   {
+    "label": "Berliner Siegessaeule",
+    "bands_mm": [
+     4.03,
+     3.82,
+     3.39,
+     3.39,
+     3.18
+    ],
+    "pitch_mm": [
+     5.3,
+     6.15,
+     3.82,
+     3.82
+    ]
+   },
+   {
+    "label": "Brandenburger Tor",
+    "bands_mm": [
+     4.03,
+     3.61,
+     3.61,
+     3.61,
+     3.61
+    ],
+    "pitch_mm": [
+     5.3,
+     5.94,
+     3.82,
+     3.82
+    ]
+   },
+   {
+    "label": "East Side Gallery",
+    "bands_mm": [
+     6.36,
+     4.24,
+     3.61,
+     3.39,
+     3.39,
+     3.39,
+     8.91
+    ],
+    "pitch_mm": [
+     12.94,
+     5.3,
+     6.15,
+     3.82,
+     3.82,
+     12.94
+    ]
+   }
+  ],
+  "title_text_mm": [
+   {
+    "name": "CITY INFORMATION(패널 제목, 고해상)",
+    "band_mm": 7.4
+   },
+   {
+    "name": "FAMOUS CULTURE AREA(패널 제목, 고해상)",
+    "band_mm": 7.6
+   },
+   {
+    "name": "Berlin(메인 타이틀)",
+    "band_mm": 29.7
+   },
+   {
+    "name": "FAMOUS FOOD(하단 패널 제목, 고해상)",
+    "band_mm": 7.6
+   }
+  ],
+  "sizes": {
+   "hero": [
+    "베를린 TV탑(히어로)",
+    "hero",
+    53.8,
+    448.9,
+    24132
+   ],
+   "largest_box": [
+    "TV탑 받침 판(이스트사이드·세계시계·정자·숲)",
+    "landmark",
+    232.7,
+    156.5,
+    36419
+   ],
+   "std_n": 11,
+   "std_w_median": 92.4,
+   "std_h_median": 87.9,
+   "std_area_median": 9260,
+   "std_w_range": [
+    35.7,
+    148.3
+   ],
+   "std_h_range": [
+    58.2,
+    185.4
+   ],
+   "hero_over_std_area": 2.61,
+   "props": [
+    [
+     "S반",
+     65.1,
+     48.8
+    ],
+    [
+     "U반(터널 출구)",
+     37.8,
+     41.2
+    ],
+    [
+     "노란 버스",
+     26.0,
+     22.0
+    ],
+    [
+     "택시",
+     32.3,
+     18.7
+    ]
+   ],
+   "panel_count": 5,
+   "panel_area_pct": 8.8,
+   "title_w_pct": 43.9,
+   "title_mm": [
+    184,
+    78
+   ],
+   "objects_mm": [
+    [
+     "베를린 TV탑(히어로)",
+     "hero",
+     53.8,
+     448.9,
+     24132
+    ],
+    [
+     "TV탑 받침 판(이스트사이드·세계시계·정자·숲)",
+     "landmark",
+     232.7,
+     156.5,
+     36419
+    ],
+    [
+     "베를린 돔",
+     "landmark",
+     115.1,
+     147.7,
+     16994
+    ],
+    [
+     "이스트 사이드 갤러리",
+     "landmark",
+     77.7,
+     76.4,
+     5935
+    ],
+    [
+     "세계시계(Urania-Weltzeituhr)",
+     "landmark",
+     35.7,
+     58.2,
+     2076
+    ],
+    [
+     "카이저 빌헬름 기념 교회",
+     "landmark",
+     80.6,
+     87.9,
+     7084
+    ],
+    [
+     "국회의사당(+판)",
+     "landmark",
+     148.3,
+     108.2,
+     16037
+    ],
+    [
+     "홀로코스트 기념비(+판)",
+     "landmark",
+     119.3,
+     77.6,
+     9260
+    ],
+    [
+     "브란덴부르크 문(+원판, 왼쪽 블리드)",
+     "landmark",
+     108.4,
+     93.3,
+     10112
+    ],
+    [
+     "체크포인트 찰리",
+     "landmark",
+     68.0,
+     87.8,
+     5973
+    ],
+    [
+     "유대인 박물관(+숲)",
+     "landmark",
+     92.0,
+     89.9,
+     8272
+    ],
+    [
+     "베를린 중앙역(+침하 분지)",
+     "landmark",
+     126.0,
+     87.8,
+     11062
+    ],
+    [
+     "전승기념탑(+원판)",
+     "landmark",
+     92.4,
+     185.4,
+     17130
+    ],
+    [
+     "S반",
+     "landmark",
+     65.1,
+     48.8,
+     3179
+    ],
+    [
+     "U반(터널 출구)",
+     "landmark",
+     37.8,
+     41.2,
+     1556
+    ],
+    [
+     "노란 버스",
+     "landmark",
+     26.0,
+     22.0,
+     574
+    ],
+    [
+     "택시",
+     "landmark",
+     32.3,
+     18.7,
+     603
+    ]
+   ]
+  },
+  "plate": null,
+  "units": "정규 1000x1400 단위 / A2 mm 환산(가로 0.42, 세로 0.4243 mm/단위)"
+ }
+}

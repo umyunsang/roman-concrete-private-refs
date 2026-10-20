@@ -1,0 +1,87 @@
+{
+ "core": {
+  "bbox_px": [
+   236,
+   236,
+   840,
+   1321
+  ],
+  "bbox_norm": [
+   0.236,
+   0.1686,
+   0.84,
+   0.9436
+  ],
+  "bbox_mm": [
+   99.1,
+   100.1,
+   352.8,
+   560.5
+  ],
+  "bbox_area_pct_of_stage": 60.1,
+  "footprint_pct_of_stage": 25.6,
+  "ink_pct_of_stage": 25.2,
+  "hull_pct_of_stage": 38.5,
+  "centroid_norm": [
+   0.524,
+   0.709
+  ],
+  "footprint_area_mm2": 47858
+ },
+ "density": {
+  "objects_union_pct_of_stage": 56.4,
+  "objects_union_pct_of_poster": 42.2,
+  "river_visible_pct_of_stage": 0.6,
+  "river_corridor_pct_of_stage": 5.8
+ },
+ "nn_gap_median_mm": 0.0,
+ "geo_fit": {
+  "rotation_deg": 115.8,
+  "bearing_abs_dev_median_deg": 8.0,
+  "bearing_abs_dev_max_deg": 32.8,
+  "dist_exponent": 0.808,
+  "dist_coef_mm": 94.7,
+  "real_km_range": [
+   1.6,
+   4.75
+  ],
+  "plan_mm_range": [
+   110.8,
+   365.9
+  ],
+  "north_on_screen_deg": 168.6,
+  "n": 9
+ },
+ "river_bb": [
+  236,
+  445,
+  1000,
+  1216
+ ],
+ "river_vthick_med_px": 53.0
+}
+  히어로    에펠탑(탑)                    182.7x 411.6mm   26865mm2  무대 14.40%  gap 0.0
+  히어로 받침 샹드마르스 받침 판                230.2x 188.0mm   30141mm2  무대 16.15%  gap None
+  소품     메트로 입구                     62.6x  44.5mm    1695mm2  무대  0.91%  gap None
+  랜드마크   개선문+에투알 판                 103.3x 117.5mm    9733mm2  무대  5.22%  gap 0.0
+  랜드마크   사크레쾨르+판                   126.0x 147.7mm   14758mm2  무대  7.91%  gap 0.0
+  랜드마크   가르니에 오페라                   76.9x  70.4mm    3206mm2  무대  1.72%  gap 0.0
+  랜드마크   퐁피두 센터+판                   65.5x  57.7mm    2224mm2  무대  1.19%  gap 0.0
+  랜드마크   루브르 박물관                   105.0x  90.8mm    6817mm2  무대  3.65%  gap 0.0
+  랜드마크   노트르담+시테섬 판                110.0x 103.5mm    8735mm2  무대  4.68%  gap 0.0
+  랜드마크   오르세 미술관                    93.7x  74.2mm    3739mm2  무대  2.00%  gap 0.0
+  랜드마크   로댕 미술관+정원 판               147.8x 122.6mm   13487mm2  무대  7.23%  gap 0.0
+  탈것     RER·메트로 터널                 66.8x  65.3mm    3138mm2  무대  1.68%  gap None
+  탈것     택시                         18.5x  13.2mm     124mm2  무대  0.07%  gap None
+  탈것     버스                         20.6x  17.0mm     213mm2  무대  0.11%  gap None
+  탈것     센강 유람선                     47.5x  31.0mm     496mm2  무대  0.27%  gap None
+  랜드마크   콩코르드·튈르리(관람차 포함)           93.7x  94.2mm    5067mm2  무대  2.72%  gap 0.0
+  geo {'name': '개선문+에투알 판', 'plan_mm': [-145.9, 53.1], 'plan_dist_mm': 155.3, 'screen_dist_mm': 178.5, 'real_km': 1.72, 'real_en_km': [0.04, 1.72], 'bearing_dev_deg': -4.5}
+  geo {'name': '사크레쾨르+판', 'plan_mm': [-235.5, -49.6], 'plan_dist_mm': 240.7, 'screen_dist_mm': 215.1, 'real_km': 4.75, 'real_en_km': [3.56, 3.15], 'bearing_dev_deg': 10.8}
+  geo {'name': '가르니에 오페라', 'plan_mm': [-247.2, -145.8], 'plan_dist_mm': 287.0, 'screen_dist_mm': 215.2, 'real_km': 3.11, 'real_en_km': [2.72, 1.52], 'bearing_dev_deg': 4.5}
+  geo {'name': '퐁피두 센터+판', 'plan_mm': [-221.9, -291.0], 'plan_dist_mm': 365.9, 'screen_dist_mm': 263.3, 'real_km': 4.24, 'real_en_km': [4.23, 0.26], 'bearing_dev_deg': 8.0}
+  geo {'name': '루브르 박물관', 'plan_mm': [-145.5, -185.9], 'plan_dist_mm': 236.1, 'screen_dist_mm': 169.4, 'real_km': 3.04, 'real_en_km': [3.03, 0.31], 'bearing_dev_deg': 6.4}
+  geo {'name': '노트르담+시테섬 판', 'plan_mm': [-109.6, -272.3], 'plan_dist_mm': 293.5, 'screen_dist_mm': 237.3, 'real_km': 4.1, 'real_en_km': [4.06, -0.58], 'bearing_dev_deg': 4.3}
+  geo {'name': '오르세 미술관', 'plan_mm': [-64.0, -195.4], 'plan_dist_mm': 205.6, 'screen_dist_mm': 172.6, 'real_km': 2.36, 'real_en_km': [2.35, 0.19], 'bearing_dev_deg': -12.3}
+  geo {'name': '로댕 미술관+정원 판', 'plan_mm': [36.1, -104.8], 'plan_dist_mm': 110.8, 'screen_dist_mm': 126.8, 'real_km': 1.6, 'real_en_km': [1.56, -0.33], 'bearing_dev_deg': -32.8}
+  geo {'name': '콩코르드·튈르리(관람차 포함)', 'plan_mm': [-157.1, -82.9], 'plan_dist_mm': 177.6, 'screen_dist_mm': 136.1, 'real_km': 2.12, 'real_en_km': [1.96, 0.81], 'bearing_dev_deg': 13.9}

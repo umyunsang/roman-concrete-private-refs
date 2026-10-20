@@ -1,0 +1,97 @@
+{
+ "core": {
+  "bbox_px": [
+   329,
+   103,
+   1000,
+   1070
+  ],
+  "bbox_norm": [
+   0.329,
+   0.0736,
+   1.0,
+   0.7643
+  ],
+  "bbox_mm": [
+   138.2,
+   43.7,
+   420.0,
+   454.0
+  ],
+  "bbox_area_pct_of_stage": 57.3,
+  "footprint_pct_of_stage": 32.5,
+  "ink_pct_of_stage": 26.5,
+  "hull_pct_of_stage": 45.3,
+  "centroid_norm": [
+   0.701,
+   0.425
+  ],
+  "footprint_area_mm2": 56006
+ },
+ "density": {
+  "objects_union_pct_of_stage": 49.1,
+  "objects_union_pct_of_poster": 33.9,
+  "river_visible_pct_of_stage": 6.4,
+  "river_corridor_pct_of_stage": 9.3
+ },
+ "nn_gap_median_mm": 0.0,
+ "geo_fit": {
+  "rotation_deg": 93.0,
+  "bearing_abs_dev_median_deg": 17.5,
+  "bearing_abs_dev_max_deg": 59.5,
+  "dist_exponent": 0.301,
+  "dist_coef_mm": 131.1,
+  "real_km_range": [
+   0.36,
+   5.94
+  ],
+  "plan_mm_range": [
+   57.1,
+   249.3
+  ],
+  "north_on_screen_deg": 152.5,
+  "n": 12
+ },
+ "river_bb": [
+  328,
+  314,
+  1000,
+  1212
+ ],
+ "river_vthick_med_px": 123.0
+}
+  히어로    동방명주(탑)                    46.6x 273.7mm    4490mm2  무대  2.62%  gap 0.0
+  히어로 받침 동방명주 받침 판                 107.5x  51.8mm    2097mm2  무대  1.22%  gap None
+  랜드마크   진마오 타워                     29.4x 171.0mm    4142mm2  무대  2.42%  gap 0.0
+  랜드마크   상하이 타워                     33.6x 194.7mm    5800mm2  무대  3.38%  gap 0.0
+  랜드마크   상하이 세계금융센터                 38.6x 174.4mm    5214mm2  무대  3.04%  gap 0.0
+  랜드마크   중국미술관                      64.7x  58.6mm    2123mm2  무대  1.24%  gap 0.0
+  랜드마크   오로라 미술관                    42.8x  75.9mm    2549mm2  무대  1.49%  gap 0.0
+  랜드마크   양수푸 상수도                   127.7x  99.3mm    8468mm2  무대  4.94%  gap 0.0
+  랜드마크   록번드 미술관                    67.6x  81.0mm    4256mm2  무대  2.48%  gap 0.0
+  랜드마크   사순 빌딩·중국은행                 68.0x  75.9mm    3679mm2  무대  2.15%  gap 0.0
+  랜드마크   상하이 총회                     73.5x  89.1mm    4495mm2  무대  2.62%  gap 0.0
+  랜드마크   강해관(세관)                    39.5x  85.3mm    2350mm2  무대  1.37%  gap 0.0
+  랜드마크   HSBC 빌딩                    54.2x  58.6mm    2124mm2  무대  1.24%  gap 0.0
+  랜드마크   아시아 빌딩                     59.2x  71.3mm    3276mm2  무대  1.91%  gap 0.0
+  랜드마크   예원+연못 판                   161.3x 114.1mm   15638mm2  무대  9.12%  gap 0.0
+  랜드마크   난푸대교                      131.0x 107.8mm   11136mm2  무대  6.50%  gap 0.0
+  판      녹지 공원 판(라벨 없음)             93.2x  85.7mm    2550mm2  무대  1.49%  gap None
+  탈것     시내버스                       34.9x  30.1mm     710mm2  무대  0.41%  gap None
+  탈것     크루즈                        43.7x  29.3mm     401mm2  무대  0.23%  gap None
+  탈것     지하철                        23.9x  24.2mm     356mm2  무대  0.21%  gap None
+  탈것     택시                         31.1x  22.5mm     460mm2  무대  0.27%  gap None
+  geo {'name': '진마오 타워', 'plan_mm': [0.9, -57.0], 'plan_dist_mm': 57.1, 'screen_dist_mm': 57.5, 'real_km': 0.36, 'real_en_km': [0.16, -0.32], 'bearing_dev_deg': 59.5}
+  geo {'name': '상하이 타워', 'plan_mm': [59.5, -31.5], 'plan_dist_mm': 67.3, 'screen_dist_mm': 80.0, 'real_km': 0.88, 'real_en_km': [0.55, -0.69], 'bearing_dev_deg': -13.7}
+  geo {'name': '상하이 세계금융센터', 'plan_mm': [48.8, -119.7], 'plan_dist_mm': 129.3, 'screen_dist_mm': 150.2, 'real_km': 0.94, 'real_en_km': [0.76, -0.55], 'bearing_dev_deg': 10.7}
+  geo {'name': '중국미술관', 'plan_mm': [87.1, -79.0], 'plan_dist_mm': 117.6, 'screen_dist_mm': 143.9, 'real_km': 5.94, 'real_en_km': [-0.64, -5.9], 'bearing_dev_deg': 45.4}
+  geo {'name': '오로라 미술관', 'plan_mm': [124.6, -2.7], 'plan_dist_mm': 124.6, 'screen_dist_mm': 126.0}
+  geo {'name': '양수푸 상수도', 'plan_mm': [-112.6, -28.9], 'plan_dist_mm': 116.2, 'screen_dist_mm': 101.3}
+  geo {'name': '록번드 미술관', 'plan_mm': [-104.1, 64.7], 'plan_dist_mm': 122.6, 'screen_dist_mm': 147.5, 'real_km': 1.31, 'real_en_km': [-1.27, 0.32], 'bearing_dev_deg': -47.0}
+  geo {'name': '사순 빌딩·중국은행', 'plan_mm': [-38.6, 138.1], 'plan_dist_mm': 143.4, 'screen_dist_mm': 161.0, 'real_km': 1.33, 'real_en_km': [-1.33, 0.02], 'bearing_dev_deg': -17.8}
+  geo {'name': '상하이 총회', 'plan_mm': [54.7, 153.6], 'plan_dist_mm': 163.1, 'screen_dist_mm': 134.9, 'real_km': 1.26, 'real_en_km': [-1.04, -0.7], 'bearing_dev_deg': -17.3}
+  geo {'name': '강해관(세관)', 'plan_mm': [107.8, 166.2], 'plan_dist_mm': 198.1, 'screen_dist_mm': 146.1, 'real_km': 1.21, 'real_en_km': [-1.18, -0.3], 'bearing_dev_deg': 15.7}
+  geo {'name': 'HSBC 빌딩', 'plan_mm': [128.0, 156.1], 'plan_dist_mm': 201.9, 'screen_dist_mm': 144.1, 'real_km': 1.21, 'real_en_km': [-1.16, -0.36], 'bearing_dev_deg': 19.1}
+  geo {'name': '아시아 빌딩', 'plan_mm': [180.5, 149.0], 'plan_dist_mm': 234.1, 'screen_dist_mm': 167.0, 'real_km': 1.27, 'real_en_km': [-1.03, -0.75], 'bearing_dev_deg': 11.4}
+  geo {'name': '예원+연못 판', 'plan_mm': [76.9, 237.2], 'plan_dist_mm': 249.3, 'screen_dist_mm': 209.6, 'real_km': 1.56, 'real_en_km': [-0.73, -1.38], 'bearing_dev_deg': -47.2}
+  geo {'name': '난푸대교', 'plan_mm': [187.9, 50.4], 'plan_dist_mm': 194.6, 'screen_dist_mm': 168.5, 'real_km': 3.2, 'real_en_km': [-0.19, -3.2], 'bearing_dev_deg': -14.6}

@@ -1,0 +1,10 @@
+import time
+src = open("scripts/wireframe_v16.py", encoding="utf-8").read()
+exec(compile(src, "wireframe_v16.py", "exec"))
+bgl = Layer(130, 85, 230, 185, "t", bg=BG + (255,))
+l = Layer(130, 85, 230, 185, "bath")
+draw_bath(l, 178, 140, 64)
+print(l.measure())
+bgl.paste(l)
+out = bgl.img.resize((bgl.w // SS * 2, bgl.h // SS * 2), Image.LANCZOS).convert("RGB")
+out.save("out/v16_work/test6.png"); print(out.size)

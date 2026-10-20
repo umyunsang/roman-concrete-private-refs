@@ -1,0 +1,60 @@
+{
+ "203x-seoul": [
+  {
+   "name": "SUMMARY(패널 제목, 고해상)",
+   "band_mm": 7.4
+  },
+  {
+   "name": "Symbol(패널 소제목, 고해상)",
+   "band_mm": 4.9
+  },
+  {
+   "name": "SEOUL(메인 타이틀)",
+   "band_mm": 50.1
+  },
+  {
+   "name": "CITY WHERE PAST AND PRESENT COEXIST(부제)",
+   "band_mm": 9.5
+  },
+  {
+   "name": "PERSON IN SEOUL(하단 패널 제목, 고해상)",
+   "band_mm": 7.4
+  }
+ ],
+ "203x-london": [
+  {
+   "name": "HISTORY(패널 제목, 고해상)",
+   "band_mm": 6.6
+  },
+  {
+   "name": "WILLIAM MORRIS(패널 제목, 고해상)",
+   "band_mm": 4.2
+  },
+  {
+   "name": "LONDON(메인 타이틀)",
+   "band_mm": 25.2
+  },
+  {
+   "name": "HARRY BECK(하단 패널 제목, 고해상)",
+   "band_mm": 7.6
+  }
+ ],
+ "203x-berlin": [
+  {
+   "name": "CITY INFORMATION(패널 제목, 고해상)",
+   "band_mm": 7.4
+  },
+  {
+   "name": "FAMOUS CULTURE AREA(패널 제목, 고해상)",
+   "band_mm": 7.6
+  },
+  {
+   "name": "Berlin(메인 타이틀)",
+   "band_mm": 29.7
+  },
+  {
+   "name": "FAMOUS FOOD(하단 패널 제목, 고해상)",
+   "band_mm": 7.6
+  }
+ ]
+}

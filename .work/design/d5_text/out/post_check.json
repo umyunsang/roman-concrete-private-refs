@@ -1,0 +1,635 @@
+{
+ "drawn": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d5_text/out/drawn.json",
+ "spec": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d5_text/out/spec.json",
+ "pass": true,
+ "fail_count": 0,
+ "rules": [
+  {
+   "no": "①",
+   "name": "인쇄 글 금지 패턴 0회(작업 이름·티어 이름·치수 단위 mm·검사·위치도·연대기·자리 예약·선택 대기·저탄소·41%·29%, 조각상 문장·반죽 붓기·퐁 뒤 가르·이름 유래, 새 랜드마크·거상 치수; m·km·'모식' 허용)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "texts_scanned": 166,
+    "no_dimension_labels": 3
+   }
+  },
+  {
+   "no": "②",
+   "name": "라벨 배율 1.00·글자면 결정 7 ±0.1(소품 주석 2.6·짝 표지 2.2)·피치 4.15±0.05·슬롯 넘침 ≤ 0.5mm·라벨/길/건물/지시선과 2mm 이상·깃대형 깃대 수직(x 편차 ≤ 0.1)·끝점 Ø0.9·대상 간격 ≤ 0.5",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "labels": 11,
+    "classified_texts": 125,
+    "unclassified_texts": 20,
+    "prop_annotations": 1
+   }
+  },
+  {
+   "no": "③",
+   "name": "패널 본문 ≥ 2.55mm, 주석 ≥ 2.05mm",
+   "pass": true,
+   "fails": [],
+   "info": {}
+  },
+  {
+   "no": "④",
+   "name": "지시선 수직·±30°(±0.5°)·꺾임 ≤ 1·끝점 Ø0.9±0.05·대상 간격 ≤ 0.5mm·교차 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "leaders": 11
+   }
+  },
+  {
+   "no": "⑤",
+   "name": "길-지면 간격: 사용자 16:14 결정으로 폐기(길 R1~R7을 지도에서 지웠다)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "roads": 1,
+    "note": "사용자 16:14 결정으로 폐기"
+   }
+  },
+  {
+   "no": "⑥",
+   "name": "S 막대 바깥 길이 비 20.0±0.2",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "modern_len": 3.0,
+    "roman_len": 60.0,
+    "ratio": 20.0
+   }
+  },
+  {
+   "no": "⑦",
+   "name": "밀도 ≥ 26.0%(렌더 실측, 전체 무대 173,460mm² 기준 판정 · 열린 무대 값 기록. 사용자 16:14: Core 건물만, 203X 실측 하한 26%)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "pct": 26.08,
+    "pct_open_stage": 26.08,
+    "pct_full_stage": 26.08,
+    "num_full_mm2": 42274.9,
+    "full_stage_mm2": 162120.0,
+    "num_mm2": 42274.9,
+    "den_mm2": 162120.0,
+    "stage_mm2": 162120.0,
+    "covered_mm2": 0.0,
+    "landmark_layer_mm2": 42274.9,
+    "terrain_layer_mm2": 0.0,
+    "target_pct": 39.3
+   }
+  },
+  {
+   "no": "⑧",
+   "name": "인물 군 0(사용자 16:14 결정으로 사람·인물 무리 삭제, 기존 '≥ 3곳' 기준 폐기)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "crowds": 0
+   }
+  },
+  {
+   "no": "⑨",
+   "name": "포르투스 입구 18~22mm·섬 양옆 물길 ≥ 4mm·탑–두 팔 끝 보이는 물 ≥ 4mm·운하 2곳 연속",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "entrance_mm": 20.04,
+    "island_water_mm": [
+     9.71,
+     5.33
+    ],
+    "tower_to_arm_tips_mm": [
+     4.57,
+     12.22
+    ],
+    "canals": 2
+   }
+  },
+  {
+   "no": "⑩",
+   "name": "티어 색(Core·Basic·Detail·Support) 인쇄 사용 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "uses": 0
+   }
+  },
+  {
+   "no": "⑪",
+   "name": "위계(그린 상자): 6패널 Basic 최소 ≥ 확대 원(Z1) + 지도(그린 외곽 상자끼리): 콜로세움 건물 상자 ≥ 랜드마크 최대 × 1.0·표준 랜드마크 각각 ≥ 4,500·콜로세움 건물 실루엣 ≥ 다른 건물 × 1.2(사용자 16:14: 군·중앙값 비·베수비오 최소·Detail ≥ Support 비는 폐기)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "panels_drawn": [
+     "L",
+     "P2",
+     "B",
+     "D",
+     "S",
+     "P5"
+    ],
+    "basic_min": [
+     "L",
+     7488
+    ],
+    "detail_max": [
+     "Z1",
+     900
+    ],
+    "detail_min": [
+     "Z1",
+     900
+    ],
+    "support": [
+     "S",
+     2214
+    ],
+    "ratio_basic_detail": 8.32,
+    "ratio_detail_support": 0.407,
+    "areas": {
+     "Basic": {
+      "L": 7488,
+      "P2": 7488,
+      "B": 15264,
+      "D": 16324,
+      "P5": 8692
+     },
+     "Detail": {
+      "Z1": 900
+     },
+     "Support": {
+      "S": 2214
+     }
+    },
+    "landmark_areas_drawn": {
+     "L1": 9673,
+     "L2": 8064,
+     "L3": 10744,
+     "L4": 6440,
+     "L5": 5785,
+     "L6": 6837,
+     "L7": 4566,
+     "L8": 4530,
+     "L9": 4698
+    },
+    "landmark_median_drawn": 6440,
+    "L5_drawn_area": 5785.1,
+    "basis": "그린 외곽 상자끼리(drawn.objects). 예정 상자 아님",
+    "hero_group_box": [
+     192.7,
+     226.4,
+     300.4,
+     330.1
+    ],
+    "hero_group_area": 11175,
+    "hero_building_box": [
+     192.7,
+     226.4,
+     300.4,
+     330.1
+    ],
+    "hero_slab_box": null,
+    "hero_group_from": "hero_group(콜로세움 건물 하나, 사용자 16:14)",
+    "hero_over_median": 1.74,
+    "hero_over_landmark_max": 1.04,
+    "building_sil_mm2": 9246,
+    "building_sil_over_max_other": [
+     "L3",
+     1.34
+    ]
+   }
+  },
+  {
+   "no": "⑫",
+   "name": "글 블록과 상자 테두리 ≥ 3mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "bordered_boxes": 1,
+    "texts_checked": 0,
+    "note": "테두리 상자(확대 원 Z1) 안에 든 글이 없다(설명 글은 원 아래 밖). 콜아웃은 사용자 15:41로 없어졌다"
+   }
+  },
+  {
+   "no": "⑬",
+   "name": "필수 요소 존재: 패널 6(L·P2·B·D·S·P5)·랜드마크 L1~L9·네로 거상·폰스 아일리우스 다리·형태 표지 1~4 각 2(아이콘·중심·출처)·❺ 근거 표지 3, 지도 표지 간격 ≥ 2mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "objects": 14,
+    "marks": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 3
+    },
+    "marks_total": 11,
+    "map_mark_clearance_mm": [
+     [
+      "1",
+      22.01
+     ],
+     [
+      "2",
+      11.95
+     ],
+     [
+      "3",
+      39.26
+     ],
+     [
+      "4",
+      11.93
+     ],
+     [
+      "5",
+      13.58
+     ],
+     [
+      "5",
+      29.63
+     ],
+     [
+      "5",
+      76.87
+     ]
+    ]
+   }
+  },
+  {
+   "no": "⑭",
+   "name": "건물 실루엣 간격 ≥ 2mm(footprints 건물 묶음 쌍, 길–지면 접속·다리–강·다리–R7 제외)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "groups": [
+     "극장",
+     "네로",
+     "메텔라",
+     "바실리카",
+     "수도교",
+     "시장",
+     "영묘",
+     "욕장",
+     "콜로세움",
+     "판테온",
+     "포르투스"
+    ],
+    "near_pairs_mm": [
+     [
+      "영묘",
+      "포르투스",
+      2.14
+     ],
+     [
+      "바실리카",
+      "욕장",
+      2.45
+     ],
+     [
+      "네로",
+      "콜로세움",
+      5.52
+     ],
+     [
+      "시장",
+      "판테온",
+      9.29
+     ],
+     [
+      "극장",
+      "판테온",
+      37.68
+     ]
+    ],
+    "excluded": "길–지면 접속(⑤가 ≤ 1.6mm로 본다)·다리–강·다리–R7(다리는 영묘 묶음)·수도교–욕장(급수 접속)·선박·Detail·배경 산"
+   }
+  },
+  {
+   "no": "⑮",
+   "name": "운하 사양 끝점 = 그린 끝점 ±0.3mm(render 추가 연장 0)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "canals": [
+     [
+      "강 쪽 운하",
+      "plan_y",
+      [
+       322.24,
+       340.1
+      ],
+      [
+       322.24,
+       340.1
+      ],
+      0.0
+     ],
+     [
+      "외항 쪽 운하",
+      "plan_y",
+      [
+       367.1,
+       384.6
+      ],
+      [
+       367.1,
+       384.6
+      ],
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "no": "⑯",
+   "name": "인쇄 선 굵기: 내부선 0.10~0.20·지시선 0.30·콜아웃 테두리 0.25·Z1 테두리 0.60·P5 계단선 0.35, 그보다 가는 선은 print:false",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "strokes": 5,
+    "print_false": 0
+   }
+  },
+  {
+   "no": "⑰",
+   "name": "정보 층 정합(INFO_ONLY): 지시선 끝–앵커 ≤ 0.5mm(6mm 밖은 맞추지 못함 = 실패), 허용쌍 밖 라벨 블록–Blender 실루엣 겹침 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "skipped": true,
+    "reason": "INFO_ONLY 미실행(/Users/um-yunsang/roman-concrete-private-refs/.work/design/d5_text/out/info/info_check.json 없음). b{N} 렌더·export_sil 뒤 make.py --info로 판정한다"
+   }
+  },
+  {
+   "no": "⑱",
+   "name": "기준선 8.1 콜로세움 본체(그린 결과): 반축 44×36.6·장축 315°·중심·폭 비 0.53±0.02·θ 구간 외벽 높이 ±0.5·정면 ≤ 17·둘째 고리 37/정면 ≤ 12·나무 바닥 55±3%·건물 상자",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "items": [
+     {
+      "id": "8.1-1",
+      "name": "외곽 타원 반축 44×36.6(평면, ±0.05)",
+      "pass": true,
+      "value": [
+       44.0,
+       36.6
+      ],
+      "expected": [
+       44.0,
+       36.6
+      ],
+      "note": ""
+     },
+     {
+      "id": "8.1-2",
+      "name": "장축 평면 방위 315°(화면 가로, ±0.5°)",
+      "pass": true,
+      "value": 315.0,
+      "expected": 315.0,
+      "note": ""
+     },
+     {
+      "id": "8.1-3",
+      "name": "외곽 타원 중심 평면 (446.54, 161.86)(±0.5)",
+      "pass": true,
+      "value": [
+       446.54,
+       161.86
+      ],
+      "expected": [
+       446.54,
+       161.86
+      ],
+      "note": ""
+     },
+     {
+      "id": "8.1-4",
+      "name": "콜로세움 폭 ÷ 조경 영역 대표 폭 203.5 = 0.53±0.02",
+      "pass": true,
+      "value": 0.529,
+      "expected": 0.53,
+      "note": ""
+     },
+     {
+      "id": "8.1-5",
+      "name": "θ 구간 외벽 높이 = D2 표 ±0.5(4층 53·3층 37·2층 24.5, 경사 부벽·수직 절단 포함)",
+      "pass": true,
+      "value": null,
+      "expected": "D2 표",
+      "note": ""
+     },
+     {
+      "id": "8.1-6",
+      "name": "경기장 앞 정면(θ 18~72°) 높이 ≤ 17(경기장이 보이게)",
+      "pass": true,
+      "value": 17.0,
+      "expected": 17.0,
+      "note": ""
+     },
+     {
+      "id": "8.1-7",
+      "name": "둘째 고리 높이 37(±0.5)·정면 10~80° ≤ 12",
+      "pass": true,
+      "value": {
+       "h": 37.0,
+       "front_az": [
+        10,
+        80
+       ],
+       "front_h_max": 12.0
+      },
+      "expected": {
+       "h": 37.0,
+       "front_az": [
+        10,
+        80
+       ],
+       "front_h": [
+        9.0,
+        12.0
+       ],
+       "front_h_max": 12.0
+      },
+      "note": ""
+     },
+     {
+      "id": "8.1-8",
+      "name": "경기장 복원 나무 바닥 55±3%(나머지 하이포게움)",
+      "pass": true,
+      "value": 0.55,
+      "expected": 0.55,
+      "note": ""
+     },
+     {
+      "id": "8.1-9",
+      "name": "건물 화면 상자 [192.6, 226.4, 300.4, 330.1](±1.5 mm)",
+      "pass": true,
+      "value": [
+       192.7,
+       226.4,
+       300.4,
+       330.1
+      ],
+      "expected": [
+       192.6,
+       226.4,
+       300.4,
+       330.1
+      ],
+      "note": ""
+     }
+    ]
+   }
+  },
+  {
+   "no": "⑲",
+   "name": "기준선 8.2 받침 없음 + 사용자 16:13·16:14 히어로 둘레(그린 결과): 받침 옆면 0·받침·절개 footprint 0·광장·공사장·인물 무리·노점·길 0·네로 받침 있음·LocalBanana 조경 복제 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "items": [
+     {
+      "id": "8.2-1",
+      "name": "팔각 받침 옆면 0mm(땅 위에 바로 놓임)",
+      "pass": true,
+      "value": [
+       0.0,
+       0.0
+      ],
+      "expected": 0.0,
+      "note": ""
+     },
+     {
+      "id": "8.2-2",
+      "name": "받침·앞 변 기초 절개 0(형태·footprint)",
+      "pass": true,
+      "value": null,
+      "expected": [],
+      "note": ""
+     },
+     {
+      "id": "8.2-3",
+      "name": "히어로 둘레: 판석·경계석·문 앞 포장·인물 무리·노점·공사장·둘레 나무·길 0, 네로 거상 받침 있음",
+      "pass": true,
+      "value": {
+       "판석·경계석·문 앞 포장 0": true,
+       "공사장 0": true,
+       "인물 무리·노점 0": true,
+       "길 0": true,
+       "네로 거상 받침": true
+      },
+      "expected": "모두",
+      "note": ""
+     },
+     {
+      "id": "8.2-4",
+      "name": "LocalBanana 조경 배치 복제 부품 0(12:49 철회: 단칸 아치·벽돌 담·작은 신전·열주·6주 신전·문 폐허·포장 고리·갈래길)",
+      "pass": true,
+      "value": [],
+      "expected": [],
+      "note": ""
+     }
+    ]
+   }
+  },
+  {
+   "no": "⑳",
+   "name": "D7 연결(그린 결과): 영묘 양 끝(다리 북쪽 진입 경사·디딤 2단) 보행면 높이 차 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "items": [
+     {
+      "id": "D7-2",
+      "name": "다리 북쪽 진입 경사 윗끝 = 다리 상판 = 디딤 아래(높이 차 0), 챌면 같게 → 기단 윗면",
+      "pass": true,
+      "value": {
+       "북쪽 차": 0.0,
+       "남쪽 차": 0.0,
+       "챌면": [
+        0.67,
+        0.66,
+        0.67
+       ],
+       "챌면 합 차": 0.0
+      },
+      "expected": 0.0,
+      "note": "R7 진입 경사 = 결정 D7(map 미등록)"
+     }
+    ]
+   }
+  },
+  {
+   "no": "㉑",
+   "name": "P5 타임라인(연구 → 현장 → 적용): 세로선·아이콘과 글 블록 간격 ≥ 1.5mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "text_line_clear_mm": 2.9,
+    "text_marker_clear_mm": 1.0
+   }
+  }
+ ],
+ "supplementary": [
+  {
+   "name": "사양에 '위치도'·'연대기' 0(사용자 검토·선택 원문 인용·인쇄 금지 패턴 정의 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양에 '보류'·'선택 대기' 0(사용자 원문 인용·인쇄 금지 패턴 정의 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양 frame.panels = L·P2·B·D·S·P5",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "worker_handoff 열쇠 = map·panels·render·global + 각 인계에 기준선 8절 우선·완료 조건",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양에 '왼쪽 위 하나'·그림자/빛 번짐 허용·'[제작 단계 과제]' 0(기준선 0-1·8.3, 원문 인용 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양에 콜로세움 받침·앞 변 절개 서술 0(기준선 8.2. 네로 거상 받침·없음/폐기 서술·지난 판 기록 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "meta.weight_order 맨 위 = 기준선 8절(05:27~12:49)·통합 루프 0-1(12:18)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "Blender 인계: meta.blender_handoff(사람 키·기준 RGB·표현 레이어·앵커 18·sil.json·무대·높이·순서) + core_map.hero.colosseum·landscape",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "drawn.json 계약 형식: footprints [{name, kind, poly}]·roads [{id, name, polys}]·objects [{id, name, box}](화면 mm, 필수 필드·id 중복 0)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "그린 무대 = STAGE 하나(R·T 확장 0)",
+   "pass": true,
+   "fails": []
+  }
+ ],
+ "contract": "render가 out/drawn.json에 texts(짝 표지는 role 'mark' + 글자·중심·출처 map/detail/panel)·labels(소품 주석·깃대형 포함)·leaders·footprints(바실리카 지면·측랑 볼트·신랑 유적, 영묘 기단·원통, 폰스 아일리우스 다리, 극장 반원 아케이드, 네로 거상 받침·네로 거상, 오스티아 포함)·roads(R7 포함)·boxes(L·P2·B·D·S·P5·Z1·C1·C2·C4)·s_bars·density(num_mm2·전체 무대·열린 무대)·crowds·portus(tower_to_arm_tips·island_water·canals plan_y)·tier_color_uses·objects(L1~L9·V·hero·소품)·stage를 쓴다. 열쇠 별칭은 v2_check.py 사후 검사 부분 참조",
+ "rules_count": 21
+}

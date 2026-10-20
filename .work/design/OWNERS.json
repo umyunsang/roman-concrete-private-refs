@@ -1,0 +1,6 @@
+{
+  "global": {"files": ["v2_base.py", "v2_data.py", "v2_check.py", "v2_build.py", "v2_svg.py", "v2_text.py", "make.py"], "desc": "공용 상수·좌표 변환, 검사(위계·겹침·접촉·밀도·지리), 사양 조립, 원칙·충돌 글, 실행기. 하위 호환 변경만"},
+  "map": {"files": ["v2_map.py"], "desc": "Core 지도: 콜로세움 히어로·랜드마크·베수비오·구역·강·바다·해안·포르투스 기하·길·수도교·소품·지형·심은 지면·지리 좌표"},
+  "panels": {"files": ["v2_panels.py"], "desc": "화면 평행 틀(타이틀·패널 L·R·B·D·T·S·푸터)과 내용, Detail(확대 창·콜아웃), 지시선, 지도 라벨 자리·본문, 바닥 글"},
+  "render": {"files": ["render.py"], "desc": "다이어그램 렌더러: 사양을 읽어 아이콘·모델 형태·라벨·패널 그림을 그린다"}
+}

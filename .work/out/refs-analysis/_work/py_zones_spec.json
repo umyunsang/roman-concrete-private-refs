@@ -1,0 +1,390 @@
+{
+ "image": "/Users/um-yunsang/roman-concrete-private-refs/.work/dl/refs-cities/203x-pyramid/StH_2024_04_Poster_re.jpg",
+ "W_mm": 420,
+ "H_mm": 594,
+ "scale": 1.6,
+ "title": "203x-pyramid 구획 실측 (1000×1395 px, A2 환산 1px=0.42×0.426mm)",
+ "stage": [
+  0,
+  465,
+  1000,
+  1112
+ ],
+ "zones": [
+  {
+   "name": "타이틀(날개 원반+카르투슈, PYRAMID)",
+   "kind": "title",
+   "box": [
+    205,
+    55,
+    782,
+    195
+   ],
+   "short": "타이틀"
+  },
+  {
+   "name": "WHAT IS PYRAMID 피라미드란?",
+   "kind": "panel",
+   "box": [
+    55,
+    55,
+    248,
+    172
+   ],
+   "short": "WHAT IS"
+  },
+  {
+   "name": "PYRAMID DISTRIBUTION 위치도(지도 사진)",
+   "kind": "panel",
+   "box": [
+    788,
+    55,
+    945,
+    190
+   ],
+   "short": "DISTRIBUTION"
+  },
+  {
+   "name": "HISTORY 왕조 띠(전폭 막대 2단)",
+   "kind": "panel",
+   "box": [
+    55,
+    200,
+    945,
+    302
+   ],
+   "short": "HISTORY 띠"
+  },
+  {
+   "name": "CHANGE OF THE FORM 형태 변화(5단 공정 띠)",
+   "kind": "panel",
+   "box": [
+    55,
+    330,
+    522,
+    448
+   ],
+   "short": "CHANGE OF FORM"
+  },
+  {
+   "name": "PYRAMID'S GOLDEN AGE 파라오 3",
+   "kind": "panel",
+   "box": [
+    555,
+    333,
+    735,
+    497
+   ],
+   "short": "GOLDEN AGE"
+  },
+  {
+   "name": "GREAT PYRAMID OF GIZA 제원",
+   "kind": "panel",
+   "box": [
+    745,
+    333,
+    948,
+    462
+   ],
+   "short": "GREAT PYRAMID"
+  },
+  {
+   "name": "INTERIOR AND MATERIALS 단면·재료",
+   "kind": "panel",
+   "box": [
+    55,
+    478,
+    372,
+    640
+   ],
+   "short": "INTERIOR·MATERIALS"
+  },
+  {
+   "name": "NECROPOLIS 묘역 평면도",
+   "kind": "panel",
+   "box": [
+    745,
+    478,
+    948,
+    697
+   ],
+   "short": "NECROPOLIS"
+  },
+  {
+   "name": "PAPYRUS JARF 파피루스",
+   "kind": "panel",
+   "box": [
+    55,
+    662,
+    248,
+    745
+   ],
+   "short": "PAPYRUS"
+  },
+  {
+   "name": "CONSTRUCTION TOOLS 건설 도구",
+   "kind": "panel",
+   "box": [
+    55,
+    972,
+    300,
+    1095
+   ],
+   "short": "TOOLS"
+  },
+  {
+   "name": "COMPARE HEIGHTS 높이 비교",
+   "kind": "panel",
+   "box": [
+    55,
+    1118,
+    352,
+    1312
+   ],
+   "short": "COMPARE HEIGHTS"
+  },
+  {
+   "name": "GIZA PYRAMID COMPLEX 피라미드군",
+   "kind": "panel",
+   "box": [
+    388,
+    1118,
+    730,
+    1312
+   ],
+   "short": "GIZA COMPLEX"
+  },
+  {
+   "name": "GREAT SPHINX OF GIZA",
+   "kind": "panel",
+   "box": [
+    755,
+    1118,
+    948,
+    1318
+   ],
+   "short": "SPHINX 패널"
+  },
+  {
+   "name": "푸터(203X 로고·크레딧·QR)",
+   "kind": "footer",
+   "box": [
+    55,
+    1330,
+    948,
+    1362
+   ],
+   "short": "푸터"
+  },
+  {
+   "name": "장면 무대(위 패널 줄 아래~아래 패널 줄 위)",
+   "kind": "map",
+   "box": [
+    0,
+    465,
+    1000,
+    1112
+   ],
+   "draw": false,
+   "short": "장면 무대"
+  },
+  {
+   "name": "지평선(하늘 그라데이션/사막 띠 경계)",
+   "kind": "terrain",
+   "box": [
+    0,
+    776,
+    1000,
+    786
+   ],
+   "short": "지평선 y≈780"
+  },
+  {
+   "name": "대피라미드(계단 코어, 히어로)",
+   "kind": "hero",
+   "box": [
+    89,
+    505,
+    949,
+    1103
+   ],
+   "poly": [
+    [
+     89,
+     853
+    ],
+    [
+     522,
+     508
+    ],
+    [
+     949,
+     854
+    ],
+    [
+     520,
+     1103
+    ]
+   ],
+   "short": "피라미드(히어로)"
+  },
+  {
+   "name": "원형 외곽 점선(높이 146.7m 원래 모양)",
+   "kind": "other",
+   "box": [
+    76,
+    473,
+    949,
+    1103
+   ],
+   "poly": [
+    [
+     76,
+     841
+    ],
+    [
+     524,
+     473
+    ],
+    [
+     935,
+     846
+    ],
+    [
+     949,
+     854
+    ],
+    [
+     520,
+     1103
+    ],
+    [
+     89,
+     853
+    ]
+   ],
+   "draw": true,
+   "short": "원형 외곽 점선"
+  },
+  {
+   "name": "내부 절개(통로·방·환기 통로, 반투명)",
+   "kind": "other",
+   "box": [
+    390,
+    515,
+    700,
+    935
+   ],
+   "short": "내부 절개"
+  },
+  {
+   "name": "'높이 146.7m' 라벨(둥근 상자+지시선)",
+   "kind": "label",
+   "box": [
+    486,
+    490,
+    556,
+    526
+   ],
+   "short": "146.7m"
+  },
+  {
+   "name": "'밑변의 길이 230m' 치수선",
+   "kind": "label",
+   "box": [
+    80,
+    860,
+    512,
+    1106
+   ],
+   "short": "230m 치수"
+  },
+  {
+   "name": "방위 점선 화살표(West·North)+나침반",
+   "kind": "label",
+   "box": [
+    170,
+    650,
+    605,
+    1008
+   ],
+   "short": "방위 화살표"
+  },
+  {
+   "name": "스핑크스(Support)",
+   "kind": "landmark",
+   "box": [
+    689,
+    891,
+    903,
+    1046
+   ],
+   "short": "스핑크스"
+  },
+  {
+   "name": "'높이 20m'·'길이 73.5m' 치수",
+   "kind": "label",
+   "box": [
+    733,
+    891,
+    926,
+    1060
+   ],
+   "short": "20m·73.5m"
+  },
+  {
+   "name": "MOMO(파라오 고양이 마스코트+말풍선)",
+   "kind": "other",
+   "box": [
+    553,
+    988,
+    655,
+    1100
+   ],
+   "short": "MOMO"
+  },
+  {
+   "name": "야자수(왼쪽 가장자리 블리드)",
+   "kind": "other",
+   "box": [
+    38,
+    815,
+    72,
+    864
+   ],
+   "short": "야자수"
+  },
+  {
+   "name": "낙타·관광객 소품(축척 단서)",
+   "kind": "other",
+   "box": [
+    885,
+    1014,
+    910,
+    1034
+   ],
+   "short": "낙타·사람"
+  }
+ ],
+ "groups": {
+  "코어 군(피라미드+외곽 점선+절개+치수+방위+스핑크스+MOMO)": {
+   "members": [
+    "대피라미드(계단 코어, 히어로)",
+    "원형 외곽 점선(높이 146.7m 원래 모양)",
+    "내부 절개(통로·방·환기 통로, 반투명)",
+    "'높이 146.7m' 라벨(둥근 상자+지시선)",
+    "'밑변의 길이 230m' 치수선",
+    "방위 점선 화살표(West·North)+나침반",
+    "스핑크스(Support)",
+    "'높이 20m'·'길이 73.5m' 치수",
+    "MOMO(파라오 고양이 마스코트+말풍선)"
+   ]
+  },
+  "히어로(대피라미드 실루엣)": {
+   "members": [
+    "대피라미드(계단 코어, 히어로)"
+   ]
+  }
+ },
+ "lw": 3
+}

@@ -1,0 +1,185 @@
+{
+ "203x-seoul": {
+  "full_size": [
+   450,
+   630
+  ],
+  "scale_full_per_art": 0.225,
+  "tiles": {
+   "1": {
+    "score": 0.9813,
+    "best_scale": 0.225,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     0.0,
+     0.0
+    ],
+    "offset_expected": [
+     0,
+     0
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   },
+   "4": {
+    "score": 0.9817,
+    "best_scale": 0.225,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     1000.0,
+     933.3
+    ],
+    "offset_expected": [
+     1000,
+     933
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   },
+   "5": {
+    "score": 0.9772,
+    "best_scale": 0.225,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     0.0,
+     1866.7
+    ],
+    "offset_expected": [
+     0,
+     1867
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   }
+  },
+  "hires_cover_pct": 50.0
+ },
+ "203x-london": {
+  "full_size": [
+   567,
+   794
+  ],
+  "scale_full_per_art": 0.2835,
+  "tiles": {
+   "1": {
+    "score": 0.978,
+    "best_scale": 0.28279,
+    "scale_ratio_to_full": 0.9975,
+    "offset_art_est": [
+     0.0,
+     0.0
+    ],
+    "offset_expected": [
+     0,
+     0
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   },
+   "4": {
+    "score": 0.951,
+    "best_scale": 0.28279,
+    "scale_ratio_to_full": 0.9975,
+    "offset_art_est": [
+     1001.8,
+     934.7
+    ],
+    "offset_expected": [
+     1000,
+     933
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   },
+   "5": {
+    "score": 0.9662,
+    "best_scale": 0.2835,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     0.0,
+     1866.0
+    ],
+    "offset_expected": [
+     0,
+     1867
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   }
+  },
+  "hires_cover_pct": 50.0
+ },
+ "203x-berlin": {
+  "full_size": [
+   1000,
+   1400
+  ],
+  "scale_full_per_art": 0.5,
+  "tiles": {
+   "1": {
+    "score": 0.9601,
+    "best_scale": 0.5,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     0.0,
+     0.0
+    ],
+    "offset_expected": [
+     0,
+     0
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   },
+   "4": {
+    "score": 0.9672,
+    "best_scale": 0.5,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     1000.0,
+     932.0
+    ],
+    "offset_expected": [
+     1000,
+     933
+    ],
+    "tile_size": [
+     1000,
+     934
+    ]
+   },
+   "5": {
+    "score": 0.9656,
+    "best_scale": 0.5,
+    "scale_ratio_to_full": 1.0,
+    "offset_art_est": [
+     0.0,
+     1868.0
+    ],
+    "offset_expected": [
+     0,
+     1867
+    ],
+    "tile_size": [
+     1000,
+     933
+    ]
+   }
+  },
+  "hires_cover_pct": 50.0
+ }
+}

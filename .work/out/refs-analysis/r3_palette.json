@@ -1,0 +1,116 @@
+{
+ "203x-taipei": {
+  "background_pct": 53.7,
+  "background_hex(가장자리 중앙값)": "#97bbbe",
+  "palette_nonbg": [
+   {
+    "hex": "#c1c6a2",
+    "pct_of_poster": 14.2
+   },
+   {
+    "hex": "#8bb8ca",
+    "pct_of_poster": 6.5
+   },
+   {
+    "hex": "#799697",
+    "pct_of_poster": 6.2
+   },
+   {
+    "hex": "#e2e5e3",
+    "pct_of_poster": 5.2
+   },
+   {
+    "hex": "#b36451",
+    "pct_of_poster": 4.6
+   },
+   {
+    "hex": "#5c5453",
+    "pct_of_poster": 4.0
+   },
+   {
+    "hex": "#3b7ca2",
+    "pct_of_poster": 3.9
+   },
+   {
+    "hex": "#eebd41",
+    "pct_of_poster": 1.8
+   }
+  ]
+ },
+ "203x-jeju": {
+  "background_pct": 53.1,
+  "background_hex(가장자리 중앙값)": "#bbe4f0",
+  "palette_nonbg": [
+   {
+    "hex": "#abd7d6",
+    "pct_of_poster": 17.1
+   },
+   {
+    "hex": "#a7caaf",
+    "pct_of_poster": 11.9
+   },
+   {
+    "hex": "#8eb15f",
+    "pct_of_poster": 4.6
+   },
+   {
+    "hex": "#638249",
+    "pct_of_poster": 3.9
+   },
+   {
+    "hex": "#6f9aaa",
+    "pct_of_poster": 3.1
+   },
+   {
+    "hex": "#e4c694",
+    "pct_of_poster": 2.4
+   },
+   {
+    "hex": "#ca9158",
+    "pct_of_poster": 2.2
+   },
+   {
+    "hex": "#e0efee",
+    "pct_of_poster": 1.7
+   }
+  ]
+ },
+ "203x-forbiddencity": {
+  "background_pct": 55.8,
+  "background_hex(가장자리 중앙값)": "#f6f0e4",
+  "palette_nonbg": [
+   {
+    "hex": "#f6be5e",
+    "pct_of_poster": 12.2
+   },
+   {
+    "hex": "#e26c59",
+    "pct_of_poster": 7.1
+   },
+   {
+    "hex": "#f0e0c9",
+    "pct_of_poster": 6.1
+   },
+   {
+    "hex": "#c8423f",
+    "pct_of_poster": 5.6
+   },
+   {
+    "hex": "#9ec7c1",
+    "pct_of_poster": 4.9
+   },
+   {
+    "hex": "#d8ab94",
+    "pct_of_poster": 4.9
+   },
+   {
+    "hex": "#728f72",
+    "pct_of_poster": 2.2
+   },
+   {
+    "hex": "#71341a",
+    "pct_of_poster": 1.2
+   }
+  ]
+ }
+}

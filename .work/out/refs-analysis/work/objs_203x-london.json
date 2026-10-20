@@ -1,0 +1,230 @@
+[
+ {
+  "name": "빅벤(엘리자베스 타워)",
+  "kind": "hero",
+  "core": true,
+  "rect": [
+   266,
+   40,
+   504,
+   1070
+  ],
+  "bbox": [
+   272,
+   51,
+   504,
+   1070
+  ],
+  "mask_area_u2": 178685,
+  "rect_fill_pct": 72.9
+ },
+ {
+  "name": "웨스트민스터 사원",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   38,
+   532,
+   282,
+   962
+  ],
+  "bbox": [
+   53,
+   568,
+   281,
+   961
+  ],
+  "mask_area_u2": 71791,
+  "rect_fill_pct": 68.4
+ },
+ {
+  "name": "30 St Mary Axe(거킨)",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   498,
+   292,
+   620,
+   612
+  ],
+  "bbox": [
+   505,
+   312,
+   606,
+   603
+  ],
+  "mask_area_u2": 17535,
+  "rect_fill_pct": 44.9
+ },
+ {
+  "name": "빨간 전화박스",
+  "kind": "prop",
+  "core": true,
+  "rect": [
+   541,
+   543,
+   594,
+   667
+  ],
+  "bbox": [
+   543,
+   543,
+   584,
+   650
+  ],
+  "mask_area_u2": 3378,
+  "rect_fill_pct": 51.4
+ },
+ {
+  "name": "타워브리지",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   574,
+   422,
+   876,
+   768
+  ],
+  "bbox": [
+   574,
+   440,
+   862,
+   768
+  ],
+  "mask_area_u2": 60227,
+  "rect_fill_pct": 57.6
+ },
+ {
+  "name": "더 샤드",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   860,
+   420,
+   964,
+   854
+  ],
+  "bbox": [
+   860,
+   430,
+   954,
+   847
+  ],
+  "mask_area_u2": 26524,
+  "rect_fill_pct": 58.8
+ },
+ {
+  "name": "런던 아이",
+  "kind": "landmark",
+  "core": true,
+  "rect": [
+   390,
+   686,
+   694,
+   1108
+  ],
+  "bbox": [
+   390,
+   687,
+   686,
+   1054
+  ],
+  "mask_area_u2": 79011,
+  "rect_fill_pct": 61.6
+ },
+ {
+  "name": "신사(볼러 모자)",
+  "kind": "person",
+  "core": true,
+  "rect": [
+   696,
+   638,
+   767,
+   834
+  ],
+  "bbox": [
+   700,
+   644,
+   762,
+   824
+  ],
+  "mask_area_u2": 7067,
+  "rect_fill_pct": 50.8
+ },
+ {
+  "name": "블랙캡",
+  "kind": "vehicle",
+  "core": true,
+  "rect": [
+   746,
+   788,
+   880,
+   877
+  ],
+  "bbox": [
+   748,
+   788,
+   876,
+   876
+  ],
+  "mask_area_u2": 6905,
+  "rect_fill_pct": 57.9
+ },
+ {
+  "name": "런던 버스",
+  "kind": "vehicle",
+  "core": true,
+  "rect": [
+   196,
+   1001,
+   350,
+   1130
+  ],
+  "bbox": [
+   203,
+   1006,
+   350,
+   1128
+  ],
+  "mask_area_u2": 11170,
+  "rect_fill_pct": 56.2
+ },
+ {
+  "name": "언더그라운드+원형 표지",
+  "kind": "vehicle",
+  "core": true,
+  "rect": [
+   46,
+   944,
+   242,
+   1127
+  ],
+  "bbox": [
+   52,
+   944,
+   242,
+   1127
+  ],
+  "mask_area_u2": 23911,
+  "rect_fill_pct": 66.7
+ },
+ {
+  "name": "근위병 2명",
+  "kind": "person",
+  "core": true,
+  "rect": [
+   518,
+   898,
+   657,
+   1187
+  ],
+  "bbox": [
+   526,
+   899,
+   645,
+   1185
+  ],
+  "mask_area_u2": 24692,
+  "rect_fill_pct": 61.5
+ }
+]

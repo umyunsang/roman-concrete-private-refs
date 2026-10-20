@@ -1,0 +1,20 @@
+{"W_mm": 420, "H_mm": 594, "stage": [0, 205, 1000, 1195],
+ "objects": [
+  {"name": "본관(Main Office)", "kind": "hero", "rect": [278, 388, 772, 752], "bg_green": true, "bg_green_margin": 10,
+   "bg_colors": [[207,211,212,9],[172,211,229,14]], "bg_rects": [[540,320,615,420]], "close": 9},
+  {"name": "본관 2층 구조 판", "kind": "core_info", "poly": [[600,416],[690,365],[820,441],[732,491]]},
+  {"name": "관저", "kind": "core_secondary", "rect": [698, 596, 994, 812], "bg_green": true, "bg_green_margin": 10,
+   "bg_colors": [[207,211,212,9]], "bg_rects": [[860,495,960,605]], "close": 9},
+  {"name": "영빈관", "kind": "landmark", "rect": [88, 460, 258, 608], "bg_green": true, "bg_colors": [[207,211,212,9]], "close": 7},
+  {"name": "상춘재", "kind": "landmark", "rect": [570, 878, 762, 1064], "bg_green": true, "bg_colors": [[207,211,212,9]], "close": 7},
+  {"name": "침류각", "kind": "landmark", "rect": [812, 846, 958, 946], "bg_green": true, "bg_colors": [[207,211,212,9]], "close": 7},
+  {"name": "수궁터", "kind": "landmark", "poly": [[600,868],[650,840],[705,870],[656,898]]},
+  {"name": "여민관 1·2·3관", "kind": "landmark", "rect": [58, 975, 268, 1192], "bg_green": true, "bg_colors": [[207,211,212,9]],
+   "bg_rects": [[200,945,300,1045]], "close": 7},
+  {"name": "춘추관 군", "kind": "landmark", "rect": [690, 1018, 968, 1226], "bg_green": true, "bg_colors": [[207,211,212,9]],
+   "bg_rects": [[880,960,970,1092]], "close": 7},
+  {"name": "정문", "kind": "landmark", "rect": [24, 832, 104, 937], "bg_green": true, "bg_colors": [[207,211,212,9]], "close": 5},
+  {"name": "녹지원 반송", "kind": "landmark", "rect": [425, 1038, 512, 1114], "close": 5}
+ ],
+ "groups": {"hero": ["본관(Main Office)"], "core_tight": ["본관(Main Office)", "본관 2층 구조 판", "관저"]}
+}

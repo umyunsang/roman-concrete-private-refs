@@ -1,0 +1,155 @@
+{
+ "ref": "203x-tokyo",
+ "theta": 30.0,
+ "n": 13,
+ "base_points_art": {
+  "도쿄역": [
+   1331,
+   1843
+  ],
+  "도쿄 도청": [
+   855,
+   1095
+  ],
+  "황궁": [
+   1222,
+   1363
+  ],
+  "가미나리몬(센소지)": [
+   1529,
+   1187
+  ],
+  "도쿄 스카이트리": [
+   1803,
+   1852
+  ],
+  "메이지 신궁(도리이·숲 판)": [
+   863,
+   1573
+  ],
+  "도쿄 타워": [
+   768,
+   2044
+  ],
+  "롯폰기 힐스 모리 타워": [
+   440,
+   1827
+  ],
+  "하치코 동상": [
+   217,
+   2115
+  ],
+  "고토쿠지(마네키네코)": [
+   415,
+   2287
+  ],
+  "레인보우 브리지": [
+   1254,
+   2521
+  ],
+  "대관람차": [
+   1534,
+   2337
+  ],
+  "도쿄 빅사이트": [
+   1716,
+   2644
+  ]
+ },
+ "fit": {
+  "scale_mm_per_km": 25.45,
+  "rot_deg": 36.12,
+  "reflect": false,
+  "rms_mm": 101.11,
+  "mean_mm": 90.83
+ },
+ "fit_with_reflection": {
+  "scale_mm_per_km": 25.45,
+  "rot_deg": 36.12,
+  "reflect": false,
+  "rms_mm": 101.11,
+  "mean_mm": 90.83
+ },
+ "north_on_screen_deg(오른쪽=0, 위=+90)": 74.9,
+ "per_landmark": {
+  "도쿄역": {
+   "real_km_from_center": 0.0,
+   "plan_mm_from_center": 0.0,
+   "fit_residual_mm": 19.4
+  },
+  "도쿄 도청": {
+   "real_km_from_center": 6.88,
+   "plan_mm_from_center": 238.6,
+   "fit_residual_mm": 175.9
+  },
+  "황궁": {
+   "real_km_from_center": 1.37,
+   "plan_mm_from_center": 145.1,
+   "fit_residual_mm": 113.5
+  },
+  "가미나리몬(센소지)": {
+   "real_km_from_center": 4.24,
+   "plan_mm_from_center": 199.5,
+   "fit_residual_mm": 124.4
+  },
+  "도쿄 스카이트리": {
+   "real_km_from_center": 5.08,
+   "plan_mm_from_center": 81.1,
+   "fit_residual_mm": 92.9
+  },
+  "메이지 신궁(도리이·숲 판)": {
+   "real_km_from_center": 6.15,
+   "plan_mm_from_center": 113.9,
+   "fit_residual_mm": 84.3
+  },
+  "도쿄 타워": {
+   "real_km_from_center": 3.18,
+   "plan_mm_from_center": 113.8,
+   "fit_residual_mm": 54.2
+  },
+  "롯폰기 힐스 모리 타워": {
+   "real_km_from_center": 4.13,
+   "plan_mm_from_center": 152.8,
+   "fit_residual_mm": 78.8
+  },
+  "하치코 동상": {
+   "real_km_from_center": 6.5,
+   "plan_mm_from_center": 207.7,
+   "fit_residual_mm": 72.2
+  },
+  "고토쿠지(마네키네코)": {
+   "real_km_from_center": 11.4,
+   "plan_mm_from_center": 206.0,
+   "fit_residual_mm": 152.7
+  },
+  "레인보우 브리지": {
+   "real_km_from_center": 4.96,
+   "plan_mm_from_center": 203.9,
+   "fit_residual_mm": 94.8
+  },
+  "대관람차": {
+   "real_km_from_center": 6.21,
+   "plan_mm_from_center": 152.3,
+   "fit_residual_mm": 14.7
+  },
+  "도쿄 빅사이트": {
+   "real_km_from_center": 6.19,
+   "plan_mm_from_center": 249.4,
+   "fit_residual_mm": 103.0
+  }
+ },
+ "distance_law": {
+  "plan_mm = a * real_km^k": {
+   "a": 114.1,
+   "k": 0.225
+  }
+ },
+ "real_extent_km": [
+  14.8,
+  9.4
+ ],
+ "plan_extent_mm": [
+  433.0,
+  368.4
+ ]
+}

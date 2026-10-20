@@ -1,0 +1,401 @@
+[
+ {
+  "name": "Oriental Pearl 동방명주",
+  "seed": [
+   453,
+   263,
+   537,
+   377
+  ],
+  "text_bbox": [
+   458.0,
+   271.0,
+   537.0,
+   377.0
+  ],
+  "w_mm": 33.2,
+  "h_mm": 45.0,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Jinmao Tower 진마오 타워",
+  "seed": [
+   596,
+   260,
+   657,
+   347
+  ],
+  "text_bbox": [
+   598.5,
+   260.0,
+   657.0,
+   347.0
+  ],
+  "w_mm": 24.6,
+  "h_mm": 36.9,
+  "baseline_deg": 30.5,
+  "hires_tile": false
+ },
+ {
+  "name": "SWFC 세계금융센터",
+  "seed": [
+   791,
+   283,
+   867,
+   387
+  ],
+  "text_bbox": [
+   796.5,
+   283.0,
+   867.0,
+   387.0
+  ],
+  "w_mm": 29.6,
+  "h_mm": 44.1,
+  "baseline_deg": 30.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Yangshupu Waterworks 양수푸 상수도",
+  "seed": [
+   238,
+   338,
+   302,
+   437
+  ],
+  "text_bbox": [
+   246.0,
+   369.0,
+   287.5,
+   437.0
+  ],
+  "w_mm": 17.4,
+  "h_mm": 28.9,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Rockbund Art Museum 록번드 미술관",
+  "seed": [
+   46,
+   598,
+   132,
+   702
+  ],
+  "text_bbox": [
+   50.5,
+   604.5,
+   120.5,
+   696.0
+  ],
+  "w_mm": 29.4,
+  "h_mm": 38.8,
+  "baseline_deg": 31.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Sassoon Building 사순 빌딩",
+  "seed": [
+   46,
+   733,
+   102,
+   782
+  ],
+  "text_bbox": [
+   50.0,
+   733.0,
+   101.0,
+   782.0
+  ],
+  "w_mm": 21.4,
+  "h_mm": 20.8,
+  "baseline_deg": 33.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Bank Of China 중국은행",
+  "seed": [
+   46,
+   763,
+   107,
+   822
+  ],
+  "text_bbox": [
+   50.0,
+   763.0,
+   101.0,
+   818.0
+  ],
+  "w_mm": 21.4,
+  "h_mm": 23.3,
+  "baseline_deg": 30.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Huangpu River 황푸강",
+  "seed": [
+   408,
+   628,
+   482,
+   672
+  ],
+  "text_bbox": [
+   408.0,
+   628.0,
+   482.0,
+   672.0
+  ],
+  "w_mm": 31.1,
+  "h_mm": 18.7,
+  "baseline_deg": 30.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Shanghai Tower 상하이 타워",
+  "seed": [
+   623,
+   733,
+   697,
+   862
+  ],
+  "text_bbox": [
+   623.0,
+   733.0,
+   696.5,
+   857.0
+  ],
+  "w_mm": 30.9,
+  "h_mm": 52.6,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Aurora Art Museum 오로라 미술관",
+  "seed": [
+   698,
+   808,
+   777,
+   907
+  ],
+  "text_bbox": [
+   704.0,
+   813.0,
+   777.0,
+   907.0
+  ],
+  "w_mm": 30.7,
+  "h_mm": 39.9,
+  "baseline_deg": 31.5,
+  "hires_tile": true
+ },
+ {
+  "name": "China Art Palace 중국 미술관",
+  "seed": [
+   908,
+   748,
+   982,
+   852
+  ],
+  "text_bbox": [
+   908.0,
+   748.0,
+   970.5,
+   851.5
+  ],
+  "w_mm": 26.2,
+  "h_mm": 43.9,
+  "baseline_deg": 31.5,
+  "hires_tile": true
+ },
+ {
+  "name": "Cruise 크루즈",
+  "seed": [
+   458,
+   828,
+   547,
+   902
+  ],
+  "text_bbox": [
+   458.0,
+   828.0,
+   547.0,
+   902.0
+  ],
+  "w_mm": 37.4,
+  "h_mm": 31.4,
+  "baseline_deg": -30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Metro 지하철",
+  "seed": [
+   528,
+   868,
+   592,
+   947
+  ],
+  "text_bbox": [
+   528.0,
+   868.0,
+   592.0,
+   947.0
+  ],
+  "w_mm": 26.9,
+  "h_mm": 33.5,
+  "baseline_deg": -29.0,
+  "hires_tile": true
+ },
+ {
+  "name": "City Bus 시내버스",
+  "seed": [
+   46,
+   893,
+   107,
+   987
+  ],
+  "text_bbox": [
+   50.0,
+   893.0,
+   107.0,
+   975.0
+  ],
+  "w_mm": 23.9,
+  "h_mm": 34.8,
+  "baseline_deg": 29.5,
+  "hires_tile": true
+ },
+ {
+  "name": "Shanghai Club Building 상하이 총회",
+  "seed": [
+   308,
+   988,
+   377,
+   1062
+  ],
+  "text_bbox": [
+   308.0,
+   988.0,
+   377.0,
+   1062.0
+  ],
+  "w_mm": 29.0,
+  "h_mm": 31.4,
+  "baseline_deg": -29.5,
+  "hires_tile": true
+ },
+ {
+  "name": "Shanghai Custom House 강해관",
+  "seed": [
+   403,
+   1033,
+   452,
+   1097
+  ],
+  "text_bbox": [
+   403.0,
+   1033.0,
+   452.0,
+   1097.0
+  ],
+  "w_mm": 20.6,
+  "h_mm": 27.2,
+  "baseline_deg": -30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "HSBC Bank Building HSBC 빌딩",
+  "seed": [
+   450,
+   1073,
+   522,
+   1137
+  ],
+  "text_bbox": [
+   455.5,
+   1073.0,
+   522.0,
+   1135.0
+  ],
+  "w_mm": 27.9,
+  "h_mm": 26.3,
+  "baseline_deg": -28.5,
+  "hires_tile": true
+ },
+ {
+  "name": "Asia Building 아시아 빌딩",
+  "seed": [
+   556,
+   1123,
+   617,
+   1187
+  ],
+  "text_bbox": [
+   561.0,
+   1123.0,
+   617.0,
+   1187.0
+  ],
+  "w_mm": 23.5,
+  "h_mm": 27.2,
+  "baseline_deg": -45.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Yu Garden 예원",
+  "seed": [
+   48,
+   1093,
+   132,
+   1197
+  ],
+  "text_bbox": [
+   54.0,
+   1093.0,
+   132.0,
+   1191.5
+  ],
+  "w_mm": 32.8,
+  "h_mm": 41.8,
+  "baseline_deg": -30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Nanpu Bridge 난푸대교",
+  "seed": [
+   713,
+   1093,
+   772,
+   1172
+  ],
+  "text_bbox": [
+   718.5,
+   1096.5,
+   772.0,
+   1168.0
+  ],
+  "w_mm": 22.5,
+  "h_mm": 30.3,
+  "baseline_deg": -45.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Taxi 택시",
+  "seed": [
+   806,
+   1028,
+   847,
+   1097
+  ],
+  "text_bbox": [
+   812.5,
+   1028.0,
+   847.0,
+   1097.0
+  ],
+  "w_mm": 14.5,
+  "h_mm": 29.3,
+  "baseline_deg": -28.0,
+  "hires_tile": false
+ }
+]

@@ -1,0 +1,666 @@
+{
+ "image": "/Users/um-yunsang/roman-concrete-private-refs/.work/dl/refs-cities/203x-cheongwadae/StH_202206_155_cheongwadae.jpg",
+ "size_px": [
+  1000,
+  1400
+ ],
+ "stage_px": [
+  0,
+  205,
+  1000,
+  1195
+ ],
+ "stage_norm": [
+  0.0,
+  0.1464,
+  1.0,
+  0.8536
+ ],
+ "stage_pct_image": 70.71,
+ "zones": [
+  {
+   "idx": 1,
+   "name": "타이틀(기와지붕 액자, CHEONG WA DAE)",
+   "kind": "title",
+   "note": "",
+   "box_px": [
+    232,
+    30,
+    778,
+    198
+   ],
+   "bbox_norm": [
+    0.232,
+    0.0214,
+    0.778,
+    0.1414
+   ],
+   "bbox_pct_stage": 9.27,
+   "bbox_pct_image": 6.55,
+   "w_mm": 229.3,
+   "h_mm": 71.3
+  },
+  {
+   "idx": 2,
+   "name": "DEFINITION 청와대 개요(서울 점 지도)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    40,
+    48,
+    222,
+    135
+   ],
+   "bbox_norm": [
+    0.04,
+    0.0343,
+    0.222,
+    0.0964
+   ],
+   "bbox_pct_stage": 1.6,
+   "bbox_pct_image": 1.13,
+   "w_mm": 76.4,
+   "h_mm": 36.9
+  },
+  {
+   "idx": 3,
+   "name": "SPACE LAYOUT 공간 배치도(실제 평면)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    40,
+    148,
+    230,
+    308
+   ],
+   "bbox_norm": [
+    0.04,
+    0.1057,
+    0.23,
+    0.22
+   ],
+   "bbox_pct_stage": 3.07,
+   "bbox_pct_image": 2.17,
+   "w_mm": 79.8,
+   "h_mm": 67.9
+  },
+  {
+   "idx": 4,
+   "name": "LOGO HISTORY 로고 변천사(로고 4개)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    252,
+    213,
+    732,
+    293
+   ],
+   "bbox_norm": [
+    0.252,
+    0.1521,
+    0.732,
+    0.2093
+   ],
+   "bbox_pct_stage": 3.88,
+   "bbox_pct_image": 2.74,
+   "w_mm": 201.6,
+   "h_mm": 33.9
+  },
+  {
+   "idx": 5,
+   "name": "MAIN REMAINS 주요 유적(4항목+삽화)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    808,
+    48,
+    962,
+    320
+   ],
+   "bbox_norm": [
+    0.808,
+    0.0343,
+    0.962,
+    0.2286
+   ],
+   "bbox_pct_stage": 4.23,
+   "bbox_pct_image": 2.99,
+   "w_mm": 64.7,
+   "h_mm": 115.4
+  },
+  {
+   "idx": 6,
+   "name": "PRESIDENTS AND CHEONG WA DAE 연표(셀 16+흉상)",
+   "kind": "panel",
+   "note": "",
+   "box_px": [
+    40,
+    1198,
+    962,
+    1336
+   ],
+   "bbox_norm": [
+    0.04,
+    0.8557,
+    0.962,
+    0.9543
+   ],
+   "bbox_pct_stage": 12.85,
+   "bbox_pct_image": 9.09,
+   "w_mm": 387.2,
+   "h_mm": 58.6
+  },
+  {
+   "idx": 7,
+   "name": "푸터(Street H·203X·QR)",
+   "kind": "footer",
+   "note": "",
+   "box_px": [
+    38,
+    1338,
+    960,
+    1372
+   ],
+   "bbox_norm": [
+    0.038,
+    0.9557,
+    0.96,
+    0.98
+   ],
+   "bbox_pct_stage": 3.17,
+   "bbox_pct_image": 2.24,
+   "w_mm": 387.2,
+   "h_mm": 14.4
+  },
+  {
+   "idx": 8,
+   "name": "지도 무대(산 꼭대기~하단 띠 위)",
+   "kind": "map",
+   "note": "",
+   "box_px": [
+    0,
+    205,
+    1000,
+    1195
+   ],
+   "bbox_norm": [
+    0.0,
+    0.1464,
+    1.0,
+    0.8536
+   ],
+   "bbox_pct_stage": 100.0,
+   "bbox_pct_image": 70.71,
+   "w_mm": 420.0,
+   "h_mm": 420.0
+  },
+  {
+   "idx": 9,
+   "name": "북악산 배경(45° 화면 평행 능선, 좌우 블리드)",
+   "kind": "terrain",
+   "note": "",
+   "box_px": [
+    0,
+    208,
+    1000,
+    470
+   ],
+   "bbox_norm": [
+    0.0,
+    0.1486,
+    1.0,
+    0.3357
+   ],
+   "bbox_pct_stage": 26.46,
+   "bbox_pct_image": 18.71,
+   "w_mm": 420.0,
+   "h_mm": 111.2
+  },
+  {
+   "idx": 10,
+   "name": "하단 지면 블리드(#d1d2d4 균일, 패널 받침)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    0,
+    1283,
+    1000,
+    1400
+   ],
+   "bbox_norm": [
+    0.0,
+    0.9164,
+    1.0,
+    1.0
+   ],
+   "bbox_pct_stage": 11.82,
+   "bbox_pct_image": 8.36,
+   "w_mm": 420.0,
+   "h_mm": 49.6
+  },
+  {
+   "idx": 11,
+   "name": "본관(히어로)",
+   "kind": "hero",
+   "note": "",
+   "box_px": [
+    284,
+    395,
+    765,
+    740
+   ],
+   "bbox_norm": [
+    0.284,
+    0.2821,
+    0.765,
+    0.5286
+   ],
+   "bbox_pct_stage": 16.76,
+   "bbox_pct_image": 11.85,
+   "w_mm": 202.0,
+   "h_mm": 146.4,
+   "poly_pct_stage": 8.2,
+   "poly_pct_image": 5.8,
+   "poly_mm2": 14458
+  },
+  {
+   "idx": 12,
+   "name": "본관 2층 구조 판(떠 있는 평면, 방 8칸)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    600,
+    365,
+    820,
+    491
+   ],
+   "bbox_norm": [
+    0.6,
+    0.2607,
+    0.82,
+    0.3507
+   ],
+   "bbox_pct_stage": 2.8,
+   "bbox_pct_image": 1.98,
+   "w_mm": 92.4,
+   "h_mm": 53.5,
+   "poly_pct_stage": 1.35,
+   "poly_pct_image": 0.95,
+   "poly_mm2": 2376
+  },
+  {
+   "idx": 13,
+   "name": "관저(본채·별채)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    700,
+    600,
+    990,
+    808
+   ],
+   "bbox_norm": [
+    0.7,
+    0.4286,
+    0.99,
+    0.5771
+   ],
+   "bbox_pct_stage": 6.09,
+   "bbox_pct_image": 4.31,
+   "w_mm": 121.8,
+   "h_mm": 88.3,
+   "poly_pct_stage": 3.65,
+   "poly_pct_image": 2.58,
+   "poly_mm2": 6432
+  },
+  {
+   "idx": 14,
+   "name": "본관 라벨(Main Office, 브래킷형)",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    546,
+    323,
+    640,
+    445
+   ],
+   "bbox_norm": [
+    0.546,
+    0.2307,
+    0.64,
+    0.3179
+   ],
+   "bbox_pct_stage": 1.16,
+   "bbox_pct_image": 0.82,
+   "w_mm": 39.5,
+   "h_mm": 51.8
+  },
+  {
+   "idx": 15,
+   "name": "관저 라벨(Presidential Residence)",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    866,
+    497,
+    960,
+    645
+   ],
+   "bbox_norm": [
+    0.866,
+    0.355,
+    0.96,
+    0.4607
+   ],
+   "bbox_pct_stage": 1.41,
+   "bbox_pct_image": 0.99,
+   "w_mm": 39.5,
+   "h_mm": 62.8
+  },
+  {
+   "idx": 16,
+   "name": "'약 200m' 치수선(본관–관저)",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    720,
+    583,
+    802,
+    632
+   ],
+   "bbox_norm": [
+    0.72,
+    0.4164,
+    0.802,
+    0.4514
+   ],
+   "bbox_pct_stage": 0.41,
+   "bbox_pct_image": 0.29,
+   "w_mm": 34.4,
+   "h_mm": 20.8
+  },
+  {
+   "idx": 17,
+   "name": "영빈관",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    96,
+    466,
+    248,
+    600
+   ],
+   "bbox_norm": [
+    0.096,
+    0.3329,
+    0.248,
+    0.4286
+   ],
+   "bbox_pct_stage": 2.06,
+   "bbox_pct_image": 1.45,
+   "w_mm": 63.8,
+   "h_mm": 56.9
+  },
+  {
+   "idx": 18,
+   "name": "수궁터",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    600,
+    838,
+    706,
+    898
+   ],
+   "bbox_norm": [
+    0.6,
+    0.5986,
+    0.706,
+    0.6414
+   ],
+   "bbox_pct_stage": 0.64,
+   "bbox_pct_image": 0.45,
+   "w_mm": 44.5,
+   "h_mm": 25.5
+  },
+  {
+   "idx": 19,
+   "name": "침류각",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    818,
+    856,
+    942,
+    945
+   ],
+   "bbox_norm": [
+    0.818,
+    0.6114,
+    0.942,
+    0.675
+   ],
+   "bbox_pct_stage": 1.11,
+   "bbox_pct_image": 0.79,
+   "w_mm": 52.1,
+   "h_mm": 37.8
+  },
+  {
+   "idx": 20,
+   "name": "상춘재",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    574,
+    885,
+    760,
+    1060
+   ],
+   "bbox_norm": [
+    0.574,
+    0.6321,
+    0.76,
+    0.7571
+   ],
+   "bbox_pct_stage": 3.29,
+   "bbox_pct_image": 2.33,
+   "w_mm": 78.1,
+   "h_mm": 74.2
+  },
+  {
+   "idx": 21,
+   "name": "녹지원(잔디 판+반송)",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    282,
+    1000,
+    615,
+    1195
+   ],
+   "bbox_norm": [
+    0.282,
+    0.7143,
+    0.615,
+    0.8536
+   ],
+   "bbox_pct_stage": 6.56,
+   "bbox_pct_image": 4.64,
+   "w_mm": 139.9,
+   "h_mm": 82.7
+  },
+  {
+   "idx": 22,
+   "name": "여민관 1·2·3관",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    60,
+    980,
+    262,
+    1190
+   ],
+   "bbox_norm": [
+    0.06,
+    0.7,
+    0.262,
+    0.85
+   ],
+   "bbox_pct_stage": 4.28,
+   "bbox_pct_image": 3.03,
+   "w_mm": 84.8,
+   "h_mm": 89.1
+  },
+  {
+   "idx": 23,
+   "name": "춘추관 군",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    695,
+    1022,
+    965,
+    1225
+   ],
+   "bbox_norm": [
+    0.695,
+    0.73,
+    0.965,
+    0.875
+   ],
+   "bbox_pct_stage": 5.54,
+   "bbox_pct_image": 3.91,
+   "w_mm": 113.4,
+   "h_mm": 86.1
+  },
+  {
+   "idx": 24,
+   "name": "정문",
+   "kind": "landmark",
+   "note": "",
+   "box_px": [
+    26,
+    838,
+    102,
+    935
+   ],
+   "bbox_norm": [
+    0.026,
+    0.5986,
+    0.102,
+    0.6679
+   ],
+   "bbox_pct_stage": 0.74,
+   "bbox_pct_image": 0.53,
+   "w_mm": 31.9,
+   "h_mm": 41.2
+  },
+  {
+   "idx": 25,
+   "name": "대정원(잔디 광장)",
+   "kind": "other",
+   "note": "",
+   "box_px": [
+    125,
+    640,
+    470,
+    855
+   ],
+   "bbox_norm": [
+    0.125,
+    0.4571,
+    0.47,
+    0.6107
+   ],
+   "bbox_pct_stage": 7.49,
+   "bbox_pct_image": 5.3,
+   "w_mm": 144.9,
+   "h_mm": 91.2
+  },
+  {
+   "idx": 26,
+   "name": "고양이 말풍선(붉은 주석)",
+   "kind": "label",
+   "note": "",
+   "box_px": [
+    895,
+    965,
+    962,
+    1092
+   ],
+   "bbox_norm": [
+    0.895,
+    0.6893,
+    0.962,
+    0.78
+   ],
+   "bbox_pct_stage": 0.86,
+   "bbox_pct_image": 0.61,
+   "w_mm": 28.1,
+   "h_mm": 53.9
+  }
+ ],
+ "groups": {
+  "코어 군(본관+2층 판+관저+라벨·치수)": {
+   "members": [
+    "본관(히어로)",
+    "본관 2층 구조 판(떠 있는 평면, 방 8칸)",
+    "관저(본채·별채)",
+    "본관 라벨(Main Office, 브래킷형)",
+    "관저 라벨(Presidential Residence)",
+    "'약 200m' 치수선(본관–관저)"
+   ],
+   "box_px": [
+    284,
+    323,
+    990,
+    808
+   ],
+   "bbox_norm": [
+    0.284,
+    0.2307,
+    0.99,
+    0.5771
+   ],
+   "bbox_pct_stage": 34.59,
+   "union_pct_stage": 15.98,
+   "hull_pct_stage": 21.7,
+   "centroid_norm": [
+    0.6685,
+    0.4111
+   ],
+   "w_mm": 296.5,
+   "h_mm": 205.8
+  },
+  "히어로(본관)": {
+   "members": [
+    "본관(히어로)"
+   ],
+   "box_px": [
+    284,
+    395,
+    765,
+    740
+   ],
+   "bbox_norm": [
+    0.284,
+    0.2821,
+    0.765,
+    0.5286
+   ],
+   "bbox_pct_stage": 16.76,
+   "union_pct_stage": 8.25,
+   "hull_pct_stage": 9.21,
+   "centroid_norm": [
+    0.5454,
+    0.4033
+   ],
+   "w_mm": 202.0,
+   "h_mm": 146.4
+  }
+ },
+ "stage_mm": [
+  420.0,
+  420.0
+ ]
+}

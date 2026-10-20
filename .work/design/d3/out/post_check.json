@@ -1,0 +1,198 @@
+{
+ "drawn": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d3/out/drawn.json",
+ "spec": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/d3/out/spec.json",
+ "pass": true,
+ "fail_count": 0,
+ "rules": [
+  {
+   "no": "①",
+   "name": "인쇄 글 금지 패턴 0회(Core|Basic|Detail|Support|위계|최종 배치|다이어그램|무대|꼬리표|자리|사양|검사|mm; m·km·'모식' 허용)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "texts_scanned": 227
+   }
+  },
+  {
+   "no": "②",
+   "name": "라벨 배율 1.00·글자면 결정 7 ±0.1·피치 4.15±0.05·슬롯 넘침 ≤ 0.5mm·라벨/길/건물/지시선과 2mm 이상",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "labels": 12,
+    "classified_texts": 151,
+    "unclassified_texts": 27
+   }
+  },
+  {
+   "no": "③",
+   "name": "패널 본문 ≥ 2.55mm, 주석 ≥ 2.05mm",
+   "pass": true,
+   "fails": [],
+   "info": {}
+  },
+  {
+   "no": "④",
+   "name": "지시선 수직·±30°(±0.5°)·꺾임 ≤ 1·끝점 Ø0.9±0.05·대상 간격 ≤ 0.5mm·교차 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "leaders": 16
+   }
+  },
+  {
+   "no": "⑤",
+   "name": "길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "판테온": 0.0,
+    "욕장": 0.02,
+    "메텔라": 0.0,
+    "시장": 0.0,
+    "콜로세움": 0.0
+   }
+  },
+  {
+   "no": "⑥",
+   "name": "S 막대 바깥 길이 비 20.0±0.2",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "modern_len": 3.0,
+    "roman_len": 60.0,
+    "ratio": 20.0
+   }
+  },
+  {
+   "no": "⑦",
+   "name": "밀도 ≥ 39.3%(렌더 실측)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "pct": 43.55,
+    "num_mm2": 76039.0,
+    "den_mm2": 174598.9,
+    "stage_mm2": 189048.0,
+    "covered_mm2": 14449.1,
+    "landmark_layer_mm2": 52913.6,
+    "terrain_layer_mm2": 23125.4,
+    "target_pct": 39.3
+   }
+  },
+  {
+   "no": "⑧",
+   "name": "인물 군 3곳·이웃 발점 간격 3.5~5mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "군 1(노점·암포라 둘레)": [
+     4.15,
+     4.74
+    ],
+    "군 2(기둥 폐허 둘레)": [
+     4.15,
+     4.74
+    ],
+    "군 3(노점 앞)": [
+     4.15,
+     4.74
+    ]
+   }
+  },
+  {
+   "no": "⑨",
+   "name": "포르투스 입구 18~22mm·섬 양옆 물길 ≥ 4mm·운하 2곳 연속",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "entrance_mm": 20.04,
+    "island_water_mm": [
+     6.55,
+     11.37
+    ],
+    "canals": 2
+   }
+  },
+  {
+   "no": "⑩",
+   "name": "티어 색(Core·Basic·Detail·Support) 인쇄 사용 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "uses": 0
+   }
+  },
+  {
+   "no": "⑪",
+   "name": "위계(그린 상자): Basic 최소 ≥ Detail 최대(Z1 합성), Detail 최소 ≥ Support × 1.1, R·T 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "basic_min": [
+     "L",
+     7200
+    ],
+    "detail_max": [
+     "Z1",
+     6080
+    ],
+    "detail_min": [
+     "C1",
+     2376
+    ],
+    "support": [
+     "S",
+     2100
+    ],
+    "ratio_basic_detail": 1.184,
+    "ratio_detail_support": 1.131,
+    "areas": {
+     "Basic": {
+      "L": 7200,
+      "B": 11760
+     },
+     "Detail": {
+      "C1": 2376,
+      "C2": 2592,
+      "C4": 3132,
+      "D": 4816,
+      "Z1": 6080
+     },
+     "Support": {
+      "S": 2100
+     }
+    },
+    "hero_over_landmark_max": 3.27
+   }
+  },
+  {
+   "no": "⑫",
+   "name": "글 블록과 상자 테두리 ≥ 3mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "bordered_boxes": 4,
+    "texts_checked": 33
+   }
+  }
+ ],
+ "supplementary": [
+  {
+   "name": "사양에 '위치도'·'연대기' 0(사용자 검토 원문 인용·보류 기록 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양 frame.panels = L·B·D·S",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "worker_handoff 열쇠 = map·panels·render·global",
+   "pass": true,
+   "fails": []
+  }
+ ],
+ "contract": "render가 out/drawn.json에 texts·labels·leaders·footprints·roads·boxes·s_bars·density·crowds·portus·tier_color_uses(+objects)를 쓴다. 열쇠 별칭은 v2_check.py 사후 검사 부분 참조"
+}

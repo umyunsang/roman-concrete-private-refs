@@ -1,0 +1,109 @@
+{
+ "core": {
+  "bbox_px": [
+   168,
+   199,
+   882,
+   1097
+  ],
+  "bbox_norm": [
+   0.168,
+   0.1421,
+   0.882,
+   0.7836
+  ],
+  "bbox_mm": [
+   70.6,
+   84.4,
+   370.4,
+   465.4
+  ],
+  "bbox_area_pct_of_stage": 62.3,
+  "footprint_pct_of_stage": 37.5,
+  "ink_pct_of_stage": 33.4,
+  "hull_pct_of_stage": 48.7,
+  "centroid_norm": [
+   0.535,
+   0.42
+  ],
+  "footprint_area_mm2": 67268,
+  "with_pillars": {
+   "bbox_px": [
+    47,
+    199,
+    952,
+    1200
+   ],
+   "bbox_norm": [
+    0.047,
+    0.1421,
+    0.952,
+    0.8571
+   ],
+   "footprint_pct_of_stage": 52.5
+  }
+ },
+ "density": {
+  "objects_union_pct_of_stage": 48.3,
+  "objects_union_pct_of_poster": 34.6,
+  "river_visible_pct_of_stage": 2.8,
+  "river_corridor_pct_of_stage": 5.8,
+  "sea_pct_of_stage": 6.6,
+  "sea_pct_of_poster": 12.0
+ },
+ "nn_gap_median_mm": 0.0,
+ "geo_fit": {
+  "rotation_deg": -134.1,
+  "bearing_abs_dev_median_deg": 26.9,
+  "bearing_abs_dev_max_deg": 72.9,
+  "dist_exponent": 0.287,
+  "dist_coef_mm": 146.0,
+  "real_km_range": [
+   0.19,
+   1.99
+  ],
+  "plan_mm_range": [
+   65.1,
+   320.8
+  ],
+  "north_on_screen_deg": -88.4,
+  "n": 13
+ },
+ "river_bb": [
+  190,
+  700,
+  566,
+  1099
+ ],
+ "river_vthick_med_px": 153.5
+}
+  히어로    ICC(왼쪽 기둥)                 64.3x 298.3mm   17160mm2  무대  9.63%  gap 0.0
+  랜드마크   센트럴 플라자                    40.3x 208.3mm    6876mm2  무대  3.86%  gap 0.0
+  랜드마크   리포 센터                      58.4x 126.9mm    6524mm2  무대  3.66%  gap 0.0
+  랜드마크   중국은행 타워                    45.8x 138.7mm    4172mm2  무대  2.34%  gap 0.0
+  랜드마크   피크 타워                      57.1x  44.1mm    1660mm2  무대  0.93%  gap 0.0
+  랜드마크   의학박물관                      54.2x  82.3mm    3360mm2  무대  1.89%  gap 0.0
+  랜드마크   더 센터                       54.2x 194.7mm    9445mm2  무대  5.30%  gap 0.0
+  히어로    2IFC(오른쪽 기둥)               48.3x 262.6mm    8948mm2  무대  5.02%  gap 2.1
+  랜드마크   컨벤션 센터                     72.2x  58.1mm    3040mm2  무대  1.71%  gap 0.0
+  랜드마크   관람차+판                      85.7x 126.9mm    9971mm2  무대  5.60%  gap 0.0
+  랜드마크   해사박물관(센트럴 부두)              99.1x  83.6mm    5403mm2  무대  3.03%  gap 0.0
+  랜드마크   우주박물관                      48.3x  34.4mm    1193mm2  무대  0.67%  gap 0.0
+  랜드마크   문화센터                       68.9x  69.6mm    4165mm2  무대  2.34%  gap 0.0
+  랜드마크   시계탑(침사추이)                  35.7x 130.7mm    3230mm2  무대  1.81%  gap 0.0
+  탈것     페리                         32.3x  32.2mm     593mm2  무대  0.33%  gap None
+  탈것     MTR                        39.1x  45.0mm     880mm2  무대  0.49%  gap None
+  탈것     택시                         45.8x  33.5mm    1339mm2  무대  0.75%  gap None
+  geo {'name': 'ICC(왼쪽 기둥)', 'plan_mm': [40.8, 250.1], 'plan_dist_mm': 253.4, 'screen_dist_mm': 232.4, 'real_km': 1.99, 'real_en_km': [-0.12, 1.99], 'bearing_dev_deg': -40.1}
+  geo {'name': '센트럴 플라자', 'plan_mm': [-129.4, 1.5], 'plan_dist_mm': 129.5, 'screen_dist_mm': 130.2, 'real_km': 1.39, 'real_en_km': [1.27, -0.57], 'bearing_dev_deg': -21.1}
+  geo {'name': '리포 센터', 'plan_mm': [-142.7, -66.3], 'plan_dist_mm': 157.3, 'screen_dist_mm': 123.6, 'real_km': 0.75, 'real_en_km': [0.37, -0.65], 'bearing_dev_deg': -10.5}
+  geo {'name': '중국은행 타워', 'plan_mm': [-144.1, -121.1], 'plan_dist_mm': 188.2, 'screen_dist_mm': 134.1, 'real_km': 0.65, 'real_en_km': [0.04, -0.65], 'bearing_dev_deg': 0.5}
+  geo {'name': '피크 타워', 'plan_mm': [-180.7, -265.1], 'plan_dist_mm': 320.8, 'screen_dist_mm': 234.6, 'real_km': 1.97, 'real_en_km': [-1.18, -1.57], 'bearing_dev_deg': 25.3}
+  geo {'name': '의학박물관', 'plan_mm': [-87.0, -128.0], 'plan_dist_mm': 154.7, 'screen_dist_mm': 113.2, 'real_km': 1.19, 'real_en_km': [-1.15, -0.28], 'bearing_dev_deg': 64.6}
+  geo {'name': '더 센터', 'plan_mm': [8.1, -94.9], 'plan_dist_mm': 95.3, 'screen_dist_mm': 99.2, 'real_km': 0.71, 'real_en_km': [-0.69, -0.15], 'bearing_dev_deg': 26.9}
+  geo {'name': '2IFC(오른쪽 기둥)', 'plan_mm': [162.4, -2.3], 'plan_dist_mm': 162.4, 'screen_dist_mm': 163.5, 'real_km': 0.25, 'real_en_km': [-0.25, -0.02], 'bearing_dev_deg': -49.7}
+  geo {'name': '컨벤션 센터', 'plan_mm': [-76.6, -10.6], 'plan_dist_mm': 77.3, 'screen_dist_mm': 71.9, 'real_km': 1.26, 'real_en_km': [1.24, -0.27], 'bearing_dev_deg': -41.5}
+  geo {'name': '해사박물관(센트럴 부두)', 'plan_mm': [63.7, 13.3], 'plan_dist_mm': 65.1, 'screen_dist_mm': 58.2, 'real_km': 0.19, 'real_en_km': [0.12, 0.14], 'bearing_dev_deg': 72.9}
+  geo {'name': '우주박물관', 'plan_mm': [-58.0, 88.3], 'plan_dist_mm': 105.6, 'screen_dist_mm': 127.5, 'real_km': 1.47, 'real_en_km': [1.09, 0.98], 'bearing_dev_deg': -31.2}
+  geo {'name': '문화센터', 'plan_mm': [12.2, 146.1], 'plan_dist_mm': 146.6, 'screen_dist_mm': 140.4, 'real_km': 1.29, 'real_en_km': [0.9, 0.93], 'bearing_dev_deg': 2.9}
+  geo {'name': '시계탑(침사추이)', 'plan_mm': [67.4, 154.4], 'plan_dist_mm': 168.5, 'screen_dist_mm': 134.1, 'real_km': 1.23, 'real_en_km': [0.82, 0.92], 'bearing_dev_deg': 19.4}

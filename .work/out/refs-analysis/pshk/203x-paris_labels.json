@@ -1,0 +1,287 @@
+[
+ {
+  "name": "Sacré-Cœur 사크레쾨르 대성당",
+  "seed": [
+   160,
+   495,
+   266,
+   576
+  ],
+  "text_bbox": [
+   160.0,
+   502.0,
+   266.0,
+   576.0
+  ],
+  "w_mm": 44.5,
+  "h_mm": 31.4,
+  "baseline_deg": 30.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Palais Garnier 오페라 가르니에",
+  "seed": [
+   276,
+   430,
+   342,
+   502
+  ],
+  "text_bbox": [
+   279.5,
+   434.5,
+   333.0,
+   502.0
+  ],
+  "w_mm": 22.5,
+  "h_mm": 28.6,
+  "baseline_deg": 30.5,
+  "hires_tile": true
+ },
+ {
+  "name": "Jardin des Tuileries 튈르리 가든",
+  "seed": [
+   436,
+   500,
+   501,
+   602
+  ],
+  "text_bbox": [
+   438.5,
+   504.5,
+   492.5,
+   602.0
+  ],
+  "w_mm": 22.7,
+  "h_mm": 41.4,
+  "baseline_deg": 33.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Place de la Concorde 콩코르드 광장",
+  "seed": [
+   275,
+   680,
+   337,
+   748
+  ],
+  "text_bbox": [
+   275.0,
+   680.0,
+   337.0,
+   748.0
+  ],
+  "w_mm": 26.0,
+  "h_mm": 28.9,
+  "baseline_deg": 30.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Centre Georges-Pompidou 퐁피두 센터",
+  "seed": [
+   663,
+   296,
+   742,
+   402
+  ],
+  "text_bbox": [
+   663.0,
+   301.5,
+   732.0,
+   402.0
+  ],
+  "w_mm": 29.0,
+  "h_mm": 42.6,
+  "baseline_deg": -30.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Cathédrale Notre-Dame 노트르담 대성당",
+  "seed": [
+   758,
+   408,
+   852,
+   512
+  ],
+  "text_bbox": [
+   763.5,
+   415.5,
+   852.0,
+   512.0
+  ],
+  "w_mm": 37.2,
+  "h_mm": 40.9,
+  "baseline_deg": -30.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Musée du Louvre 루브르 박물관",
+  "seed": [
+   668,
+   503,
+   745,
+   602
+  ],
+  "text_bbox": [
+   668.0,
+   503.0,
+   745.0,
+   602.0
+  ],
+  "w_mm": 32.3,
+  "h_mm": 42.0,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "la Seine 센강",
+  "seed": [
+   616,
+   758,
+   657,
+   802
+  ],
+  "text_bbox": [
+   616.0,
+   758.0,
+   657.0,
+   802.0
+  ],
+  "w_mm": 17.2,
+  "h_mm": 18.7,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Musée d'Orsay 오르세 미술관",
+  "seed": [
+   608,
+   778,
+   692,
+   872
+  ],
+  "text_bbox": [
+   608.0,
+   778.0,
+   692.0,
+   872.0
+  ],
+  "w_mm": 35.3,
+  "h_mm": 39.9,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Musée Rodin 로댕 미술관",
+  "seed": [
+   858,
+   783,
+   972,
+   887
+  ],
+  "text_bbox": [
+   858.0,
+   783.0,
+   949.5,
+   872.0
+  ],
+  "w_mm": 38.4,
+  "h_mm": 37.8,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Arc de Triomphe 에투알 개선문",
+  "seed": [
+   163,
+   1038,
+   237,
+   1137
+  ],
+  "text_bbox": [
+   166.0,
+   1038.0,
+   230.0,
+   1132.0
+  ],
+  "w_mm": 26.9,
+  "h_mm": 39.9,
+  "baseline_deg": 30.0,
+  "hires_tile": true
+ },
+ {
+  "name": "Métro entrée 파리 지하철 입구",
+  "seed": [
+   273,
+   893,
+   332,
+   947
+  ],
+  "text_bbox": [
+   273.0,
+   893.0,
+   332.0,
+   947.0
+  ],
+  "w_mm": 24.8,
+  "h_mm": 22.9,
+  "baseline_deg": 30.5,
+  "hires_tile": false
+ },
+ {
+  "name": "Tour Eiffel 에펠탑",
+  "seed": [
+   613,
+   1088,
+   707,
+   1207
+  ],
+  "text_bbox": [
+   613.0,
+   1088.0,
+   707.0,
+   1207.0
+  ],
+  "w_mm": 39.5,
+  "h_mm": 50.5,
+  "baseline_deg": -29.5,
+  "hires_tile": false
+ },
+ {
+  "name": "RER 고속 교외 철도",
+  "seed": [
+   888,
+   1088,
+   952,
+   1162
+  ],
+  "text_bbox": [
+   888.0,
+   1088.0,
+   949.5,
+   1162.0
+  ],
+  "w_mm": 25.8,
+  "h_mm": 31.4,
+  "baseline_deg": 30.0,
+  "hires_tile": false
+ },
+ {
+  "name": "Métro de Paris 파리 지하철",
+  "seed": [
+   888,
+   1138,
+   952,
+   1207
+  ],
+  "text_bbox": [
+   888.0,
+   1138.0,
+   949.5,
+   1206.5
+  ],
+  "w_mm": 25.8,
+  "h_mm": 29.1,
+  "baseline_deg": 30.0,
+  "hires_tile": false
+ }
+]

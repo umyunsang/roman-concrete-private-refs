@@ -1,0 +1,571 @@
+{
+ "coll": "PROTO",
+ "n_roots": 31,
+ "ok": 31,
+ "fail": {},
+ "roots": {
+  "PROTO_Amphora_root": {
+   "meshes": 8,
+   "faces": 314,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Barge_root": {
+   "meshes": 9,
+   "faces": 749,
+   "layers": {
+    "L0": 2,
+    "L1": 1,
+    "L2": 2,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Bush0_root": {
+   "meshes": 7,
+   "faces": 786,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Bush1_root": {
+   "meshes": 8,
+   "faces": 966,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Bush2_root": {
+   "meshes": 7,
+   "faces": 786,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Bush3_root": {
+   "meshes": 8,
+   "faces": 966,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Cart_root": {
+   "meshes": 9,
+   "faces": 552,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Cypress0_root": {
+   "meshes": 8,
+   "faces": 2493,
+   "layers": {
+    "L0": 1,
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Cypress1_root": {
+   "meshes": 8,
+   "faces": 2433,
+   "layers": {
+    "L0": 1,
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Cypress2_root": {
+   "meshes": 8,
+   "faces": 2493,
+   "layers": {
+    "L0": 1,
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Cypress3_root": {
+   "meshes": 8,
+   "faces": 2433,
+   "layers": {
+    "L0": 1,
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_House0_root": {
+   "meshes": 15,
+   "faces": 402,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 4,
+    "L3": 1,
+    "L4": 2,
+    "L5": 2,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_House1_root": {
+   "meshes": 18,
+   "faces": 790,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 5,
+    "L3": 1,
+    "L4": 4,
+    "L5": 2,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_House2_root": {
+   "meshes": 15,
+   "faces": 402,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 4,
+    "L3": 1,
+    "L4": 2,
+    "L5": 2,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_House3_root": {
+   "meshes": 18,
+   "faces": 790,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 5,
+    "L3": 1,
+    "L4": 4,
+    "L5": 2,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_HouseAtrium0_root": {
+   "meshes": 20,
+   "faces": 448,
+   "layers": {
+    "L0": 2,
+    "L1": 3,
+    "L2": 4,
+    "L3": 2,
+    "L4": 3,
+    "L5": 2,
+    "L6": 4
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_HouseFlat0_root": {
+   "meshes": 22,
+   "faces": 946,
+   "layers": {
+    "L0": 2,
+    "L1": 3,
+    "L2": 4,
+    "L3": 2,
+    "L4": 5,
+    "L5": 3,
+    "L6": 3
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_HouseFlat1_root": {
+   "meshes": 22,
+   "faces": 946,
+   "layers": {
+    "L0": 2,
+    "L1": 3,
+    "L2": 4,
+    "L3": 2,
+    "L4": 5,
+    "L5": 3,
+    "L6": 3
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Olive0_root": {
+   "meshes": 9,
+   "faces": 1028,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Olive1_root": {
+   "meshes": 9,
+   "faces": 1028,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Olive2_root": {
+   "meshes": 9,
+   "faces": 1028,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Olive3_root": {
+   "meshes": 9,
+   "faces": 1028,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Person0_root": {
+   "meshes": 14,
+   "faces": 546,
+   "layers": {
+    "L0": 2,
+    "L1": 1,
+    "L2": 3,
+    "L3": 2,
+    "L4": 3,
+    "L5": 2,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Person1_root": {
+   "meshes": 14,
+   "faces": 647,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 2,
+    "L3": 2,
+    "L4": 3,
+    "L5": 2,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Person2_root": {
+   "meshes": 14,
+   "faces": 620,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 3,
+    "L3": 1,
+    "L4": 3,
+    "L5": 2,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Pine0_root": {
+   "meshes": 9,
+   "faces": 1550,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Pine1_root": {
+   "meshes": 9,
+   "faces": 1550,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Pine2_root": {
+   "meshes": 9,
+   "faces": 1550,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Pine3_root": {
+   "meshes": 9,
+   "faces": 1550,
+   "layers": {
+    "L0": 1,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Ship_root": {
+   "meshes": 14,
+   "faces": 548,
+   "layers": {
+    "L0": 3,
+    "L1": 1,
+    "L2": 2,
+    "L3": 2,
+    "L4": 3,
+    "L5": 2,
+    "L6": 1
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  },
+  "PROTO_Stall_root": {
+   "meshes": 13,
+   "faces": 714,
+   "layers": {
+    "L0": 2,
+    "L1": 2,
+    "L2": 2,
+    "L3": 2,
+    "L4": 2,
+    "L5": 1,
+    "L6": 2
+   },
+   "missing": [],
+   "empty": [],
+   "untagged": [],
+   "n_untagged": 0,
+   "ok": true
+  }
+ },
+ "loose": [],
+ "n_loose": 0,
+ "lights": [],
+ "principled": [],
+ "image_tex": []
+}

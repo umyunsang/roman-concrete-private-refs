@@ -1,0 +1,24 @@
+[v2_check.py] 4.3s 사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM | 사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,092 · 히어로 비 5.63 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배) | 사전 검사 완료: 필수 요소 모두 있음 · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 랜드마크 9 · 허용 안 된 겹침 0 · 경고 0
+사전 8절 검사 통과: 실패 0건  · 본체 원천 map:HERO_COLOSSEUM
+사전 위계(예정 상자): 히어로 군 [139.8, 226.5, 360.5, 382.0] = 34,319 mm² · 중앙값 6,092 · 히어로 비 5.63 · 건물 실루엣 9,032 mm²(다른 건물 최대 대비 3.06배)
+[v2_build.py] 0.2s 사양 JSON 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/spec.json · 패널 ['L', 'P2', 'B', 'D', 'S', 'P5'] · 무대 173460.0 · 랜드마크 9 · Basic 최소 ['P5 지금 배우는 중(연구 → 현장 → 적용)', 5670] · Detail 최대 ['Z1 확대 창: 콜로세움 기초 콘크리트 단면 → 석회 알갱이', 5460] · 필수 요소 모두 있음
+[v2_svg.py] 0.1s 미리보기 SVG 저장: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/out/preview.svg
+[render.py] 1.2s     d_pref = math.hypot(ld[0][-1][0] - pref[0], ld[0][-1][1] - pref[1]) if (ld and pref) else 0.0 |                         ~~~~~~~~~~~~~^~~~~~~~~ | TypeError: unsupported operand type(s) for -: 'float' and 'str'
+ [render   0.0s] 시작
+[render   0.5s] 지면
+[render   0.9s] 랜드마크
+Traceback (most recent call last):
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/render.py", line 6618, in <module>
+    main()
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/render.py", line 6548, in main
+    plan_labels()
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/render.py", line 5136, in plan_labels
+    info = plan_label(key)
+           ^^^^^^^^^^^^^^^
+  File "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/render.py", line 5093, in plan_label
+    d_pref = math.hypot(ld[0][-1][0] - pref[0], ld[0][-1][1] - pref[1]) if (ld and pref) else 0.0
+                        ~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'str'
+
+실패: /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.follow/sandbox/d5/render.py
+uv run --no-project --with pillow --with opencv-python-headless --with numpy   6.09s user 0.30s system 103% cpu 6.170 total

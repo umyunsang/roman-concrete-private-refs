@@ -1,0 +1,410 @@
+--- /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.render/render.py	2026-10-19 13:46:13
++++ sandbox/d5/render.py	2026-10-19 15:29:36
+@@ -448,7 +448,7 @@
+ ACCENT = (200, 34, 54)          # 폼페이 레드(#c82236): 타이틀·패널 머리글·제작 과정 단계 번호에만
+ BROWN_A = (110, 86, 60)         # 패널 안 화살표·시간 화살표
+ NOTE_C = (110, 80, 54)          # 주의(※) 글
+-H_PERSON = 5.0
++H_PERSON = 2.4                     # 결정 D8: 표준 랜드마크·길·하역장·항구 사람 키(화면 mm). 히어로 군은 H_PERSON_HERO 4.9
+ LEAD_W = 0.30                   # 지시선 굵기(mm)
+ DOT_RR = 0.45                   # 지시선 끝점 반지름(지름 0.9mm)
+ BOX_CLEAR = 3.0                 # 테두리 상자 안 글 ↔ 테두리 최소 간격(mm)
+@@ -1445,6 +1445,8 @@
+                     kind = kinds[int(h01(key, i, j) * len(kinds)) % len(kinds)]
+                     texture(L, kind, X0, Y0, X1, Y1, "%s%d_%d" % (key, i, j), far=far)
+                     ex_poly(poly, 0.2)
++                    FIELDS_OUT.append({"group": key, "kind": kind, "plan": [round(X0, 2), round(Y0, 2), round(X1, 2), round(Y1, 2)],
++                                       "screen_poly": [[round(x_, 2), round(y_, 2)] for x_, y_ in poly]})
+                     n += 1
+             Y += sy
+             j += 1
+@@ -1803,6 +1805,9 @@
+ 
+ def draw_scatter():
+     rng = local_rng("지붕")
++    for k_, v_ in REPORT["objects"].items():                          # 13:35: 랜드마크 둘레 채움 줄이기 — 그린 외곽 + 3.0mm 안 집·나무 0
++        if re.match(r"^L\d+$", str(k_)) and v_.get("그린 외곽"):
++            ex_rect(v_["그린 외곽"], LANDMARK_CLEAR_MM)
+     placed = {"집": 0, "올리브": 0, "사이프러스": 0, "소나무": 0}
+     cands = []
+     # (영역 화면 상자, 간격, 종류 비율)
+@@ -1811,7 +1816,7 @@
+                ((112, 190, 228, 238), 6.4, "olive"), ((0, 96, 18, 300), 7.0, "tree"), ((18, 182, 116, 198), 6.0, "cyp"),
+                ((40, 290, 92, 336), 7.0, "tree"), ((146, 452, 236, 503), 7.0, "pine"), ((150, 226, 236, 262), 6.5, "olive"),
+                ((296, 300, 356, 340), 7.5, "tree"), ((330, 386, 420, 505), 9.5, "cyp"), ((0, 290, 40, 326), 7.5, "tree"),
+-               ((178, 136, 224, 150), 8.0, "house")]
++               ((178, 136, 224, 150), 8.0, "house"), ((398, 284, 420, 368), 7.5, "mix")]
+     for (box, step, kind) in regions:
+         x0, y0, x1, y1 = box
+         y = y0 + 3.0
+@@ -1836,24 +1841,32 @@
+                         axis="X" if rng.random() < 0.5 else "Y")
+             if try_mesh(m, 0.35):
+                 placed["집"] += 1
++                SCATTER_OUT.append({"kind": "house", "plan": [round(X, 2), round(Y, 2)], "screen": [round(x, 2), round(y, 2)],
++                                    "w": round(w, 2), "d": round(d, 2), "h": round(hw, 2)})
+                 continue
+             kind = "olive"
+         if kind in ("olive", "mix", "tree") and (kind != "tree" or r < 0.6):
+-            m = m_olive(X, Y, 0, 6.0 + rng.random() * 1.6, 2.2 + rng.random() * 0.6, key="올리브%.1f%.1f" % (x, y))
++            ho_, ro_ = 6.0 + rng.random() * 1.6, 2.2 + rng.random() * 0.6
++            m = m_olive(X, Y, 0, ho_, ro_, key="올리브%.1f%.1f" % (x, y))
+             if try_mesh(m, 0.3):
+                 placed["올리브"] += 1
++                SCATTER_OUT.append({"kind": "olive", "plan": [round(X, 2), round(Y, 2)], "screen": [round(x, 2), round(y, 2)], "h": round(ho_, 2), "r": round(ro_, 2)})
+             continue
+         if kind in ("cyp", "tree"):
+-            m = m_cypress(X, Y, 0, 9.0 + rng.random() * 3.0, 1.5, key="사이프러스%.1f%.1f" % (x, y))
++            hc_ = 9.0 + rng.random() * 3.0
++            m = m_cypress(X, Y, 0, hc_, 1.5, key="사이프러스%.1f%.1f" % (x, y))
+             if try_mesh(m, 0.3):
+                 placed["사이프러스"] += 1
++                SCATTER_OUT.append({"kind": "cypress", "plan": [round(X, 2), round(Y, 2)], "screen": [round(x, 2), round(y, 2)], "h": round(hc_, 2), "r": 1.5})
+             continue
+         if kind == "pine":
+-            m = m_pine(X, Y, 0, 9.0 + rng.random() * 2.0, 3.6 + rng.random() * 0.8, key="소나무%.1f%.1f" % (x, y))
++            hp_, rp_ = 9.0 + rng.random() * 2.0, 3.6 + rng.random() * 0.8
++            m = m_pine(X, Y, 0, hp_, rp_, key="소나무%.1f%.1f" % (x, y))
+             if try_mesh(m, 0.3):
+                 placed["소나무"] += 1
++                SCATTER_OUT.append({"kind": "pine", "plan": [round(X, 2), round(Y, 2)], "screen": [round(x, 2), round(y, 2)], "h": round(hp_, 2), "r": round(rp_, 2)})
+     # d5: 조경 경계 바로 밖 첫 집 줄(승인 설계 '둘레 시내 지붕과 나무', 결정 D14: 경계 ↔ 첫 집 줄 빈 띠 ≤ 3mm 평면)
+-    rr_ = GEO.get("plaza_r")
++    rr_ = None                                                            # 13:35 광장 둘레 첫 집 줄 0
+     ring = {"집": 0, "나무": 0, "빈 띠(평면 mm)": []}
+     if rr_:
+         stp = GEO.get("plaza_step", 1.0)
+@@ -3180,26 +3193,27 @@
+             tb = math.radians(t0 + (t1 - t0) * (i + 1) / n)
+             q = [(bx + r_in * math.cos(ta), by + r_in * math.sin(ta)), (bx + r_out * math.cos(ta), by + r_out * math.sin(ta)),
+                  (bx + r_out * math.cos(tb), by + r_out * math.sin(tb)), (bx + r_in * math.cos(tb), by + r_in * math.sin(tb))]
+-            moles.extend(m_prism(q, -0.4, 1.0, (206, 196, 174)))
++            moles.extend(m_prism(q, -9.7, 0.0, (206, 196, 174)))          # d5: 바다 수면 −9.7부터(Blender coast·D12와 같은 바깥 면 9.7mm)
+             if i == n - 1:
+-                tip_polys[key] = _hull([iso.p(x, y, z) for x, y in q for z in (-0.4, 1.0)])
++                tip_polys[key] = _hull([iso.p(x, y, -9.7) for x, y in q])          # 수면(−9.7) 높이 팔 끝 외곽
+     mole_arc(pp["arm_a"][0], pp["arm_a"][1], "arm_a")
+     mole_arc(pp["arm_b"][0], pp["arm_b"][1], "arm_b")
+     rm = (r_in + r_out) / 2.0
+     for th in (150.0, 165.0, 180.0, 195.0, 210.0):                  # 바다 쪽 방파제(팔 A) 위 창고
+         t = math.radians(th)
+         Xc, Yc = bx + rm * math.cos(t), by + rm * math.sin(t)
+-        moles.extend(m_box(Xc - 1.2, Yc - 1.2, 1.0, Xc + 1.2, Yc + 1.2, 2.9, (230, 210, 180)))
+-        moles.extend(m_frustum([(Xc - 1.3, Yc - 1.3), (Xc + 1.3, Yc - 1.3), (Xc + 1.3, Yc + 1.3), (Xc - 1.3, Yc + 1.3)], 2.9, 4.1, 0.4, ROOF))
++        moles.extend(m_box(Xc - 1.2, Yc - 1.2, 0.0, Xc + 1.2, Yc + 1.2, 1.9, (230, 210, 180)))
++        moles.extend(m_frustum([(Xc - 1.3, Yc - 1.3), (Xc + 1.3, Yc - 1.3), (Xc + 1.3, Yc + 1.3), (Xc - 1.3, Yc + 1.3)], 1.9, 3.1, 0.4, ROOF))
+     c0, c1 = pp["col"]
+     th = c0
+     while th <= c1 + 1e-6:                                          # 열주: 팔 B의 12~54°에만
+         t = math.radians(th)
+-        moles.extend(m_cyl(bx + rm * math.cos(t), by + rm * math.sin(t), 0.35, 1.0, 3.6, (240, 232, 214), n=6))
++        moles.extend(m_cyl(bx + rm * math.cos(t), by + rm * math.sin(t), 0.35, 0.0, 2.6, (240, 232, 214), n=6))
+         th += 7.0
+     # 5 등대섬(사양 평면 각·반지름): 섬 + 층을 쌓은 탑 + 등롱
+     LX, LY = bx + pp["lr"] * math.cos(math.radians(pp["ang"])), by + pp["lr"] * math.sin(math.radians(pp["ang"]))
+     tower = Mesh(None)
++    tower.extend(m_cyl(LX, LY, pp["isl"], -9.7, -0.4, (150, 140, 124), n=16))                # d5: 섬 옆면을 바다 수면 −9.7까지(Blender coast와 같은 깊이)
+     tower.extend(m_mound(LX, LY, -0.4, pp["isl"], 1.4, (150, 140, 124), key="등대섬"))
+     for (r, z0, z1) in pp["tiers"]:
+         tower.extend(m_cyl(LX, LY, r * 0.82, z0, z1, (236, 226, 204), n=8, top=(246, 238, 220)))
+@@ -3230,7 +3244,7 @@
+         add_fp("포르투스 외항 방파제 %s 윗면" % key, top, "대상 면")
+         add_fp("포르투스 외항 방파제 %s 바깥 면" % key, face, "대상 면")
+     GEO["fpset_포르투스 외항 방파제"] = fps
+-    isl_fp = [iso.p(LX + pp["isl"] * math.cos(math.radians(t)), LY + pp["isl"] * math.sin(math.radians(t)), 0.0) for t in range(0, 360, 10)]
++    isl_fp = [iso.p(LX + pp["isl"] * math.cos(math.radians(t)), LY + pp["isl"] * math.sin(math.radians(t)), -9.7) for t in range(0, 360, 10)]
+     add_fp("포르투스 등대섬", isl_fp, "섬")
+     add_fp("포르투스 육각 내항", [iso.p(x, y, 0) for x, y in pave], "지면")
+     ea, eb = tip_polys.get("arm_a"), tip_polys.get("arm_b")
+@@ -3245,7 +3259,7 @@
+                       for (r, z0, z1) in pp["tiers"] for z in (z0, z1) for t in range(0, 360, 45)])
+     gw_tower = [round(_poly_dist(tower_fp, ea), 2) if ea else None, round(_poly_dist(tower_fp, eb), 2) if eb else None]
+     DRAWN["portus"] = {"entrance_w": round(ent, 2), "entrance_screen_x_w": round(ent_x, 2), "island_water": gw,
+-                       "island_water_rule": "수면 높이(z 0)에서 등대섬 외곽 ↔ 두 팔 끝 조각 외곽의 화면 거리(팔 A, 팔 B)",
++                       "island_water_rule": "바다 수면 높이(z −9.7, D12)에서 등대섬 외곽 ↔ 두 팔 끝 조각 외곽의 화면 거리(팔 A, 팔 B)",
+                        "tower_to_arm_tips": gw_tower, "canals": canal_info,
+                        "arm_end_deg": [pp["arm_a"][1] % 360, pp["arm_b"][1] % 360], "colonnade_deg": [c0, c1],
+                        "lighthouse_plan": [round(LX, 2), round(LY, 2)], "lighthouse_screen_base": [round(v, 2) for v in iso.p(LX, LY, 0)]}
+@@ -3869,8 +3883,31 @@
+         if ok_pt(x, y):
+             scat.append((x, y))
+     return out, scat
++
++
++def _reserve_poly_d5(R=90.5, n=96):
++    """13:35: 옛 광장 자리 = 조경 중심 평면 반지름 R 원의 화면 다각형(집·나무·밭 금지 구역)"""
++    return [ISO.p(LS_C[0] + R * math.cos(2 * math.pi * k / n), LS_C[1] + R * math.sin(2 * math.pi * k / n)) for k in range(n)]
++
++
++
++HERO_STALLS = [(210.0, 364.0), (300.0, 359.0)]                        # 13:33 노점 2곳(승인 d4 자리, Blender hero와 같은 땅 기준점)
++STALL_AWN = [(206, 74, 58), (238, 232, 220)]                          # 빨간·흰 차양
+ 
+ 
++def _record_hero_group():
++    """13:33 히어로 군 = 콜로세움 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 거상 받침 → objects 'hero_group'"""
++    parts_ = list(GEO.get("hero_group_parts") or [])
++    ws_ = (REPORT["objects"].get("worksite") or {}).get("그린 외곽")
++    if ws_:
++        parts_.append(tuple(ws_))
++    if not parts_:
++        return
++    u_ = (min(b_[0] for b_ in parts_), min(b_[1] for b_ in parts_), max(b_[2] for b_ in parts_), max(b_[3] for b_ in parts_))
++    record("hero_group", "콜로세움 히어로 군(건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 거상 받침)", "Core(히어로 군)", u_, u_, "13:33 정의")
++    DRAWN.setdefault("hero", {})["group_box"] = [round(v, 2) for v in u_]
++
++
+ def draw_arena():
+     """히어로(결정 D2·D3 · 기준선 8.1 12:49 철회 · 8.2): 받침 0(옆면·팔각 외곽·지층·앞 변 절개 없음). 지도 땅 높이의 광장 판석(테두리선 0) 위에
+     콜로세움 건물 + 승인 설계 히어로 군(광장 포장·문 길·인물 무리 4·흩어진 사람·둘레 나무). LocalBanana 조경 부품(폐허·신전·노점 배치)은 옮겨 오지 않는다.
+@@ -3879,25 +3916,16 @@
+     # 1 광장 판석(땅 높이, 옆면 0) + 문 길
+     poly, trims = plaza_poly()
+     GEO["plaza_poly"] = poly
+-    P.poly(poly, fill=H_PLAZA)
+-    _plaza_joints(P, poly)
+-    paths = _gate_paths()
+-    for rid, q, hw, end in paths:
+-        P.poly(q, fill=H_PATH)
+-        for k in range(1, 40):                                            # 문 길 판석 가로 줄눈(L3)
+-            f = k / 40.0
+-            a_, b_ = lerp(q[0], q[3], f), lerp(q[1], q[2], f)
+-            P.line([a_, b_], H_PLAZA_J, 0.12, joint=False)
++    paths = []                                                            # 13:33 광장 0: 판석·줄눈·문 길을 그리지 않는다
+     # 2 둘레 나무(뒤) → 콜로세움 건물 → 앞 나무·인물
+     tb, tf, trees = _hero_trees(sil0)
+-    tb.draw(ISO, lw=0.1)
++    trees = []                                                            # 13:35 광장 자리 나무 0
+     BL, crec = draw_colosseum_d5()
+     P.paste(BL)
+     sil = _layer_sil(BL)
+     bbox_b, area_b, poly_b, top_y = sil if sil else (CO_BOX, 0.0, sil0, lambda x: None)
+     ws_box = WS_SPEC["box"]
+     groups, scat = _hero_crowds(poly_b, [ws_box] + [t_["box"] for t_ in trees])
+-    tf.draw(ISO, lw=0.1)
+     ppl = Mesh(None)
+     for g in groups:
+         for i, (x, y) in enumerate(g["feet"]):
+@@ -3907,24 +3935,41 @@
+         X, Y = to_plan(x, y)
+         ppl.extend(m_person(X, Y, 0, H_PERSON_HERO, CLOTHS[(i + 3) % 6], key="흩어진사람%d" % i))
+     ppl.draw(ISO, lw=0.1)
++    stalls = []                                                           # 13:33: 노점 2곳은 땅(Z 0) 위에 그대로(승인 d4 자리)
++    for i_, (sx_, sy_) in enumerate(HERO_STALLS):
++        X_, Y_ = to_plan(sx_, sy_)
++        ms_ = m_stall(X_, Y_, STALL_AWN[i_ % 2], key="노점%d" % i_)
++        ms_.draw(ISO, lw=0.1)
++        sb_ = bbox_of([ISO.p(*q) for q in mesh_pts(ms_)])
++        stalls.append({"pt": [sx_, sy_], "box": [round(v, 2) for v in sb_]})
+     for g in groups:
+         DRAWN["crowds"].append({"name": g["name"], "center": [round(v, 2) for v in g["center"]], "feet": [[round(x, 2), round(y, 2)] for x, y in g["feet"]],
+                                 "n": len(g["feet"]), "height_mm": H_PERSON_HERO})
+     # 3 기록: 히어로 = 콜로세움 건물 ∪ 조경 광장(결정 D4). 건물 상자는 외벽 실루엣(기단 계단 0.62 높이 띠는 따로 적는다)
+-    bx_p = bbox_of(poly + [p for _r, q, _h, _e in paths for p in q])
+-    union = (min(bbox_b[0], bx_p[0]), min(bbox_b[1], bx_p[1]), max(bbox_b[2], bx_p[2]), max(bbox_b[3], bx_p[3]))
+-    record("hero", HERO_NAME, "Core(히어로)", sget(HLS, "screen_box", "reserve_box", default=[139.7, 226.4, 360.2, 381.6]), union,
+-           "콜로세움 건물 ∪ 조경 광장(받침 0)")
++    wall_box0 = bbox_of([M(b["sc"] + x, 0.0, 0.0) for b in BAYS for x in (-CO_W / 2, 0.0, CO_W / 2)] +
++                        [M(s, 0.0, z_wall(b, s, 1)) for b in BAYS for s in (b["s0"], b["sc"], b["s1"])])
++    record("hero", HERO_NAME, "Core(히어로)", CO_BOX, wall_box0, "콜로세움 건물(13:33: 광장 0)")
++    SIL_MM2["hero"] = round(area_b, 1)
++    SIL_MM2["hero_building"] = round(area_b, 1)
++    gpts = [p for g in groups for (x, y) in g["feet"] for p in ((x - 1.0, y + 0.3), (x + 1.0, y - H_PERSON_HERO))]
++    gpts += [p for (x, y) in scat for p in ((x - 1.0, y + 0.3), (x + 1.0, y - H_PERSON_HERO))]
++    gpts += [(st_["box"][0], st_["box"][1]) for st_ in stalls] + [(st_["box"][2], st_["box"][3]) for st_ in stalls]
++    nb_ = (REPORT["objects"].get("네로 거상 받침") or {}).get("그린 외곽")
++    parts_ = [tuple(wall_box0), bbox_of(gpts)] + ([tuple(nb_)] if nb_ else [])
++    union = (min(b_[0] for b_ in parts_), min(b_[1] for b_ in parts_), max(b_[2] for b_ in parts_), max(b_[3] for b_ in parts_))
++    GEO["hero_group_parts"] = parts_
++    union_box = list(union)
+     wall_box = bbox_of([M(b["sc"] + x, 0.0, 0.0) for b in BAYS for x in (-CO_W / 2, 0.0, CO_W / 2)] +
+                        [M(s, 0.0, z_wall(b, s, 1)) for b in BAYS for s in (b["s0"], b["sc"], b["s1"])])
+     add_fp("콜로세움 건물", poly_b, "건물")
+     add_fp("콜로세움 외벽", poly_b, "대상 면")
+-    add_fp("콜로세움 조경 광장", poly, "지면")
++    for i_, st_ in enumerate(stalls):
++        add_fp("노점 %d" % (i_ + 1), box_poly(st_["box"]), "소품")
+     for rid, q, hw, end in paths:
+         add_fp("콜로세움 광장 문 길 " + rid, q, "지면")
+     GEO["arena_top_y"] = lambda x: (None if top_y(x) is None else top_y(x))
+     GEO["col_sil"] = poly_b
+-    ex_poly(poly, 0.3)
++    ex_poly(_reserve_poly_d5(), 0.0)                                      # 13:35 광장 자리(예약 R 90.5) 집·나무·밭 0
+     ex_poly(poly_b, 1.5)
+     for rid, q, hw, end in paths:
+         ex_poly(q, 0.3)
+@@ -3940,11 +3985,12 @@
+         "heights_check": hc, "heights_ok": all(v.get("ok", True) for v in hc.values()),
+         "bays": crec["bays"], "cavea": crec["cavea"],
+         "arena": {"semi_axes": list(CO_ARS), "wood_u_min": CO_US, "wood_z": CO_ZF, "wood_share": round((CO_ARS[0] - CO_US) / (2 * CO_ARS[0]), 3), "rail": True},
+-        "plaza": {"center_plan": list(LS_C), "reserve_r": LS_R, "box": [round(v, 2) for v in bbox_of(poly)], "trimmed": trims[:60], "trimmed_n": len(trims),
+-                  "rule": "rb(θ) = 84.5 + 3·sin(3θ+0.7) + 1.5·sin(7θ+0.2) ± 0.5(roma_pkg_hero.rb), 장애물과 2.2mm 이상이 되게 줄인 곳만 trimmed"},
+-        "gate_paths": [{"road": rid, "poly": [[round(x, 2), round(y, 2)] for x, y in q], "end_local": [round(v, 2) for v in end]} for rid, q, hw, end in paths],
+-        "trees": trees, "scatter_people": [[round(x, 2), round(y, 2)] for x, y in scat], "people_h_mm": H_PERSON_HERO,
++        "plaza": None, "plaza_removed": "사용자 13:33: 넓은 판석 광장·경계석·문 앞 포장 0. 13:35: 그 자리(조경 중심 평면 R 90.5)에 땅·길·집·나무 0",
++        "no_fill": {"center_plan": list(LS_C), "R_plan": 90.5, "rule": "집·나무·밭·길·소품 0(Core 랜드마크와 히어로 군만)"},
++        "gate_paths": [], "trees": [], "stalls": stalls,
++        "scatter_people": [[round(x, 2), round(y, 2)] for x, y in scat], "people_h_mm": H_PERSON_HERO,
+         "union_box": [round(v, 2) for v in union], "union_area_mm2": round((union[2] - union[0]) * (union[3] - union[1]), 1),
++        "union_parts": "콜로세움 건물 ∪ 인물 무리 4·흩어진 사람 ∪ 노점 2 ∪ 네로 거상 받침(13:33 히어로 군). 공사장은 draw_worksite 뒤 hero_group에 더한다",
+         "removed": ["콜로세움 받침(팔각 판·지층 옆면)", "앞 변 기초 절개", "원형 고리·동심 관람석 그릇", "가로벽 격자 하이포게움"],
+     }
+     REPORT["objects"]["hero_building"] = {"이름": "콜로세움 건물(외벽 실루엣, 기단 계단 띠 제외)", "그린 외곽": [round(v, 1) for v in wall_box],
+@@ -4294,6 +4340,8 @@
+ 
+ def print_note(d):
+     """Detail 주의 글: figure.footnote가 있으면 그것, 없으면 caution 첫 문장이 '미확인'일 때만(내부 지시 문장은 인쇄하지 않는다)"""
++    if d.get("print_note"):
++        return d["print_note"]
+     fig = d.get("figure") or {}
+     if fig.get("footnote"):
+         return fig["footnote"]
+@@ -4404,7 +4452,7 @@
+         draw_lines(x0, yl + 4.0, wrap(nt, "m", 2.1, W), "m", 2.1, NOTE_C, "note", 3.0, "확대 창 Z1 글 칸")
+     INFO_POLYS.append(("Z1 글 칸", box_poly((x0, y0, x1, y1))))
+     record("Z1", z["name"], "Detail", z["projected_box"], (cx - r, cy - r, cx + r, cy + r))
+-    DRAWN["boxes"].append({"id": "Z1 원", "kind": "확대 창", "tier": "Detail", "circle": {"c": [cx, cy], "d": d}, "border": True,
++    DRAWN["boxes"].append({"id": "Z1 원", "kind": "확대 창", "tier": "Detail", "circle": {"c": [cx, cy], "d": d}, "border": True, "lw": 0.60,
+                            "box": [cx - r, cy - r, cx + r, cy + r]})
+     DRAWN["boxes"].append({"id": "Z1 글 칸", "kind": "글 칸", "tier": "Detail", "box": [x0, y0, x1, y1], "border": False})
+     DRAWN["boxes"].append({"id": "Z1 합성", "kind": "composite(원 + 글 칸)", "tier": "Detail", "box": list(z1_composite_box()), "border": False})
+@@ -4421,7 +4469,7 @@
+     title = d.get("title") or d["name"].split(":")[-1].strip()
+     ptext(mx + MARK_R + 1.4, y0 + 6.1, title, "b", 2.8, INK_L, "callouttitle", layer="콜아웃 " + d["id"])
+     INFO_POLYS.append(("콜아웃 " + d["id"], box_poly(box)))
+-    DRAWN["boxes"].append({"id": d["id"], "kind": "콜아웃", "tier": "Detail", "box": list(box), "border": True})
++    DRAWN["boxes"].append({"id": d["id"], "kind": "콜아웃", "tier": "Detail", "box": list(box), "border": True, "lw": 0.25})
+     return x0 + BOX_CLEAR, y0 + 6.1, x1 - BOX_CLEAR, y1 - BOX_CLEAR
+ 
+ 
+@@ -4636,7 +4684,7 @@
+ LF_PROP, LF_PROP_PITCH = 2.6, 3.9     # 소품 주석(새 종류, d4): 글자면 2.6 고정, 정보 잉크, 말풍선 없음
+ # 지시선 문법(사양 lead 문장을 렌더 동작으로 옮긴 것): (방식, 쪽, 대상 지면 다각형 이름)
+ LEAD_RULE = {
+-    "콜로세움": ("vertical", "R", "콜로세움 외벽"),
++    "콜로세움": ("vertical", "L", "콜로세움 외벽"),
+     "카라칼라 욕장": ("extend", "R", "욕장 왼쪽 벽 윗면"),
+     "트라야누스 시장": ("extend", "L", "시장 오른쪽 동 끝면"),
+     "판테온": ("extend", "R", "판테온 돔"),
+@@ -4651,7 +4699,7 @@
+     "마르켈루스 극장": ("extend", "R", "극장 반원 아케이드"),
+     "하드리아누스 영묘": ("ray_ul", "L", "영묘 기단 윗면"),
+ }
+-LEAD_PREF = {"콜로세움": tuple(sget(SLOT.get("콜로세움", {}), "blender_anchor", "anchor_pt", default=None) or (269.97, 244.0))}   # 결정 D11 앵커(잠정): 지시선 끝 선호점
++LEAD_PREF = {"콜로세움": tuple(sget(SLOT.get("콜로세움", {}), "blender_anchor_pt", "anchor_pt", default=None) or (269.97, 244.0))}   # 결정 D11 앵커(잠정): 지시선 끝 선호점
+ PLACED_LEADS = []          # 놓인 지시선(라벨·Detail) 꺾은선
+ LABEL_PLAN = {}            # 라벨 자리 잡기 결과
+ 
+@@ -5864,7 +5912,9 @@
+         P.poly(tri, fill=BROWN_A)
+         figs.append(("끝 화살촉", tri))
+     aw = float(sf.get("step_arrow_w", 1.6))
+-    for (ax_, ay_) in (sf.get("step_arrows") or []):                          # 칸 사이 화살촉(→, 폭 1.6)
++    tip_ = (sf.get("step_arrow_anchor") or (pn.get("stair_figure") or {}).get("step_arrow_anchor")) == "tip"
++    for (ax_, ay_) in (sf.get("step_arrows") or []):                          # 칸 사이 화살촉(→, 폭 1.6). 'tip' = 사양 점이 화살촉 끝
++        ax_ = ax_ - aw / 2.0 if tip_ else ax_
+         tri = [(ax_ - aw / 2.0, ay_ - 0.7), (ax_ + aw / 2.0, ay_), (ax_ - aw / 2.0, ay_ + 0.7)]
+         P.poly(tri, fill=BROWN_A)
+         figs.append(("칸 사이 화살촉", tri))
+@@ -6149,15 +6199,36 @@
+     for k, v in REPORT["objects"].items():
+         b = v.get("그린 외곽")
+         if b:
+-            DRAWN["objects"].append({"id": k, "name": v.get("이름", k), "box": b})
++            o_ = {"id": k, "name": v.get("이름", k), "box": b}
++            if k in SIL_MM2:
++                o_["sil_mm2"] = SIL_MM2[k]
++            DRAWN["objects"].append(o_)
++    n_ld = len(DRAWN.get("leaders", []))
++    DRAWN["strokes"] = [{"role": "지시선", "lw": LEAD_W, "print": True, "count": n_ld},
++                        {"role": "콜아웃 테두리", "lw": 0.25, "print": True, "count": len([b for b in DRAWN["boxes"] if b.get("kind") == "콜아웃"])},
++                        {"role": "Z1 테두리", "lw": 0.60, "print": True, "count": 1},
++                        {"role": "P5 계단선", "lw": float((DRAWN.get("p5") or {}).get("stair_lw") or 0.35), "print": True, "count": 1},
++                        {"role": "내부선", "lw": float((DRAWN.get("print_lines") or {}).get("min_lw_mm") or 0.10), "print": True, "count": 1}]
++    if DRAWN.get("p5") and DRAWN["p5"].get("stair_line"):
++        DRAWN["p5"]["stair"] = {"pts": DRAWN["p5"]["stair_line"], "lw": DRAWN["p5"].get("stair_lw", 0.35), "fill": False}
++        DRAWN["p5"]["fill_boxes"] = 0
+     DRAWN["tier_color_uses"] = TIER_USES[0]
+     DRAWN["stage"] = {"rects": [list(r) for r in STAGE_RECTS], "area_mm2": STAGE_AREA, "ext_rects": [],
+                       "rule": "d4: 무대 확장 해제(R·T 자리 = 종이/띠 바탕, 지형·밭·포도밭 0)"}
+     DRAWN["forms"] = {k: GEO[k] for k in ("aqueduct_form", "basilica_form", "hypogeum") if k in GEO}
++    hh_ = DRAWN.get("hero") or {}
++    DRAWN["forms"]["hero"] = {"semi_axes_plan": [CO_A, CO_B], "major_az_deg": 315.0, "center_plan": list(CO_C),
++                              "wall_profile": HCOL.get("wall_profile"), "second_ring": HCOL.get("second_ring"),
++                              "wood_frac": (hh_.get("arena") or {}).get("wood_share"), "base_side_mm": 0.0, "front_cut": False,
++                              "heights_measured": hh_.get("heights_check"), "heights_ok": hh_.get("heights_ok"),
++                              "rule": "그린 본체 값(render가 쓴 CO_* 상수와 사양 wall_profile). θ 구간 실측은 heights_measured"}
+     DRAWN["vesuvius_cover_mm"] = GEO.get("ves_cover_mm")
+     DRAWN["silhouette_gaps"] = SIL_GAPS
+     DRAWN["print_rule"] = "인쇄 지면에 보이는 것만 그렸다(위치도·연대기·티어 표기·크기 꼬리표·검사 수치·설계 주석 0). 이 기록은 사후 검사용이다"
+     DRAWN["notes"] = REPORT["notes"]
++    DRAWN["sil_mm2"] = SIL_MM2
++    DRAWN["scatter"] = {"items": SCATTER_OUT, "count": len(SCATTER_OUT), "rule": "13:40 청사진: 화면 mm·평면 mm. 집 w·d·h(평면 mm, h = 벽 높이), 나무 h·r. ground는 이 자리·크기에 짓는다"}
++    DRAWN["fields"] = {"items": FIELDS_OUT, "count": len(FIELDS_OUT), "rule": "13:40 청사진: 밭 구획 평면 [X0, Y0, X1, Y1]과 화면 다각형, kind = vine·wheat·pasture·fallow"}
+     with open(DRAWN_PATH, "w", encoding="utf-8") as fh:
+         json.dump(DRAWN, fh, ensure_ascii=False, indent=1)
+ 
+@@ -6491,8 +6562,23 @@
+     REPORT.setdefault("timing", []).append([tag, round(time.time() - T_START, 1)])
+     sys.stderr.write("[render %5.1fs] %s\n" % (time.time() - T_START, tag))
+     sys.stderr.flush()
++
++
++
++SIL_MM2 = {}
++LANDMARK_CLEAR_MM = 3.0   # 13:35: 시내 집·나무를 랜드마크 그린 외곽 상자에서 3.0mm 밖에만 둔다(ground도 같은 값)
++SCATTER_OUT = []    # d5(13:40): draw_scatter가 실제로 놓은 시내 집·나무(와이어프레임 ground가 같은 자리에 짓는다)
++FIELDS_OUT = []     # d5(13:40): place_fields가 실제로 놓은 밭 구획
+ 
+ 
++def _sil_call(lid, fn):
++    """d5: 랜드마크 한 개를 그린 전후 랜드마크층 알파 ≥ 128 면적 차이 = 그 랜드마크 실루엣 면적(mm²)"""
++    a0 = np.array(OBJ.img.getchannel("A")) >= 128
++    fn()
++    a1 = np.array(OBJ.img.getchannel("A")) >= 128
++    SIL_MM2[lid] = round(float((a1 & ~a0).sum()) / (KD * KD), 1)
++
++
+ def main():
+     _t("시작")
+     if INFO_ONLY:
+@@ -6511,28 +6597,29 @@
+     _t("지면")
+     # 2 랜드마크·소품 층(뒤 → 앞): 바실리카는 카라칼라 다음·시장 전, 극장은 판테온 다음, 영묘는 포르투스 다음, 거상은 아레나 전
+     use_layer(OBJ)
+-    draw_caracalla()
+-    draw_aqueduct()
+-    draw_basilica()
+-    draw_market()
+-    draw_pantheon()
+-    draw_theatre()
++    _sil_call("L3", draw_caracalla)
++    _sil_call("L4", draw_aqueduct)
++    _sil_call("L7", draw_basilica)
++    _sil_call("L2", draw_market)
++    _sil_call("L1", draw_pantheon)
++    _sil_call("L9", draw_theatre)
+     draw_kiln()
+     draw_barge(PROPS["바지선 1"], "X", "바지선 1")
+     ac = PROPS["아피아 가도 수레"]
+     apl = ac.get("plan") or [485.6, 72.0]
+     draw_road_cart(ac, "아피아 가도 수레", apl[0], apl[1], "Y", ASH_G)
+     draw_colossus()
+-    draw_arena()
++    _sil_call("HERO_ALL", draw_arena)
+     draw_dock()
+     mc = PROPS["재료 수레"]
+     mpl = mc.get("plan") or [462.3, 278.0]
+     draw_road_cart(mc, "재료 수레", mpl[0], mpl[1], "Y", LIME_W)
+-    draw_metella()
+-    draw_portus()
+-    draw_mausoleum()
++    _sil_call("L5", draw_metella)
++    _sil_call("L6", draw_portus)
++    _sil_call("L8", draw_mausoleum)
+     draw_barge(PROPS["바지선 2"], "Y", "바지선 2")
+     draw_worksite()
++    _record_hero_group()
+     draw_ostia()
+     draw_villa()
+     draw_ash_ship()

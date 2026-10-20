@@ -1,0 +1,349 @@
+{
+ "drawn": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d4.global/out/drawn.json",
+ "spec": "/Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d4.global/out/spec.json",
+ "pass": false,
+ "fail_count": 8,
+ "rules": [
+  {
+   "no": "①",
+   "name": "인쇄 글 금지 패턴 0회(작업 이름·티어 이름·치수 단위 mm·검사·위치도·연대기·자리 예약·선택 대기·저탄소·41%·29%, 조각상 문장·반죽 붓기·퐁 뒤 가르·이름 유래, 새 랜드마크·거상 치수; m·km·'모식' 허용)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "texts_scanned": 227,
+    "no_dimension_labels": 0
+   }
+  },
+  {
+   "no": "②",
+   "name": "라벨 배율 1.00·글자면 결정 7 ±0.1(소품 주석 2.6·짝 표지 2.2)·피치 4.15±0.05·슬롯 넘침 ≤ 0.5mm·라벨/길/건물/지시선과 2mm 이상·깃대형 깃대 수직(x 편차 ≤ 0.1)·끝점 Ø0.9·대상 간격 ≤ 0.5",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "labels": 12,
+    "classified_texts": 158,
+    "unclassified_texts": 20,
+    "flagpoles": 2
+   }
+  },
+  {
+   "no": "③",
+   "name": "패널 본문 ≥ 2.55mm, 주석 ≥ 2.05mm",
+   "pass": true,
+   "fails": [],
+   "info": {}
+  },
+  {
+   "no": "④",
+   "name": "지시선 수직·±30°(±0.5°)·꺾임 ≤ 1·끝점 Ø0.9±0.05·대상 간격 ≤ 0.5mm·교차 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "leaders": 16
+   }
+  },
+  {
+   "no": "⑤",
+   "name": "길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움·바실리카–R2)",
+   "pass": false,
+   "fails": [
+    "자료 없음: 바실리카 지면 다각형 또는 길 다각형"
+   ],
+   "info": {
+    "판테온": 0.0,
+    "욕장": 0.02,
+    "메텔라": 0.0,
+    "시장": 0.0,
+    "콜로세움": 0.0
+   }
+  },
+  {
+   "no": "⑥",
+   "name": "S 막대 바깥 길이 비 20.0±0.2",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "modern_len": 3.0,
+    "roman_len": 60.0,
+    "ratio": 20.0
+   }
+  },
+  {
+   "no": "⑦",
+   "name": "밀도 ≥ 39.3%(렌더 실측, 전체 무대 173,460mm² 기준 판정 · 열린 무대 값 기록)",
+   "pass": false,
+   "fails": [
+    "render 무대 면적 189048 ≠ 사양 무대 173460 mm²(STAGE_EXT 해제 미반영)"
+   ],
+   "info": {
+    "pct": 43.55,
+    "num_mm2": 76039.0,
+    "den_mm2": 174598.9,
+    "stage_mm2": 189048.0,
+    "covered_mm2": 14449.1,
+    "landmark_layer_mm2": 52913.6,
+    "terrain_layer_mm2": 23125.4,
+    "target_pct": 39.3,
+    "pct_full_stage": 43.84,
+    "full_stage_mm2": 173460.0,
+    "pct_open_stage": 43.55
+   }
+  },
+  {
+   "no": "⑧",
+   "name": "인물 군 3곳·이웃 발점 간격 3.5~5mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "군 1(노점·암포라 둘레)": [
+     4.15,
+     4.74
+    ],
+    "군 2(기둥 폐허 둘레)": [
+     4.15,
+     4.74
+    ],
+    "군 3(노점 앞)": [
+     4.15,
+     4.74
+    ]
+   }
+  },
+  {
+   "no": "⑨",
+   "name": "포르투스 입구 18~22mm·섬 양옆 물길 ≥ 4mm·탑–두 팔 끝 보이는 물 ≥ 4mm·운하 2곳 연속",
+   "pass": false,
+   "fails": [
+    "탑–팔 끝 보이는 물 0.00mm < 4"
+   ],
+   "info": {
+    "entrance_mm": 20.04,
+    "island_water_mm": [
+     6.55,
+     11.37
+    ],
+    "tower_to_arm_tips_mm": [
+     0.0,
+     12.88
+    ],
+    "canals": 2
+   }
+  },
+  {
+   "no": "⑩",
+   "name": "티어 색(Core·Basic·Detail·Support) 인쇄 사용 0",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "uses": 0
+   }
+  },
+  {
+   "no": "⑪",
+   "name": "위계(그린 상자, 6패널 L·P2·B·D·S·P5): Basic 최소 ≥ Detail 최대(Z1 합성), Detail 최소 ≥ Support × 1.1, R·T 0",
+   "pass": false,
+   "fails": [
+    "인쇄 패널 상자 없음: P2(6패널 L·P2·B·D·S·P5 기준)",
+    "인쇄 패널 상자 없음: P5(6패널 L·P2·B·D·S·P5 기준)"
+   ],
+   "info": {
+    "panels_drawn": [
+     "L",
+     "B",
+     "D",
+     "S"
+    ],
+    "basic_min": [
+     "L",
+     7200
+    ],
+    "detail_max": [
+     "Z1",
+     6080
+    ],
+    "detail_min": [
+     "C1",
+     2376
+    ],
+    "support": [
+     "S",
+     2100
+    ],
+    "ratio_basic_detail": 1.184,
+    "ratio_detail_support": 1.131,
+    "areas": {
+     "Basic": {
+      "L": 7200,
+      "B": 11760
+     },
+     "Detail": {
+      "C1": 2376,
+      "C2": 2592,
+      "C4": 3132,
+      "D": 4816,
+      "Z1": 6080
+     },
+     "Support": {
+      "S": 2100
+     }
+    },
+    "hero_over_landmark_max": 3.27
+   }
+  },
+  {
+   "no": "⑫",
+   "name": "글 블록과 상자 테두리 ≥ 3mm",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "bordered_boxes": 4,
+    "texts_checked": 33
+   }
+  },
+  {
+   "no": "⑬",
+   "name": "필수 요소 존재: 패널 6(L·P2·B·D·S·P5)·랜드마크 L1~L9·네로 거상·R7·폰스 아일리우스 다리·짝 표지 A 3·B~D 각 2·숫자 1~4 각 2(글자·중심·출처), 지도 표지 간격 ≥ 2mm",
+   "pass": false,
+   "fails": [
+    "패널 없음: P2",
+    "패널 없음: P5",
+    "랜드마크 없음: L7",
+    "랜드마크 없음: L8",
+    "랜드마크 없음: L9",
+    "소품 없음: 네로 거상(받침 + 거상)",
+    "길 없음: R7",
+    "다리 없음: 폰스 아일리우스 다리(footprints '폰스 아일리우스 다리')",
+    "짝 표지 A 1개 ≠ 3",
+    "짝 표지 1 0개 ≠ 2",
+    "짝 표지 2 0개 ≠ 2",
+    "짝 표지 3 0개 ≠ 2",
+    "짝 표지 4 0개 ≠ 2",
+    "표지 출처(map/detail/panel) 자료 없음: B·C·D·A·B·C·D"
+   ],
+   "info": {
+    "objects": 20,
+    "marks": {
+     "B": 2,
+     "C": 2,
+     "D": 2,
+     "A": 1
+    },
+    "marks_total": 7,
+    "map_mark_clearance_mm": []
+   }
+  },
+  {
+   "no": "⑭",
+   "name": "건물 실루엣 간격 ≥ 2mm(footprints 건물 묶음 쌍, 길–지면 접속·다리–강·다리–R7 제외)",
+   "pass": true,
+   "fails": [],
+   "info": {
+    "groups": [
+     "메텔라",
+     "수도교",
+     "시장",
+     "욕장",
+     "콜로세움",
+     "판테온",
+     "포르투스",
+     "하역장"
+    ],
+    "near_pairs_mm": [
+     [
+      "메텔라",
+      "콜로세움",
+      2.2
+     ],
+     [
+      "포르투스",
+      "하역장",
+      22.4
+     ],
+     [
+      "콜로세움",
+      "하역장",
+      27.07
+     ],
+     [
+      "수도교",
+      "콜로세움",
+      93.78
+     ]
+    ],
+    "excluded": "길–지면 접속(⑤가 ≤ 1.6mm로 본다)·다리–강·다리–R7(다리는 영묘 묶음)·수도교–욕장(급수 접속)·선박·Detail·배경 산"
+   }
+  },
+  {
+   "no": "⑮",
+   "name": "운하 사양 끝점 = 그린 끝점 ±0.3mm(render 추가 연장 0)",
+   "pass": false,
+   "fails": [
+    "운하 강 쪽 운하 plan_y 사양 [322.84, 338.6] ≠ 그림 [322.24, 340.1](편차 1.50mm > 0.3)",
+    "운하 외항 쪽 운하 plan_y 사양 [368.6, 384.0] ≠ 그림 [367.1, 384.6](편차 1.50mm > 0.3)"
+   ],
+   "info": {
+    "canals": [
+     [
+      "강 쪽 운하",
+      "plan_y",
+      [
+       322.84,
+       338.6
+      ],
+      [
+       322.24,
+       340.1
+      ],
+      1.5
+     ],
+     [
+      "외항 쪽 운하",
+      "plan_y",
+      [
+       368.6,
+       384.0
+      ],
+      [
+       367.1,
+       384.6
+      ],
+      1.5
+     ]
+    ]
+   }
+  }
+ ],
+ "supplementary": [
+  {
+   "name": "사양에 '위치도'·'연대기' 0(사용자 검토·선택 원문 인용·인쇄 금지 패턴 정의 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양에 '보류'·'선택 대기' 0(사용자 원문 인용·인쇄 금지 패턴 정의 제외)",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "사양 frame.panels = L·P2·B·D·S·P5",
+   "pass": false,
+   "fails": [
+    "frame.panels = ['L', 'B', 'D', 'S']"
+   ]
+  },
+  {
+   "name": "worker_handoff 열쇠 = map·panels·render·global",
+   "pass": true,
+   "fails": []
+  },
+  {
+   "name": "그린 무대 = STAGE 하나(R·T 확장 0)",
+   "pass": false,
+   "fails": [
+    "drawn.stage.rects = [[0.0, 92.0, 420.0, 505.0], [298.0, 20.0, 420.0, 92.0], [312.0, 505.0, 420.0, 568.0]]"
+   ]
+  }
+ ],
+ "contract": "render가 out/drawn.json에 texts(짝 표지는 role 'mark' + 글자·중심·출처 map/detail/panel)·labels(소품 주석·깃대형 포함)·leaders·footprints(바실리카 지면·측랑 볼트·신랑 유적, 영묘 기단·원통, 폰스 아일리우스 다리, 극장 반원 아케이드, 네로 거상 받침·네로 거상, 오스티아 포함)·roads(R7 포함)·boxes(L·P2·B·D·S·P5·Z1·C1·C2·C4)·s_bars·density(num_mm2·전체 무대·열린 무대)·crowds·portus(tower_to_arm_tips·island_water·canals plan_y)·tier_color_uses·objects(L1~L9·V·hero·소품)·stage를 쓴다. 열쇠 별칭은 v2_check.py 사후 검사 부분 참조",
+ "rules_count": 15
+}

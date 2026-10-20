@@ -1,0 +1,443 @@
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+
+     DIGITAL PHOTOGRAMMETRY FOR THE GEOMETRICAL ANALYSIS OF THE
+                 UMBRELLA-SHAPED DOME IN BAIA (NAPLES)
+
+                                         Licinia Aliberti 1*, Miguel Ángel Alonso-Rodríguez 2
+          1
+              ESNE, University School of Design, Innovation and Technology. Camilo José Cela University, Madrid, Spain-
+                                                      licinia.aliberti@esne.es
+                           2
+                             ETSAM. Universidad Politécnica de Madrid, Spain – miguel.alonso@upm.es
+
+                                                      Commission VI, WG VI/4
+
+
+KEY WORDS: Heritage, geometrical analysis, Baia, dome, photogrammetry
+
+
+ABSTRACT:
+
+This paper is focused on the use of photogrammetric measurement techniques for the valorization of architectural and archaeological
+heritage. The functionality of this system allows operating with unfavourable conditions and pursues the accuracy of the
+measurement. This case of study presents a complex situation. Currently half part of the octagonal room annexed to the Temple of
+Mercury in Baia is underwater. Moreover the level of water may grow due to the characteristic movement of the soil in this area.
+The accuracy of photogrammetric method and the high definition of the camera used for the photo captures allow the reconstruction
+of the interior of the dome. The particular geometry of this surface stresses the relevance of a complete documentation of the dome.
+The research describes the method and tools used to realize this survey in difficult conditions and then analyze the geometry of the
+interior of the dome. In order to develop the geometrical analysis we carried on a series of operations on the point cloud and the
+survey model. The study of the photogrammetric model and the construction of an ideal model based on geometrical laws generate
+useful material to understand this complex vault.
+
+
+                      1. INTRODUCTION                                 of an ideal model based on geometrical laws generate useful
+                                                                      material to understand this complex vault.
+1.1 Research main goals                                               The special state of conservation of the octagonal room annexed
+                                                                      to the Temple of Mercury offers a good study case. The vault is
+This paper is focused on the use of photogrammetric                   conserved in all its parts and it seems not to have been modified
+measurement techniques for the valorization of architectural          by architectural restoration.
+and archaeological heritage. The continuous evolution of the          There are many studies about the underwater archaeological site
+building over time needs a monitoring action to document its          of Baia but there aren’t recent publications about the thermal
+conditions. These achived data may offer important information        complex on land. We can find some information in the work of
+to understand ancient buildings.                                      Borriello and D’Ambrosio (1979) where the authors presented a
+In this sense digital photogrammetry is a powerful tool. The          general survey of the whole archaeological site. Considering the
+functionality of this system allows operating with unfavorable        date of execution, a new survey based on current methods and
+conditions and pursues the accuracy of the measurement. The           tools may be very useful. Furthermore studying this single vault
+case study presents a complex situation. Currently half part of       it is possible to deepen in details and to use a different scale of
+the octogonal room annexed to the Temple of Mercury in Baia           definition in the graphical documentation.
+is underwater. The level of water may grow due to the                 As a principal goal this research aims to maximise the data
+movement of the soil characteristic in this area, so that a survey    management of the survey in order to develop a geometrical
+of its current state of conservation is necessary.                    analysis of the inner surface of the dome. Since the octagonal
+One of the main goals of this research is to apply the digital        room is an example of umbrella-shaped domes this work may
+photogrammetry to an archaeological building in difficult             offer new contributions to the knowledge of early Roman
+conditions and to test the efficacy of the method.                    vaults.
+The accuracy of photogrammetric method and the high
+definition of the camera used for the photo captures allow the        1.2 Description of the case study
+reconstruction of the interior of the dome. The particular
+geometry of this surface highlights the relevance of a complete       The case study is the octogonal room annexed to the so called
+documentation of the dome.                                            Temple of Mercury in the archaeological site of Baia near
+The research describes the method and tools used to realize this      Naples. This ancient building dates in the 2nd century AD and
+survey in difficult conditions and then analyzes the geometry of      still presents an umbrella-shaped dome completely conserved.
+the interior of the dome. In order to develop the geometrical         The complex geometry of this vault is the result of a large
+analysis we carried on a series of operations on the point cloud.     experimentation realized by the Roman constructors during
+The study of the photogrammetric model and the construction           time (Lancaster 2005; Lucchini 1997; Rakob 1988; Aliberti
+                                                                      2013). Roman concrete expresses its capabilities with special
+
+
+* Corresponding author
+
+
+
+
+                                                 This contribution has been peer-reviewed.
+                       https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.                     23
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+evidence in the design and construction of the internal surfaces     of the room is partially underground as the site presents a
+of the vaults. Here this material offered the possibility of a new   considerable difference of ground levels.
+experimentation on different geometries.
+The geometry of Roman vaults had a relevant evolution since                                  2. RESEARCH
+the first examples of conical shape domes on circular plants of
+the thermal complex in Pompei until the complex vault of the         2.1 Photogrammetric survey
+Hadrianic Villa with alternated convex and concave surfaces. A
+great number of Roman domes have a spherical shape that was          The study of the dome develops from a digital photogrammetric
+experimented in different scales. The most impressive example        survey based on automated processes. The research is
+is unquestionably the enormous dome of the Pantheon in Rome.         articulated into different steps of data collection, processing and
+                                                                     management of results.
+                                                                     A specific software for the photogrammetric reconstruction was
+                                                                     used to obtain the three-dimensional models and other CAD
+                                                                     software for vectorial drawing of graphic restitution. In this
+                                                                     case we used the software Agisoft Photoscan Pro for
+                                                                     photogrammetric reconstruction. It allows a sequence of
+                                                                     operations and high developed automatic proceedings and helps
+                                                                     to control the specific settings that guide the reconstruction
+                                                                     through the kind of results intended by the research.
+                                                                     The capture of high quality photos is an important factor in this
+                                                                     research. We used a full frame digital reflex camera and fixed
+                                                                     lens. The camera used is a Canon EOS 5D with a CMOS sensor
+                                                                     35,8 x 23,9 mm with 13,3 MP (12,8 MP effective). The fixed
+                                                                     lens used are Canon 50 mm (1:1.4) and Canon 24 mm (1:2.8).
+                                                                     To obtain the restitution we finally used only the picture taken
+                                                                     with the 24 mm lens, which assured a large overlap between the
+                                                                     images.
+               Figure 1. Photograph of the vault.                    The photos were taken with daily light without flash to respect
+                                                                     the protection of the archaeological object. This fact explains
+The octagonal room annexed to the Temple of Mercury presents         the use of such elevated ISO sensitivity and large exposure
+one of the best conserved examples of a vault with complex           time.
+surface. The constructive system used in Roman domes is based        The conditions of data collection were constrained because of
+on the overlapping of horizontal layers. Considering the small       the flooding of the floor. The photos were taken from only one
+dimensions of the vault the main difficulty during the building      position situated almost in the entry of the room. The accessible
+was the design and construction of the formwork.                     floor is at a higher height with respect to the original level so
+Observing the reduced thickness of the holding walls and the         that it is relatively close to the inner surface of the vault.
+monolithic structure of the dome some scholar consider it as the     However the floor that can be used is reduced and doesn’t
+first example of umbrella-shaped vault in Roman architecture         permit to locate the camera in opposite points of view. We have
+(Sanpaolesi 1971, 14).                                               to highlight that the circular sweeping of the photos from only
+Although the room is completely conserved it is not entirely         one point of view isn’t the best way to realize the data
+accessible due to the flooding of the floor. This condition is       acquisition. However the different inclinations of the camera
+caused by the bradyseism, a progressive process typical of           during the capture of the images and the small dimensions of
+volcanic areas that generates the gradual descent of part of the     the building allowed the correct orientation of images in the
+Earth's surface caused by emptying of underground magma              photogrammetric process.
+chambers and hydrothermal activity. The complex amount of
+ground vertical movements is a result of the vitality of the
+volcanic area of the Campi Flegrei located in the Neapolitan
+region (Passaro 2012).
+The level of the access of the octogonal room is currently under
+the water table as in the Temple of Mercury, where the first
+image describing the beginning of this process dates in the
+Eighteenth century (Paoli 1768). The progressive flooding of
+the floor during time reaches nowadays almost half height of
+the Temple of Mercury.
+The plan view of the upper part of the room describes an
+octagon and the inscribed circumference has an average
+diameter of 5,92 m (personal observation). The inner surface
+has an umbrella shape with eight convergent wedges. The
+structure realized with Roman concrete is partially irregular and
+it has a rough surface. The material used is tufa stone with great
+quantity of Roman mortar.                                                   Figure 2. Oriented photographs used for the digital
+The building has a quadrangular window on the top of the                          photogrammetric survey of the vault.
+entry. This opening gives natural illumination to the room
+together with the entrance. The window is located in one side of     We obtained the calibration of the camera with the automated
+the octagon and ends just before the beginning of the wedges of      method used by the software. The lens and camera used were
+the dome (Borriello 1979; personal observation). The West side       easily recognized for the correct calibration. Camera calibration
+
+
+
+                                                This contribution has been peer-reviewed.
+                      https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.                     24
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+was realized automatically during the alignment and                  In order to elaborate the geometrical analysis we generated a
+identification process of images. The proceedings applied by         mesh surface from the point cloud. This continuous surface can
+Agisoft Photoscan Pro have been tested and ensure an excellent       be used in vector drawing software and offers detailed
+calibration of the camera (Ippoliti, Meschini & Sicuranza            information for the architectural study.
+2015). This automatic calibration is here applied after verifying    The mesh surface is also the support to obtain the textured
+the correct coherence between one first photogrammetric model        model. The process generated a high definition of the textured
+and some reference measurements registered with a laser              surface due to the quality of photographic images used. This
+distance meter.                                                      result is relevant in the study and documentation of the building
+The images were aligned and a three-dimensional model was            because it offers direct information about the state of
+obtained through the software. We applied automated                  conservation of the surface of the structure. From a constructive
+proceedings SFM (Structure From Motion) to the tie points            point of view it could be useful to study the distribution and
+model and we obtained a high definition point cloud that             characteristics of materials of the vault.
+includes its chromatic information. Considering the limited
+dimensions of the vault we could process photos in high level        2.2 Geometrical analysis
+and generate a detailed dense point cloud.
+During the data collection we registered some direct measures        The geometrical analysis aims to understand the design of the
+using a laser distance meter. Due to the irregularity of the rough   inner surface of the dome and to reconstruct the ideal model.
+surface and the impossibility to reach all the sides of the room     The surface of the intrados is subdivided into concave segments
+we couldn’t realize a complete direct survey. As principal data      that converge towards the vertex. They make a composition of
+we registered the distance between the entrance edge and the         wedges shaped surfaces. Studying the survey model we can
+opposite. We used this value as the reference to scale and orient    calculate the curvature of the wedges that depend from the
+the survey model.                                                    concavity of the surface and the height of the top vertex of the
+                                                                     dome.
+                                                                     The correct transition between the point clouds and the
+                                                                     continuous model is still a challenge in current architectural
+                                                                     survey. Elements like lines and surfaces are key tools in
+                                                                     architectural studies (Canciani 2013). On the other hand we
+                                                                     have to recognise that the current tools of the point cloud
+                                                                     management have evolved considerably and can offer direct
+                                                                     data of the survey model. This work aims to study the
+                                                                     management of point cloud and of the mesh surface and to
+                                                                     extract useful information for geometrical analysis.
+                                                                     In order to realize that geometrical analysis we applied some
+                                                                     average calculations that are useful to determine the ideal
+                                                                     model of the vault. These calculations were developed using
+                                                                     measures of the survey model. Some of the data were extracted
+                                                                     directly from the point cloud and other from the mesh surface
+                                                                     using a vector drawing software.
+                                                                     Some of the average calculations were taken using the
+                                                                     numerical data collected and some of them were extracted
+                                                                     directly from the survey model using the software Rhinoceros.
+                                                                     In addition to the easy tools of management for point clouds
+                                                                     and mesh models this software can apply different average
+                                                                     calculations to extract geometrical shapes.
+                                                                     The first step was to find the average values of the principle
+                                                                     elements and so describe the general design of the dome. The
+Figure 3. Orthogonal view of the survey model of the dome and        creation of the ideal model was studied at the same time. This
+                          texturing.                                 process required some additional data and a continuous
+                                                                     feedback between the two proceedings.
+                                                                     The correct approximation of the measure of the edges was
+                                                                     difficult to obtain due to the irregularity of the surface and to
+                                                                     the rounded sides of the room. Finally its average value is 2.45
+                                                                     m. The same constraints influenced the measuring of the radio
+                                                                     of the candle. It presents great irregularities at its beginning at
+                                                                     the wall where its average radius is 1.15 m. The wedges reduce
+                                                                     their dimension and converge in a circle at the top of the dome
+                                                                     with an average diameter that may be approximated to 60 cm.
+                                                                     The circle is irregular and the separation between the wedges
+                                                                     and the circle isn’t a clear line so that this is only a guidance
+                                                                     value. At the top of the dome there is a small circular hole of
+                                                                     approximated 5 cm diameter.
+                                                                     The single values and the average values of the principal
+                                                                     elements of the vault are annexed below in the Table 2.
+
+         Figure 4. Detail view of the textured surface.
+
+
+
+
+                                                This contribution has been peer-reviewed.
+                      https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.                     25
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+                                                       Average       underground. Moreover the pressure of the ground may have
+                         Single values [m]
+                                                      values [m]     caused some deformation of the structure during the centuries.
+                                                                     Indeed Roman builders used to show a precise setting-out in
+ Distance                                                            this kind of geometrical shapes. They achived very high
+                         5.92 - 5.85 - 5.84             5.92
+ between edges                                                       precision in the setting-out of more complex design as the
+                                                                     distribution of the coffers of the Pantheon dome in Rome
+                      2.45 - 2.29 - 2.51 - 2.45                      (Aliberti 2017) or the main axes of the Coliseum (Pelletti 1989).
+ Edge                                                   2.45
+                      2.49 - 2.43 - 2.61 - 2.38                      The thickness of the vault can be measured in the window hole
+                                                                     where we can observe the structure. The rough surface and the
+ Radio max of      1.22 - 1.23 - 1.17 - 1.13 - 1.15                  irregularity of the hole make difficult the measuring of the
+                                                        1.15
+ candle                  - 1.12 – 1.11 - 1.08                        thickness. From the study of the survey model we can state that
+                                                                     the thickness of the vault at the height of the higher part of the
+              Table 2. Average calculations of the                   window is 65 cm. We can’t determine if the dome has different
+                principal elements of the vault                      thickness because the external surface is partially underground.
+
+These values are relevant for the interpretation of the ideal
+geometry of the vault. However we realized some more analysis
+of the form of the surface. It presents smooth transitions from
+opposite curvatures and it reduces its dimensions as it rises. The
+transition between different surfaces is a complex issue to
+analyse.
+We obtained a series of horizontal sections at 10 cm distance
+and 8 radial sections of the point cloud. Along the axes of the
+wedges we extracted 4 radial sections and other 4 sections were
+taken in the separation lines between the wedges. The sectors of
+the dome aren’t exactly aligned but we consider useful to have
+complete lines of sections and not to divide each of them in two
+parts. In the extraction of these intersection lines we applied a
+high approximation to the point cloud to document with detail
+the irregularity of the surface. This set of data describes the
+shape of the vault and can be used in architectural analysis.
+
+
+
+
+                                                                        Figure 6. Plan view of the horizontal sections of the points
+                                                                                          cloud (10 cm distance).
+
+
+
+
+  Figure 5. Horizontal and radial sections of the points cloud.
+
+The horizontal and vertical sections show the form of the vault
+and the irregularity of the surface.
+The plan of the room obtained cutting the building about 50 cm
+from the beginning of the vault is an irregular octagon. The
+inferior part of the room is completely submerged and we
+couldn’t study the lower level of the room. But since the object
+of the investigation is the inner surface of the vault we consider
+the upper level as useful to determine the shape of the room.
+There are evident differences between the edges and their
+reciprocal inclinations. The angles between the axes present
+different values from the ideal 45º that should reflect a uniform
+division of the 360º angle in 8 equal parts.
+The setting-out of the octagonal room may have been difficult
+due to the particular situation of the building that is partially       Figure 7. Plan view of the horizontal sections of the points
+                                                                                          cloud (10 cm distance).
+
+
+
+
+                                                This contribution has been peer-reviewed.
+                      https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.                       26
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+
+The construction of the ideal model is based on the average
+values obtained from the survey model. We first create an
+octagon with 2.45 m edge and we verify that the distance
+between opposite edges is 5.91 that is very similar to the 5.92 m
+of the survey model. The general setting-out seems to respect
+the correct construction of the octagon but the plan of the room
+is clearly deformed if compared with the ideal shape.
+The sides are rounded and the connection arc measures an
+average value of 43 cm. The calculation of the single values
+was obtained by creating approximated circumferences in each
+rounded side with graphical tools that apply average
+estimations.
+The height of the dome is difficult to determine due to the
+irregularity of the wedges. The average values registered was                        Figure 9. View of the ideal model.
+1.15 m height calculated between the upper point of the
+beginning arc of the wedges and the circle at the top of the
+dome.                                                                                      3. CONCLUSIONS
+According to the analysis of the survey model the radius of the
+beginning arc of the wedges is 1.15 m. This fact indicates that it   This work confirms the role of digital photogrammetry as a
+doesn’t occupy the entire edge. The inner surface of the vault is    powerful method for heritage survey. The study of
+a continuous surface so that there is a connection surface           archaeological and architectural rests deserves objective data.
+between the wedges. The arcs of continuous edges are                 Moreover the documentation of the state of conservation of the
+connected by a curve and the whole surface is composed by            buildings is important to improve their conservation and to
+conical hollow teeth connected by small convex surfaces. The         register their transformation during time. The graphical
+alternation between different surfaces and the experimentation       restitution is particularly significant in this ancient building that
+of new geometries is characteristic of Hadrianic architecture. In    may suffer great damage due to its special situation.
+the Hadrian Villa we find some examples of complex vaults            The results obtained with the difficult conditions of the data
+that cover spaces with the alternation of arcs and lines in plan     collection in the octagonal room are an example of the great
+(Lucchini 1997). In this specific case study the concave surface     versatility of the digital photogrammetry with structure for
+is significantly wider than the convex part and the dome is          motion method. Furthermore the export proceeds used reflect
+usually defined as an umbrella-shaped vault.                         the advances realized in this field in the last years. The
+The concave parts are truncated conical surfaces. The starting       necessity of the generation of continuous surfaces and lines in
+arc is half of a vertical circumference matching with the sides      architectural analysis contributes to the development of
+of the octagon. The ending arc is a part of the horizontal           complex method of data extraction from the point cloud.
+circumference on top of the vault as the wedges are cut with a       Finally the most evident result of this research is the
+horizontal plan.                                                     geometrical analysis of the vault. This contribution offers new
+The lateral lines that define the surfaces converge into a point     information of a building that doesn´t appear in the recent
+situated 15 cm higher than the top of the vault. Roman builders      scientific publications. The vault of the octagonal room is a
+decided not to reach the vertex and cut the surfaces at a lower      very relevant example of complex experimentation of Roman
+height probably in order to simplify the construction of the top     builders. This work may contribute to document its state of
+of the vault. The ending of Roman vaults was a problematic           conservation, to study its geometry and to reassert its
+issue from a constructive point of view. The introduction of the     importance in architectural heritage.
+oculus in spherical domes was indeed useful to avoid the
+problem to cover the upper part of the structure.
+                                                                                              REFERENCES
+
+                                                                     Aliberti, Licinia. 2013. Cúpulas clásicas romanas: geometría y
+                                                                     construcción. In: Actas del VIII Congreso Nacional de Historia
+                                                                     de la Construcción, V1, Madrid, pp. 13-23.
+
+                                                                     Aliberti, L. & M.A Alonso-Rodríguez. 2017. "Geometrical
+                                                                     Analysis of the Coffers of the Panteon’s dome in Rome". In:
+                                                                     Nexus Network Journal. Architecture and Mathematics, Vol.
+                                                                     19, N. 2, pp. 363-382.
+
+                                                                     Borriello, M. & A. D'Ambrosio. 1979. Baiae-Misenum. Firenze:
+                                                                     Leo S. Olschki.
+               Figure 8. View of the ideal model.
+                                                                     Canciani, M., Falcolini, C., Saccone, M., & Spadafora, G. 2013.
+                                                                     From point clouds to architectural models: algorithms for shape
+                                                                     reconstruction. In: The International Archives of the
+                                                                     Photogrammetry, Remote Sensing and Spatial Information
+                                                                     Sciences, Trento, Italy, Vol. XL-5/W1, pp. 27-34.
+
+
+
+
+                                                This contribution has been peer-reviewed.
+                      https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.                       27
+      The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-2, 2018
+               ISPRS TC II Mid-term Symposium “Towards Photogrammetry 2020”, 4–7 June 2018, Riva del Garda, Italy
+
+
+
+Gambardella, Alfonso. 2002. Dal Pantheon a Brunelleschi.
+Architettura, costruzione, tecnica. Napoli: Edizioni Scientifiche
+Italiane.
+
+Ippoliti, E., Meschini, A. & Sicuranza, F. 2015. “Structure
+From Motion systems for architectural heritage. A survey of the
+internal loggia courtyard fo Palazzo dei Capitani, Ascoli
+Piceno, Italy”. In: 3D-ARCH 2015 “3D Virtual Reconstruction
+and Visualization of Complex Architecture”, ISPRS, Avila,
+Spain, pp. 53-60.
+
+Lancaster, Lynne C. 2005. Concrete Vaulted Construction in
+Imperial Rome. Innovations in Context. Cambridge: Cambridge
+University Press.
+
+Lucchini, Flaminio. 1997. “Le cupole di Adriano”. En Lo
+specchio del cielo. forme, significati, tecniche e funzioni della
+cupola dal Pantheon al Novecento, ed. Claudia Conforti,
+Milano: Electa, pp 9-21.
+
+Murphy, M., McGovern, E. & Pavia, S. 2013. “Historic
+Building Information Modelling: Adding intelligence to laser
+and image based surveys of European classical architecture”.
+In: ISPRS Journal of Photogrammetry and Remote Sensing, 76,
+pp. 89-102.
+
+Paoli, Paolo Antonio. 1768. Avanzi delle antichità esistenti a
+Pozzuoli Cuma e Baia. Antiquitatum Puteolis Cumis Baiis
+existentium reliquiae. Firenze-Napoli.
+
+Pelletti, Marco. 1989. “Note al rilievo del Pantheon”. In:
+Quaderni dell’Istituto di Storia dell’Architettura XIII , pp 10-8.
+
+Rakob, Friedrich. 1988. Römische Kuppelbauten in Baiae.
+Mitteilungen. Des Deutschen Archaologischen Instituts,
+Romische Abteilung, pp. 257-301.
+
+Rasch, Jürgen J. 1985. Die küppel in der Römischen
+Architektur. Achitectura 15, pp. 117-39.
+
+Sanpaolesi, Piero. 1971. Strutture a cupola autoportanti.
+Palladio. Rivista di Storia dell'Architettura e Restauro XXI, pp.
+3-64.
+
+Passaro, S., et al. 2012. Multi-resolution morpho-bathymetric
+survey results at the Pozzuoli-Baia underwater archaeological
+site (Naples, Italy). In: Journal of Archaeological Science,
+http://dx.doi.org/10.1016/j.jas.2012.09.035
+
+Verdiani, Giorgio. 2017. From the archaeological reality to the
+digital reconstruction:an architectural drawing challenge - Dalla
+realtà archeologica alla ricostruzione digitale: un sfida per il
+Disegno dell’Architettura. In: Disegnare con, N. 19, pp. 4.1-
+4.13.
+
+
+
+
+                                                This contribution has been peer-reviewed.
+                      https://doi.org/10.5194/isprs-archives-XLII-2-23-2018 | © Authors 2018. CC BY 4.0 License.               28
+

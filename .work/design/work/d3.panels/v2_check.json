@@ -1,0 +1,421 @@
+{
+ "stage_area_mm2": 173460.0,
+ "poster_area_mm2": 249480.0,
+ "hierarchy": {
+  "core_stage_mm2": 173460.0,
+  "hero_box": [
+   148.2,
+   211.0,
+   352.0,
+   384.0
+  ],
+  "hero_wh": [
+   203.8,
+   173.0
+  ],
+  "hero_area": 35257,
+  "landmark_areas": {
+   "판테온": 8640,
+   "트라야누스 시장": 8064,
+   "카라칼라 욕장(절개)": 10752,
+   "수도교 아치 열": 6283,
+   "카이킬리아 메텔라 무덤": 4620,
+   "포르투스 항": 6014
+  },
+  "landmark_median": 7174,
+  "hero_over_landmark_median": 4.91,
+  "vesuvius_area": 2320,
+  "tier_areas": {
+   "Basic": {
+    "L 로마 콘크리트란?(정의 + 재료)": 7200,
+    "B 제작 과정 6단계": 11760
+   },
+   "Detail": {
+    "D 석회 알갱이·자가치유·뜨거운 혼합": 4816,
+    "Z1 확대 창: 콜로세움 기초 콘크리트 단면 → 석회 알갱이": 4096,
+    "C1 콜아웃: 판테온 돔의 가벼운 골재": 2376,
+    "C2 콜아웃: 포르투스 방파제와 바닷물": 2592,
+    "C4 콜아웃: 메텔라 무덤 드럼의 재결속": 3132
+   },
+   "Support": {
+    "S 100년 vs 2000년": 2100
+   }
+  },
+  "basic_min": [
+   "L 로마 콘크리트란?(정의 + 재료)",
+   7200
+  ],
+  "detail_max": [
+   "D 석회 알갱이·자가치유·뜨거운 혼합",
+   4816
+  ],
+  "detail_min": [
+   "C1 콜아웃: 판테온 돔의 가벼운 골재",
+   2376
+  ],
+  "support": [
+   "S 100년 vs 2000년",
+   2100
+  ],
+  "ratio_basicmin_over_detailmax": 1.495,
+  "ratio_detailmin_over_support": 1.131,
+  "checks": {
+   "Core 지도 무대 > 모든 Basic·Detail·Support 요소": true,
+   "콜로세움 = 최대 단일 오브젝트(≥ 표준 랜드마크 최대 × 1.1)": true,
+   "콜로세움 > 가장 큰 패널(제작 과정)": true,
+   "Basic 각 요소 ≥ Detail 각 요소(최소 Basic ≥ 최대 Detail)": true,
+   "Detail 각 요소 > Support(최소 Detail ≥ Support × 1.1)": true,
+   "베수비오 = 가장 작은 랜드마크급 지도 요소(≤ 랜드마크 최소 ÷ 1.1)": true
+  }
+ },
+ "objects_boxes": {
+  "콜로세움(히어로)": {
+   "box": [
+    148.2,
+    211.0,
+    352.0,
+    384.0
+   ],
+   "wh": [
+    203.8,
+    173.0
+   ],
+   "area": 35257
+  },
+  "판테온": {
+   "box": [
+    18.0,
+    198.0,
+    114.0,
+    288.0
+   ],
+   "wh": [
+    96.0,
+    90.0
+   ],
+   "area": 8640
+  },
+  "트라야누스 시장": {
+   "box": [
+    18.0,
+    98.0,
+    114.0,
+    182.0
+   ],
+   "wh": [
+    96.0,
+    84.0
+   ],
+   "area": 8064
+  },
+  "카라칼라 욕장(절개)": {
+   "box": [
+    224.0,
+    94.0,
+    336.0,
+    190.0
+   ],
+   "wh": [
+    112.0,
+    96.0
+   ],
+   "area": 10752
+  },
+  "수도교 아치 열": {
+   "box": [
+    336.0,
+    134.0,
+    420.0,
+    208.8
+   ],
+   "wh": [
+    84.0,
+    74.8
+   ],
+   "area": 6283
+  },
+  "카이킬리아 메텔라 무덤": {
+   "box": [
+    354.0,
+    288.0,
+    420.0,
+    358.0
+   ],
+   "wh": [
+    66.0,
+    70.0
+   ],
+   "area": 4620
+  },
+  "포르투스 항": {
+   "box": [
+    5.0,
+    372.0,
+    102.0,
+    434.0
+   ],
+   "wh": [
+    97.0,
+    62.0
+   ],
+   "area": 6014
+  },
+  "베수비오(지도 배경, 가장 먼 곳)": {
+   "box": [
+    356.0,
+    96.0,
+    414.0,
+    136.0
+   ],
+   "wh": [
+    58.0,
+    40.0
+   ],
+   "area": 2320
+  }
+ },
+ "overlaps_not_allowed": [
+  [
+   "L1 판테온",
+   "라벨 판테온(Pantheon)",
+   1378.6
+  ],
+  [
+   "L3 카라칼라 욕장(절개)",
+   "라벨 수도교(Aqua Antoniniana)",
+   0.6
+  ],
+  [
+   "V 베수비오(지도 배경, 가장 먼 곳)",
+   "바닥 글 COLLI ALBANI 알바노 구릉 — 로마 건물의 화산재",
+   68.0
+  ],
+  [
+   "소품 포도밭 농장(베수비오 밑동)",
+   "바닥 글 COLLI ALBANI 알바노 구릉 — 로마 건물의 화산재",
+   40.1
+  ],
+  [
+   "소품 교외 빌라(포도밭 농가)",
+   "Detail C4",
+   223.6
+  ],
+  [
+   "라벨 카라칼라 욕장(Thermae Antoninianae)",
+   "길 R2",
+   298.3
+  ]
+ ],
+ "land_in_sea": {},
+ "land_in_river": {},
+ "water_items_on_land_pct": {
+  "바지선 1(올라가는 배)": 32.4,
+  "바지선 2(내려가는 배)": 15.0,
+  "화산재 운반선": 0.0
+ },
+ "portus_land_sea_split_mm2": {
+  "육지": 1639,
+  "바다": 1320
+ },
+ "contact_distance_mm": {
+  "판테온": 0.0,
+  "트라야누스 시장": 1.6,
+  "카라칼라 욕장(절개)": 0.0,
+  "수도교 아치 열": 0.0,
+  "카이킬리아 메텔라 무덤": 0.0,
+  "포르투스 항": 0.0,
+  "콜로세움": 0.0
+ },
+ "contact_ok_le_2.5mm": {
+  "판테온": true,
+  "트라야누스 시장": true,
+  "카라칼라 욕장(절개)": true,
+  "수도교 아치 열": true,
+  "카이킬리아 메텔라 무덤": true,
+  "포르투스 항": true,
+  "콜로세움": true
+ },
+ "ring_distance_mm": {
+  "판테온": 189,
+  "트라야누스 시장": 237,
+  "카라칼라 욕장(절개)": 146,
+  "수도교 아치 열": 176,
+  "카이킬리아 메텔라 무덤": 140,
+  "포르투스 항": 224,
+  "베수비오(지도 배경, 가장 먼 곳)": 231
+ },
+ "ring_range_median": [
+  140,
+  237,
+  189
+ ],
+ "left_right": {
+  "왼쪽": 3,
+  "오른쪽": 4
+ },
+ "hero_cluster": {
+  "definition": "콜로세움(받침·벽) + 공사장 + 하역장·석회 가마·수레·바지선 2 + 하역장 길 + 테베레 구간(x 100~232)",
+  "bbox": [
+   90.0,
+   211.0,
+   352.0,
+   469.8
+  ],
+  "bbox_wh": [
+   262.0,
+   258.8
+  ],
+  "bbox_pct_stage": 39.1,
+  "hull_pct_stage": 25.6,
+  "hull_mm2": 44379,
+  "silhouette_pct_stage": 19.3,
+  "silhouette_mm2": 33502,
+  "centroid_mm": [
+   226.3,
+   325.1
+  ],
+  "centroid_norm_poster": [
+   0.539,
+   0.547
+  ],
+  "aspect_h_over_w": 0.99
+ },
+ "core_group_city": {
+  "definition": "히어로 군 + 판테온 + 트라야누스 시장 + 카라칼라 욕장 + 시내 길 2개(도심·시내 구역)",
+  "bbox": [
+   18.0,
+   94.0,
+   352.0,
+   469.8
+  ],
+  "bbox_wh": [
+   334.0,
+   375.8
+  ],
+  "bbox_pct_stage": 72.4,
+  "hull_pct_stage": 58.8,
+  "silhouette_pct_stage": 36.0,
+  "silhouette_mm2": 62401,
+  "hull_mm2": 101917,
+  "centroid_norm_poster": [
+   0.455,
+   0.429
+  ],
+  "components_after_close": 3
+ },
+ "density_estimate": {
+  "hero_union_mm2": 27221,
+  "landmarks_alpha_est_mm2": 27054,
+  "background_alpha_est_mm2": 1392,
+  "props_alpha_est_mm2": 4580,
+  "objects_pct_stage_est": 34.7,
+  "objects_pct_poster_est": 24.1,
+  "planted_cover_est_mm2": 7954,
+  "objects_plus_planted_pct_stage_est": 39.3,
+  "objects_plus_planted_pct_poster_est": 27.3,
+  "river_pct_stage": 2.9,
+  "sea_pct_stage": 7.8,
+  "roads_pct_stage": 1.8,
+  "panel_area_pct_poster": 10.4,
+  "map_panels_cover_stage_pct": 1.2
+ },
+ "geo": {
+  "rotation_plan_minus_real_deg": -53.4,
+  "real_north_screen_bearing_deg(시계 방향, 화면 위=0)": 293.2,
+  "bearing_error_abs_mean_deg": 46.6,
+  "bearing_error_abs_median_deg": 42.9,
+  "bearing_error_max": [
+   "카라칼라 욕장(절개)",
+   118.9
+  ],
+  "distance_law": "평면 mm ≈ 182 × km^0.06",
+  "distance_exponent": 0.06,
+  "items": [
+   {
+    "name": "판테온",
+    "real_km": 1.6,
+    "real_bearing": 306,
+    "plan_mm": 162,
+    "plan_bearing": 292,
+    "err_deg": 39
+   },
+   {
+    "name": "트라야누스 시장",
+    "real_km": 0.8,
+    "real_bearing": 321,
+    "plan_mm": 258,
+    "plan_bearing": 324,
+    "err_deg": 57
+   },
+   {
+    "name": "카라칼라 욕장(절개)",
+    "real_km": 1.2,
+    "real_bearing": 179,
+    "plan_mm": 203,
+    "plan_bearing": 7,
+    "err_deg": -119
+   },
+   {
+    "name": "수도교 아치 열",
+    "real_km": 6.7,
+    "real_bearing": 128,
+    "plan_mm": 200,
+    "plan_bearing": 32,
+    "err_deg": -43
+   },
+   {
+    "name": "카이킬리아 메텔라 무덤",
+    "real_km": 4.9,
+    "real_bearing": 151,
+    "plan_mm": 119,
+    "plan_bearing": 110,
+    "err_deg": 13
+   },
+   {
+    "name": "포르투스 항",
+    "real_km": 22.9,
+    "real_bearing": 237,
+    "plan_mm": 220,
+    "plan_bearing": 227,
+    "err_deg": 43
+   },
+   {
+    "name": "베수비오(지도 배경, 가장 먼 곳)",
+    "real_km": 199.1,
+    "real_bearing": 126,
+    "plan_mm": 288,
+    "plan_bearing": 23,
+    "err_deg": -50
+   },
+   {
+    "name": "테베레 하구(오스티아 쪽, 근사)",
+    "real_km": 26.8,
+    "real_bearing": 232,
+    "plan_mm": 218,
+    "plan_bearing": 206,
+    "err_deg": 28
+   },
+   {
+    "name": "알바노 구릉(몬테 카보)",
+    "real_km": 23.7,
+    "real_bearing": 131,
+    "plan_mm": 269,
+    "plan_bearing": 21,
+    "err_deg": -56
+   },
+   {
+    "name": "오스티아 안티카(근사)",
+    "real_km": 22.3,
+    "real_bearing": 228,
+    "plan_mm": 215,
+    "plan_bearing": 193,
+    "err_deg": 18
+   }
+  ]
+ },
+ "labels": {
+  "wall_flag_tag": 12,
+  "floor_text": 5,
+  "total": 17
+ }
+}

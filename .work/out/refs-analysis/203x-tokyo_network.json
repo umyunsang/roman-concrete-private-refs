@@ -1,0 +1,162 @@
+{
+ "road_width": {
+  "px_q25_med_q75_q90": [
+   29.2,
+   50.0,
+   83.1,
+   84.7
+  ],
+  "mm_med": 10.5,
+  "pct_poster_w_med": 2.5,
+  "mean_w_px(area/centerline)": 40.8,
+  "mean_w_mm": 8.6,
+  "centerline_len_px": 5746,
+  "area_px": 234451
+ },
+ "water_width": {
+  "px_q25_med_q75_q90": [
+   10.4,
+   20.0,
+   45.5,
+   64.4
+  ],
+  "mm_med": 4.2,
+  "pct_poster_w_med": 1.0,
+  "mean_w_px(area/centerline)": 20.1,
+  "mean_w_mm": 4.2,
+  "centerline_len_px": 8225,
+  "area_px": 165649
+ },
+ "road_bleed": {
+  "left": [],
+  "right": [
+   [
+    1026,
+    1127
+   ],
+   [
+    2462,
+    2563
+   ]
+  ],
+  "top": [],
+  "bottom": []
+ },
+ "water_bleed": {
+  "left": [],
+  "right": [
+   [
+    1553,
+    1651
+   ],
+   [
+    2250,
+    2328
+   ]
+  ],
+  "top": [],
+  "bottom": [
+   [
+    1275,
+    1413
+   ]
+  ]
+ },
+ "landmark_touch_12px": {
+  "도쿄 도청": {
+   "road": true,
+   "water": false
+  },
+  "가미나리몬(센소지)": {
+   "road": true,
+   "water": false
+  },
+  "아사쿠사 등롱": {
+   "road": true,
+   "water": false
+  },
+  "아사쿠사 등롱(우)": {
+   "road": false,
+   "water": false
+  },
+  "도쿄 스카이트리": {
+   "road": true,
+   "water": true
+  },
+  "황궁": {
+   "road": true,
+   "water": true
+  },
+  "메이지 신궁(도리이·숲 판)": {
+   "road": true,
+   "water": true
+  },
+  "도쿄 타워": {
+   "road": true,
+   "water": false
+  },
+  "롯폰기 힐스 모리 타워": {
+   "road": true,
+   "water": true
+  },
+  "하치코 동상": {
+   "road": true,
+   "water": true
+  },
+  "고토쿠지(마네키네코)": {
+   "road": true,
+   "water": false
+  },
+  "도쿄역": {
+   "road": true,
+   "water": true
+  },
+  "신칸센": {
+   "road": true,
+   "water": false
+  },
+  "시내버스": {
+   "road": true,
+   "water": false
+  },
+  "JR 지상철": {
+   "road": false,
+   "water": true
+  },
+  "도쿄 메트로": {
+   "road": false,
+   "water": false
+  },
+  "수상버스": {
+   "road": false,
+   "water": true
+  },
+  "레인보우 브리지": {
+   "road": true,
+   "water": true
+  },
+  "대관람차": {
+   "road": true,
+   "water": true
+  },
+  "도쿄 빅사이트": {
+   "road": true,
+   "water": true
+  },
+  "택시": {
+   "road": true,
+   "water": true
+  },
+  "녹지 판(좌상)": {
+   "road": true,
+   "water": false
+  },
+  "녹지 판(우)": {
+   "road": true,
+   "water": true
+  }
+ },
+ "n_touch_road": 19,
+ "n_touch_water": 13,
+ "n_landmarks": 23
+}

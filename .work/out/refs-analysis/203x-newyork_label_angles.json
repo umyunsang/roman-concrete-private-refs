@@ -1,0 +1,98 @@
+{
+ "Christmas Tree": {
+  "box": [
+   1640,
+   1380,
+   1890,
+   1550
+  ],
+  "baseline_deg": 26.0,
+  "stem_p90_px": 12.0,
+  "stem_p90_mm": 2.5,
+  "text_px": 1437
+ },
+ "GE Building": {
+  "box": [
+   1600,
+   980,
+   1720,
+   1090
+  ],
+  "baseline_deg": 26.0,
+  "stem_p90_px": 17.0,
+  "stem_p90_mm": 3.6,
+  "text_px": 1622
+ },
+ "Street Sign": {
+  "box": [
+   1500,
+   1570,
+   1640,
+   1690
+  ],
+  "baseline_deg": 17.0,
+  "stem_p90_px": 11.700000000000003,
+  "stem_p90_mm": 2.5,
+  "text_px": 1092
+ },
+ "Statue of Liberty": {
+  "box": [
+   440,
+   2190,
+   580,
+   2410
+  ],
+  "baseline_deg": 26.5,
+  "stem_p90_px": 13.0,
+  "stem_p90_mm": 2.7,
+  "text_px": 1709
+ },
+ "Brooklyn Bridge": {
+  "box": [
+   745,
+   2140,
+   885,
+   2360
+  ],
+  "baseline_deg": 0.0,
+  "stem_p90_px": 18.0,
+  "stem_p90_mm": 3.8,
+  "text_px": 3287
+ },
+ "Manhattan Bridge": {
+  "box": [
+   1270,
+   1650,
+   1375,
+   1840
+  ],
+  "baseline_deg": 25.5,
+  "stem_p90_px": 15.0,
+  "stem_p90_mm": 3.1,
+  "text_px": 1130
+ },
+ "King Kong": {
+  "box": [
+   850,
+   820,
+   1010,
+   950
+  ],
+  "baseline_deg": 26.0,
+  "stem_p90_px": 12.900000000000006,
+  "stem_p90_mm": 2.7,
+  "text_px": 919
+ },
+ "EAST RIVER(바닥 글)": {
+  "box": [
+   1650,
+   1690,
+   1900,
+   1810
+  ],
+  "baseline_deg": 26.0,
+  "stem_p90_px": 7.0,
+  "stem_p90_mm": 1.5,
+  "text_px": 1081
+ }
+}

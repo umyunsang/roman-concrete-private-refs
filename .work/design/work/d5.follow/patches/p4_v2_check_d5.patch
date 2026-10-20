@@ -1,0 +1,193 @@
+--- /Users/um-yunsang/roman-concrete-private-refs/.work/design/work/d5.global/v2_check.py	2026-10-19 13:30:08
++++ sandbox/d5/v2_check.py	2026-10-19 15:25:04
+@@ -174,11 +174,21 @@
+     else:
+         c_ = hl.get("center_plan") or getattr(D, "HERO_C_PLAN", None)
+         R_ = float(hl["reserve_R"]) if _isnum(hl.get("reserve_R")) else float(getattr(D, "HERO_LANDSCAPE_D5", {}).get("reserve_R_plan", 90.0))
+-        if c_:
+-            fill(plaza, [D.to_screen(c_[0] + R_ * math.cos(math.radians(t)), c_[1] + R_ * math.sin(math.radians(t))) for t in range(0, 360, 2)])
+-        for pg in (hl.get("boundary_screen") or []):
+-            if len(pg) >= 3:
+-                fill(plaza, pg)
++        # 13:33: 광장 0 → 히어로 군 = 건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 거상 받침(예정 상자)
++        def _rect(b_):
++            fill(plaza, [(b_[0], b_[1]), (b_[2], b_[1]), (b_[2], b_[3]), (b_[0], b_[3])])
++        ws0 = (getattr(D, "WORKSITE", None) or {}).get("box")
++        if ws0:
++            _rect(ws0)
++        nr0 = D.find_nero() if hasattr(D, "find_nero") else None
++        if isinstance(nr0, dict) and nr0.get("box"):
++            _rect(nr0["box"])
++        for g_ in (hl.get("crowds") or []):
++            cs_ = g_.get("center_screen") if isinstance(g_, dict) else None
++            if cs_:
++                _rect([cs_[0] - 9.0, cs_[1] - 7.0, cs_[0] + 9.0, cs_[1] + 4.0])
++        for sx_, sy_ in getattr(_B, "STALLS_SCREEN", []):
++            _rect([sx_ - 4.0, sy_ - 7.0, sx_ + 4.0, sy_ + 1.0])
+     plaza &= stage
+     hero = hero_bld | plaza
+     hero_box = bbox(hero)
+@@ -339,7 +349,7 @@
+     checks["콜로세움 건물 실루엣 ≥ 다른 건물 실루엣 × %.1f(사전: 실루엣이 있는 건물만, 상자만 있는 건물은 사후 ⑪)" % sil_k] = (hero_bld_sil > 0) and not sil_bad
+     res["hierarchy_rule_d5"] = {
+         "basis": "사전 = 투영(예정) 상자끼리·실루엣끼리 비교(통과 보고 아님). 최종 판정은 사후 ⑪(drawn.objects 그린 외곽 상자·sil_mm2)",
+-        "hero_group": "콜로세움 건물 ∪ 조경 광장(예약 반지름 화면 타원) = 단일 오브젝트",
++        "hero_group": "콜로세움 건물 ∪ 기초 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 거상 받침(사용자 13:33, 예정 상자)",
+         "hero_group_box": hero_box, "hero_group_area": hero_a, "hero_group_box_d5_decision": getattr(D, "HERO_GROUP_BOX", None),
+         "hero_building_box": hero_bld_box, "hero_building_sil_mm2": round(hero_bld_sil),
+         "landmark_median": round(med_lm), "hero_over_median": round(hero_a / med_lm, 2),
+@@ -781,23 +791,16 @@
+     r7, g7 = road("R7"), None
+     if r7 and c_:
+         end = min(D.road_plan(r7), key=lambda p: math.hypot(p[0] - c_[0], p[1] - c_[1]))
+-        if hl.get("boundary_screen"):
+-            sp = D.to_screen(*end)
+-            pgs = [pg for pg in hl["boundary_screen"] if len(pg) >= 3]
+-            g7 = 0.0 if any(pt_in_poly(sp, pg) for pg in pgs) else min(pt_seg(sp, a, b) for pg in pgs for a, b in edges(pg))
+-        else:
+-            Rr = hl.get("rep_R") if _isnum(hl.get("rep_R")) else R_
+-            g7 = max(0.0, math.hypot(end[0] - c_[0], end[1] - c_[1]) - float(Rr))
++        g7 = abs(math.hypot(end[0] - c_[0], end[1] - c_[1]) - float(getattr(_B, "NOFILL_R_PLAN", 90.5)))   # 13:35: 길 끝 = 옛 광장 경계
+     # 히어로 군 구성(12:49)
+     names = D.hero_part_names() if hasattr(D, "hero_part_names") else [str(p.get("name", "")) for p in D.PROPS]
+     crowds = hl.get("crowds")
+     g1, g4 = near(road("R1")), near(road("R4"))
+-    comp = {"광장 포장": bool(hl.get("boundary_screen") or _isnum(hl.get("rep_R")) or any(k in n for n in (hl.get("parts") or []) for k in ("광장", "판석", "포장"))),
++    comp = {"판석 광장·문 앞 포장 0(13:33)": not hl.get("boundary_screen"),
+             "기초 공사장": isinstance(getattr(D, "WORKSITE", None), dict),
+             "인물 무리": len(crowds) if isinstance(crowds, list) else 0,
+-            "네로 거상 받침": (D.find_nero() is not None) if hasattr(D, "find_nero") else False,
+-            "문(아피아 가도·하역장 길)": bool(g1 is not None and g4 is not None and g1 <= R_ + 1.0 and g4 <= R_ + 1.0),
+-            "둘레 시내 지붕과 나무": any(("시내 지붕" in n) or ("지붕" in n and "나무" in n) for n in names)}
++            "노점 2": len(getattr(_B, "STALLS_SCREEN", [])) == 2,
++            "네로 거상 받침": (D.find_nero() is not None) if hasattr(D, "find_nero") else False}
+     lbr = sorted(set(n for n in names + list(hl.get("parts") or []) if any(k in n for k in LB_KEYS)))
+     # 조경 예약 반지름 침범(다른 패키지의 랜드마크·배경·소품. 문 길·네로 마당·공사장은 히어로 영역)
+     intr = []
+@@ -963,9 +966,9 @@
+         "" if c else "자료 없음")
+     # 8.1-4 폭 비
+     r0, rt = TOL8.get("width_ratio", [0.53, 0.02])
+-    bw, pw = ctx.get("building_w"), ctx.get("plaza_w")
++    bw, pw = ctx.get("building_w"), float(getattr(_B, "LANDSCAPE_REP_W", 203.5))      # 13:33 광장 0: 비례 기준 폭(옛 조경 대표 원 R 83.1)
+     ratio = (bw / pw) if (_isnum(bw) and _isnum(pw) and pw > 0) else None
+-    _it(items, "8.1-4", "콜로세움 폭 ÷ 조경(광장) 폭 = %g±%g" % (r0, rt), ratio is not None and abs(ratio - r0) <= rt + 1e-9,
++    _it(items, "8.1-4", "콜로세움 폭 ÷ 조경 영역 대표 폭 203.5 = %g±%g" % (r0, rt), ratio is not None and abs(ratio - r0) <= rt + 1e-9,
+         round(ratio, 3) if ratio else None, r0, "" if ratio else "자료 없음(본체 폭 %s · 광장 폭 %s)" % (bw, pw))
+     # 8.1-5 θ 구간 외벽 높이(D2 표 ±0.5)
+     prof, th = hm.get("profile") or [], float(TOL8.get("wall_h", 0.5))
+@@ -1025,7 +1028,7 @@
+                     need.append("%s %s곳 < %d" % (k, v, CROWD_MIN_))
+             elif not v:
+                 need.append(k)
+-        _it(items, "8.2-3", "히어로 군 구성(12:49): 광장 포장·기초 공사장·인물 무리 ≥ %d·네로 거상 받침·문(아피아 가도·하역장 길)·둘레 시내 지붕과 나무" % CROWD_MIN_,
++        _it(items, "8.2-3", "히어로 군 구성(13:33): 판석 광장·문 앞 포장 0·기초 공사장·인물 무리 ≥ %d·노점 2·네로 거상 받침" % CROWD_MIN_,
+             not need, comp, "모두", "없음: " + " · ".join(need) if need else "")
+     else:
+         _it(items, "8.2-3", "히어로 군 구성(12:49)", False, None, "모두", "자료 없음")
+@@ -1055,7 +1058,7 @@
+         "" if ma else "자료 없음")
+     # D7-1 R7–광장 틈 0
+     g7 = ctx.get("r7_gap")
+-    _it(items, "D7-1", "R7 북쪽 끝–광장 판석 틈 0(≤ 0.05mm)", _isnum(g7) and g7 <= 0.05 + 1e-9, round(g7, 3) if _isnum(g7) else None, 0.0, "" if _isnum(g7) else "자료 없음")
++    _it(items, "D7-1", "R7 북쪽 끝 = 옛 광장 경계(평면 R 90.5) ±0.5", _isnum(g7) and g7 <= 0.5 + 1e-9, round(g7, 3) if _isnum(g7) else None, 0.0, "" if _isnum(g7) else "자료 없음")
+     # D7-2 영묘 양 끝 보행면 높이 차 0
+     mz = ctx.get("mausoleum") or {}
+     try:
+@@ -1649,7 +1652,7 @@
+     # ⑤ 길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움·바실리카–R2)
+     fails, info = [], {}
+     groups = {"판테온": ["판테온", "pantheon"], "욕장": ["욕장", "bath", "caracalla"], "메텔라": ["메텔라", "metella"],
+-              "시장": ["시장", "market", "traian"], "콜로세움": ["콜로세움", "colosse", "arena", "히어로"],
++              "시장": ["시장", "market", "traian"],
+               "바실리카": ["바실리카", "basilica", "maxentius"]}
+     given = G(dr, "road_gaps", "길 간격", default={}) or {}
+     for g, keys in groups.items():
+@@ -1671,7 +1674,7 @@
+         info[g] = round(v, 2)
+         if v > 1.6 + 1e-9:
+             fails.append("%s 길-지면 간격 %.2fmm > 1.6" % (g, v))
+-    rule("⑤", "길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·콜로세움·바실리카–R2)", fails, info)
++    rule("⑤", "길-지면 간격 ≤ 1.6mm(판테온·욕장·메텔라·시장·바실리카–R2). 콜로세움 쪽 길 끝은 옛 광장 경계 R 90.5(13:35, ⑳ D7-1·⑲ 문)", fails, info)
+ 
+     # ⑥ S 막대 바깥 길이 비 20.0±0.2(높이 4.0, 같은 왼끝)
+     fails, info = [], {}
+@@ -1735,11 +1738,12 @@
+     else:
+         info["pct_full_stage"] = round(pct_full, 2)
+         info["full_stage_mm2"] = STAGE_AREA_FULL
+-        if pct_full < 39.3 - 1e-9:
+-            fails.append("밀도(전체 무대) %.2f%% < 39.3%%" % pct_full)
++        dmin_ = float(getattr(_B, "DENSITY_MIN_PCT", 39.3))
++        if pct_full < dmin_ - 1e-9:
++            fails.append("밀도(전체 무대) %.2f%% < %.1f%%" % (pct_full, dmin_))
+     if pct_open is not None:
+         info["pct_open_stage"] = round(pct_open, 2)
+-    rule("⑦", "밀도 ≥ 39.3%(렌더 실측, 전체 무대 173,460mm² 기준 판정 · 열린 무대 값 기록)", fails, info)
++    rule("⑦", "밀도 ≥ %.1f%%(렌더 실측, 전체 무대 173,460mm² 기준 판정 · 열린 무대 값 기록. 13:33 광장 제거·13:35 채우지 않음 반영)" % float(getattr(_B, "DENSITY_MIN_PCT", 39.3)), fails, info)
+ 
+     # ⑧ 인물 군 ≥ 3곳(승인 설계, 12:49 철회로 LocalBanana 4곳 배치는 필수 아님), 군마다 5~7명, 이웃 발점 간격 3.5~5mm, 키 4.6~5.2(D8 히어로 축척)
+     fails, info = [], {}
+@@ -1951,7 +1955,7 @@
+         for k, v in sorted(others.items()):
+             if hs_ < sil_k * v - 1e-6:
+                 fails.append("콜로세움 건물 실루엣 %.0f < %s 실루엣 %.0f × %.1f" % (hs_, k, v, sil_k))
+-    rule("⑪", "위계(그린 상자): 6패널 Basic 최소 ≥ Detail 최대(Z1 합성)·Detail 최소 ≥ Support × 1.1·R·T 0 + 지도(그린 외곽 상자끼리): 히어로 군(건물 ∪ 광장) ÷ 중앙값 %.1f~%.1f·"
++    rule("⑪", "위계(그린 상자): 6패널 Basic 최소 ≥ Detail 최대(Z1 합성)·Detail 최소 ≥ Support × 1.1·R·T 0 + 지도(그린 외곽 상자끼리): 히어로 군(건물 ∪ 공사장 ∪ 인물 무리 ∪ 노점 ∪ 네로 받침) ÷ 중앙값 %.1f~%.1f·"
+          "≥ 최대 × 1.1·표준 랜드마크 각각 ≥ %s·베수비오 최소·콜로세움 건물 실루엣 ≥ 다른 건물 × %.1f" % (hm_lo, hm_hi, format(int(lm_floor), ","), sil_k), fails, info)
+ 
+     # ⑫ 글 블록과 상자 테두리 ≥ 3mm(테두리를 그린 상자: 콜아웃·Z1 원·테두리 표시가 있는 상자)
+@@ -2296,19 +2300,21 @@
+     # 문(R1·R4)은 조경 예약 반지름 가장자리에 있다(D3: R1 (483.1,90.5)·R4 (462.34,263.81)) → 예약 타원과 ≤ 0.5mm. R7만 광장 판석까지(D7-1)
+     lsp = ((sp_cm.get("hero") or {}).get("landscape") or {})
+     lc = lsp.get("center_plan") or HL8.get("center_plan", [462.34, 173.66])
+-    lR = float(lsp.get("reserve_R_plan") or HL8.get("reserve_R_plan", 90.0))
++    lR = float(getattr(_B, "NOFILL_R_PLAN", 90.5))                       # 13:35: 길 끝 = 옛 광장 경계(평면 R 90.5)
+     C30_ = math.cos(math.radians(30))
+     reserve_poly = [(C30_ * ((lc[0] + lR * math.cos(math.radians(t))) - (lc[1] + lR * math.sin(math.radians(t)))),
+                      0.5 * ((lc[0] + lR * math.cos(math.radians(t))) + (lc[1] + lR * math.sin(math.radians(t))))) for t in range(0, 360, 2)]
+     gate = {}
+-    for rid in ("R1", "R4"):
++    for rid in ("R1", "R4", "R7"):
+         rp = next((as_polys(r) for r in roads if str(G(r, "id", default="")) == rid), [])
+         gate[rid] = round(multi_dist(rp, [reserve_poly]), 2) if rp else False
+     terr = [str(t.get("name", "")) for t in (sp_cm.get("terrain") or []) + (sp_cm.get("planted") or [])]
+-    comp = {"광장 포장": bool(pb or plaza_polys), "기초 공사장": ("worksite" in O) or any(n.startswith("공사장") for n in fpn), "인물 무리": len(crowds),
++    hero_d = G(dr, "hero", default={}) or {}
++    comp = {"판석 광장·문 앞 포장 0(13:33)": (not plaza_polys) and not hero_d.get("plaza") and not hero_d.get("gate_paths"),
++            "기초 공사장": ("worksite" in O) or any(n.startswith("공사장") for n in fpn), "인물 무리": len(crowds),
++            "노점 2": len([n for n in fpn if n.startswith("노점")]) == 2,
+             "네로 거상 받침": any("네로" in n for n in on + fpn),
+-            "문(아피아 가도·하역장 길)": all(v is not False and v <= 0.5 + 1e-9 for v in gate.values()),
+-            "둘레 시내 지붕과 나무": any(("시내 지붕" in n) or ("지붕" in n and "나무" in n) for n in terr) or bool(G(dr, "scatter", "city_scatter"))}
++            "길 끝 R1·R4·R7 = 옛 광장 경계 R 90.5(±0.6mm)": all(v is not False and v <= 0.6 + 1e-9 for v in gate.values())}
+     lparts = ((sp_cm.get("hero") or {}).get("landscape") or {}).get("parts") or []
+     lbr = sorted(set(n for n in on + fpn + [str(p if not isinstance(p, dict) else p.get("name", "")) for p in lparts] if any(k in n for k in LB_KEYS)))
+     zl = None
+@@ -2322,12 +2328,16 @@
+             ma = G(m_, "c", "center", "pt")
+     if ma is None:
+         ma = next((m_["c"] for m_ in marks if m_["glyph"] == "A" and m_["source"] == "map"), None)
+-    g7 = multi_dist(r7p, plaza_polys) if (r7p and plaza_polys) else None
++    g7 = None
+     l8 = next((x for x in sp_cm.get("landmarks", []) if x.get("id") == "L8"), {}) or {}
+     l8p = l8.get("plan") if isinstance(l8.get("plan"), dict) else {}
+     br_, base_ = (l8p.get("bridge") or l8.get("bridge") or {}), (l8p.get("base") or {})
+     st_ = l8p.get("steps") or l8p.get("stairs") or base_.get("steps") or br_.get("steps")
+     r7s = next((r for r in sp_cm.get("roads", []) if r.get("id") == "R7"), {}) or {}
++    r7pp = r7s.get("plan_pts") or r7s.get("plan") or []
++    if r7pp:
++        e7 = min(r7pp, key=lambda p: math.hypot(p[0] - lc[0], p[1] - lc[1]))
++        g7 = abs(math.hypot(e7[0] - lc[0], e7[1] - lc[1]) - float(getattr(_B, "NOFILL_R_PLAN", 90.5)))   # 13:35: R7 끝 = 옛 광장 경계
+     bh = ((spec or {}).get("meta") or {}).get("blender_handoff") or {}
+     src_ = []
+     if not isinstance(st_, dict):
+@@ -2503,7 +2513,7 @@
+              "wood_frac": 0.5, "base_side": 7.0, "front_cut": True}
+     d4_hl = {"base_side": 7.0, "octagon": True, "front_cut": True}
+     d4_ctx = {"building_box": [168.5, 211.0, 331.8, 365.2], "building_w": 163.1, "plaza_w": 203.7, "cut_footprints": ["콜로세움 받침", "콜로세움 기초 절개"],
+-              "composition": {"광장 포장": True, "기초 공사장": True, "인물 무리": 3, "네로 거상 받침": True, "문(아피아 가도·하역장 길)": True, "둘레 시내 지붕과 나무": True},
++              "composition": {"판석 광장·문 앞 포장 0(13:33)": True, "기초 공사장": True, "인물 무리": 4, "노점 2": True, "네로 거상 받침": True},
+               "lb_replica": [], "reserve_intrusions": [], "z1_leader": [(275.0, 383.8), (275.0, 420.0)], "mark_a": (271.77, 382.46), "r7_gap": 6.06,
+               "mausoleum": {"r7_top_z": 3.0, "deck_z": 3.0, "step_bottom_z": 3.0, "risers": [0.67, 0.67, 0.67], "plinth_z": 5.0}}
+     # d5 사양(결정 D2·D3 수치, 12:49 철회 뒤 구성): 본체 표·둘째 고리·나무 바닥 u ≥ −2.0, 받침 0, Z1 새 출발점
